@@ -10,6 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="build support" Type="Folder">
+			<Item Name="Instruments.vipb" Type="Document" URL="../../build support/Instruments.vipb"/>
+			<Item Name="Instruments.vipc" Type="Document" URL="../../build support/Instruments.vipc"/>
+		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../Instrument.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
