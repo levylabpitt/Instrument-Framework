@@ -14,6 +14,7 @@
 			<Item Name="Instruments.vipb" Type="Document" URL="../../build support/Instruments.vipb"/>
 			<Item Name="Instruments.vipc" Type="Document" URL="../../build support/Instruments.vipc"/>
 		</Item>
+		<Item Name="Example Instrument.lvclass" Type="LVClass" URL="../Example SMO/Example Instrument/Example Instrument.lvclass"/>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../Instrument.lvclass"/>
 		<Item Name="STP_Client.vi" Type="VI" URL="../../../levylab_util_remote/src/STP_Client.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
