@@ -17,8 +17,6 @@
 		<Item Name="Commands.ctl" Type="VI" URL="../SMOs/Example Instrument/Typedefs/Commands.ctl"/>
 		<Item Name="Example Instrument.lvclass" Type="LVClass" URL="../SMOs/Example Instrument/Example Instrument.lvclass"/>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
-		<Item Name="STM_Client.vi" Type="VI" URL="../../../levylab_util_remote/src/STM_Client.vi"/>
-		<Item Name="test flatten to string or variant.vi" Type="VI" URL="../../../../../../Users/Patrick/Desktop/test flatten to string or variant.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
@@ -26,8 +24,6 @@
 				<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
 				<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
 				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
-				<Item Name="MGI Milliseconds Since Last Call.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Call.vi"/>
-				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
@@ -71,7 +67,6 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Commands-Enum.ctl" Type="VI" URL="../../../levylab_util_remote/src/Typedefs/Commands-Enum.ctl"/>
 			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/RemoteControl/RemoteControl.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
