@@ -94,11 +94,9 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Instrument.GetPrivateEvents.vi" Type="VI" URL="../SMOs/Instrument/Instrument.GetPrivateEvents.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PrivateEvents--Cluster.ctl" Type="VI" URL="../SMOs/Instrument/Typedefs/PrivateEvents--Cluster.ctl"/>
 			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl/RemoteControl.lvclass"/>
 			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 			<Item Name="RemoteControlGlobal.vi" Type="VI" URL="../../../levylab_util_remote/src/SMOs/RemoteControl/RemoteControlGlobal.vi"/>
