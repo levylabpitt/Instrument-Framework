@@ -17,6 +17,7 @@
 		<Item Name="Commands.ctl" Type="VI" URL="../SMOs/Example Instrument/Typedefs/Commands.ctl"/>
 		<Item Name="Example Instrument.lvclass" Type="LVClass" URL="../SMOs/Example Instrument/Example Instrument.lvclass"/>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
+		<Item Name="Logger.lvclass" Type="LVClass" URL="../SMOs/Logger/Logger.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
