@@ -94,15 +94,11 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Instrument.SetAllowedRemote.vi" Type="VI" URL="../SMOs/Instrument/Instrument.SetAllowedRemote.vi"/>
-			<Item Name="Instrument.SetCommands.vi" Type="VI" URL="../SMOs/Instrument/Instrument.SetCommands.vi"/>
-			<Item Name="Instrument.SetPort.vi" Type="VI" URL="../SMOs/Instrument/Instrument.SetPort.vi"/>
+			<Item Name="Instrument.GetPrivateEvents.vi" Type="VI" URL="../SMOs/Instrument/Instrument.GetPrivateEvents.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PrivateEvents--Instrument.SetAllowedRemote.ctl" Type="VI" URL="../SMOs/Instrument/Typedefs/PrivateEvents--Instrument.SetAllowedRemote.ctl"/>
-			<Item Name="PrivateEvents--Instrument.SetCommands.ctl" Type="VI" URL="../SMOs/Instrument/Typedefs/PrivateEvents--Instrument.SetCommands.ctl"/>
-			<Item Name="PrivateEvents--Instrument.SetPort.ctl" Type="VI" URL="../SMOs/Instrument/Typedefs/PrivateEvents--Instrument.SetPort.ctl"/>
+			<Item Name="PrivateEvents--Cluster.ctl" Type="VI" URL="../SMOs/Instrument/Typedefs/PrivateEvents--Cluster.ctl"/>
 			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl/RemoteControl.lvclass"/>
 			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 			<Item Name="RemoteControlGlobal.vi" Type="VI" URL="../../../levylab_util_remote/src/SMOs/RemoteControl/RemoteControlGlobal.vi"/>
