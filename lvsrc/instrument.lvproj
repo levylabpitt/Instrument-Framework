@@ -18,12 +18,13 @@
 		<Item Name="Subsystems" Type="Folder">
 			<Item Name="Logger.lvclass" Type="LVClass" URL="../SMOs/Logger/Logger.lvclass"/>
 			<Item Name="Configuration.lvclass" Type="LVClass" URL="../SMOs/Configuration/Configuration.lvclass"/>
+			<Item Name="Configuration.ctl" Type="VI" URL="../SMOs/Instrument/Typedefs/Configuration.ctl"/>
 			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl/RemoteControl.lvclass"/>
 			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Example Instrument.lvclass" Type="LVClass" URL="../SMOs/Example Instrument/Example Instrument.lvclass"/>
-		<Item Name="Configuration.ctl" Type="VI" URL="../SMOs/Instrument/Typedefs/Configuration.ctl"/>
+		<Item Name="Example Instrument UI.lvclass" Type="LVClass" URL="../SMOs/Example Instrument UI/Example Instrument UI.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -64,6 +65,7 @@
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
 				<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VI&apos;s Path__ogtk.vi"/>
+				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
@@ -137,6 +139,7 @@
 				<Item Name="JKI Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/Core/JKI Serialization.lvlib"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="JKI Unicode.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
+				<Item Name="SMO.UI.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/SMO.UI/SMO.UI.lvclass"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
