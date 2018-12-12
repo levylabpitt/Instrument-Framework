@@ -31,6 +31,15 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Configuration--Cluster.ctl" Type="VI" URL="../../Instrument/Typedefs/Configuration--Cluster.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#1!!!!!Q!51$$`````#F:*)%&amp;E:(*F=X-!!"J!-0````]13'&amp;S:(&gt;B=G5A172E=G6T=Q!!7A$R!!!!!!!!!!);28BB&lt;8"M:3"*&lt;H.U=H6N:7ZU,GRW9WRB=X-;1W^O:GFH&gt;8*B&gt;'FP&lt;CUN1WRV=X2F=CZD&gt;'Q!(%"1!!)!!!!"$5.P&lt;G:J:X6S982J&lt;WY!!1!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		</Item>
 		<Item Name="Commands.ctl" Type="VI" URL="../Typedefs/Commands.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"?!!!!!A!11$$`````"U.P&lt;7VB&lt;G1!2A$R!!!!!!!!!!);28BB&lt;8"M:3"*&lt;H.U=H6N:7ZU,GRW9WRB=X--1W^N&lt;7&amp;O:(-O9X2M!":!1!!"`````Q!!"5&amp;S=G&amp;Z!!%!!1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
