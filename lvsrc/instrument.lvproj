@@ -18,7 +18,6 @@
 		<Item Name="Subsystems" Type="Folder">
 			<Item Name="Logger.lvclass" Type="LVClass" URL="../SMOs/Logger/Logger.lvclass"/>
 			<Item Name="Configuration.lvclass" Type="LVClass" URL="../SMOs/Configuration/Configuration.lvclass"/>
-			<Item Name="Configuration.ctl" Type="VI" URL="../SMOs/Instrument/Typedefs/Configuration.ctl"/>
 			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl/RemoteControl.lvclass"/>
 			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../../../levylab_util_remote/src/SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 		</Item>
