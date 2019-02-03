@@ -155,7 +155,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
-		<Item Name="Commands-Enum.ctl" Type="VI" URL="../../../unused/Typedefs/Commands-Enum.ctl">
+		<Item Name="Commands-Enum.ctl" Type="VI" URL="../Typedefs/Commands-Enum.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"\!!!!!1"T!0%!!!!!!!!!!BF3:7VP&gt;'6$&lt;WZU=G^M,F.543ZM&gt;G.M98.T%5.P&lt;7VB&lt;G2T,56O&gt;7UO9X2M!$^!&amp;A!'#%.P&lt;7VB&lt;G1R#%.P&lt;7VB&lt;G1S#%.P&lt;7VB&lt;G1T#%.P&lt;7VB&lt;G1U!U&amp;$3Q6$4%^421!%27ZV&lt;1!!!1!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
