@@ -16,8 +16,13 @@
 			<Item Name="Instruments.vipc" Type="Document" URL="../../build support/Instruments.vipc"/>
 		</Item>
 		<Item Name="Subsystems" Type="Folder">
-			<Item Name="Logger.lvclass" Type="LVClass" URL="../SMOs/Logger/Logger.lvclass"/>
+			<Item Name="LevyLab.lvclass" Type="LVClass" URL="../SMOs/LevyLab/LevyLab.lvclass"/>
 			<Item Name="Configuration.lvclass" Type="LVClass" URL="../SMOs/Configuration/Configuration.lvclass"/>
+			<Item Name="Logger.lvclass" Type="LVClass" URL="../SMOs/Logger/Logger.lvclass"/>
+			<Item Name="Logger.Error.lvclass" Type="LVClass" URL="../SMOs/Logger.Error/Logger.Error.lvclass"/>
+			<Item Name="Logger.DSC.lvclass" Type="LVClass" URL="../SMOs/Logger.DSC/Logger.DSC.lvclass"/>
+			<Item Name="RemoteControl.v2.lvclass" Type="LVClass" URL="../SMOs/RemoteControl/RemoteControl.v2.lvclass"/>
+			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Example Instrument.lvclass" Type="LVClass" URL="../SMOs/Example Instrument/Example Instrument.lvclass"/>
@@ -322,18 +327,12 @@
 			<Item Name="nitaglv.dll" Type="Document" URL="nitaglv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LevyLab.lvclass" Type="LVClass" URL="../SMOs/LevyLab/LevyLab.lvclass"/>
-			<Item Name="Logger.Error.lvclass" Type="LVClass" URL="../SMOs/Logger.Error/Logger.Error.lvclass"/>
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Logger.DSC.lvclass" Type="LVClass" URL="../SMOs/Logger.DSC/Logger.DSC.lvclass"/>
-			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../SMOs/RemoteControl/RemoteControl.lvclass"/>
-			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../SMOs/SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
