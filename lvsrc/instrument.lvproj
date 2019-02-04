@@ -14,6 +14,7 @@
 		<Item Name="build support" Type="Folder">
 			<Item Name="Instruments.vipb" Type="Document" URL="../../build support/Instruments.vipb"/>
 			<Item Name="Instruments.vipc" Type="Document" URL="../../build support/Instruments.vipc"/>
+			<Item Name="Pre-Install Custom Action.vi" Type="VI" URL="../../build support/Pre-Install Custom Action.vi"/>
 		</Item>
 		<Item Name="Subsystems" Type="Folder">
 			<Item Name="LevyLab.lvclass" Type="LVClass" URL="../SMOs/LevyLab/LevyLab.lvclass"/>
