@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-02-07 17:54:20" Creator="Patrick" Comments="" ID="0fe3d64092aba274ce4f4de33dbe14b7">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-02-08 14:15:57" Creator="Patrick" Comments="" ID="58ca90658bc0f0cb7c1699efbdd1c3fe">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
     <Library_Version>1.1.0.7</Library_Version>
@@ -60,11 +60,9 @@
       <Packager/>
       <URL/>
       <Release_Notes>**Experimental Build**
-[1.1.0.6]
-#1: rename Initialize Instrument.vi to Open Instrument.vi
-#2: new overridable method Close Instrument.vi
-#10: rename states inside Instrument.lvclass:Process.vi to be more logical
-#8: Create Instrument SMO Name.vi now part of parent class (child must override)
+[1.1.0.7]
+- Mainly refactored RemoteControl code with better examples and unused VIs removed
+- regenerated palettes
 
 includes:
 LevyLab.lvclass
@@ -369,7 +367,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Configuration</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C916E704E0C8B433D881A058CED4451B</GUID>
+      <GUID>CBB044B8A9AE33294204EDE62B383DBA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -432,7 +430,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>510CAC7B7010BEC398179346405C946D</GUID>
+      <GUID>17BD38791FDD1C8DF7AC364F0F9A92F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -635,7 +633,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Instrument\Handle Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ED5540139D0A541959B187DA1A7E6FF5</GUID>
+      <GUID>7D4D562A75C3EB0FC2D64ED792B55375</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -698,7 +696,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\LevyLab\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C7AC7E5826434B4633DE5323309D9C2</GUID>
+      <GUID>B725196B09806013DF32A8F246BD386A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -775,7 +773,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Logger\Write path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C328BBBCF765C65ABB81FD850DD1E3CE</GUID>
+      <GUID>BC6A3F3AAB91854FE66437000E1AAEFA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -992,7 +990,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Logger.DSC\Write to DSC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>39B7439D785277FFFF037FF10639F4DA</GUID>
+      <GUID>638698223A22E24F2A88396021BFC7DF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1125,7 +1123,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Logger.Error\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FC6BE6AC681F7CD161F0B16B258EEEF8</GUID>
+      <GUID>FF38BE6CB5487DB8A039194A6FC0290D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1146,20 +1144,6 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>SMOs\RemoteControl</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Client 1 JKI SM or SMO.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\RemoteControl\Client 1 JKI SM or SMO.vi</Path>
-        <VI_Title/>
-      </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
@@ -1499,20 +1483,6 @@ Instrument's API (override) folder (Go to Angle, etc.)**
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RemoteControl.TestLauncher.Client2.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\RemoteControl\RemoteControl.TestLauncher.Client2.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>RemoteControl.TestLauncher.Client3.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1522,20 +1492,6 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\SMOs\RemoteControl\RemoteControl.TestLauncher.Client3.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RemoteControl.TestLauncher.Client4.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\RemoteControl\RemoteControl.TestLauncher.Client4.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1611,20 +1567,6 @@ Instrument's API (override) folder (Go to Angle, etc.)**
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Test Open Send.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>6</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\RemoteControl\Test Open Send.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>VirtualTestInstrument.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1664,7 +1606,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\RemoteControl\Write Port.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5632D631E6372AE678081147643A840D</GUID>
+      <GUID>2FDCE71E11357A419F3C072ED1E8683E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1923,7 +1865,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Write STM connection info.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8222C890C13B9B186061A780BD1E51E8</GUID>
+      <GUID>8DD4D14412934BA9C26073273BDD3432</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
