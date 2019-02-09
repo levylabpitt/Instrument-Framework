@@ -129,7 +129,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
-		<Item Name="Read from DSC.vi" Type="VI" URL="../Read from DSC.vi">
+		<Item Name="Read from DSC (unused).vi" Type="VI" URL="../Read from DSC (unused).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%J!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$%"4"V:B=GFB&lt;H1!"!!!!#J!=!!?!!!5%ERP:W&gt;F=CZ%5U-O&lt;(:D&lt;'&amp;T=Q!!#ERP:W&gt;F=C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$E!Q`````Q2Q982I!!!I1(!!(A!!&amp;"*-&lt;W&gt;H:8)O2&amp;.$,GRW9WRB=X-!!!F-&lt;W&gt;H:8)A;7Y!6!$Q!!Q!!Q!%!!5!"A!&amp;!!5!"1!&amp;!!=!"1!)!!E#!!"Y!!!.#!!!#1!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!##!!!!*!!!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
