@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-02-09 08:06:20" Creator="Patrick" Comments="" ID="616ecfd8d29a08439d9b0ca7732f961f">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-02-09 08:21:09" Creator="Patrick" Comments="" ID="ec68b79af17f368ca251fe597742a2ea">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
     <Library_Version>1.1.0.7</Library_Version>
@@ -367,7 +367,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Logger.Error</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F08431EDFA830F9D4CA493818401C3FF</GUID>
+      <GUID>5D0808582FEC02940CCAA42C5BCAEE7E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -430,7 +430,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3DCED438C45FABC9DFB414C9B787AC4D</GUID>
+      <GUID>EA88BDDFA4EA4A6DF1743D512DEFD5F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -689,7 +689,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Instrument\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CD18BE331B22B158B3E48EFBD6371510</GUID>
+      <GUID>232C35BA6740B91FF3513CE9EB2F0EAC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -752,7 +752,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\LevyLab\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BB656F434CEC9E25DA0DC77C52BAE53E</GUID>
+      <GUID>C73F4F9280DB69ABA661D147ABAF4419</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -829,7 +829,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E8A7EE3C9846B6FC9A58B86E50496424</GUID>
+      <GUID>953D56AE195E06AAE0EB0767D1DF4717</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -948,7 +948,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Logger.DSC\Logger.DSC.GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>84F60E8B2EF52FE65ABBC22353135EC6</GUID>
+      <GUID>CA25C59AFCFF96E4D63F7A85682AECE4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1025,7 +1025,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Logger.Error\Error Log Generator Example 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D1DC80A1C7AB4415B8A114CB9399D202</GUID>
+      <GUID>8E7F2F3584E1AD6FBB6C5A3E3CE42A26</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1128,20 +1128,6 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\SMOs\RemoteControl\Create RC Connection Monitor.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Connection Monitor - Stop.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\RemoteControl\Connection Monitor - Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1480,7 +1466,21 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\RemoteControl\RemoteControl.Configure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C36DCC24D5723D1F78D2707A4F05099E</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Connection Monitor - Stop.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>6</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\SMOs\RemoteControl\Connection Monitor - Stop.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>D0C5A063D4B443D5F002841EF33AC58A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1739,7 +1739,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Write listener ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BDBA413BAE74D7ED334A423AF14FB46E</GUID>
+      <GUID>61B0D243F6CD4F8D79DABF2E864A6B2D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
