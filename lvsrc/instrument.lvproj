@@ -24,6 +24,7 @@
 			<Item Name="Logger.DSC.lvclass" Type="LVClass" URL="../SMOs/Logger.DSC/Logger.DSC.lvclass"/>
 			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../SMOs/RemoteControl/RemoteControl.lvclass"/>
 			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
+			<Item Name="SCPI.lvclass" Type="LVClass" URL="../SMOs/SCPI/SCPI.lvclass"/>
 		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Example Instrument.lvclass" Type="LVClass" URL="../SMOs/Example Instrument/Example Instrument.lvclass"/>
@@ -307,6 +308,7 @@
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
 				<Item Name="SMO.UI.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/SMO.UI/SMO.UI.lvclass"/>
+				<Item Name="Build State String with Arguments__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Build State String with Arguments__JKI_lib_State_Machine.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
