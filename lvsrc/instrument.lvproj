@@ -29,6 +29,7 @@
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Example Instrument.lvclass" Type="LVClass" URL="../SMOs/Example Instrument/Example Instrument.lvclass"/>
 		<Item Name="Example Instrument UI.lvclass" Type="LVClass" URL="../SMOs/Example Instrument UI/Example Instrument UI.lvclass"/>
+		<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="../Test Instrument Types/Instrument.Cryostat.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
