@@ -26,10 +26,14 @@
 			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 			<Item Name="SCPI.lvclass" Type="LVClass" URL="../SMOs/SCPI/SCPI.lvclass"/>
 		</Item>
+		<Item Name="Instrument Types" Type="Folder">
+			<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="../Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
+		</Item>
+		<Item Name="Examples (do not include in build)" Type="Folder">
+			<Item Name="Example Instrument.lvclass" Type="LVClass" URL="../SMOs/Example Instrument/Example Instrument.lvclass"/>
+			<Item Name="Example Instrument UI.lvclass" Type="LVClass" URL="../SMOs/Example Instrument UI/Example Instrument UI.lvclass"/>
+		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
-		<Item Name="Example Instrument.lvclass" Type="LVClass" URL="../SMOs/Example Instrument/Example Instrument.lvclass"/>
-		<Item Name="Example Instrument UI.lvclass" Type="LVClass" URL="../SMOs/Example Instrument UI/Example Instrument UI.lvclass"/>
-		<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="../Test Instrument Types/Instrument.Cryostat.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
