@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-03-29 09:42:14" Creator="Patrick" Comments="" ID="68f440b0d7804a5a620458aebe07ddf1">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-03-29 10:37:14" Creator="Patrick" Comments="" ID="6d96c57d42c3343225a92cfa3c7dd4d8">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.1.0.18</Library_Version>
+    <Library_Version>1.1.0.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -60,10 +60,14 @@
       <Packager/>
       <URL/>
       <Release_Notes>**Experimental Build**
-[1.1.0.17]
-- change RemoteControl again....Send and Receive Message is now the API
+[1.1.0.18]
+-Add Write Configuration.SMO to Instrument
 
-includes:
+Example Instruments:
+Instrument.Cryostat
+--Get/Set Temperature, Magnetid Field, Rotator Axis, Get Cryogen Levels
+
+Included Classes:
 LevyLab.lvclass
 Instrument.lvclass
 Configuration.lvclass
@@ -73,13 +77,11 @@ Logger.DSC.lvclass
 RemoteControl.lvclass
 RemoteControl.STM.lvclass
 
-not included:
+not included (but part of source):
 Logger.syslog.lvclass
 RemoteControl.ZMQ.lvclass
 Example Instrument.lvclass
-Example Instrument UI.lvclass
-Instrument's API (override) folder (Go to Angle, etc.)**
-**Removed references from Instrument.lvclass</Release_Notes>
+Example Instrument UI.lvclass</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -395,7 +397,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\Instrument Types\Cryostat</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>54E088F41BBD6257833712FCDA8BAE34</GUID>
+      <GUID>F20B576E9C3A2EA27CA1AE9782D544C8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -458,7 +460,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EA9702B59B90C5B82F64D633EBBB0E64</GUID>
+      <GUID>A53A3C4C37BBFF4FAFF70665BC26D992</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -745,7 +747,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Instrument\getAll.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>972ECCE1145589291349ED143B5FC5D0</GUID>
+      <GUID>801602126A39E65A61876B9E0625C9C4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -808,7 +810,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\LevyLab\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1909780010848437C7659104C935B298</GUID>
+      <GUID>B408DF5C0D01090949D84F5E95F9360B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -885,7 +887,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D8A1FB46A061F7ECB95BF76B5689B6FB</GUID>
+      <GUID>06D0C969053A262161F8ECA630780445</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -990,7 +992,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Logger.DSC\Logger.DSC.GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B6860591103CB349C88BDDB5950096A</GUID>
+      <GUID>7D113C1123FE5EFA1DF6A2EFA191CA3F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1067,7 +1069,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\Logger.Error\Error Log Generator Example 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0B8CF58AA0196087472373AC13897B47</GUID>
+      <GUID>73A1C7DF63B20B49ED1E27CBAD4DECF2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1480,7 +1482,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\RemoteControl\Create RC Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B6537A024D3C2A5DBA79AB7C98393704</GUID>
+      <GUID>F799E2573EC01D795E90394AA7A65049</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1739,7 +1741,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Write listener ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2F15104921D436E3CF03910D9AA525FB</GUID>
+      <GUID>B87AE1006D15B0AA860BC0BEDAFED318</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1788,7 +1790,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\SMOs\SCPI\SCPI Decode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8697BA4A8D92C3CC5CDD0696B0A805C7</GUID>
+      <GUID>01DE06B44E9C631071E207DD593BA63E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1921,7 +1923,7 @@ Instrument's API (override) folder (Go to Angle, etc.)**
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Helium Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1CA6CDE1D5BBF561624FA26E998C7D09</GUID>
+      <GUID>BBD5229610EB21F2423AFBC2CE7B6ECD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
