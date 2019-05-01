@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-03-29 10:37:14" Creator="Patrick" Comments="" ID="6d96c57d42c3343225a92cfa3c7dd4d8">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-03-29 10:47:29" Creator="Patrick" Comments="" ID="4d472406b2665abedcc87876a2e10df0">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
     <Library_Version>1.1.0.19</Library_Version>
@@ -65,7 +65,7 @@
 
 Example Instruments:
 Instrument.Cryostat
---Get/Set Temperature, Magnetid Field, Rotator Axis, Get Cryogen Levels
+--Get/Set Temperature, Magnetic Field, Rotator Axis, Get Cryogen Levels
 
 Included Classes:
 LevyLab.lvclass
@@ -397,7 +397,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\Instrument Types\Cryostat</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F20B576E9C3A2EA27CA1AE9782D544C8</GUID>
+      <GUID>2FF1367AFAA4A713416215325205EC78</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -460,7 +460,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A53A3C4C37BBFF4FAFF70665BC26D992</GUID>
+      <GUID>96189F4D9B9C1CBEDA0BD389442DD159</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -747,7 +747,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Instrument\getAll.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>801602126A39E65A61876B9E0625C9C4</GUID>
+      <GUID>5C979A10B4C58B87CDC51E498311FFF6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -810,7 +810,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\LevyLab\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B408DF5C0D01090949D84F5E95F9360B</GUID>
+      <GUID>F1E8D917266C03524BA47672F1023E0E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -887,7 +887,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>06D0C969053A262161F8ECA630780445</GUID>
+      <GUID>DD0440F215E9642A97AC40E4BED7EC44</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -992,7 +992,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Logger.DSC\Logger.DSC.GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7D113C1123FE5EFA1DF6A2EFA191CA3F</GUID>
+      <GUID>60872719846C1EE1DCDBB825267B2E14</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1069,7 +1069,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Logger.Error\Error Log Generator Example 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>73A1C7DF63B20B49ED1E27CBAD4DECF2</GUID>
+      <GUID>5B89EE18E3774B829850C1A70B335503</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1482,7 +1482,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\RemoteControl\Create RC Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F799E2573EC01D795E90394AA7A65049</GUID>
+      <GUID>25234EC5410518E55FFF6557BED8B73B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1741,7 +1741,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Write listener ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B87AE1006D15B0AA860BC0BEDAFED318</GUID>
+      <GUID>98D73221D1FE2D776354A60F12137BF5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1790,7 +1790,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\SCPI\SCPI Decode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01DE06B44E9C631071E207DD593BA63E</GUID>
+      <GUID>5BBB7A71575AF7357DC112C1DB3ADDB8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1923,7 +1923,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Helium Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BBD5229610EB21F2423AFBC2CE7B6ECD</GUID>
+      <GUID>EB739E91AD5FCDA6F5AB1132D877D1E3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
