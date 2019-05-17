@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-03-29 10:47:29" Creator="Patrick" Comments="" ID="4d472406b2665abedcc87876a2e10df0">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-05-10 14:48:56" Creator="Patrick" Comments="" ID="0e6d83204eb8c9eaf955093c59185176">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.1.0.19</Library_Version>
+    <Library_Version>1.1.0.20</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -60,8 +60,8 @@
       <Packager/>
       <URL/>
       <Release_Notes>**Experimental Build**
-[1.1.0.18]
--Add Write Configuration.SMO to Instrument
+[1.1.0.19]
+-Add confirmation window after reading in configuration.ini file.
 
 Example Instruments:
 Instrument.Cryostat
@@ -397,7 +397,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\Instrument Types\Cryostat</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2FF1367AFAA4A713416215325205EC78</GUID>
+      <GUID>3123443F2C1C6DCE6D431BEE95A80E28</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -460,7 +460,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>96189F4D9B9C1CBEDA0BD389442DD159</GUID>
+      <GUID>F18F404F76A1924C89726DCE931D383E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -747,7 +747,21 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Instrument\getAll.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C979A10B4C58B87CDC51E498311FFF6</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Configuration Window.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\SMOs\Instrument\Configuration Window.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>FC4F28704901D8D8F3E5AAF2B3088FCA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -810,7 +824,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\LevyLab\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F1E8D917266C03524BA47672F1023E0E</GUID>
+      <GUID>4E8B625B075EE365A3FF44E8A6E8B0DC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -887,7 +901,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DD0440F215E9642A97AC40E4BED7EC44</GUID>
+      <GUID>BB6F7BA4C0482086CAA63D8A2B44BB53</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -992,7 +1006,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Logger.DSC\Logger.DSC.GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>60872719846C1EE1DCDBB825267B2E14</GUID>
+      <GUID>5F85B96E8D0816FC1B2FFBF147389F14</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1069,7 +1083,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Logger.Error\Error Log Generator Example 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B89EE18E3774B829850C1A70B335503</GUID>
+      <GUID>BBB0DDE36340D2401266ACB62090C097</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1482,7 +1496,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\RemoteControl\Create RC Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25234EC5410518E55FFF6557BED8B73B</GUID>
+      <GUID>3CEF628936C9557AF2197949DF567E93</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1741,7 +1755,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Write listener ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>98D73221D1FE2D776354A60F12137BF5</GUID>
+      <GUID>6180573A78C5DED9DB9AAC4BD0220420</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1790,7 +1804,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\SCPI\SCPI Decode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5BBB7A71575AF7357DC112C1DB3ADDB8</GUID>
+      <GUID>A742C96C1A03804D6B241D08AB9D0691</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1923,7 +1937,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Helium Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EB739E91AD5FCDA6F5AB1132D877D1E3</GUID>
+      <GUID>28EB73740131AB8BCE4BEBB822A154EE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
