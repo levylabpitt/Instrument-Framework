@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-05-10 14:48:56" Creator="Patrick" Comments="" ID="0e6d83204eb8c9eaf955093c59185176">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-05-20 23:19:44" Creator="Patrick" Comments="" ID="10f177b71f85c90f79e9b415e87d80ac">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.1.0.20</Library_Version>
+    <Library_Version>1.1.0.21</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -17,12 +17,17 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <External_Dependencies>jki_lib_caraya &gt;= 0.6.3.54</External_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>jki_statemachineobjects &gt;= 1.3.0.56</External_Dependencies>
+      <External_Dependencies>labview-zmq &gt;= 3.5.1.109</External_Dependencies>
       <External_Dependencies>mgi_lib_error_handling &gt;= 1.1.1.3</External_Dependencies>
       <External_Dependencies>mgi_lib_error_reporter &gt;= 1.0.2.5</External_Dependencies>
+      <External_Dependencies>national_instruments_lib_guid_generator &gt;= 1.0.2.3</External_Dependencies>
       <External_Dependencies>ni_lib_seh &gt;= 2.1.10.1</External_Dependencies>
+      <External_Dependencies>ni_lib_stm &gt;= 3.1.0.9</External_Dependencies>
       <External_Dependencies>nise_syslog &gt;= 1.3.3.27</External_Dependencies>
+      <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
       <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
       <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
       <External_Dependencies>oglib_lvdata &gt;= 4.2.0.21</External_Dependencies>
@@ -30,12 +35,17 @@
       <External_Dependencies>oglib_string &gt;= 4.1.0.12</External_Dependencies>
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
       <External_Dependencies>oglib_variantconfig &gt;= 4.0.0.5</External_Dependencies>
+      <Direct_Dependencies>jki_lib_caraya-0.6.3.54</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>jki_statemachineobjects-1.3.0.56</Direct_Dependencies>
+      <Direct_Dependencies>labview-zmq-3.5.1.109</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_error_handling-1.1.1.3</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_error_reporter-1.0.2.5</Direct_Dependencies>
+      <Direct_Dependencies>national_instruments_lib_guid_generator-1.0.2.3</Direct_Dependencies>
       <Direct_Dependencies>ni_lib_seh-2.1.10.1</Direct_Dependencies>
+      <Direct_Dependencies>ni_lib_stm-3.1.0.9</Direct_Dependencies>
       <Direct_Dependencies>nise_syslog-1.3.3.27</Direct_Dependencies>
+      <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
       <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
       <Direct_Dependencies>oglib_file-4.0.1.22</Direct_Dependencies>
       <Direct_Dependencies>oglib_lvdata-4.2.0.21</Direct_Dependencies>
@@ -60,8 +70,10 @@
       <Packager/>
       <URL/>
       <Release_Notes>**Experimental Build**
-[1.1.0.19]
--Add confirmation window after reading in configuration.ini file.
+[1.1.0.20]
+-disable check for DSC module
+-Temperature API has control for channel
+-Logger.DSC checks if variable is writable
 
 Example Instruments:
 Instrument.Cryostat
@@ -397,7 +409,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\Instrument Types\Cryostat</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3123443F2C1C6DCE6D431BEE95A80E28</GUID>
+      <GUID>6027EA3B9D3CE5318022EB064ED4C0FF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -460,7 +472,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F18F404F76A1924C89726DCE931D383E</GUID>
+      <GUID>7BC318532D189E56D4B52115F1D6366B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -761,7 +773,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Instrument\Configuration Window.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FC4F28704901D8D8F3E5AAF2B3088FCA</GUID>
+      <GUID>2F34B44C6D614FDE9A7FE385E69BBC8D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -824,7 +836,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\LevyLab\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E8B625B075EE365A3FF44E8A6E8B0DC</GUID>
+      <GUID>7EFC901A3B6DFF0970B89031D3182C0F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -901,7 +913,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BB6F7BA4C0482086CAA63D8A2B44BB53</GUID>
+      <GUID>0EDA4056952B265CF2A706B907AA9F1E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1006,7 +1018,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Logger.DSC\Logger.DSC.GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5F85B96E8D0816FC1B2FFBF147389F14</GUID>
+      <GUID>3487154DE41FC91F49075EF10E79BF72</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1083,7 +1095,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Logger.Error\Error Log Generator Example 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BBB0DDE36340D2401266ACB62090C097</GUID>
+      <GUID>69B5F55CFEBB285CF86F07EE8D4DA858</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1496,7 +1508,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\RemoteControl\Create RC Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3CEF628936C9557AF2197949DF567E93</GUID>
+      <GUID>4430A7B476C525693049FC3EBFA6CF5C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1755,7 +1767,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Write listener ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6180573A78C5DED9DB9AAC4BD0220420</GUID>
+      <GUID>54FFFC79E5EFA38467C81527F9FB2E65</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1804,7 +1816,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\SCPI\SCPI Decode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A742C96C1A03804D6B241D08AB9D0691</GUID>
+      <GUID>B1225BE9F3FB23AD1AAEAA636DC6D58A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1937,7 +1949,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Helium Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>28EB73740131AB8BCE4BEBB822A154EE</GUID>
+      <GUID>56A782A307BBD8A3ED9E96DC7F05A737</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
