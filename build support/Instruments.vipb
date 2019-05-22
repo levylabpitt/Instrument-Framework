@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-05-20 23:19:44" Creator="Patrick" Comments="" ID="10f177b71f85c90f79e9b415e87d80ac">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-05-21 12:18:08" Creator="Patrick" Comments="" ID="57f0fb7b93edfea6c0efd0c087048639">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.1.0.21</Library_Version>
+    <Library_Version>1.1.0.22</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -70,10 +70,8 @@
       <Packager/>
       <URL/>
       <Release_Notes>**Experimental Build**
-[1.1.0.20]
--disable check for DSC module
--Temperature API has control for channel
--Logger.DSC checks if variable is writable
+[1.1.0.21]
+-Logger.DSC has improved Write to DSC.vi API
 
 Example Instruments:
 Instrument.Cryostat
@@ -409,7 +407,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\Instrument Types\Cryostat</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6027EA3B9D3CE5318022EB064ED4C0FF</GUID>
+      <GUID>C58309E10E7876E295E25C8E31CAB79A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -472,7 +470,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7BC318532D189E56D4B52115F1D6366B</GUID>
+      <GUID>BC1E04027909CD370377CE1E6FF90A1B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -773,7 +771,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Instrument\Configuration Window.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2F34B44C6D614FDE9A7FE385E69BBC8D</GUID>
+      <GUID>B444C45354484DBF827EEC42F2217913</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -836,7 +834,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\LevyLab\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7EFC901A3B6DFF0970B89031D3182C0F</GUID>
+      <GUID>BBAC1F1FEC5B13B952B848A933792EDA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -913,7 +911,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0EDA4056952B265CF2A706B907AA9F1E</GUID>
+      <GUID>D55B6908BB65082B6CC62D518CFBA670</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1018,7 +1016,21 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Logger.DSC\Logger.DSC.GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3487154DE41FC91F49075EF10E79BF72</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Write Cluster to DSC.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\SMOs\Logger.DSC\Write Cluster to DSC.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>D67ACD2C6AE59E18F74694AEC6CB021A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1095,7 +1107,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\Logger.Error\Error Log Generator Example 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>69B5F55CFEBB285CF86F07EE8D4DA858</GUID>
+      <GUID>8C6BDE4853E0FF679F721BC230559F7F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1508,7 +1520,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\RemoteControl\Create RC Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4430A7B476C525693049FC3EBFA6CF5C</GUID>
+      <GUID>64AD7D4A809DDC0BEAA50FD96393C483</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1767,7 +1779,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Write listener ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>54FFFC79E5EFA38467C81527F9FB2E65</GUID>
+      <GUID>E083EAFCCCFD293F0D69BB324ECCE578</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1816,7 +1828,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\SMOs\SCPI\SCPI Decode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B1225BE9F3FB23AD1AAEAA636DC6D58A</GUID>
+      <GUID>C827D2880AA352F8E9A87206F048BB0C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1949,7 +1961,7 @@ Example Instrument UI.lvclass</Release_Notes>
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Helium Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56A782A307BBD8A3ED9E96DC7F05A737</GUID>
+      <GUID>8DE4048331F297D5B70DC61351BCFB9C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
