@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-05-30 00:41:22" Creator="Patrick" Comments="" ID="b7991f02993940687a4b6706aadeb2a8">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-05-30 00:54:30" Creator="Patrick" Comments="" ID="d35bded9c4520af9dd6f41d3d27d4dbb">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.1.0.27</Library_Version>
+    <Library_Version>1.1.0.28</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -70,7 +70,7 @@
       <Packager/>
       <URL/>
       <Release_Notes>**Experimental Build**
-[1.1.0.26]
+[1.1.0.27]
 -new accessor</Release_Notes>
     </Description>
     <Destinations>
@@ -387,7 +387,7 @@
         <Path>..\lvsrc\Instrument Types\Cryostat</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7F79775AB508554A88D2CE39780D3368</GUID>
+      <GUID>7A92D0416825CC8A7DA9A48C4970354B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -450,7 +450,7 @@
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>68F1E3C26CAFFC6D1703232C4363C94D</GUID>
+      <GUID>4C0FDFA0E12BE25557F7736F0F951212</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -765,7 +765,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Read Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E080675BC44AE5A17628690BD14539B</GUID>
+      <GUID>E67E456ABFD7597A1E456B5CFF875406</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -828,7 +828,7 @@
         <Path>..\lvsrc\SMOs\LevyLab\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B3B5276C3A843233142AB49DA5B86A46</GUID>
+      <GUID>2F941EAA797C7F5A6375C17DC4C5F633</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -905,7 +905,7 @@
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E16190F9CBF2E08E5B34FF815324367</GUID>
+      <GUID>012CA111AD488B8D4D0AC9FBF0BFD6D1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1010,7 +1010,7 @@
         <Path>..\lvsrc\SMOs\Logger.DSC\Write Cluster to DSC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2DCF518D9ECAEF2E9BF9997110D48CB6</GUID>
+      <GUID>A30B5BC9796AE60C12B01D947591E397</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1087,7 +1087,7 @@
         <Path>..\lvsrc\SMOs\Logger.Error\Error Log Generator Example 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EA61D68BA1A0A97FBCCDD63AC919869B</GUID>
+      <GUID>DAB554464F8F2E20AC313E62B2A212C0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1500,7 +1500,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl\Connection Monitor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>029BF68942121F6CA53EDDC38C2AB92F</GUID>
+      <GUID>75C43A5863E21DDD81E0CB0834BD48EB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1759,7 +1759,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Write listener ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6DC7CA095D358106EC4255FBFE6FBBA3</GUID>
+      <GUID>0DC2A39D221FA80604F35F98C8B805E0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1808,7 +1808,7 @@
         <Path>..\lvsrc\SMOs\SCPI\SCPI Decode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FA837B00199F6B4DC0F26CF5FBC29A69</GUID>
+      <GUID>E934FC9E96CA13AFA4B5B912F70A4BFE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1941,7 +1941,7 @@
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Nitrogen Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2F67884FFCA571430F32F0AFA9465775</GUID>
+      <GUID>D581F89AE83E993F42E65A7437A9563C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
