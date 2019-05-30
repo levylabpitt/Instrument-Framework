@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-05-30 00:12:00" Creator="Patrick" Comments="" ID="c28be3554308d67d2d7f4c8abff9ff50">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-05-30 00:41:22" Creator="Patrick" Comments="" ID="b7991f02993940687a4b6706aadeb2a8">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.1.0.26</Library_Version>
+    <Library_Version>1.1.0.27</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -70,8 +70,8 @@
       <Packager/>
       <URL/>
       <Release_Notes>**Experimental Build**
-[1.1.0.25]
--refactor client and new accessorsi</Release_Notes>
+[1.1.0.26]
+-new accessor</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -387,7 +387,7 @@
         <Path>..\lvsrc\Instrument Types\Cryostat</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D7E4273E58F1F221305285FEFE74BBCF</GUID>
+      <GUID>7F79775AB508554A88D2CE39780D3368</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -450,7 +450,7 @@
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>14D4CD4F530931B66BEDF03AA323B475</GUID>
+      <GUID>68F1E3C26CAFFC6D1703232C4363C94D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -751,7 +751,21 @@
         <Path>..\lvsrc\SMOs\Instrument\List Devices.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B45266C70F9D3E8251DA68BB5F8278E</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read Configuration.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\SMOs\Instrument\Read Configuration.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>9E080675BC44AE5A17628690BD14539B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -814,7 +828,7 @@
         <Path>..\lvsrc\SMOs\LevyLab\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C89A1ACB0C9FBE29B5B13B683645069</GUID>
+      <GUID>B3B5276C3A843233142AB49DA5B86A46</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -891,7 +905,7 @@
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A538F15A67DDD2917BCF6B21C4D4F546</GUID>
+      <GUID>5E16190F9CBF2E08E5B34FF815324367</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -996,7 +1010,7 @@
         <Path>..\lvsrc\SMOs\Logger.DSC\Write Cluster to DSC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>383F3B180C0DCFA86E7904934DE26DCF</GUID>
+      <GUID>2DCF518D9ECAEF2E9BF9997110D48CB6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1073,7 +1087,7 @@
         <Path>..\lvsrc\SMOs\Logger.Error\Error Log Generator Example 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF1E71B5D5EB686D233FC213A8DD80A1</GUID>
+      <GUID>EA61D68BA1A0A97FBCCDD63AC919869B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1486,7 +1500,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl\Connection Monitor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7D69093D3BD735C83858E44DC96766ED</GUID>
+      <GUID>029BF68942121F6CA53EDDC38C2AB92F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1745,7 +1759,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Write listener ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>407C8CD39B12A77030DD24ACF6838FB6</GUID>
+      <GUID>6DC7CA095D358106EC4255FBFE6FBBA3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1794,7 +1808,7 @@
         <Path>..\lvsrc\SMOs\SCPI\SCPI Decode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27203076B5008F2BD1820319D58F332D</GUID>
+      <GUID>FA837B00199F6B4DC0F26CF5FBC29A69</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1927,7 +1941,7 @@
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Nitrogen Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>154D2F3FCCB8F162A7C7E082252B5AC2</GUID>
+      <GUID>2F67884FFCA571430F32F0AFA9465775</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
