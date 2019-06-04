@@ -27,6 +27,7 @@
 			<Item Name="SCPI.lvclass" Type="LVClass" URL="../SMOs/SCPI/SCPI.lvclass"/>
 		</Item>
 		<Item Name="Instrument Types" Type="Folder">
+			<Item Name="Instrument.VSource.lvclass" Type="LVClass" URL="../Instrument Types/SourceMeasure/Instrument.VSource.lvclass"/>
 			<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="../Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
 		</Item>
 		<Item Name="Examples (do not include in build)" Type="Folder">
