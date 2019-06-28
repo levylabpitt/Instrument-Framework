@@ -21,7 +21,6 @@
 			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 		</Item>
 		<Item Name="ExampleInstrument.lvclass" Type="LVClass" URL="../Example Instrument/ExampleInstrument.lvclass"/>
-		<Item Name="ExampleInstrumentUI.lvclass" Type="LVClass" URL="../Example Instrument UI/ExampleInstrumentUI.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -274,6 +273,7 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="ExampleInstrument.UI.lvclass" Type="LVClass" URL="../Example Instrument UI/ExampleInstrument.UI.lvclass"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
