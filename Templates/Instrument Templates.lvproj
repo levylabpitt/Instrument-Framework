@@ -10,6 +10,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="build support" Type="Folder">
+			<Item Name="LevyLab Instrument Template (Base with UI).vipb" Type="Document" URL="../build support/LevyLab Instrument Template (Base with UI).vipb"/>
+			<Item Name="LevyLab Instrument Template (Base).vipb" Type="Document" URL="../build support/LevyLab Instrument Template (Base).vipb"/>
+			<Item Name="LevyLab Instrument Template (Base).vipc" Type="Document" URL="../build support/LevyLab Instrument Template (Base).vipc"/>
+			<Item Name="LevyLab Instrument Template (UI).vipb" Type="Document" URL="../build support/LevyLab Instrument Template (UI).vipb"/>
+			<Item Name="LevyLab Instrument Template (UI).vipc" Type="Document" URL="../build support/LevyLab Instrument Template (UI).vipc"/>
+		</Item>
 		<Item Name="SMO.Instrument" Type="Folder">
 			<Item Name="Configuration.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/Configuration/Configuration.lvclass"/>
 			<Item Name="Instrument.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/Instrument/Instrument.lvclass"/>
@@ -21,6 +28,7 @@
 			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 		</Item>
 		<Item Name="ExampleInstrument.lvclass" Type="LVClass" URL="../Example Instrument/ExampleInstrument.lvclass"/>
+		<Item Name="ExampleInstrument.UI.lvclass" Type="LVClass" URL="../Example Instrument UI/ExampleInstrument.UI.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -273,7 +281,6 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="ExampleInstrument.UI.lvclass" Type="LVClass" URL="../Example Instrument UI/ExampleInstrument.UI.lvclass"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
