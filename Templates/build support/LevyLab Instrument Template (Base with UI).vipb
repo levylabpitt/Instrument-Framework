@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-06-21 10:05:23" Modified_Date="2019-06-28 17:50:12" Creator="Patrick" Comments="" ID="06e4d6f12050702b0e6b5f04a858636b">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-06-21 10:05:23" Modified_Date="2019-06-29 06:28:14" Creator="Patrick" Comments="" ID="92fec259a3d66eb44bee69815ee7976f">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_LevyLab_Instrument_Template_(Base_with_UI)</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -59,13 +59,13 @@ Generate your own LevyLab Instrument with the JKI SMO Editor.
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes/>
+      <Release_Notes>change install directory</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;application&gt;\LevyLab\templates\JKI\JKI SMO\LevyLab Instrument Template (Base)</Path>
+        <Path>&lt;user.lib&gt;\LevyLab\templates\JKI\JKI SMO\LevyLab Instrument Template (Base)</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -88,7 +88,7 @@ Generate your own LevyLab Instrument with the JKI SMO Editor.
       <Template_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;application&gt;\templates\JKI\JKIS MO\LevyLab Instrument Template (Base)</Path>
+        <Path>&lt;application&gt;\templates\JKI\JKI SMO\LevyLab Instrument Template (Base)</Path>
       </Template_VIs>
       <File_Menu>
         <LLB>false</LLB>
@@ -260,7 +260,7 @@ Generate your own LevyLab Instrument with the JKI SMO Editor.
         <Path>..\Example Instrument UI</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9AB11E29B2444FB6C4360A620B80F0E4</GUID>
+      <GUID>5B8DF2BD88EBC954C6DA5D36C44CE686</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -337,7 +337,7 @@ Generate your own LevyLab Instrument with the JKI SMO Editor.
         <Path>..\Example Instrument\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D26D95EDB2BA209F6B9BA1022E913C20</GUID>
+      <GUID>8F8DD1D10D45AB0797F3C4A044B52694</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -400,7 +400,7 @@ Generate your own LevyLab Instrument with the JKI SMO Editor.
         <Path>..\Example Instrument UI\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0D5B802B96F8856A7F48B840E08A93F1</GUID>
+      <GUID>3458FC1D575AC5B9E78A6ED4BF649435</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -519,7 +519,7 @@ Generate your own LevyLab Instrument with the JKI SMO Editor.
         <Path>..\Example Instrument\Overrides\Open Instrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6FC2D54A5683DAB1A8E79611D5D60947</GUID>
+      <GUID>FD836359C5A9ABFA92EB8E3B110AAB5F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -610,7 +610,7 @@ Generate your own LevyLab Instrument with the JKI SMO Editor.
         <Path>..\Example Instrument\Private\ExampleInstrument.Write Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BADD582ADCB41589C313723FAD5C12A9</GUID>
+      <GUID>3FC99573BBAC2E347B165416FF48CD7E</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -645,7 +645,7 @@ Generate your own LevyLab Instrument with the JKI SMO Editor.
         <Path>..\Example Instrument</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>68E2E2F3B728A03853DCD95DD45AA9B2</GUID>
+      <GUID>ED2300E811392A71836D715A20897C04</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -680,7 +680,7 @@ Generate your own LevyLab Instrument with the JKI SMO Editor.
         <Path>..\Example Instrument\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B947CC0135A1BD45707E20CFCEC8C12A</GUID>
+      <GUID>BBE84F6872AB86D4D926D2A96E518BCD</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -743,7 +743,7 @@ Generate your own LevyLab Instrument with the JKI SMO Editor.
         <Path>..\Example Instrument\Typedefs\ExampleInstrument.getAll--Cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C03D6F2F458EA647208FB09D21E13692</GUID>
+      <GUID>DDEB5D4BF891B64A9F14DA46DCCB177E</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
