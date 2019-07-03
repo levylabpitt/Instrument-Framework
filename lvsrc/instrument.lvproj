@@ -11,6 +11,22 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="tests" Type="Folder">
+			<Item Name="test results" Type="Folder">
+				<Item Name="Experiment.pxp" Type="Document" URL="../../tests/test results/Experiment.pxp"/>
+				<Item Name="Graph0.png" Type="Document" URL="../../tests/test results/Graph0.png"/>
+				<Item Name="Graph1.png" Type="Document" URL="../../tests/test results/Graph1.png"/>
+				<Item Name="Graph2.png" Type="Document" URL="../../tests/test results/Graph2.png"/>
+				<Item Name="MessageRate.000000.itx" Type="Document" URL="../../tests/test results/MessageRate.000000.itx"/>
+				<Item Name="MessageTime.000000.itx" Type="Document" URL="../../tests/test results/MessageTime.000000.itx"/>
+				<Item Name="Throughput.000000.itx" Type="Document" URL="../../tests/test results/Throughput.000000.itx"/>
+			</Item>
+			<Item Name="Create Instrument SMO.vi" Type="VI" URL="../../tests/Create Instrument SMO.vi"/>
+			<Item Name="Remote Client Metrics.vi" Type="VI" URL="../../tests/Remote Client Metrics.vi"/>
+			<Item Name="Test Remote Client.vi" Type="VI" URL="../../tests/Test Remote Client.vi"/>
+			<Item Name="ExampleInstrument.lvclass" Type="LVClass" URL="../../tests/Example Instrument/ExampleInstrument.lvclass"/>
+			<Item Name="ExampleInstrument.UI.lvclass" Type="LVClass" URL="../../tests/Example Instrument UI/ExampleInstrument.UI.lvclass"/>
+		</Item>
 		<Item Name="build support" Type="Folder">
 			<Item Name="Instruments.vipb" Type="Document" URL="../../build support/Instruments.vipb"/>
 			<Item Name="Instruments.vipc" Type="Document" URL="../../build support/Instruments.vipc"/>
@@ -186,6 +202,7 @@
 				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
 				<Item Name="Random Number Within Range - DBL__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - DBL__ogtk.vi"/>
 				<Item Name="Random Number Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range__ogtk.vi"/>
+				<Item Name="Ramp_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Control VI/Other/Ramp_SubVI.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
@@ -565,6 +582,7 @@
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Application Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/menu/Application Menu.rtm"/>
+				<Item Name="SMO.UI.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/SMO.UI/SMO.UI.lvclass"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -573,6 +591,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
