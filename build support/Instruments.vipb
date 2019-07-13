@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-07-12 08:54:51" Creator="Patrick" Comments="" ID="972970fc932cbbbc8663020b4c6a8ae0">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-07-13 08:53:42" Creator="Patrick" Comments="" ID="8695b50f10c753c5e08a9e4fe93ee4ea">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.2.0.33</Library_Version>
+    <Library_Version>1.2.0.34</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -69,9 +69,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.2.0.32]
-- Remote Connection Monitor is now reconfigurable after starting
-- Bug fix in Error logger</Release_Notes>
+      <Release_Notes>[1.2.0.33]
+- bug fix in STP's Connection Monitor - Stop</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -381,7 +380,7 @@
         <Path>..\lvsrc\Types</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>52AB558C7BFA998B22852FBD5B1F4193</GUID>
+      <GUID>7529D82E9EDA67C84BA0D6D2559228CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -444,7 +443,7 @@
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2CB0B8F8D139C10A0B1B0C12EC32DE0B</GUID>
+      <GUID>4810102C4DC8A6A4BAFAF9B6636C6BF7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -507,7 +506,7 @@
         <Path>..\lvsrc\SMOs\LevyLab\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A2C8E23E2267110D22AA9B2541F41A4A</GUID>
+      <GUID>A4DD5F93D217372F83625498E23AB8DB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -584,7 +583,7 @@
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E45AED60F8B8C28C9DFDFB123365E0FE</GUID>
+      <GUID>84A26541248B518DCD7A9FEE39D0D51C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -689,7 +688,7 @@
         <Path>..\lvsrc\SMOs\Logger.DSC\Write Cluster to DSC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9F300DD93029FB242752D067E4ABE327</GUID>
+      <GUID>D362B9EF4249B16275DC599C0F5D0A4E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -766,7 +765,7 @@
         <Path>..\lvsrc\SMOs\Logger.Error\Error Log Generator Example 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>557CEC3E4F05AE6260857CD14100E003</GUID>
+      <GUID>FEC0E4882C67A184537639FFD0DE90D6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1179,7 +1178,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl\Connection Monitor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>60AEDC56C66EC4A9725C9F1B105F6702</GUID>
+      <GUID>0224CF224E4001BF9C83128927E14839</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1438,7 +1437,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Connection Monitor - Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>19C47D6133384DA2FE56D51D83E6C871</GUID>
+      <GUID>8E3697897247F189C51032318FA6242F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1487,7 +1486,7 @@
         <Path>..\lvsrc\SMOs\SCPI\SCPI Decode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>23CCCBEABF1AC9FDF88B1268BECAC256</GUID>
+      <GUID>6E02993123AC1D1C4D319F77E70345B2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1942,7 +1941,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Handle Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A99FD49DD30713671BB35F37B330A676</GUID>
+      <GUID>6BF47BE45016DE037169A5021F2E53B0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2005,7 +2004,7 @@
         <Path>..\lvsrc\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3207D26868C46D534476C42B484FED07</GUID>
+      <GUID>253C3CF7E5B49AC15B859351A6641D4F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2138,7 +2137,7 @@
         <Path>..\lvsrc\Instrument Types\Cryostat\Set Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A1F8561D9AA48ED0E65AB90C15E9F234</GUID>
+      <GUID>8A9A565038B41ABF2B8E13EBB453F4D0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2243,7 +2242,7 @@
         <Path>..\lvsrc\Instrument Types\VNA\Set Sweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>94F4B7BAC5E8151E42C0CFFA3E57FC15</GUID>
+      <GUID>71468842C2694B1ABCA8E58E5AEA1A02</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2292,7 +2291,7 @@
         <Path>..\lvsrc\Instrument Types\VSource\Set Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8BF72AE1978CF6E891949D71333DF9F8</GUID>
+      <GUID>DA56AED1D9923B760D058BB3C38D0BB3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
