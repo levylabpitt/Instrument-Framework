@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-07-23 10:10:44" Creator="Patrick" Comments="" ID="c84b2164da5e2c6107a1ce8e3b4ff6bb">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-07-23 14:57:02" Creator="Patrick" Comments="" ID="5b8b3784a6e9f106481b083efe90d60b">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.2.2.36</Library_Version>
+    <Library_Version>1.2.3.37</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -69,9 +69,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.2.2.35]
-- Rename API Methods:
--- Get Helium Level, Get Nitrogen Level, Get Magnet Field, Set Magnet Field</Release_Notes>
+      <Release_Notes>[1.2.3.36]
+- Remove tests from Instrument class. They now live outside of /src</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -381,7 +380,7 @@
         <Path>..\lvsrc\Types</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>011121A71F5B32F7E88B8725F0FB5E08</GUID>
+      <GUID>5E6392269AD3088CC02DB2725864B095</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -444,7 +443,7 @@
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8CE5F9EB0F75C271F557C9A9BB27D195</GUID>
+      <GUID>FB1DFA65F6385F7FE0BB03128A322AB1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -507,7 +506,7 @@
         <Path>..\lvsrc\SMOs\LevyLab\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>443D6AC525887887D5D7FBE384880C8A</GUID>
+      <GUID>15B3F14EC47F46A0FA439BA904C56A78</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -584,7 +583,7 @@
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF64F6000EF864A987900A4F0BF5FBDC</GUID>
+      <GUID>0537164A42ED16544959F250D125E10B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -689,7 +688,7 @@
         <Path>..\lvsrc\SMOs\Logger.DSC\Write Cluster to DSC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7DF26F83B68A8F8C7D3843F1AA1C7834</GUID>
+      <GUID>4259775D89E81C81DF2B75096E5B94B1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -766,7 +765,7 @@
         <Path>..\lvsrc\SMOs\Logger.Error\Error Log Generator Example 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8FDE82C426175B3A14F31B80E57B8F04</GUID>
+      <GUID>082B35CD888C8D7E9DA16EB6C5EEBFA4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1179,7 +1178,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl\Connection Monitor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B27BEE914BD3FFE04619239DD2D4B21E</GUID>
+      <GUID>FF812B97096931F8EE3E62422F3D0C5F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1438,7 +1437,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Connection Monitor - Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6C984425F039486CD093773194E3DA27</GUID>
+      <GUID>6EF25103F24DB9E50DD018F22787FB40</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1487,7 +1486,7 @@
         <Path>..\lvsrc\SMOs\SCPI\SCPI Decode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3E1A06E55311F467D3EC6C22C4A61DB7</GUID>
+      <GUID>EDEE79EFC9BB7AF58455D12A99A5522B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1942,7 +1941,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Write SMO Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BDED733CC7E187ABB76127946DAFDD18</GUID>
+      <GUID>0C5F5EB6DA6AF77918434263CC987396</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2005,7 +2004,7 @@
         <Path>..\lvsrc\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A8E8AFDE8323640E496156736E2BEAD1</GUID>
+      <GUID>CAAA8AC4EC7795BB5CF31968F65CD951</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2138,7 +2137,7 @@
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Nitrogen Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EBD92958B593B7A69C278C8C469FCED0</GUID>
+      <GUID>F5B0C021F693378E4ECEF98A4303D832</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2243,7 +2242,7 @@
         <Path>..\lvsrc\Instrument Types\VNA\Set Sweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0BBC36D3BD5AA01281C12E0180B5DAF3</GUID>
+      <GUID>AF73AB5425A1FC7270021607244CD0B1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2292,7 +2291,7 @@
         <Path>..\lvsrc\Instrument Types\VSource\Set Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1C7C05D23C51FDEFB2C7B2C69E0461AF</GUID>
+      <GUID>6FA75D30EA44ADE3DAB370119C40D23F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
