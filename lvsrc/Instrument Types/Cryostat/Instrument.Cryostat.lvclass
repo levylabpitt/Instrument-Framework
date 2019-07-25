@@ -97,6 +97,15 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
 			</Item>
+			<Item Name="Wait for Magnet Setpoint.vi" Type="VI" URL="../Wait for Magnet Setpoint.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'K!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!&gt;'UFO=X2S&gt;7VF&lt;H1O1X*Z&lt;X.U981O&lt;(:D&lt;'&amp;T=Q!837ZT&gt;(*V&lt;76O&gt;#Z$=HFP=X2B&gt;#"P&gt;81!51$R!!!!!!!!!!)&lt;37ZT&gt;(*V&lt;76O&gt;#Z$=HFP=X2B&gt;#ZM&gt;G.M98.T&amp;5VB:WZF&gt;#""?'FT,3V&amp;&lt;H6N,G.U&lt;!!81"9!!Q&amp;;!6A"71!%18BJ=Q!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!41!I!$&amp;.F&gt;("P;7ZU)#B5+1!!0E"Q!"Y!!"U&lt;37ZT&gt;(*V&lt;76O&gt;#Z$=HFP=X2B&gt;#ZM&gt;G.M98.T!":*&lt;H.U=H6N:7ZU,E.S?7^T&gt;'&amp;U)'FO!!"B!0!!$!!$!!1!"!!&amp;!!9!"!!%!!1!"Q!%!!A!#1-!!(A!!!E!!!!!!!!!!!!!!!E!!!!)!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!#!!!$1!!!!Q!!!!!!!!!!!!!!1!+!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			</Item>
 		</Item>
 		<Item Name="Rotator" Type="Folder">
 			<Item Name="Get Angle.vi" Type="VI" URL="../Get Angle.vi">
@@ -136,6 +145,15 @@
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			</Item>
+			<Item Name="Wait for Temperature Setpoint.vi" Type="VI" URL="../Wait for Temperature Setpoint.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;G!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!&gt;'UFO=X2S&gt;7VF&lt;H1O1X*Z&lt;X.U981O&lt;(:D&lt;'&amp;T=Q!837ZT&gt;(*V&lt;76O&gt;#Z$=HFP=X2B&gt;#"P&gt;81!$5!$!!&gt;$;'&amp;O&lt;G6M!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%U!+!!R4:82Q&lt;WFO&gt;#!I3SE!!$Z!=!!?!!!&gt;'UFO=X2S&gt;7VF&lt;H1O1X*Z&lt;X.U981O&lt;(:D&lt;'&amp;T=Q!737ZT&gt;(*V&lt;76O&gt;#Z$=HFP=X2B&gt;#"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!'!!1!"!!%!!=!"!!)!!E$!!"Y!!!*!!!!!!!!!!!!!!!*!!!!#!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!!A!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 			</Item>
 		</Item>
 	</Item>
