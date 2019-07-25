@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-07-25 12:12:38" Creator="Patrick" Comments="" ID="8cc85ae039fcdde03d64b81a2b344c4d">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-07-25 12:26:32" Creator="Patrick" Comments="" ID="a13790b97c88f234c6f31af32ca46388">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.2.6.40</Library_Version>
+    <Library_Version>1.2.6.41</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -69,7 +69,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.2.6.39]
+      <Release_Notes>[1.2.6.40]
 - Add Wait for Magnet and Temperature Setpoint</Release_Notes>
     </Description>
     <Destinations>
@@ -380,7 +380,7 @@
         <Path>..\lvsrc\Types</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4BB3A1E8D5433E71A5FFE7A366FD2EF3</GUID>
+      <GUID>13E69FD7FDC692ABD06645349049997A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -443,7 +443,7 @@
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E45ABC34026B314D40D2E87860679CD3</GUID>
+      <GUID>C81655DB4ADAD447DB0F626082B754CC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -506,7 +506,7 @@
         <Path>..\lvsrc\SMOs\LevyLab\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>452861D2AA3C8433EAA9907484D0E00F</GUID>
+      <GUID>CA7FB1A210CF094C953CE9F9D9903F6A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -583,7 +583,7 @@
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E29E550EA09D6ECE5C790C6FEF9E96E</GUID>
+      <GUID>FBA6B4FE3A8B8571CACC0C412E2BA2E5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -688,7 +688,7 @@
         <Path>..\lvsrc\SMOs\Logger.DSC\Logger.DSC.GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D26737CEA74D8FC70CA881AD7090761B</GUID>
+      <GUID>30C2291642078DA3F1B93FA3CB0B5311</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -765,7 +765,7 @@
         <Path>..\lvsrc\SMOs\Logger.Error\Error Log Generator Example 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3AA665518361EDDE90161BCB975086E9</GUID>
+      <GUID>D4E002EF2852549E5CCDCF3D557EF3A7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1178,7 +1178,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl\Connection Monitor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D24EC92050D6D269309222D0E5186A3</GUID>
+      <GUID>40245DE6047B889E0314565E7FED0DAB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1437,7 +1437,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Connection Monitor - Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>23BF9EBC9CEAA6B772D38B7363327831</GUID>
+      <GUID>A20ACE9A8ABA2BDE7A6A5902288FA253</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1486,7 +1486,7 @@
         <Path>..\lvsrc\SMOs\SCPI\SCPI Decode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>471A3222A73FD4030A6DCFCD11EEB5F8</GUID>
+      <GUID>6339DBEA4261911D70733DF03260766C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1927,7 +1927,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Write Process Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB201546B48FA735A88F0596CEF968A6</GUID>
+      <GUID>220D0D1BDB7915D776001B84F233B038</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1990,7 +1990,7 @@
         <Path>..\lvsrc\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3DEAB2DEAA873B327E7320CA6B958072</GUID>
+      <GUID>114BAF5822A30B8E3A9C3C000BC45D0D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2151,7 +2151,7 @@
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Nitrogen Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EE23CF2ED309A1F9DCCFBBD55BDB9DE0</GUID>
+      <GUID>B114CBE2AA1BE979F70066E1D622F49E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2256,7 +2256,7 @@
         <Path>..\lvsrc\Instrument Types\VNA\Set Sweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9FAB4C2FD5200A181655A0ED08BA66B7</GUID>
+      <GUID>E465C4917A4EFF20701533652F2B9298</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2305,7 +2305,7 @@
         <Path>..\lvsrc\Instrument Types\VSource\Set Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4C87800D47D45EA221563A62C6ED6058</GUID>
+      <GUID>ABC1D43E72841AD62729289D8123ACD7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
