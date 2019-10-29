@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-09-26 18:02:13" Creator="Patrick" Comments="" ID="8839b4d9ae235b8638758d8e20327b12">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-10-29 13:02:28" Creator="Patrick" Comments="" ID="ef7114231bf463332bc5c89c75c3b520">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.2.7.43</Library_Version>
+    <Library_Version>1.2.9.44</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -57,7 +57,7 @@
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
-      <Pre-Install_VI>Pre-Install Custom Action.vi</Pre-Install_VI>
+      <Pre-Install_VI/>
       <Post-Install_VI/>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
@@ -69,8 +69,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.2.8.42]
-- change reentrancy of RC:Remote Client.vi</Release_Notes>
+      <Release_Notes>[1.2.9.43]
+- Fix error that would prevent configuration from being written to the class wire</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -156,7 +156,7 @@
         <Path>SMOs/Logger.syslog</Path>
       </Exclusions>
     </Source_Files>
-    <License_Agreement_Filepath>..\lvsrc\LICENSE.md</License_Agreement_Filepath>
+    <License_Agreement_Filepath>..\lvsrc\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -380,7 +380,7 @@
         <Path>..\lvsrc\Types</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CB66F37F19C1A89A5972336C5C8E40FC</GUID>
+      <GUID>6185AE9611C10EC98B876159987592DE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -443,7 +443,7 @@
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7B2A45C7171E31E9B0D9C608FDA32BCF</GUID>
+      <GUID>6DED604171A193C0B17A23F70AF33EF8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -506,7 +506,7 @@
         <Path>..\lvsrc\SMOs\LevyLab\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>886ED68492E41AE36EC65413C32D1604</GUID>
+      <GUID>BE7191DF046EBAD102468DAA276680D3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -583,7 +583,7 @@
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A0D5C30250AC214F0024B0A5FDDF7AA8</GUID>
+      <GUID>855F9EB8D64B7D38B2CF6934F684D2D5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -688,7 +688,7 @@
         <Path>..\lvsrc\SMOs\Logger.DSC\Logger.DSC.GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9A78A3D14825088079E38DAACC29953D</GUID>
+      <GUID>9E880ACFADED109216DA2269F1863E8F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -765,7 +765,7 @@
         <Path>..\lvsrc\SMOs\Logger.Error\Error Log Generator Example 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8694242D838AE9FB1D477CC92CAE18B9</GUID>
+      <GUID>731366366CA594F770409CF23932892A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1178,7 +1178,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl\Connection Monitor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A80BC91A0058E43A2BE7774AAEEB0E60</GUID>
+      <GUID>417960EAB0BD05E1B3F8F286B9A8282D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1437,7 +1437,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Connection Monitor - Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8D7727E177AC2E51F064698FE9972C7D</GUID>
+      <GUID>8AA7ACBF567491EE7B8177856C422BA2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1486,7 +1486,7 @@
         <Path>..\lvsrc\SMOs\SCPI\SCPI Decode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>71821AA2D860B3AFB3AAAAB40122BBB6</GUID>
+      <GUID>C7525F20BDA181AEDA3A2CCB36A2DF92</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1927,7 +1927,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Write Process Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24FCFF60D0DD7ED8CC9F999B01DD0651</GUID>
+      <GUID>A00F9F1C491F240D39DC0604F09490E3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1990,7 +1990,7 @@
         <Path>..\lvsrc\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4B68B9E538A319E723C6753A9B03BEAE</GUID>
+      <GUID>F9477E30A69BFA605A760D48C72E7F60</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2151,7 +2151,7 @@
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Nitrogen Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C4419DC792DB1E3E6676D00EA278C57</GUID>
+      <GUID>85B260E13A092C217C5B6EF041AD8FE9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2256,7 +2256,7 @@
         <Path>..\lvsrc\Instrument Types\VNA\Set Sweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3DA2A73604EB961E12D6FB0F43B1E3F9</GUID>
+      <GUID>73147EC3D7A75252C13E5FE1722ECE34</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2305,7 +2305,7 @@
         <Path>..\lvsrc\Instrument Types\VSource\Set Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56A99B023070FD73F32DCB4E28FC44DE</GUID>
+      <GUID>FC93C9D4017ACBB99B12FECDC94C5DF3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
