@@ -13,10 +13,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="tests" Type="Folder">
 			<Item Name="API Voltage Source" Type="Folder">
-				<Item Name="Tree.vi" Type="VI" URL="../../tests/API Voltage Source/Tree.vi"/>
+				<Item Name="VoltageSourceTree.vi" Type="VI" URL="../../tests/API Voltage Source/VoltageSourceTree.vi"/>
 			</Item>
 			<Item Name="API VNA" Type="Folder">
-				<Item Name="Tree.vi" Type="VI" URL="../../tests/API VNA/Tree.vi"/>
+				<Item Name="VNATree.vi" Type="VI" URL="../../tests/API VNA/VNATree.vi"/>
 			</Item>
 			<Item Name="API Cryostat" Type="Folder">
 				<Item Name="Test Cryogens.vi" Type="VI" URL="../../tests/API Cryostat/Test Cryogens.vi"/>
@@ -24,7 +24,7 @@
 				<Item Name="Test Magnet.vi" Type="VI" URL="../../tests/API Cryostat/Test Magnet.vi"/>
 				<Item Name="Test Rotate.vi" Type="VI" URL="../../tests/API Cryostat/Test Rotate.vi"/>
 				<Item Name="Test Temperature.vi" Type="VI" URL="../../tests/API Cryostat/Test Temperature.vi"/>
-				<Item Name="Tree.vi" Type="VI" URL="../../tests/API Cryostat/Tree.vi"/>
+				<Item Name="CryostatTree.vi" Type="VI" URL="../../tests/API Cryostat/CryostatTree.vi"/>
 			</Item>
 			<Item Name="test results" Type="Folder">
 				<Item Name="Experiment.pxp" Type="Document" URL="../../tests/test results/Experiment.pxp"/>
