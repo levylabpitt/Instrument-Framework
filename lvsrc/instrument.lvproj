@@ -62,6 +62,7 @@
 			<Item Name="Instrument.VNA.lvclass" Type="LVClass" URL="../Instrument Types/VNA/Instrument.VNA.lvclass"/>
 		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
+		<Item Name="Messenger.lvclass" Type="LVClass" URL="../SMOs/Messenger/Messenger.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -597,6 +598,22 @@
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Application Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/menu/Application Menu.rtm"/>
+				<Item Name="Actor type2.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Parallel Process/Actor type 2/Actor type2.lvclass"/>
+				<Item Name="SendMSG.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Core Messages/MSG Library/SendMSG.lvlib"/>
+				<Item Name="Parallel Process.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Parallel Process/Parallel Process Library/Parallel Process.lvlib"/>
+				<Item Name="Variant Name_Messenging.vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Utility/Variant Name_Messenging.vi"/>
+				<Item Name="VariantFlattenExp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantFlattenExp.vi"/>
+				<Item Name="JDP Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/JDP Utility.lvlib"/>
+				<Item Name="Array of Variants to Cluster_Messenging.vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Utility/Array of Variants to Cluster_Messenging.vi"/>
+				<Item Name="Cluster to Array of Variants_Messenging.vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Utility/Cluster to Array of Variants_Messenging.vi"/>
+				<Item Name="Observer.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Observer/Observer (Parent)/Observer.lvlib"/>
+				<Item Name="TranslateMSG.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Observer/Message Translation/TranslateMSG.lvlib"/>
+				<Item Name="Dynamic Launch Shell ActorNR.vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Parallel Process/Actor type 2/Dynamic Launch Shell ActorNR.vi"/>
+				<Item Name="Dynamic Launch Shell.vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Parallel Process/Actor type 2/Dynamic Launch Shell.vi"/>
+				<Item Name="ObsReg.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/Messenging/ObserverRegister/ObsReg.lvlib"/>
+				<Item Name="Info for Actor Manager.ctl" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Parallel Process/PP Actor Manager/Info for Actor Manager.ctl"/>
+				<Item Name="ReferenceMonitor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Monitor Reference/ReferenceMonitor.lvclass"/>
+				<Item Name="Async Action.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Action MSG/Async Action.lvlib"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-11-20 20:40:13" Creator="Patrick" Comments="" ID="de2ce3794a00e8f2d257a3370d75d8e5">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-12-12 15:41:46" Creator="Patrick" Comments="" ID="677ade92c7f0f2b8cacf8fef22b11291">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.2.11.46</Library_Version>
+    <Library_Version>1.2.12.47</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -17,16 +17,13 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>jki_lib_caraya &gt;= 0.6.3.54</External_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>jki_statemachineobjects &gt;= 1.3.0.56</External_Dependencies>
-      <External_Dependencies>labview-zmq &gt;= 3.5.1.109</External_Dependencies>
+      <External_Dependencies>mgi_lib_application_control &gt;= 1.1.1.10</External_Dependencies>
       <External_Dependencies>mgi_lib_error_handling &gt;= 1.1.1.3</External_Dependencies>
       <External_Dependencies>mgi_lib_error_reporter &gt;= 1.0.2.5</External_Dependencies>
       <External_Dependencies>national_instruments_lib_guid_generator &gt;= 1.0.2.3</External_Dependencies>
-      <External_Dependencies>ni_lib_seh &gt;= 2.1.10.1</External_Dependencies>
       <External_Dependencies>ni_lib_stm &gt;= 3.1.0.9</External_Dependencies>
-      <External_Dependencies>nise_syslog &gt;= 1.3.3.27</External_Dependencies>
       <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
       <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
       <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
@@ -35,16 +32,13 @@
       <External_Dependencies>oglib_string &gt;= 4.1.0.12</External_Dependencies>
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
       <External_Dependencies>oglib_variantconfig &gt;= 4.0.0.5</External_Dependencies>
-      <Direct_Dependencies>jki_lib_caraya-0.6.3.54</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>jki_statemachineobjects-1.3.0.56</Direct_Dependencies>
-      <Direct_Dependencies>labview-zmq-3.5.1.109</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_application_control-1.1.1.10</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_error_handling-1.1.1.3</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_error_reporter-1.0.2.5</Direct_Dependencies>
       <Direct_Dependencies>national_instruments_lib_guid_generator-1.0.2.3</Direct_Dependencies>
-      <Direct_Dependencies>ni_lib_seh-2.1.10.1</Direct_Dependencies>
       <Direct_Dependencies>ni_lib_stm-3.1.0.9</Direct_Dependencies>
-      <Direct_Dependencies>nise_syslog-1.3.3.27</Direct_Dependencies>
       <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
       <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
       <Direct_Dependencies>oglib_file-4.0.1.22</Direct_Dependencies>
@@ -69,10 +63,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.2.11.45]
-- Change Remote Control subVI reentrancy
-- Change Instrument:Remote Client reentrancy and make overridable
-- Store getAll info in instrument:process</Release_Notes>
+      <Release_Notes>[1.2.12.46]
+- Add dialog window when Instrument or Remote Control process have an error: give user the choice to try to reconnect or shutdown.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -382,7 +374,7 @@
         <Path>..\lvsrc\Types</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>31C061AEA75AFD513690C2AE50FE4ADB</GUID>
+      <GUID>CEEA1191613C16B18C8523CE33512228</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -445,7 +437,7 @@
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C09E761AD894C8EA13F07A605B6654C</GUID>
+      <GUID>93BD93B9F04147B919C6A7B7831922A2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -508,7 +500,7 @@
         <Path>..\lvsrc\SMOs\LevyLab\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>86397623EFF2450DF74604EEC667D392</GUID>
+      <GUID>3808E051EC483C6C83B4912D0E598F1C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -585,7 +577,7 @@
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>862501F66AC911B49D4AB4CE8F6874E0</GUID>
+      <GUID>34024728ACC7A7CA22D4ACC5C0DC451E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -690,7 +682,7 @@
         <Path>..\lvsrc\SMOs\Logger.DSC\Logger.DSC.GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C832F2F8E55F108D75DDDCE19D210F04</GUID>
+      <GUID>06B052598BFFF28A668D97BF4EF25CC1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -767,7 +759,7 @@
         <Path>..\lvsrc\SMOs\Logger.Error\Error Log Generator Example 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>48DE2999B3B3F482C2F8C1D9E7F47ECA</GUID>
+      <GUID>948FA3F31FEB07F159198A6922C77E21</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1180,7 +1172,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl\Connection Monitor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7D9FB5DA06C5082EF6B21B3025574A55</GUID>
+      <GUID>88A6FB17535EEFB1C056B6EB013073CC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1439,7 +1431,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Connection Monitor - Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B4DD1F215C55C09C03A445DAD76BEFD6</GUID>
+      <GUID>B378F374CE6C938B65DCBEA2C175BA02</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1488,7 +1480,7 @@
         <Path>..\lvsrc\SMOs\SCPI\SCPI Decode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0F706EE92CFC4A22A16238864FC03366</GUID>
+      <GUID>FD6FD3B80BFC4117F5061E55EF9F71FB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1929,7 +1921,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Write Process Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7B6F0952A4AB27EC1CEE6F3AD48F4080</GUID>
+      <GUID>4AAE943C3CC9F68EC873EACB6A285092</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1992,7 +1984,7 @@
         <Path>..\lvsrc\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>123D24FA2264BB1CDEA6F5959D9198D8</GUID>
+      <GUID>B7C65C281414B932D355E4E7D7B4CB7B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2153,7 +2145,7 @@
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Nitrogen Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A730FEE27D085F3EAB26134CF9FF35C7</GUID>
+      <GUID>574B02D5AE0AFB4F8E8A0FDA95FDACB6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2258,7 +2250,7 @@
         <Path>..\lvsrc\Instrument Types\VNA\Set Sweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>838B8BCB812F3ABABEA44DA5ABE35E9A</GUID>
+      <GUID>5A0670235509BB07E2104C27E414A710</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2307,7 +2299,7 @@
         <Path>..\lvsrc\Instrument Types\VSource\Set Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>81EBB9B798A85CCE3F8D0341045ECB2A</GUID>
+      <GUID>04C6E013918D6469418C17B982C810C2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
