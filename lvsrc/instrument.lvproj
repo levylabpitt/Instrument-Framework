@@ -61,6 +61,24 @@
 			<Item Name="Instrument.VSource.lvclass" Type="LVClass" URL="../Instrument Types/VSource/Instrument.VSource.lvclass"/>
 			<Item Name="Instrument.VNA.lvclass" Type="LVClass" URL="../Instrument Types/VNA/Instrument.VNA.lvclass"/>
 		</Item>
+		<Item Name="Multi Client Server" Type="Folder">
+			<Item Name="subVIs" Type="Folder">
+				<Item Name="Close FIFOs (STM Multi-Client).vi" Type="VI" URL="../SMOs/Multi Client Server/subVIs/Close FIFOs (STM Multi-Client).vi"/>
+				<Item Name="Close RT FIFOs (STM Multi-Client).vi" Type="VI" URL="../SMOs/Multi Client Server/subVIs/Close RT FIFOs (STM Multi-Client).vi"/>
+				<Item Name="Error to Warning (STM Multi-Client).vi" Type="VI" URL="../SMOs/Multi Client Server/subVIs/Error to Warning (STM Multi-Client).vi"/>
+				<Item Name="FIFOs (STM Multi-Client).ctl" Type="VI" URL="../SMOs/Multi Client Server/subVIs/FIFOs (STM Multi-Client).ctl"/>
+				<Item Name="Init FIFOs (STM Multi-Client).vi" Type="VI" URL="../SMOs/Multi Client Server/subVIs/Init FIFOs (STM Multi-Client).vi"/>
+				<Item Name="Init RT FIFOs (STM Multi-Client).vi" Type="VI" URL="../SMOs/Multi Client Server/subVIs/Init RT FIFOs (STM Multi-Client).vi"/>
+				<Item Name="RT FIFOs (STM Multi-Client).ctl" Type="VI" URL="../SMOs/Multi Client Server/subVIs/RT FIFOs (STM Multi-Client).ctl"/>
+				<Item Name="Signal Generator (STM Multi-Client).vi" Type="VI" URL="../SMOs/Multi Client Server/subVIs/Signal Generator (STM Multi-Client).vi"/>
+			</Item>
+			<Item Name="STM Multi Client Server Example.aliases" Type="Document" URL="../SMOs/Multi Client Server/STM Multi Client Server Example.aliases"/>
+			<Item Name="STM Multi Client Server Example.lvlps" Type="Document" URL="../SMOs/Multi Client Server/STM Multi Client Server Example.lvlps"/>
+			<Item Name="STM Multi Client Server Example.lvproj" Type="Document" URL="../SMOs/Multi Client Server/STM Multi Client Server Example.lvproj"/>
+			<Item Name="STM Multi-Client - Client.vit" Type="VI" URL="../SMOs/Multi Client Server/STM Multi-Client - Client.vit"/>
+			<Item Name="STM Multi-Client - Server (RT).vi" Type="VI" URL="../SMOs/Multi Client Server/STM Multi-Client - Server (RT).vi"/>
+			<Item Name="STM Multi-Client - Server.vi" Type="VI" URL="../SMOs/Multi Client Server/STM Multi-Client - Server.vi"/>
+		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Messenger.lvclass" Type="LVClass" URL="../SMOs/Messenger/Messenger.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -632,6 +650,18 @@
 				<Item Name="TD_Compare Types.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Compare Types.vi"/>
 				<Item Name="TD_Create Array.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Create Array.vi"/>
 				<Item Name="TD_Get Cluster Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Cluster Information.vi"/>
+				<Item Name="RTFIFORefnum DBLA.ctl" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFORefnum DBLA.ctl"/>
+				<Item Name="RTFIFORefnum BOOL.ctl" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFORefnum BOOL.ctl"/>
+				<Item Name="RTFIFOCreate DBLA.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFOCreate DBLA.vi"/>
+				<Item Name="RTFIFOCreate BOOL.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFOCreate BOOL.vi"/>
+				<Item Name="RTFIFODelete BOOL.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFODelete BOOL.vi"/>
+				<Item Name="RTFIFODelete DBLA.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFODelete DBLA.vi"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="RTFIFORead BOOL.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFORead BOOL.vi"/>
+				<Item Name="RTFIFOWrite DBLA.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFOWrite DBLA.vi"/>
+				<Item Name="RTFIFORead DBLA.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFORead DBLA.vi"/>
+				<Item Name="RTFIFOWrite BOOL.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFOWrite BOOL.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -645,6 +675,7 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
