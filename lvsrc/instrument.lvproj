@@ -61,26 +61,7 @@
 			<Item Name="Instrument.VSource.lvclass" Type="LVClass" URL="../Instrument Types/VSource/Instrument.VSource.lvclass"/>
 			<Item Name="Instrument.VNA.lvclass" Type="LVClass" URL="../Instrument Types/VNA/Instrument.VNA.lvclass"/>
 		</Item>
-		<Item Name="Multi Client Server" Type="Folder">
-			<Item Name="subVIs" Type="Folder">
-				<Item Name="Close FIFOs (STM Multi-Client).vi" Type="VI" URL="../SMOs/Multi Client Server/subVIs/Close FIFOs (STM Multi-Client).vi"/>
-				<Item Name="Close RT FIFOs (STM Multi-Client).vi" Type="VI" URL="../SMOs/Multi Client Server/subVIs/Close RT FIFOs (STM Multi-Client).vi"/>
-				<Item Name="Error to Warning (STM Multi-Client).vi" Type="VI" URL="../SMOs/Multi Client Server/subVIs/Error to Warning (STM Multi-Client).vi"/>
-				<Item Name="FIFOs (STM Multi-Client).ctl" Type="VI" URL="../SMOs/Multi Client Server/subVIs/FIFOs (STM Multi-Client).ctl"/>
-				<Item Name="Init FIFOs (STM Multi-Client).vi" Type="VI" URL="../SMOs/Multi Client Server/subVIs/Init FIFOs (STM Multi-Client).vi"/>
-				<Item Name="Init RT FIFOs (STM Multi-Client).vi" Type="VI" URL="../SMOs/Multi Client Server/subVIs/Init RT FIFOs (STM Multi-Client).vi"/>
-				<Item Name="RT FIFOs (STM Multi-Client).ctl" Type="VI" URL="../SMOs/Multi Client Server/subVIs/RT FIFOs (STM Multi-Client).ctl"/>
-				<Item Name="Signal Generator (STM Multi-Client).vi" Type="VI" URL="../SMOs/Multi Client Server/subVIs/Signal Generator (STM Multi-Client).vi"/>
-			</Item>
-			<Item Name="STM Multi Client Server Example.aliases" Type="Document" URL="../SMOs/Multi Client Server/STM Multi Client Server Example.aliases"/>
-			<Item Name="STM Multi Client Server Example.lvlps" Type="Document" URL="../SMOs/Multi Client Server/STM Multi Client Server Example.lvlps"/>
-			<Item Name="STM Multi Client Server Example.lvproj" Type="Document" URL="../SMOs/Multi Client Server/STM Multi Client Server Example.lvproj"/>
-			<Item Name="STM Multi-Client - Client.vit" Type="VI" URL="../SMOs/Multi Client Server/STM Multi-Client - Client.vit"/>
-			<Item Name="STM Multi-Client - Server (RT).vi" Type="VI" URL="../SMOs/Multi Client Server/STM Multi-Client - Server (RT).vi"/>
-			<Item Name="STM Multi-Client - Server.vi" Type="VI" URL="../SMOs/Multi Client Server/STM Multi-Client - Server.vi"/>
-		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
-		<Item Name="Messenger.lvclass" Type="LVClass" URL="../SMOs/Messenger/Messenger.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -615,53 +596,7 @@
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Application Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/menu/Application Menu.rtm"/>
-				<Item Name="Actor type2.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Parallel Process/Actor type 2/Actor type2.lvclass"/>
-				<Item Name="SendMSG.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Core Messages/MSG Library/SendMSG.lvlib"/>
-				<Item Name="Parallel Process.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Parallel Process/Parallel Process Library/Parallel Process.lvlib"/>
-				<Item Name="Variant Name_Messenging.vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Utility/Variant Name_Messenging.vi"/>
-				<Item Name="VariantFlattenExp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantFlattenExp.vi"/>
-				<Item Name="JDP Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/JDP Utility.lvlib"/>
-				<Item Name="Array of Variants to Cluster_Messenging.vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Utility/Array of Variants to Cluster_Messenging.vi"/>
-				<Item Name="Cluster to Array of Variants_Messenging.vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Utility/Cluster to Array of Variants_Messenging.vi"/>
-				<Item Name="Observer.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Observer/Observer (Parent)/Observer.lvlib"/>
-				<Item Name="TranslateMSG.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Observer/Message Translation/TranslateMSG.lvlib"/>
-				<Item Name="Dynamic Launch Shell ActorNR.vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Parallel Process/Actor type 2/Dynamic Launch Shell ActorNR.vi"/>
-				<Item Name="Dynamic Launch Shell.vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Parallel Process/Actor type 2/Dynamic Launch Shell.vi"/>
-				<Item Name="ObsReg.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/Messenging/ObserverRegister/ObsReg.lvlib"/>
-				<Item Name="Info for Actor Manager.ctl" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Parallel Process/PP Actor Manager/Info for Actor Manager.ctl"/>
-				<Item Name="ReferenceMonitor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Monitor Reference/ReferenceMonitor.lvclass"/>
-				<Item Name="Async Action.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/Messenging/Action MSG/Async Action.lvlib"/>
-				<Item Name="def.SMO.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Definitions/def.SMO/def.SMO.lvclass"/>
-				<Item Name="CfgManager.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Configuration Manager/CfgManager.lvlib"/>
-				<Item Name="Attribute.Dependencies.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Support/Attribute.Dependencies/Attribute.Dependencies.lvclass"/>
-				<Item Name="OpenVariant.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/Variant/OpenVariant.lvlib"/>
-				<Item Name="OpenDescriptor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/TypeDescriptor/OpenDescriptor.lvlib"/>
-				<Item Name="KVP Parser.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/KVP Parser.vi"/>
-				<Item Name="TD_Create Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Create Cluster.vi"/>
-				<Item Name="Type Descriptor I16 Array.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Descriptor I16 Array.ctl"/>
-				<Item Name="Type Descriptor I16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Descriptor I16.ctl"/>
-				<Item Name="Get Type Code from I16 Array And Pos.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Get Type Code from I16 Array And Pos.vi"/>
-				<Item Name="Type Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Enum.ctl"/>
-				<Item Name="Type Code.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Code.ctl"/>
-				<Item Name="TD_Get Ref Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Ref Info.vi"/>
-				<Item Name="TD_Refnum Kind.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Refnum Kind.ctl"/>
-				<Item Name="TD_Get Array Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Array Information.vi"/>
-				<Item Name="TD_Length.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Length.ctl"/>
-				<Item Name="TD_Compare Types.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Compare Types.vi"/>
-				<Item Name="TD_Create Array.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Create Array.vi"/>
-				<Item Name="TD_Get Cluster Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Cluster Information.vi"/>
-				<Item Name="RTFIFORefnum DBLA.ctl" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFORefnum DBLA.ctl"/>
-				<Item Name="RTFIFORefnum BOOL.ctl" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFORefnum BOOL.ctl"/>
-				<Item Name="RTFIFOCreate DBLA.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFOCreate DBLA.vi"/>
-				<Item Name="RTFIFOCreate BOOL.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFOCreate BOOL.vi"/>
-				<Item Name="RTFIFODelete BOOL.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFODelete BOOL.vi"/>
-				<Item Name="RTFIFODelete DBLA.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFODelete DBLA.vi"/>
-				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="RTFIFORead BOOL.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFORead BOOL.vi"/>
-				<Item Name="RTFIFOWrite DBLA.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFOWrite DBLA.vi"/>
-				<Item Name="RTFIFORead DBLA.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFORead DBLA.vi"/>
-				<Item Name="RTFIFOWrite BOOL.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/rtfifo.llb/RTFIFOWrite BOOL.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -675,7 +610,6 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
