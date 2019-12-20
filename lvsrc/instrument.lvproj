@@ -60,6 +60,9 @@
 			<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="../Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
 			<Item Name="Instrument.VSource.lvclass" Type="LVClass" URL="../Instrument Types/VSource/Instrument.VSource.lvclass"/>
 			<Item Name="Instrument.VNA.lvclass" Type="LVClass" URL="../Instrument Types/VNA/Instrument.VNA.lvclass"/>
+			<Item Name="Instrument.CBridge.lvclass" Type="LVClass" URL="../Instrument Types/CBridge/Instrument.CBridge.lvclass"/>
+			<Item Name="Instrument.Strain.lvclass" Type="LVClass" URL="../Instrument Types/Strain/Instrument.Strain.lvclass"/>
+			<Item Name="Instrument.OpticalDelayLine.lvclass" Type="LVClass" URL="../Instrument Types/Optical Delay Line/Instrument.OpticalDelayLine.lvclass"/>
 		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
