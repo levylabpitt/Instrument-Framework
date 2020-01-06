@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2019-12-19 16:57:41" Creator="Patrick" Comments="" ID="3c98527a5798753f7604038562ad267e">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2020-01-06 17:23:35" Creator="Patrick" Comments="" ID="7bf2eb012115ab0e0835d2655fed8630">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.3.2.50</Library_Version>
+    <Library_Version>1.4.0.51</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -63,9 +63,20 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.3.2.49]
-- RemoteControl process should now stay hidden when started
-- Fix bug that would not properly set port for STM listener</Release_Notes>
+      <Release_Notes>[1.4.0.50]
+This release defines several new instrument types and new abstract API methods:
+
+Capacitance Bridge:
+- Get Capacitance
+- Set Capacitance
+
+Strain Cell:
+- Get Strain
+- Set Strain
+
+Optical Delay Line:
+- Get Delay
+- Set Delay</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -381,7 +392,7 @@
         <Path>..\lvsrc\Types</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1035D8FAF1AFEDA1F58D196B760313A1</GUID>
+      <GUID>6BF73D85A8C0444591A921A1B0A5C435</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -444,7 +455,7 @@
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4BA0A09FF4F173F5772B20CF5FF46CF1</GUID>
+      <GUID>03E9B455C1E64CA02BC0E2C9A2704B86</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -507,7 +518,7 @@
         <Path>..\lvsrc\SMOs\LevyLab\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F1E70D7F9AB62D7A23ADFC346B59535F</GUID>
+      <GUID>1EC6E8E2D544D8C0D785E7C400E0D8B6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -584,7 +595,7 @@
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>264B1D33340E5AEF39FECB5D7373DDCD</GUID>
+      <GUID>785D96D84E9573C449F18C774DC944A5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -689,7 +700,7 @@
         <Path>..\lvsrc\SMOs\Logger.DSC\Logger.DSC.GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>15E039B6AE851AE35CB7E5A7BE1E86C3</GUID>
+      <GUID>AEFA5BDA6B100A62D181735AA48CC24F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -766,7 +777,7 @@
         <Path>..\lvsrc\SMOs\Logger.Error\Error Log Generator Example 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20A0F1E3733B97E19F31E7104C9F0914</GUID>
+      <GUID>309404ADA5B2B3B8B7586CE4BEEE686F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1039,7 +1050,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl\Send and Receive Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92E953AECA509FB2935B9FECE996C2D3</GUID>
+      <GUID>BA384920DD30BA73A741442046558497</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1256,7 +1267,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl.STM\STM_Server_part_OO.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1EAD72641840A6E5465249EBB123AD88</GUID>
+      <GUID>5077F7F89992CBB06DEA3D5293AF6AC0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1305,7 +1316,7 @@
         <Path>..\lvsrc\SMOs\SCPI\SCPI Decode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>517EDFB968984B054538282AE584487A</GUID>
+      <GUID>E29472897413F9362A39DD8C45929433</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1746,7 +1757,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Write Process Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>54E2F72D96EE14CAD38E33A191633371</GUID>
+      <GUID>55CFA8B9BF12C77767A047A40DC25BCE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1809,7 +1820,7 @@
         <Path>..\lvsrc\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BCFE78C78F856FF503BF16FE8BA9C266</GUID>
+      <GUID>81D48A05837C9DE75AD1465DADB1B6AE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1970,7 +1981,7 @@
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Nitrogen Level.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>499259097B07FA5C52A576C3D7626C02</GUID>
+      <GUID>B7C9CCB568E3CCB2C1852DCB9E899112</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2075,7 +2086,7 @@
         <Path>..\lvsrc\Instrument Types\VNA\Set Sweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7776A9FCF3017E336C59EA21E36C7A57</GUID>
+      <GUID>BEBC66D1BEC61280129352B8CA0E9E43</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2124,7 +2135,7 @@
         <Path>..\lvsrc\Instrument Types\VSource\Set Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>81200033563F846DBDB6F96B9C2697E2</GUID>
+      <GUID>7E9124AFEB9E0D88647B1FEEA8BF85E9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
