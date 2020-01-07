@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2020-01-07 12:33:51" Creator="Patrick" Comments="" ID="b40b6870926bd4103d2d081bc6b35f47">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2020-01-07 12:38:03" Creator="Patrick" Comments="" ID="e66207bc71768a79db9740b38eb8cfa0">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.4.1.52</Library_Version>
+    <Library_Version>1.4.1.53</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
