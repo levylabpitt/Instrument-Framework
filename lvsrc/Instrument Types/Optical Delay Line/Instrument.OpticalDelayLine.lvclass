@@ -31,7 +31,7 @@
 	<Item Name="API" Type="Folder">
 		<Item Name="Delay" Type="Folder">
 			<Item Name="Get Delay.vi" Type="VI" URL="../Get Delay.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#A!+2'6M98EA+("T+1!!2%"Q!"Y!!#5D37ZT&gt;(*V&lt;76O&gt;#Z0=(2J9W&amp;M2'6M98F-;7ZF,GRW9WRB=X-!&amp;%FO=X2S&gt;7VF&lt;H1O2'6M98EA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%*!=!!?!!!F)UFO=X2S&gt;7VF&lt;H1O4X"U;7.B&lt;%2F&lt;'&amp;Z4'FO:3ZM&gt;G.M98.T!".*&lt;H.U=H6N:7ZU,E2F&lt;'&amp;Z)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;C!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#A!+2'6M98EA+("T+1!!2%"Q!"Y!!#5D37ZT&gt;(*V&lt;76O&gt;#Z0=(2J9W&amp;M2'6M98F-;7ZF,GRW9WRB=X-!&amp;%FO=X2S&gt;7VF&lt;H1O2'6M98EA&lt;X6U!!!/1#%*2GFO;8.I:71`!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!1E"Q!"Y!!#5D37ZT&gt;(*V&lt;76O&gt;#Z0=(2J9W&amp;M2'6M98F-;7ZF,GRW9WRB=X-!%UFO=X2S&gt;7VF&lt;H1O2'6M98EA;7Y!6!$Q!!Q!!Q!%!!5!"A!(!!1!"!!%!!A!"!!%!!E$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!#1!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*!!!!!!!1!+!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
