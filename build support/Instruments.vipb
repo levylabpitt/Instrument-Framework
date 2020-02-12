@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2020-02-05 10:48:13" Creator="Patrick" Comments="" ID="dd138b803eee5261487099030845ebe9">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2020-02-12 09:54:30" Creator="Patrick" Comments="" ID="ac19dea6c158bf78c73e3de9159a8826">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.4.2.54</Library_Version>
+    <Library_Version>1.4.3.55</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -63,9 +63,10 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.4.2.53]
-- Add "Finished?" boolean to Get Magnet/Temperature/Delay
-- Change the way the Instrument SMO is configured (dev must override SMO Name/Port/Public API/RC Tyle - constant.vi)</Release_Notes>
+      <Release_Notes>[1.4.3.54]
+- Add debug mode to instrument and remote control process
+- Remote Client times out after 20 reconnects
+- Change error handling in instrument process</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -269,7 +270,7 @@
         <Path>..\lvsrc\SMOs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C7995E5334E7529AF0E0FBCE6278BE3A</GUID>
+      <GUID>07BB217BE922E4D4B65A594D130E527F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -374,7 +375,7 @@
         <Path>..\lvsrc\Instrument Types\Strain</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F02FC969D504D3B8F7C324A00CA92B0</GUID>
+      <GUID>4EA599018BAA86C796901F4661DDDADC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -521,7 +522,7 @@
         <Path>..\lvsrc\SMOs\LevyLab</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC654DC86AD0B3FE1519250BB3412F2A</GUID>
+      <GUID>0D45D6E9ADF7A0ED8183BACA0E166869</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -556,7 +557,7 @@
         <Path>..\lvsrc\Instrument Types\CBridge\Get Capacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A5307954E5E2843B1031F7C5DA2BC0EF</GUID>
+      <GUID>4218DD995F25137A7B905C7DEF29A98A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -731,7 +732,7 @@
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Pressure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>182187364FF29918E5C93A0A81D25301</GUID>
+      <GUID>718F008ABCFF0DA3B9460A62C566C948</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -780,7 +781,7 @@
         <Path>..\lvsrc\Instrument Types\Optical Delay Line\Get Delay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>369CE68F109BAF0EBFAEE0AD678C516E</GUID>
+      <GUID>C4C36C5C0DDF8734F4EEA58549A10379</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -829,7 +830,7 @@
         <Path>..\lvsrc\Instrument Types\Strain\Get Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D489DBDBEDE4E5B5385F866CFA7C5402</GUID>
+      <GUID>47A1D3C9F771F66FCAE49E14609DD4CA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -934,7 +935,7 @@
         <Path>..\lvsrc\Instrument Types\VNA\Get Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>98B9D0D2AE0B7A929CCA0F6613DF8FE4</GUID>
+      <GUID>04A0198712E197A20DE2F6CBF72C9DAA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -983,7 +984,7 @@
         <Path>..\lvsrc\Instrument Types\VSource\Get Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>55566E861C42482B4E5DC301302C4543</GUID>
+      <GUID>E0367337AECCA4E49F7CEAA09A71BD94</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1046,7 +1047,7 @@
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41D8FEABCFFC23AA4ABB39DCE50D7F83</GUID>
+      <GUID>A983BEF2B9AF60C2FDF859D3D441F86F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1613,7 +1614,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Write SMO Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1675C584C8D1F2142701F08DDE01359B</GUID>
+      <GUID>749179D67D4B597D04CF842EB5D63C5D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1676,7 +1677,7 @@
         <Path>..\lvsrc\SMOs\LevyLab\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D45FD40F1D5716E142AF6F60D32C3775</GUID>
+      <GUID>EE0E7C5FA4088553C24CB9A619051EBA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1753,7 +1754,7 @@
         <Path>..\lvsrc\SMOs\Logger\Write path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C72D950CB3D4260D659FB13498532503</GUID>
+      <GUID>55D5095B2E4A38002B7BE5E02E17A9F4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1956,7 +1957,7 @@
         <Path>..\lvsrc\SMOs\Logger.DSC\Write to DSC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E8C1BB1324104D3346413C2F69B31672</GUID>
+      <GUID>8E791A5FED41F26088EED1AE32BB6350</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2089,7 +2090,7 @@
         <Path>..\lvsrc\SMOs\Logger.Error\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4C1F8FB50EA213701E4E5E8A89B3B0C0</GUID>
+      <GUID>B9D931F1458BC1B3C59CEA5B120EB02D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2614,7 +2615,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl\Write Port.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E109F7882AE4BB5EA3843A4E92AC7FA4</GUID>
+      <GUID>CCC096CF529399CE4D8A44B5F96297CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2887,7 +2888,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Write STM connection info.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C6A2A33621F8D924FF2A5740709F76CC</GUID>
+      <GUID>6906198E780F526435BC4E5F96E2BF23</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2936,7 +2937,7 @@
         <Path>..\lvsrc\SMOs\SCPI\SCPI Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4BF1FC064D5361A04D02B8C98F227181</GUID>
+      <GUID>5A8BBDB24F66086CAB005A52725D5987</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

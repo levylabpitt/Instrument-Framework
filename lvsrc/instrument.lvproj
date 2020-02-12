@@ -38,8 +38,6 @@
 			<Item Name="Create Instrument SMO.vi" Type="VI" URL="../../tests/Create Instrument SMO.vi"/>
 			<Item Name="Remote Client Metrics.vi" Type="VI" URL="../../tests/Remote Client Metrics.vi"/>
 			<Item Name="Test Remote Client.vi" Type="VI" URL="../../tests/Test Remote Client.vi"/>
-			<Item Name="ExampleInstrument.lvclass" Type="LVClass" URL="../../tests/Example Instrument/ExampleInstrument.lvclass"/>
-			<Item Name="ExampleInstrument.UI.lvclass" Type="LVClass" URL="../../tests/Example Instrument UI/ExampleInstrument.UI.lvclass"/>
 		</Item>
 		<Item Name="build support" Type="Folder">
 			<Item Name="Instruments.vipb" Type="Document" URL="../../build support/Instruments.vipb"/>
@@ -614,6 +612,8 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ExampleInstrument.lvclass" Type="LVClass" URL="../../tests/Example Instrument/ExampleInstrument.lvclass"/>
+			<Item Name="ExampleInstrument.UI.lvclass" Type="LVClass" URL="../../tests/Example Instrument UI/ExampleInstrument.UI.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
