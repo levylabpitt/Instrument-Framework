@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2020-02-12 16:23:55" Creator="Patrick" Comments="" ID="b40df383921b7b539b59166da5778fb4">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-05-30 09:35:00" Modified_Date="2020-02-12 18:01:07" Creator="Patrick" Comments="" ID="a7da99c12a45a1f38455db91098ad82f">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.4.4.56</Library_Version>
+    <Library_Version>1.4.5.57</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -71,10 +71,11 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.4.4.55]
+      <Release_Notes>[1.4.5.56]
 - Rearrange VIs on disk
 - update Remote Client.vi
-- remove unused methods</Release_Notes>
+- remove unused methods
+- fix dynamic dispatch terminals in private-scope VIs</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -278,7 +279,7 @@
         <Path>..\lvsrc\SMOs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F4D924857AFE5AD76425EA48A8415B97</GUID>
+      <GUID>5137E4A50C72F9386D7FD8298F61DC64</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -383,7 +384,7 @@
         <Path>..\lvsrc\Instrument Types\VNA</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>532D728E35E0A46BA693038ED0F1E793</GUID>
+      <GUID>CFF747D1CEC55350587B6D40A7EA2AB8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -544,7 +545,7 @@
         <Path>..\lvsrc\SMOs\Shortcuts.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>70EE97D39344B8B12D1886AF9FB1D9FB</GUID>
+      <GUID>8B7D40DCB5F49E8A82381EA7576EA12A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -579,7 +580,7 @@
         <Path>..\lvsrc\Instrument Types\CBridge\Get Capacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>824E02DA882095D7CE0F5B4A3C7B8C3D</GUID>
+      <GUID>F8CAC1FA6073421784CFDEDAFDC2C26D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -754,7 +755,7 @@
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Pressure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B1B48418446EC8AB66A6E1F8D0265BFD</GUID>
+      <GUID>CFADC5E9BCB529AF73F5508E2878A725</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -803,7 +804,7 @@
         <Path>..\lvsrc\Instrument Types\Optical Delay Line\Get Delay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>88453B52A3D5C5A61A0E069F3EA8964E</GUID>
+      <GUID>ADB9528FCD752D1EE63C86E1EBDE28DE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -852,7 +853,7 @@
         <Path>..\lvsrc\Instrument Types\Strain\Get Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>327DF371D0CFF474794449954C9E2AE2</GUID>
+      <GUID>F8419744360DF8D31A7550EDA1077D0B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -957,7 +958,7 @@
         <Path>..\lvsrc\Instrument Types\VNA\Set Sweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9C662F17B88EB1642AC9EC0AEF70A45A</GUID>
+      <GUID>1D73BFB01901BB0FA544046922FB4E3C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1006,7 +1007,7 @@
         <Path>..\lvsrc\Instrument Types\VSource\Get Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0A5DDC6B65EE1F48EF54FC0994B4BCE2</GUID>
+      <GUID>5721A8DE78B1FF85E995EE0C5D3C96D6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1069,7 +1070,7 @@
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6B13DF28BF7C1DF09A62FFFB7C27459E</GUID>
+      <GUID>A70DF7C54ABE8B3F39C0EF01B2227E1E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1174,7 +1175,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E81C184CD3F8DB0B3B34A5E84BDD117</GUID>
+      <GUID>A5198469505E8B4B6222F4F9BCE2CE2A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1237,7 +1238,7 @@
         <Path>..\lvsrc\SMOs\LevyLab\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>048E21B31F0620C532D1B0435D520ED1</GUID>
+      <GUID>6A8621EDE93C5673F7CCB4CB01DDD7CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1314,7 +1315,7 @@
         <Path>..\lvsrc\SMOs\Logger\Write path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7DCA1B3E417264FD29BF767D8C63F206</GUID>
+      <GUID>6E4A242599731C906F063A5C470DC50D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1517,7 +1518,7 @@
         <Path>..\lvsrc\SMOs\Logger.DSC\Write to DSC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>13570C77F3E735F56592320E9FA6EB59</GUID>
+      <GUID>600FC79CFD99BBC000E183FF3046A013</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1650,7 +1651,7 @@
         <Path>..\lvsrc\SMOs\Logger.Error\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5EC29E3F5FCB276B5C6393D143F4DF15</GUID>
+      <GUID>658C14787EBAE83AB5EBF9354A7B39EA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2189,7 +2190,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl\Write Port.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>68263DF69E212CB328E9DC571CC9F593</GUID>
+      <GUID>569DBDAA9DC09635FEFC0F56384A9AEB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2462,7 +2463,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Write STM connection info.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>22396A3C197E988AFB4FAB066A56A217</GUID>
+      <GUID>B188331FF30DB831D920BBE2B2724FD3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2511,7 +2512,7 @@
         <Path>..\lvsrc\SMOs\SCPI\SCPI Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D28AA86B46B7F0AFA2EB43BE4DCCA64</GUID>
+      <GUID>E6E04BCB5BA495ABAAD5FDB21F173535</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2602,7 +2603,7 @@
         <Path>..\lvsrc\SMOs\Instrument\API\Remote Client.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6F4F04B973F0DF4A5E4190F6931566C8</GUID>
+      <GUID>51634AE9CD4B11227EC705AEE48F1712</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2707,7 +2708,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Overrides\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1C451F57180E968B71D5D0C94A5F2EFA</GUID>
+      <GUID>D055667863072CE991EE224B210000D0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2868,7 +2869,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Private\List Devices.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E470693586114714FD98224C08250557</GUID>
+      <GUID>33466FF543546DC90E69E6BE52FAF180</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -3029,7 +3030,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Protected\Write Configuration Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EE0EA7543B0EA8982623C3F6F21E7609</GUID>
+      <GUID>BFDD9EC407B6A7E60B92FE6F6A4EBC7C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
