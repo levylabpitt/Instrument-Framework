@@ -612,8 +612,6 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ExampleInstrument.lvclass" Type="LVClass" URL="../../tests/Example Instrument/ExampleInstrument.lvclass"/>
-			<Item Name="ExampleInstrument.UI.lvclass" Type="LVClass" URL="../../tests/Example Instrument UI/ExampleInstrument.UI.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
