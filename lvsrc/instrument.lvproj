@@ -64,9 +64,10 @@
 		</Item>
 		<Item Name="Templates" Type="Folder">
 			<Item Name="ExampleInstrument.lvclass" Type="LVClass" URL="../Templates/Example Instrument/ExampleInstrument.lvclass"/>
-			<Item Name="ExampleInstrument.UI.lvclass" Type="LVClass" URL="../Templates/Example Instrument UI/ExampleInstrument.UI.lvclass"/>
+			<Item Name="ExampleInstrument UI.lvclass" Type="LVClass" URL="../Templates/Example Instrument UI/ExampleInstrument UI.lvclass"/>
 		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
+		<Item Name="Instrument UI.lvclass" Type="LVClass" URL="../SMOs/Instrument UI/Instrument UI.lvclass"/>
 		<Item Name="Shortcuts.vi" Type="VI" URL="../SMOs/Shortcuts.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
