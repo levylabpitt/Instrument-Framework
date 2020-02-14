@@ -63,8 +63,8 @@
 			<Item Name="Instrument.OpticalDelayLine.lvclass" Type="LVClass" URL="../Instrument Types/Optical Delay Line/Instrument.OpticalDelayLine.lvclass"/>
 		</Item>
 		<Item Name="Templates" Type="Folder">
-			<Item Name="ExampleInstrument.lvclass" Type="LVClass" URL="../Templates/Example Instrument/ExampleInstrument.lvclass"/>
-			<Item Name="ExampleInstrument UI.lvclass" Type="LVClass" URL="../Templates/Example Instrument UI/ExampleInstrument UI.lvclass"/>
+			<Item Name="LevyLab Instrument.lvclass" Type="LVClass" URL="../Templates/Example Instrument/LevyLab Instrument.lvclass"/>
+			<Item Name="LevyLab Instrument UI.lvclass" Type="LVClass" URL="../Templates/Example Instrument UI/LevyLab Instrument UI.lvclass"/>
 		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Instrument UI.lvclass" Type="LVClass" URL="../SMOs/Instrument UI/Instrument UI.lvclass"/>
