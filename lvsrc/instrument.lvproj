@@ -42,7 +42,11 @@
 		<Item Name="build support" Type="Folder">
 			<Item Name="Instruments.vipb" Type="Document" URL="../../build support/Instruments.vipb"/>
 			<Item Name="Instruments.vipc" Type="Document" URL="../../build support/Instruments.vipc"/>
+			<Item Name="VIPT to rename.vi" Type="VI" URL="../../build support/PreBuildSupport/VIPT to rename.vi"/>
+			<Item Name="rename to VIPT.vi" Type="VI" URL="../../build support/PreBuildSupport/rename to VIPT.vi"/>
+			<Item Name="Pre-Build Custom Action.vi" Type="VI" URL="../../build support/Pre-Build Custom Action.vi"/>
 			<Item Name="Pre-Install Custom Action.vi" Type="VI" URL="../../build support/Pre-Install Custom Action.vi"/>
+			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../../build support/Post-Install Custom Action.vi"/>
 		</Item>
 		<Item Name="Subsystems" Type="Folder">
 			<Item Name="LevyLab.lvclass" Type="LVClass" URL="../SMOs/LevyLab/LevyLab.lvclass"/>
@@ -78,7 +82,14 @@
 					<Item Name="Instrument" Type="Folder">
 						<Item Name="project" Type="Folder">
 							<Item Name="build support" Type="Folder">
-								<Item Name="build support.lvlib" Type="Library" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/build support/build support.lvlib"/>
+								<Item Name="PostBuildSupport" Type="Folder">
+									<Item Name="PostBuildSupport.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/build support/PostBuildSupport/PostBuildSupport.lvclass"/>
+								</Item>
+								<Item Name="7zSD.sfx" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/build support/7zSD.sfx"/>
+								<Item Name="buildspec-template.vipt" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/build support/buildspec-template.vipt"/>
+								<Item Name="buildspec-template.vipt.rename" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/build support/buildspec-template.vipt.rename"/>
+								<Item Name="icon.ico" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/build support/icon.ico"/>
+								<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/build support/Post-Build Custom Action.vi"/>
 							</Item>
 							<Item Name=".gitignore" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/.gitignore"/>
 							<Item Name="LICENSE" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/LICENSE"/>
