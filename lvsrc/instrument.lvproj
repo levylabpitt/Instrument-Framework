@@ -67,32 +67,29 @@
 			<Item Name="LevyLab Instrument UI.lvclass" Type="LVClass" URL="../Templates/LevyLab Instrument UI/LevyLab Instrument UI.lvclass"/>
 		</Item>
 		<Item Name="ProjectTemplates" Type="Folder">
-			<Item Name="LevyLab Instrument" Type="Folder">
-				<Item Name="build support" Type="Folder">
-					<Item Name="PostBuildSupport" Type="Folder">
-						<Item Name="PostBuildSupport.lvclass" Type="LVClass" URL="../ProjectTemplates/LevyLab Instrument/build support/PostBuildSupport/PostBuildSupport.lvclass"/>
+			<Item Name="MetaData" Type="Folder">
+				<Item Name="LevyLab_Instrument_MetaData.xml" Type="Document" URL="../ProjectTemplates/MetaData/LevyLab_Instrument_MetaData.xml"/>
+			</Item>
+			<Item Name="Source" Type="Folder">
+				<Item Name="LevyLab" Type="Folder">
+					<Item Name="images" Type="Folder">
+						<Item Name="instrument.png" Type="Document" URL="../ProjectTemplates/Source/LevyLab/images/instrument.png"/>
 					</Item>
-					<Item Name="7zSD.sfx" Type="Document" URL="../ProjectTemplates/LevyLab Instrument/build support/7zSD.sfx"/>
-					<Item Name="buildspec-template.vipt" Type="Document" URL="../ProjectTemplates/LevyLab Instrument/build support/buildspec-template.vipt"/>
-					<Item Name="icon.ico" Type="Document" URL="../ProjectTemplates/LevyLab Instrument/build support/icon.ico"/>
-					<Item Name="IconEdit.lnk" Type="Document" URL="../ProjectTemplates/LevyLab Instrument/build support/IconEdit.lnk"/>
-					<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../ProjectTemplates/LevyLab Instrument/build support/Post-Build Custom Action.vi"/>
+					<Item Name="Instrument" Type="Folder">
+						<Item Name="project" Type="Folder">
+							<Item Name="build support" Type="Folder">
+								<Item Name="build support.lvlib" Type="Library" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/build support/build support.lvlib"/>
+							</Item>
+							<Item Name=".gitignore" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/.gitignore"/>
+							<Item Name="LICENSE" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/LICENSE"/>
+							<Item Name="README.md" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/README.md"/>
+						</Item>
+						<Item Name="LevyLab Instrument.aliases" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/LevyLab Instrument.aliases"/>
+						<Item Name="LevyLab Instrument.lvlps" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/LevyLab Instrument.lvlps"/>
+						<Item Name="LevyLab Instrument.lvproj" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/LevyLab Instrument.lvproj"/>
+						<Item Name="ProjectSetup.vi" Type="VI" URL="../ProjectTemplates/Source/LevyLab/Instrument/ProjectSetup.vi"/>
+					</Item>
 				</Item>
-				<Item Name="builds" Type="Folder">
-					<Item Name="7z Install" Type="Folder"/>
-					<Item Name="Application" Type="Folder"/>
-					<Item Name="Installer" Type="Folder"/>
-					<Item Name="Latest" Type="Folder"/>
-					<Item Name="Package" Type="Folder"/>
-				</Item>
-				<Item Name="lvsrc" Type="Folder">
-					<Item Name="LevyLab Instrument.aliases" Type="Document" URL="../ProjectTemplates/LevyLab Instrument/lvsrc/LevyLab Instrument.aliases"/>
-					<Item Name="LevyLab Instrument.lvlps" Type="Document" URL="../ProjectTemplates/LevyLab Instrument/lvsrc/LevyLab Instrument.lvlps"/>
-					<Item Name="LevyLab Instrument.lvproj" Type="Document" URL="../ProjectTemplates/LevyLab Instrument/lvsrc/LevyLab Instrument.lvproj"/>
-				</Item>
-				<Item Name=".gitignore" Type="Document" URL="../ProjectTemplates/LevyLab Instrument/.gitignore"/>
-				<Item Name="LICENSE" Type="Document" URL="../ProjectTemplates/LevyLab Instrument/LICENSE"/>
-				<Item Name="README.md" Type="Document" URL="../ProjectTemplates/LevyLab Instrument/README.md"/>
 			</Item>
 		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
@@ -254,6 +251,7 @@
 				<Item Name="Random Number Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range__ogtk.vi"/>
 				<Item Name="Ramp_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Control VI/Other/Ramp_SubVI.vi"/>
 				<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Reset.vi"/>
+				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
@@ -1113,6 +1111,41 @@
 				<Item Name="Dest_User_NIPath.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Dest_User_NIPath/Dest_User_NIPath.lvclass"/>
 				<Item Name="userLabel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Destination/userLabel/userLabel.lvclass"/>
 				<Item Name="Dest_User_MSIPath.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Dest_User_MSIPath/Dest_User_MSIPath.lvclass"/>
+				<Item Name="Icon.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Icon/Icon.lvclass"/>
+				<Item Name="Layer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Layer/Layer.lvclass"/>
+				<Item Name="Layer.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Layer.ctl"/>
+				<Item Name="LayerType.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/LayerType.ctl"/>
+				<Item Name="lv_icon.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/lv_icon.lvlib"/>
+				<Item Name="Icon Framework.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Icon Framework/Icon Framework.lvclass"/>
+				<Item Name="Font.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Font.ctl"/>
+				<Item Name="BodyText.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/BodyText.ctl"/>
+				<Item Name="Alignment.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Alignment.ctl"/>
+				<Item Name="Graphic.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Graphic.ctl"/>
+				<Item Name="BodyTextPosition.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/BodyTextPosition.ctl"/>
+				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
+				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
+				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
+				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
+				<Item Name="Draw Unflattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Unflattened Pixmap.vi"/>
+				<Item Name="Draw True-Color Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw True-Color Pixmap.vi"/>
+				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
+				<Item Name="Draw 4-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 4-Bit Pixmap.vi"/>
+				<Item Name="Draw 8-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 8-Bit Pixmap.vi"/>
+				<Item Name="Draw 1-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 1-Bit Pixmap.vi"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="IEColor.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/IEColor.ctl"/>
+				<Item Name="Create Mask.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Create Mask.vi"/>
+				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
+				<Item Name="Read BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File.vi"/>
+				<Item Name="Read BMP File Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File Data.vi"/>
+				<Item Name="Read BMP Header Info.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP Header Info.vi"/>
+				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
+				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
+				<Item Name="Hilite Color.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Hilite Color.vi"/>
+				<Item Name="Draw Round Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Round Rect.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1374,6 +1407,12 @@
 			<Item Name="CDK_Utility_GetSetFileAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GetSetFileAttributes.vi"/>
 			<Item Name="IB_SRdB_Write.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB/IB_SRdB_Write.vi"/>
 			<Item Name="IB_SRdB_Unlock.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB/IB_SRdB_Unlock.vi"/>
+			<Item Name="MetaDataObj.lvclass" Type="LVClass" URL="/&lt;resource&gt;/dialog/NewProjectWizard/MetaDataObj/MetaDataObj.lvclass"/>
+			<Item Name="CustomVIModes.ctl" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/MetaDataObj/Accessors/CustomVIModes.ctl"/>
+			<Item Name="Center Image In Rectangle.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/MetaDataObj/Center Image In Rectangle.vi"/>
+			<Item Name="Stack Images.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/MetaDataObj/Stack Images.vi"/>
+			<Item Name="ValidateFilePath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/ValidateFilePath.vi"/>
+			<Item Name="Iterate Save Progress.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Iterate Save Progress.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
