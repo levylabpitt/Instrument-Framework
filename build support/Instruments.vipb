@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2020-02-16 15:53:30" Creator="Patrick" Comments="" ID="e136df6b807438555d4c43e8a93aca5e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2020-02-17 13:41:04" Creator="Patrick" Comments="" ID="7eeaef5b01ae4135ce529a9674db84b7">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.5.5.67</Library_Version>
+    <Library_Version>1.5.6.68</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -18,12 +18,20 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <External_Dependencies>drjdpowell_lib_messenging &gt;= 1.10.9.115</External_Dependencies>
+      <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.1.1.7</External_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>jki_statemachineobjects &gt;= 1.3.0.56</External_Dependencies>
       <External_Dependencies>labview-zmq &gt;= 3.5.1.109</External_Dependencies>
+      <External_Dependencies>lava_lib_ui_tools &gt;= 1.4.1.74</External_Dependencies>
       <External_Dependencies>mgi_lib_application_control &gt;= 1.1.1.10</External_Dependencies>
+      <External_Dependencies>mgi_lib_cluster &gt;= 1.1.0.1</External_Dependencies>
       <External_Dependencies>mgi_lib_error_handling &gt;= 1.1.1.3</External_Dependencies>
       <External_Dependencies>mgi_lib_error_reporter &gt;= 1.0.2.5</External_Dependencies>
+      <External_Dependencies>mgi_lib_file &gt;= 1.1.0.4</External_Dependencies>
+      <External_Dependencies>mgi_lib_picture_&amp;_image &gt;= 1.0.2.1</External_Dependencies>
+      <External_Dependencies>mgi_lib_read_write_anything &gt;= 2.1.4.4</External_Dependencies>
+      <External_Dependencies>mgi_lib_string &gt;= 1.1.1.5</External_Dependencies>
+      <External_Dependencies>mgi_lib_timing &gt;= 1.1.0.2</External_Dependencies>
       <External_Dependencies>national_instruments_lib_guid_generator &gt;= 1.0.2.3</External_Dependencies>
       <External_Dependencies>ni_lib_seh &gt;= 2.1.10.1</External_Dependencies>
       <External_Dependencies>ni_lib_stm &gt;= 3.1.0.9</External_Dependencies>
@@ -36,13 +44,22 @@
       <External_Dependencies>oglib_string &gt;= 4.1.0.12</External_Dependencies>
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
       <External_Dependencies>oglib_variantconfig &gt;= 4.0.0.5</External_Dependencies>
+      <External_Dependencies>wireflow_ab_lib_wf_progressbar &gt;= 1.0.2.56</External_Dependencies>
       <Direct_Dependencies>drjdpowell_lib_messenging-1.10.9.115</Direct_Dependencies>
+      <Direct_Dependencies>jdp_science_lib_common_utilities-1.1.1.7</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>jki_statemachineobjects-1.3.0.56</Direct_Dependencies>
       <Direct_Dependencies>labview-zmq-3.5.1.109</Direct_Dependencies>
+      <Direct_Dependencies>lava_lib_ui_tools-1.4.1.74</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_application_control-1.1.1.10</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_cluster-1.1.0.1</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_error_handling-1.1.1.3</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_error_reporter-1.0.2.5</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_file-1.1.0.4</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_picture_&amp;_image-1.0.2.1</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_read_write_anything-2.1.4.4</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_string-1.1.1.5</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_timing-1.1.0.2</Direct_Dependencies>
       <Direct_Dependencies>national_instruments_lib_guid_generator-1.0.2.3</Direct_Dependencies>
       <Direct_Dependencies>ni_lib_seh-2.1.10.1</Direct_Dependencies>
       <Direct_Dependencies>ni_lib_stm-3.1.0.9</Direct_Dependencies>
@@ -55,6 +72,7 @@
       <Direct_Dependencies>oglib_string-4.1.0.12</Direct_Dependencies>
       <Direct_Dependencies>oglib_time-4.0.1.3</Direct_Dependencies>
       <Direct_Dependencies>oglib_variantconfig-4.0.0.5</Direct_Dependencies>
+      <Direct_Dependencies>wireflow_ab_lib_wf_progressbar-1.0.2.56</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI>Pre-Build Custom Action.vi</Pre-Build_VI>
@@ -71,9 +89,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.5.6.65]
-- refinements to ProjectTemplate
-- try rename buildspec-template.vipt to *.rename and rename back after install</Release_Notes>
+      <Release_Notes>[1.5.6.67]
+- ProjectSetup.vi executes when opened</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -313,7 +330,7 @@
         <Path>..\lvsrc\SMOs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C0FCC01712FF48A3A8E1B362E4C356FB</GUID>
+      <GUID>DFB86788847A0A8FE0688E897503335F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -418,7 +435,7 @@
         <Path>..\lvsrc\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB5EC5A5E95D92ED39BE0265BDF9DBCF</GUID>
+      <GUID>695CDCC8058F85A428831B421EECC55F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -579,7 +596,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl.STM</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D4C2E7219FADF7CF0F7A8EDAFB01A472</GUID>
+      <GUID>EB0CF72421EA440298F926151B932D54</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -614,7 +631,7 @@
         <Path>..\lvsrc\Instrument Types\CBridge\Get Capacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E8DC9EB58A4758D12CC0ED906B7FD515</GUID>
+      <GUID>1D658F5F6D1F44C81523484B0AE9ABE5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -789,7 +806,7 @@
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Pressure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AA47A96EEC15B1C23BA64D2E005D11C7</GUID>
+      <GUID>B4539E604D3D50FED276613B59496F5D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -838,7 +855,7 @@
         <Path>..\lvsrc\Instrument Types\Optical Delay Line\Set Delay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5AD88C51E6817A5313E9CD4B45C1D8C8</GUID>
+      <GUID>358A862EA1F24C0CA5DD0BF5DCC8DA90</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -887,7 +904,7 @@
         <Path>..\lvsrc\Instrument Types\Strain\Set Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8C1DF9224141BB7D8D0F6076E964F6B</GUID>
+      <GUID>3B06F5C01BF29888D270F23C63F4C616</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -992,7 +1009,7 @@
         <Path>..\lvsrc\Instrument Types\VNA\Set Sweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB8B3D6181E5C5F5940F313C93BB0B01</GUID>
+      <GUID>90153D737E7BD2AFFB506D3BD686A715</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1041,7 +1058,7 @@
         <Path>..\lvsrc\Instrument Types\VSource\Set Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>22F6C153ADBD834002B80043F1A8AAF4</GUID>
+      <GUID>B81DA0298A81AC83873EB4B3E10941FB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1104,7 +1121,7 @@
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F74DB7440997DB79A0C11E8ECCA93F4C</GUID>
+      <GUID>55DBBF5A65C8A60603B255BC3F5B343D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1195,7 +1212,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3B80E08CFF3D859B5A34FE0F4840EBDB</GUID>
+      <GUID>F14982536510ADE16DCA97D0C618A3A5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1230,7 +1247,7 @@
         <Path>..\lvsrc\SMOs\Instrument UI\Create UI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E51EB0B3C7CBD15B58A9B0B324533C4A</GUID>
+      <GUID>78A0A8EC34018222ACCB1467330B1A63</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1265,7 +1282,7 @@
         <Path>..\lvsrc\SMOs\LevyLab\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>85F97231F317E54D8BF2F1EF06C1BF87</GUID>
+      <GUID>EAB43CCCFBEE4142FA9179FC86C85838</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1314,7 +1331,7 @@
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5DE5209A461784DF7BB3630C47C75584</GUID>
+      <GUID>B7121D7E9E86C096A55F82D367F8049F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1377,7 +1394,7 @@
         <Path>..\lvsrc\SMOs\Logger.DSC\Read from DSC (unused).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>938C9BD1F490AE0F82FF8CBB91F9D4CC</GUID>
+      <GUID>4E8C9DAA2C9C70E6C7689097FD77C4B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1426,7 +1443,7 @@
         <Path>..\lvsrc\SMOs\Logger.Error\Log Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>28650624CBA59B495943AA87944633EE</GUID>
+      <GUID>CB5C0E5A922F9D296F71300F8876B6E2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1965,7 +1982,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl\Write Port.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC3438DC1164D7EA6F8372E844474E91</GUID>
+      <GUID>2CE01D68ED50870F40C1E6CD18BACAF8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2238,7 +2255,7 @@
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Write STM connection info.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E196BE9E82A39A4B9191D45A0802E235</GUID>
+      <GUID>8FC0F089678CBF52F74E006FF2EE76F6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2287,7 +2304,7 @@
         <Path>..\lvsrc\SMOs\SCPI\SCPI Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4ACD1454F4D128741163D3AE469616EE</GUID>
+      <GUID>F9E69C07051E5E22B5587D620CFCA4FF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2392,7 +2409,7 @@
         <Path>..\lvsrc\SMOs\Instrument\API\Read Configuration Class.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>42483CD957D3F3CDA29288245C676D6B</GUID>
+      <GUID>75B4A826E7BB6C0E4C0CC1982A2DF39A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2539,7 +2556,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Framework (for override)\Open Instrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C5B92AC6F31A109F9DCBA3CF700C70D3</GUID>
+      <GUID>39837D976D4E8A2CB58F0F03FFFE417E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2644,7 +2661,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Overrides\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB0AA1687914AB27381E1AFB5DFE50B5</GUID>
+      <GUID>512970D0A10B82B65C343B117B3D58B1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2805,7 +2822,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Private\List Devices.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3D6B904FC55A3CE7727AC4930DAE0238</GUID>
+      <GUID>2BB88C352CC0C9860307D3AC9DBB9815</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2854,7 +2871,7 @@
         <Path>..\lvsrc\SMOs\Instrument\Protected\Write Configuration Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7DEF564895B6FD1D9070484AEB5869A4</GUID>
+      <GUID>ED3904002C59CA68118D15F1BF83089F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
