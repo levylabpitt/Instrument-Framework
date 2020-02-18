@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2020-02-17 20:11:17" Creator="Patrick" Comments="" ID="b1ca92941d1943131ad3711fdc5b0767">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2020-02-18 14:43:47" Creator="Patrick" Comments="" ID="ae38f99d91ae3f6b80604a1517c0503b">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.5.7.69</Library_Version>
+    <Library_Version>1.5.7.70</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -89,13 +89,9 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.5.7.68]
-- update names:
-Open Instrument --&gt; Open
-Close Instrument --&gt; Close
-Create Instrument --&gt; Create SMO
-- add methods to public scope (Open, Close, Read/Write Hardware Address)
-- update ProjectSetup.vi</Release_Notes>
+      <Release_Notes>[1.5.8.69]
+- reinstate Open/Close Instrument protected methods
+- Open/Close are public API</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -335,7 +331,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6C93512CEE3CC5E1459AE68CFADAEC37</GUID>
+      <GUID>E77D08AE32EEBC4446C68D7C3FC8F229</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -440,7 +436,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7FF44EEA8754361408313A7B65CA2667</GUID>
+      <GUID>14232F76D1C331E22F10350A99B21569</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -615,7 +611,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs\Shortcuts.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>40424FB9517C3950D19FAC5D70F40326</GUID>
+      <GUID>830CF0B5759CE2DC493294B93DB3640F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -650,7 +646,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\Instrument Types\CBridge\Get Capacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9CD4F4D8BD6931B56C0E139EB7406744</GUID>
+      <GUID>563EB280083BCCE2455E7626D0C0ED38</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -825,7 +821,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\Instrument Types\Cryostat\Wait for Temperature Setpoint.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>32750699352124B717F746AFBEA5A55A</GUID>
+      <GUID>B52CDAB8C2DA8FA7D603DCC35360E9E0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -874,7 +870,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\Instrument Types\Optical Delay Line\Set Delay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CCBC2BE633BDDDBA62ED2E1F6761B810</GUID>
+      <GUID>624F41533A29B1B26A4D71CBC7C27EA2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -923,7 +919,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\Instrument Types\Strain\Set Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3D013B1C7D5A1F940C5A41AE5D84B29C</GUID>
+      <GUID>A51E0D00682A343CD3DB849F0AF28D24</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1028,7 +1024,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\Instrument Types\VNA\Set Sweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>02087096EDCD349A2625D8B08C20A4FE</GUID>
+      <GUID>2B806A80D8101EB4267AD1E000B73737</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1077,7 +1073,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\Instrument Types\VSource\Set Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EA78E626BDABED0633A1117E33657FA3</GUID>
+      <GUID>5ACCB79600D8EE2BBF0802B8DC55BBBD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1140,7 +1136,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4C42D5F9CD064B969FE95440FCD7EB49</GUID>
+      <GUID>CB7EFBAA8967377FFF51C259699BFE1E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1259,7 +1255,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs\Instrument\Instrument.TestLauncher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>513D30DC10322D6660C9BB8E483CCC9D</GUID>
+      <GUID>5930CD4F638F02AE63CF98CB8AE8BF09</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1322,7 +1318,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs\Instrument UI\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B44B12DA6893969E78F5B1D5368875C1</GUID>
+      <GUID>845A6D7C829D64A3841DFF4D6D4C5C23</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1385,7 +1381,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs\LevyLab\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20E62EE79FEA5BF82BEC04A1F97E8B1F</GUID>
+      <GUID>FD5BCCBEE1820F2F8EEF6A9FDBF12232</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1462,7 +1458,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs\Logger\Write path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2065A1C6A98A1905A64E316CF23995CE</GUID>
+      <GUID>BF8C1B266CFB97F25A93AFC8B09C150D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1665,7 +1661,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs\Logger.DSC\Write to DSC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>33BAD59230A504849F0ACE914E641F8F</GUID>
+      <GUID>3AA0D95AEB581C976494927ACF2BF463</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1798,7 +1794,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs\Logger.Error\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>981F32D077B0B2E2F40AB116CC88790A</GUID>
+      <GUID>32AF93588160775B3CB52A3C333F1AD1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2337,7 +2333,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs\RemoteControl\Write Port.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FA8CAB0BA5F518C23702D8F197D0CED0</GUID>
+      <GUID>505B8904ED5D05188014E20DB68AA2CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2610,7 +2606,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Write STM connection info.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>666FF89D8D1C09D9A7F720B6075576EA</GUID>
+      <GUID>A1EBE9710BE26181FBF58AD51E9AA7FD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2659,7 +2655,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs\SCPI\SCPI Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>535106270BFCD0E80154DE553ACB340B</GUID>
+      <GUID>7018D1782B5BAE6E5CEFAA1889B81B61</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2820,7 +2816,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs\Instrument\API\Write Hardware Address.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>90A01B5B58F2E2D9CF93A936C5033EC5</GUID>
+      <GUID>2722252FE8946B223AFE96992DF0F9D6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2928,7 +2924,7 @@ Create Instrument --&gt; Create SMO
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Handle Command.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Open Instrument.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -2936,10 +2932,38 @@ Create Instrument --&gt; Create SMO
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
+        <Path>..\lvsrc\SMOs\Instrument\Framework (for override)\Open Instrument.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Close Instrument.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\SMOs\Instrument\Framework (for override)\Close Instrument.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Handle Command.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
         <Path>..\lvsrc\SMOs\Instrument\Framework (for override)\Handle Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>00CA8DAAB2DCEB673190FBE55A3B86C5</GUID>
+      <GUID>2438C6E4773389A8DCBB5906805D4378</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -3044,7 +3068,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs\Instrument\Overrides\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1CC6DD9B91C4573975BDB1CBF9D0B103</GUID>
+      <GUID>8239A5D80700631B1184E6CE9CA8AE0F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -3205,7 +3229,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs\Instrument\Private\List Devices.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8D10BC482CCC046CBBC2B2767080C744</GUID>
+      <GUID>48BB4F8CDFA33F3D68257D1AD2C8D04F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -3254,7 +3278,7 @@ Create Instrument --&gt; Create SMO
         <Path>..\lvsrc\SMOs\Instrument\Protected\Write Configuration Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DE6E37D736D7E631D6F0FC7E2F22C4BA</GUID>
+      <GUID>D2B5BA50AAB89770C1935924058A3B9C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
