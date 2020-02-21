@@ -40,10 +40,12 @@
 			<Item Name="Test Remote Client.vi" Type="VI" URL="../../tests/Test Remote Client.vi"/>
 		</Item>
 		<Item Name="build support" Type="Folder">
+			<Item Name="PreBuildSupport" Type="Folder">
+				<Item Name="VIPT to rename.vi" Type="VI" URL="../../build support/PreBuildSupport/VIPT to rename.vi"/>
+				<Item Name="rename to VIPT.vi" Type="VI" URL="../../build support/PreBuildSupport/rename to VIPT.vi"/>
+			</Item>
 			<Item Name="Instruments.vipb" Type="Document" URL="../../build support/Instruments.vipb"/>
 			<Item Name="Instruments.vipc" Type="Document" URL="../../build support/Instruments.vipc"/>
-			<Item Name="VIPT to rename.vi" Type="VI" URL="../../build support/PreBuildSupport/VIPT to rename.vi"/>
-			<Item Name="rename to VIPT.vi" Type="VI" URL="../../build support/PreBuildSupport/rename to VIPT.vi"/>
 			<Item Name="Pre-Build Custom Action.vi" Type="VI" URL="../../build support/Pre-Build Custom Action.vi"/>
 			<Item Name="Pre-Install Custom Action.vi" Type="VI" URL="../../build support/Pre-Install Custom Action.vi"/>
 			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../../build support/Post-Install Custom Action.vi"/>
