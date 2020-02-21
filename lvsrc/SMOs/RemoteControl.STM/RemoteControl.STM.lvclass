@@ -108,6 +108,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
 		</Item>
+		<Item Name="Handle Error.vi" Type="VI" URL="../Handle Error.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;F!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!=1&amp;!!!Q!!!!%!!AZI97ZE&lt;'FO:S"F=H*P=A!!"!!!!"R!5!!$!!!!!1!#$V6O;'&amp;O:'RF:#"F=H*P=A![1(!!(A!!'RF3:7VP&gt;'6$&lt;WZU=G^M,F.543ZM&gt;G.M98.T!"63:7VP&gt;'6$&lt;WZU=G^M,F.543"P&gt;81!)%!B'V.U&lt;X!A&lt;WYA67ZI97ZE&lt;'6E)%6S=G^S)#B5+1!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!.E"Q!"Y!!"M:5G6N&lt;X2F1W^O&gt;(*P&lt;#Z46%UO&lt;(:D&lt;'&amp;T=Q!25G6N&lt;X2F1W^O&gt;(*P&lt;#Z46%U!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!(!!A!"!!%!!E$!!"Y!!!*!!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!#A!!!!A!!!!!!!!!!!!!!*)!!!!!!1!+!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
 	</Item>
 	<Item Name="client" Type="Folder">
 		<Item Name="old" Type="Folder">
