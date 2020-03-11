@@ -91,15 +91,6 @@
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Instrument Types.vi" Type="VI" URL="../Private/Instrument Types.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;#!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$R!=!!?!!!='ERF&gt;HF-97)A37ZT&gt;(*V&lt;76O&gt;#ZM&gt;G.M98.T!!!628BB&lt;8"M:5FO=X2S&gt;7VF&lt;H1A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0%"Q!"Y!!"Q;4'6W?5RB9C"*&lt;H.U=H6N:7ZU,GRW9WRB=X-!!"2&amp;?'&amp;N='RF37ZT&gt;(*V&lt;76O&gt;#"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
-		</Item>
 		<Item Name="LevyLab Instrument.Command Enum to String.vi" Type="VI" URL="../Private/LevyLab Instrument.Command Enum to String.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(O!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!#!!Q`````Q!91%!!!@````]!"!N$&lt;WVN97ZE=S"&lt;81!11$$`````"U.P&lt;7VB&lt;G1!0E"Q!"Y!!"Q;4'6W?5RB9C"*&lt;H.U=H6N:7ZU,GRW9WRB=X-!!":-:8:Z4'&amp;C)%FO=X2S&gt;7VF&lt;H1A&lt;X6U!!!%!!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"[!0%!!!!!!!!!!BJ-:8:Z4'&amp;C)%FO=X2S&gt;7VF&lt;H1O&lt;(:D&lt;'&amp;T=S6-:8:Z4'&amp;C)%FO=X2S&gt;7VF&lt;H1O1W^N&lt;7&amp;O:(-N,56O&gt;7UO9X2M!$&amp;!&amp;A!$#'.P&lt;7VB&lt;G1Q#'.P&lt;7VB&lt;G1R#'.P&lt;7VB&lt;G1S!!!)1W^N&lt;7&amp;O:(-!!$R!=!!?!!!='ERF&gt;HF-97)A37ZT&gt;(*V&lt;76O&gt;#ZM&gt;G.M98.T!!!64'6W?5RB9C"*&lt;H.U=H6N:7ZU)'FO!'%!]!!-!!-!"1!'!!=!#!!)!!A!#!!*!!A!#A!,!Q!!?!!!$1A!!!E!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

@@ -19,8 +19,8 @@
 				<Item Name="VNATree.vi" Type="VI" URL="../../tests/API VNA/VNATree.vi"/>
 			</Item>
 			<Item Name="API Cryostat" Type="Folder">
-				<Item Name="Test Cryogens.vi" Type="VI" URL="../../tests/API Cryostat/Test Cryogens.vi"/>
 				<Item Name="Test Cryostat API.vi" Type="VI" URL="../../tests/API Cryostat/Test Cryostat API.vi"/>
+				<Item Name="Test Cryogens.vi" Type="VI" URL="../../tests/API Cryostat/Test Cryogens.vi"/>
 				<Item Name="Test Magnet.vi" Type="VI" URL="../../tests/API Cryostat/Test Magnet.vi"/>
 				<Item Name="Test Rotate.vi" Type="VI" URL="../../tests/API Cryostat/Test Rotate.vi"/>
 				<Item Name="Test Temperature.vi" Type="VI" URL="../../tests/API Cryostat/Test Temperature.vi"/>
