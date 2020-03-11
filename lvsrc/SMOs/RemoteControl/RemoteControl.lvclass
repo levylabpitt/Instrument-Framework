@@ -315,13 +315,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1107820544</Property>
 		</Item>
 		<Item Name="Send and Receive Message.vi" Type="VI" URL="../Send and Receive Message.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'/!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$E"4#%2B&gt;'%A&lt;X6U!!!51$$`````#U.P&lt;7VB&lt;G1A&lt;X6U!$*!=!!?!!!8&amp;6*F&lt;7^U:5.P&lt;H2S&lt;WQO&lt;(:D&lt;'&amp;T=Q!25G6N&lt;X2F1W^O&gt;(*P&lt;#"P&gt;81!'5!$!".U;7VF&lt;X6U)'FO)'VT)#AR-$!J!!1!!!!91#%36W&amp;J&gt;#"G&lt;X)A=G6T='^O=W5`!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!J!5Q2%982B!!!11$$`````"U.P&lt;7VB&lt;G1!-E"Q!"Y!!"=65G6N&lt;X2F1W^O&gt;(*P&lt;#ZM&gt;G.M98.T!""3:7VP&gt;'6$&lt;WZU=G^M)'FO!!"5!0!!$!!$!!1!"1!'!!=!#!!*!!A!#A!,!!Q!$1-!!(A!!!U)!!!*!!!!#1!!!)U,!!!)!!!!!!!!!!A!!!!!!!!!#A!!!!A!!!))!!!!EA!!!!!"!!Y!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'1!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$E"4#%2B&gt;'%A&lt;X6U!!!51$$`````#U.P&lt;7VB&lt;G1A&lt;X6U!$*!=!!?!!!8&amp;6*F&lt;7^U:5.P&lt;H2S&lt;WQO&lt;(:D&lt;'&amp;T=Q!25G6N&lt;X2F1W^O&gt;(*P&lt;#"P&gt;81!'5!$!"*U;7VF&lt;X6U)#BN=SEA7T%Q-&amp;U!!!1!!!!;1#%66W&amp;J&gt;#"G&lt;X)A=G6T='^O=W5A7V2&gt;!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!#E"4"%2B&gt;'%!!""!-0````](1W^N&lt;7&amp;O:!!S1(!!(A!!&amp;R63:7VP&gt;'6$&lt;WZU=G^M,GRW9WRB=X-!%&amp;*F&lt;7^U:5.P&lt;H2S&lt;WQA;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"Q!)!!E!#!!+!!M!$!!.!Q!!?!!!$1A!!!E!!!!*!!!!D1M!!!A!!!!!!!!!#!!!!!!!!!!+!!!!#!!!!AA!!!#3!!!!!!%!$A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342714384</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 	</Item>
 	<Item Name="Methods (for override)" Type="Folder">
