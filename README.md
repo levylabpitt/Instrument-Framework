@@ -19,6 +19,10 @@ The LevyLab Instrument Framework makes extensive use of [JKI State Machines](htt
 
 Unless otherwise noted, all software is written with LabVIEW. Please install using the [VI Package Manager](https://vipm.jki.net/)
 
+## Documentation
+
+Please read the [documentation](documentation).
+
 ## Initialize a Project
 
 A set of project templates are provided, with an overview of setting up your first project outlined in this [video](http://www.youtube.com/watch?v=0eFYXP9WFVs).
@@ -75,10 +79,6 @@ A set of project templates are provided, with an overview of setting up your fir
 5. Use the SMO Editor to create two SMOs using the LevyLab Instrument and LevyLab Instrument UI templates.
 6. Modify the two new SMOs to refer to each other rather than the template SMOs.
 7. Write your code! Start with the overrides provided in the template SMOs. Add code to interface with your hardware. Define your relevant methods (set inheritance to existing Instrument types). Create a dope UI. More info coming soon! I promise!
-
-## Documentation
-
-Please see [here](documentation/README.md)
 
 ## Contributing
 
