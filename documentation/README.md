@@ -2,7 +2,7 @@
 
 ## Diagram
 
-![Diagram](images/SMO.LevyLab-Instrument v1.svg?sanitize=true)
+![Diagram](images/SMO.LevyLab-Instrument-v1.svg?sanitize=true)
 
 ## Class Diagram
 
