@@ -62,7 +62,8 @@ A set of project templates are provided, with an overview of setting up your fir
     README.md
 
     *Important:*
-    Define a canonical name for your project right away. In this tutorial I am calling it "My Project". This is important when setting up your build spec files:
+    Define a canonical name for your project right away. In this tutorial I am calling it "My Project".
+    This is important when setting up your build spec files:
     - VIPB file: set "Product Name" = "My Project"
     - Application (exe) build spec: set "Build specification name" = "My Project Application"
     - Installer build spec: set "Build specification name" = "My Project Installer"
