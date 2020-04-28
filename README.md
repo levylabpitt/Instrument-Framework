@@ -5,7 +5,7 @@ Framework developed for the [LevyLab](http://www.levylab.org) at the [University
 An Instrument developed using this framework will have the access to the following responsibilities:
 - Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))
 - Periodically polls the instrument for its settings and logs them to a DSC database
-- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by [National Instruments' Simple Messaging Library (STM)](http://www.ni.com/tutorial/53683/en/), however a cross-platform protocol is developed using [0MQ](https://zeromq.org/))
+- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by [National Instruments' Simple Messaging Library (STM)](http://www.ni.com/tutorial/53683/en/), however a cross-platform protocol is being developed using [0MQ](https://zeromq.org/))
 - Provide a user interface (optional but probably desirable).
 - Methods for reading and writing configuration from disk.
 
