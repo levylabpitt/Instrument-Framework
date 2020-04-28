@@ -1,27 +1,7 @@
-# useMermaid
+# Instrument Framework
 
-A React hook for using Mermaid
+## Diagram
 
-# usage
+## Class Diagram
 
-```jsx
-import React from 'react'
-import { useMermaid } from './useMermaid'
-
-const ExampleMermaid = () => {
-  const graph = `
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-  `
-  const svg = useMermaid('exampleID', graph)
-
-  if (!svg) return <div>Loading...</div>
-
-  return <div dangerouslySetInnerHTML={{ __html: svg }} />
-}
-```
-
-![Screenshot](/uml.png)
+![Class Diagram](documentation/images/SMO.LevyLab-Instrument-v1-UML.svg?sanitize=true)
