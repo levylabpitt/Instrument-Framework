@@ -1,10 +1,12 @@
-# LevyLab Instrument Framework
+# Lab Instrument Framework
 
 <p align="center">
   <img width="100" height="100" src="documentation/images/Instrument-Icon.png">
 </p>
 
-Framework developed for the [LevyLab](http://www.levylab.org) research group at the [University of Pittsburgh](http://www.pitt.edu)
+Framework developed for the [LevyLab](http://www.levylab.org) research group at the [University of Pittsburgh](http://www.pitt.edu).
+
+![Diagram](documentation/images/Diagram.png)
 
 An Instrument developed using this framework will have the access to the following responsibilities:
 - Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))
