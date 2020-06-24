@@ -8,18 +8,21 @@ Framework developed for the [LevyLab](http://www.levylab.org) research group at 
 
 ![Diagram](documentation/images/Diagram.png)
 
-An Instrument developed using this framework will have the access to the following responsibilities:
-- Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))
-- Periodically polls the instrument for its settings and logs them to a DSC database
-- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by [National Instruments' Simple Messaging Library (STM)](http://www.ni.com/tutorial/53683/en/), however a cross-platform protocol is being developed using [0MQ](https://zeromq.org/))
-- Provide a user interface (optional but probably desirable).
-- Methods for reading and writing configuration from disk.
+An Instrument developed using this framework will have access to the following capabilities:
+- Methods for reading and writing configuration settings.
+- A hardware abstraction layer (HAL) for interfacing with hardware.
+- Data logging: poll and log instrument configuration and settings to DSC database
+  - In development: logging to Amazon AWS
+- Defines an API to allow external programs to control compiled instances of the application and remotely across a network
+  - Currently implemented using [National Instruments' Simple Messaging Library (STM)](http://www.ni.com/tutorial/53683/en/), however a cross-platform protocol is being developed using [0MQ](https://zeromq.org/).
+- User interface framework.
+  - In development: an embedded subpanel UI framework ([MAUI](https://github.com/levylabpitt/MAUI-Engine))
 
 The LevyLab Instrument Framework makes extensive use of [JKI State Machines](https://github.com/JKISoftware/JKI-State-Machine) and [JKI State Machine Objects](https://github.com/JKISoftware/JKI-State-Machine-Objects).
 
 ## Installation
 
-Unless otherwise noted, all software is written with LabVIEW. Please install using the [VI Package Manager](https://vipm.jki.net/)
+Unless otherwise noted, all software is written with LabVIEW 2016. Please install using the [VI Package Manager](https://vipm.jki.net/)
 
 ## Documentation
 
