@@ -58,11 +58,11 @@
 			<Item Name="Logger.lvclass" Type="LVClass" URL="../SMOs/Logger/Logger.lvclass"/>
 			<Item Name="Logger.Error.lvclass" Type="LVClass" URL="../SMOs/Logger.Error/Logger.Error.lvclass"/>
 			<Item Name="Logger.DSC.lvclass" Type="LVClass" URL="../SMOs/Logger.DSC/Logger.DSC.lvclass"/>
+			<Item Name="Logger.syslog.lvclass" Type="LVClass" URL="../SMOs/Logger.syslog/Logger.syslog.lvclass"/>
 			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../SMOs/RemoteControl/RemoteControl.lvclass"/>
 			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 			<Item Name="SCPI.lvclass" Type="LVClass" URL="../SMOs/SCPI/SCPI.lvclass"/>
 			<Item Name="Handle Error.lvclass" Type="LVClass" URL="../Interfaces/Handle Error/Handle Error.lvclass"/>
-			<Item Name="Logger.syslog.lvclass" Type="LVClass" URL="../SMOs/Logger.syslog/Logger.syslog.lvclass"/>
 		</Item>
 		<Item Name="Instrument Types" Type="Folder">
 			<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="../Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
