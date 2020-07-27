@@ -61,6 +61,7 @@
 			<Item Name="Logger.syslog.lvclass" Type="LVClass" URL="../SMOs/Logger.syslog/Logger.syslog.lvclass"/>
 			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../SMOs/RemoteControl/RemoteControl.lvclass"/>
 			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
+			<Item Name="RemoteControl.ZMQ.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.ZMQ/RemoteControl.ZMQ.lvclass"/>
 			<Item Name="SCPI.lvclass" Type="LVClass" URL="../SMOs/SCPI/SCPI.lvclass"/>
 			<Item Name="Handle Error.lvclass" Type="LVClass" URL="../Interfaces/Handle Error/Handle Error.lvclass"/>
 		</Item>
@@ -1213,6 +1214,7 @@
 				<Item Name="Syslog Device Send.vi" Type="VI" URL="/&lt;vilib&gt;/NI/syslog/Syslog Device Send.vi"/>
 				<Item Name="Syslog Device Close.vi" Type="VI" URL="/&lt;vilib&gt;/NI/syslog/Syslog Device Close.vi"/>
 				<Item Name="Syslog Device Init.vi" Type="VI" URL="/&lt;vilib&gt;/NI/syslog/Syslog Device Init.vi"/>
+				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
