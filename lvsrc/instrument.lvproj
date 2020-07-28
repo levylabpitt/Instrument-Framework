@@ -14,6 +14,20 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="tests" Type="Folder">
+			<Item Name="STM Multi Client Server" Type="Folder">
+				<Item Name="subVIs" Type="Folder">
+					<Item Name="Close FIFOs (STM Multi-Client).vi" Type="VI" URL="../../tests/STM Multi Client Server/subVIs/Close FIFOs (STM Multi-Client).vi"/>
+					<Item Name="Error to Warning (STM Multi-Client).vi" Type="VI" URL="../../tests/STM Multi Client Server/subVIs/Error to Warning (STM Multi-Client).vi"/>
+					<Item Name="FIFOs (STM Multi-Client).ctl" Type="VI" URL="../../tests/STM Multi Client Server/subVIs/FIFOs (STM Multi-Client).ctl"/>
+					<Item Name="Init FIFOs (STM Multi-Client).vi" Type="VI" URL="../../tests/STM Multi Client Server/subVIs/Init FIFOs (STM Multi-Client).vi"/>
+					<Item Name="Signal Generator (STM Multi-Client).vi" Type="VI" URL="../../tests/STM Multi Client Server/subVIs/Signal Generator (STM Multi-Client).vi"/>
+				</Item>
+				<Item Name="STM Multi Client Server Example.aliases" Type="Document" URL="../../tests/STM Multi Client Server/STM Multi Client Server Example.aliases"/>
+				<Item Name="STM Multi Client Server Example.lvlps" Type="Document" URL="../../tests/STM Multi Client Server/STM Multi Client Server Example.lvlps"/>
+				<Item Name="STM Multi Client Server Example.lvproj" Type="Document" URL="../../tests/STM Multi Client Server/STM Multi Client Server Example.lvproj"/>
+				<Item Name="STM Multi-Client - Client.vit" Type="VI" URL="../../tests/STM Multi Client Server/STM Multi-Client - Client.vit"/>
+				<Item Name="STM Multi-Client - Server.vi" Type="VI" URL="../../tests/STM Multi Client Server/STM Multi-Client - Server.vi"/>
+			</Item>
 			<Item Name="API Voltage Source" Type="Folder">
 				<Item Name="VoltageSourceTree.vi" Type="VI" URL="../../tests/API Voltage Source/VoltageSourceTree.vi"/>
 			</Item>
@@ -37,7 +51,7 @@
 				<Item Name="MessageTime.000000.itx" Type="Document" URL="../../tests/test results/MessageTime.000000.itx"/>
 				<Item Name="Throughput.000000.itx" Type="Document" URL="../../tests/test results/Throughput.000000.itx"/>
 			</Item>
-			<Item Name="Create Instrument SMO.vi" Type="VI" URL="../../tests/Create Instrument SMO.vi"/>
+			<Item Name="Test Create Instrument SMO.vi" Type="VI" URL="../../tests/Test Create Instrument SMO.vi"/>
 			<Item Name="Remote Client Metrics.vi" Type="VI" URL="../../tests/Remote Client Metrics.vi"/>
 			<Item Name="Test Remote Client.vi" Type="VI" URL="../../tests/Test Remote Client.vi"/>
 		</Item>
@@ -1215,6 +1229,8 @@
 				<Item Name="Syslog Device Close.vi" Type="VI" URL="/&lt;vilib&gt;/NI/syslog/Syslog Device Close.vi"/>
 				<Item Name="Syslog Device Init.vi" Type="VI" URL="/&lt;vilib&gt;/NI/syslog/Syslog Device Init.vi"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1488,6 +1504,7 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
