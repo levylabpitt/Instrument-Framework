@@ -77,7 +77,6 @@
 			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 			<Item Name="RemoteControl.ZMQ.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.ZMQ/RemoteControl.ZMQ.lvclass"/>
 			<Item Name="SCPI.lvclass" Type="LVClass" URL="../SMOs/SCPI/SCPI.lvclass"/>
-			<Item Name="Handle Error.lvclass" Type="LVClass" URL="../Interfaces/Handle Error/Handle Error.lvclass"/>
 		</Item>
 		<Item Name="Instrument Types" Type="Folder">
 			<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="../Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
