@@ -2,3 +2,5 @@
 /builds
 /lvsrc/*.lvlps
 /lvsrc/*.aliases
+/lvsrc/ProjectTemplates/Source/LevyLab/Instrument/*.aliases
+/lvsrc/ProjectTemplates/Source/LevyLab/Instrument/*.lvlps
