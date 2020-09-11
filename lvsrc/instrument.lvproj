@@ -88,6 +88,33 @@
 			<Item Name="LevyLab Instrument.lvclass" Type="LVClass" URL="../Templates/LevyLab Instrument/LevyLab Instrument.lvclass"/>
 			<Item Name="LevyLab Instrument UI.lvclass" Type="LVClass" URL="../Templates/LevyLab Instrument UI/LevyLab Instrument UI.lvclass"/>
 		</Item>
+		<Item Name="ProjectTemplates" Type="Folder">
+			<Item Name="MetaData" Type="Folder">
+				<Item Name="LevyLab_Instrument_MetaData.xml" Type="Document" URL="../ProjectTemplates/MetaData/LevyLab_Instrument_MetaData.xml"/>
+			</Item>
+			<Item Name="Source" Type="Folder">
+				<Item Name="LevyLab" Type="Folder">
+					<Item Name="images" Type="Folder">
+						<Item Name="instrument.png" Type="Document" URL="../ProjectTemplates/Source/LevyLab/images/instrument.png"/>
+					</Item>
+					<Item Name="Instrument" Type="Folder">
+						<Item Name="project" Type="Folder">
+							<Item Name="build support" Type="Folder">
+								<Item Name="buildspec-template.vipt" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/build support/buildspec-template.vipt"/>
+								<Item Name="buildspec-template.vipt.rename" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/build support/buildspec-template.vipt.rename"/>
+								<Item Name="icon.ico" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/build support/icon.ico"/>
+								<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/build support/Post-Build Custom Action.vi"/>
+							</Item>
+							<Item Name=".gitignore" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/.gitignore"/>
+							<Item Name="LICENSE" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/LICENSE"/>
+							<Item Name="README.md" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project/README.md"/>
+						</Item>
+						<Item Name="LevyLab Instrument.lvproj" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/LevyLab Instrument.lvproj"/>
+						<Item Name="ProjectSetup.vi" Type="VI" URL="../ProjectTemplates/Source/LevyLab/Instrument/ProjectSetup.vi"/>
+					</Item>
+				</Item>
+			</Item>
+		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Instrument UI.lvclass" Type="LVClass" URL="../SMOs/Instrument UI/Instrument UI.lvclass"/>
 		<Item Name="Shortcuts.vi" Type="VI" URL="../SMOs/Shortcuts.vi"/>
