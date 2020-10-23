@@ -121,6 +121,7 @@
 		<Item Name="Shortcuts.vi" Type="VI" URL="../SMOs/Shortcuts.vi"/>
 		<Item Name="showrunningvis.vi" Type="VI" URL="../SMOs/showrunningvis.vi"/>
 		<Item Name="PRI Counts Since Last Reset.vi" Type="VI" URL="../SMOs/PRI Counts Since Last Reset.vi"/>
+		<Item Name="Test Variant Flatten Unflatten.vi" Type="VI" URL="../SMOs/RemoteControl.STM/Test Variant Flatten Unflatten.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
