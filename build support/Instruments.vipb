@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2020-10-26 10:36:16" Creator="Patrick" Comments="" ID="c69f3eee7109ace3cd692f2133baa2bf">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2020-10-26 11:08:35" Creator="Patrick" Comments="" ID="360d48b8c1782dea32e3c80164c71e15">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.6.0.91</Library_Version>
+    <Library_Version>1.6.0.92</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -122,7 +122,9 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
       <Release_Notes>[1.6.0]
 - STM: Send Message.vi flattens variant to vLV2016
 - Instrument:Process.vi can now log to DSC or postgreSQL/timescaleDB. Configure with "Write Data Logger.vi"
-- update package dependencies</Release_Notes>
+- update package dependencies
+
+- test build time</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
