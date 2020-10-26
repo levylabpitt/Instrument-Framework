@@ -60,9 +60,11 @@
 			</Item>
 			<Item Name="Instruments.vipb" Type="Document" URL="../../build support/Instruments.vipb"/>
 			<Item Name="Instruments.vipc" Type="Document" URL="../../build support/Instruments.vipc"/>
-			<Item Name="Pre-Build Custom Action.vi" Type="VI" URL="../../build support/Pre-Build Custom Action.vi"/>
+			<Item Name="Package Pre-Build.vi" Type="VI" URL="../../build support/Package Pre-Build.vi"/>
+			<Item Name="Package Post-Build.vi" Type="VI" URL="../../build support/Package Post-Build.vi"/>
 			<Item Name="Pre-Install Custom Action.vi" Type="VI" URL="../../build support/Pre-Install Custom Action.vi"/>
 			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../../build support/Post-Install Custom Action.vi"/>
+			<Item Name="Log Build.vi" Type="VI" URL="../../build support/Log Build.vi"/>
 		</Item>
 		<Item Name="Subsystems" Type="Folder">
 			<Item Name="LevyLab.lvclass" Type="LVClass" URL="../SMOs/LevyLab/LevyLab.lvclass"/>
@@ -76,6 +78,9 @@
 			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 			<Item Name="RemoteControl.ZMQ.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.ZMQ/RemoteControl.ZMQ.lvclass"/>
 			<Item Name="SCPI.lvclass" Type="LVClass" URL="../SMOs/SCPI/SCPI.lvclass"/>
+			<Item Name="Shortcuts.vi" Type="VI" URL="../SMOs/Shortcuts.vi"/>
+			<Item Name="showrunningvis.vi" Type="VI" URL="../SMOs/showrunningvis.vi"/>
+			<Item Name="PRI Counts Since Last Reset.vi" Type="VI" URL="../SMOs/PRI Counts Since Last Reset.vi"/>
 		</Item>
 		<Item Name="Instrument Types" Type="Folder">
 			<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="../Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
@@ -118,10 +123,6 @@
 		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Instrument UI.lvclass" Type="LVClass" URL="../SMOs/Instrument UI/Instrument UI.lvclass"/>
-		<Item Name="Shortcuts.vi" Type="VI" URL="../SMOs/Shortcuts.vi"/>
-		<Item Name="showrunningvis.vi" Type="VI" URL="../SMOs/showrunningvis.vi"/>
-		<Item Name="PRI Counts Since Last Reset.vi" Type="VI" URL="../SMOs/PRI Counts Since Last Reset.vi"/>
-		<Item Name="Test Variant Flatten Unflatten.vi" Type="VI" URL="../SMOs/RemoteControl.STM/Test Variant Flatten Unflatten.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>

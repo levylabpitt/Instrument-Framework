@@ -4,3 +4,4 @@
 /lvsrc/*.aliases
 /lvsrc/ProjectTemplates/Source/LevyLab/Instrument/*.aliases
 /lvsrc/ProjectTemplates/Source/LevyLab/Instrument/*.lvlps
+build support/instrument.log
