@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2020-10-26 11:08:35" Creator="Patrick" Comments="" ID="360d48b8c1782dea32e3c80164c71e15">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2020-10-28 15:19:36" Creator="Patrick" Comments="" ID="e80c80b1ce09fe484d1537476770e025">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.6.0.92</Library_Version>
+    <Library_Version>1.6.1.93</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -119,12 +119,8 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.6.0]
-- STM: Send Message.vi flattens variant to vLV2016
-- Instrument:Process.vi can now log to DSC or postgreSQL/timescaleDB. Configure with "Write Data Logger.vi"
-- update package dependencies
-
-- test build time</Release_Notes>
+      <Release_Notes>[1.6.1]
+- Update the way errors are handled in Handle Error; also method now added to Instrument UI.lvclass</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -343,7 +339,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C9A47C67D7C3704E20CB71022201BFDD</GUID>
+      <GUID>2B33374A7990D2C3E0BFC16237E1F51B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -448,7 +444,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E70B62E3AE1995C2E689A1C82EC61AD0</GUID>
+      <GUID>9147726807DF8EC2D58B079E37AC2BC5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -665,7 +661,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\Logger.PGSQL</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC4737D619B6BBB6487F49054D4C7FE7</GUID>
+      <GUID>EF9EB320FDA4F1B9B95977EADFC153DF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -700,7 +696,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\Instrument Types\CBridge\Get Capacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>995FDAAA268E463AD04CA60EAEBC1AD7</GUID>
+      <GUID>C53106280180AA9D7188C3B39287AA04</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -875,7 +871,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\Instrument Types\Cryostat\Wait for Temperature Setpoint.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>77191B10E3BAB116C6AC378AE776CE2D</GUID>
+      <GUID>E6743CDFA3AC55A1EDFF16FE2AAFF01A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -924,7 +920,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\Instrument Types\Optical Delay Line\Set Delay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25D32B87D4838CDBE7C5F43A6ABC075A</GUID>
+      <GUID>27DDE5C70EE8E256E915425DAC008C6B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -973,7 +969,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\Instrument Types\Strain\Set Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3DC1EA10D7B5B1814E8497C9DCEB9E76</GUID>
+      <GUID>8CF4889558D2EE44489D9FE878F71BAC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1078,7 +1074,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\Instrument Types\VNA\Set Sweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3464C041F709810119EEDB1690161E7F</GUID>
+      <GUID>3CCBB8BFFF16702BB288684203CD81B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1127,7 +1123,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\Instrument Types\VSource\Set Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5DD3B21B152A492A063BF72CEB267FAA</GUID>
+      <GUID>0E18A270AB730601226BF6501E41E96B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1190,7 +1186,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DACE704F0762B34CCA57FFF5A46F3DB8</GUID>
+      <GUID>0A47ADD53B397622218D0B922F6E3F59</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1309,7 +1305,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\Instrument\Instrument.TestLauncher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B598F4EEF03BBA7B42140CC079775E16</GUID>
+      <GUID>FEEE97DCA50A4736BD7BBCE1780EBCD2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1372,7 +1368,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\Instrument UI\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2CB4797095DCEF71810DFBFAA7BD0D2A</GUID>
+      <GUID>FDC9998D9C96F438C51F1CCD23909E7D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1435,7 +1431,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\LevyLab\Rename_Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F401158490D2AABCD9C514D319E35EA</GUID>
+      <GUID>1E3C684B9817FCC452F41D30D730AEF6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1568,7 +1564,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\Logger\Write path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DA632717CCFF5BAD7625FAD6C3168D92</GUID>
+      <GUID>1A89F4B27E25BFFE16924BCCE4E8D6BA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1771,7 +1767,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\Logger.DSC\Logger.DSC.TestLauncher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A1D5C3CAA1C665FFAD42D7F78E5BDAB</GUID>
+      <GUID>28C32C5D5FE24BB20C6DA63F5C6CCC47</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1932,7 +1928,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\Logger.Error\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2BAEB8C260AFF27664EE6C26FCA75414</GUID>
+      <GUID>B1240C60392DB300207E9F851635603A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2401,7 +2397,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\RemoteControl\Write Port.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>22B2E937C548F54CC3E027EA6E857761</GUID>
+      <GUID>CB5CAA56848F0057055E4A8D95D8C478</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2716,7 +2712,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Write STM connection info.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E2F4873CBE6477A8CC2B1883721B1B4</GUID>
+      <GUID>3A897578173F245516B9D48A60860F7C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2765,7 +2761,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\SCPI\SCPI Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC8DFC523BD2EBD74D830558C1DB088A</GUID>
+      <GUID>276483A59FDC1D10DCE2E9A19FF6FB58</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2940,7 +2936,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\Instrument\API\Read Hardware Address.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C9E67A8CB691D0E1D8A355A677F49C18</GUID>
+      <GUID>C4B8A49D7673EA75CFD400FF0BB7E2CF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -3087,7 +3083,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\Instrument\Framework (for override)\Open Instrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F96D44C88118DF1E7E71A76D7396A4AD</GUID>
+      <GUID>E9873A0C085E432C00214423E2DE9CC4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -3178,7 +3174,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E6DC23B21756F34AE1660B8D750DAE5</GUID>
+      <GUID>D4747B31688FD14E77385DBFD0D6A22E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -3283,7 +3279,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\Instrument\Private\List Devices.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EBA58E776C29EF9416AAC3EA7761B376</GUID>
+      <GUID>855C17ADA663CF98CA1E6BAFA8C776D0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -3360,7 +3356,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\Instrument\Protected\Write Configuration Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1CF136C76B855F926E08203480D00F7B</GUID>
+      <GUID>3C66404276A912C4A973D314E18CD85F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3773,7 +3769,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\ZMQ.TestLauncher.SUB.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3B97B0B6FCCC82E1D8A9C73777DD276E</GUID>
+      <GUID>26875914AE6746018876D848AE6FF309</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3976,7 +3972,7 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and J
         <Path>..\lvsrc\SMOs\Logger.PGSQL\Write to PGSQL.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AACDBF12F13BA877360CE970354990BC</GUID>
+      <GUID>F5FC6AC303430845CC0FAE3C11A8D5EE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
