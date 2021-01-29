@@ -14,6 +14,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="build support" Type="Folder">
+			<Item Name="PreBuildSupport" Type="Folder">
+				<Item Name="rename to VIPT.vi" Type="VI" URL="../../build support/PreBuildSupport/rename to VIPT.vi"/>
+				<Item Name="VIPT to rename.vi" Type="VI" URL="../../build support/PreBuildSupport/VIPT to rename.vi"/>
+			</Item>
+			<Item Name="Instruments.vipb" Type="Document" URL="../../build support/Instruments.vipb"/>
+			<Item Name="Instruments.vipc" Type="Document" URL="../../build support/Instruments.vipc"/>
+			<Item Name="Package Pre-Build.vi" Type="VI" URL="../../build support/Package Pre-Build.vi"/>
+			<Item Name="Package Post-Build.vi" Type="VI" URL="../../build support/Package Post-Build.vi"/>
+			<Item Name="Pre-Install Custom Action.vi" Type="VI" URL="../../build support/Pre-Install Custom Action.vi"/>
+			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../../build support/Post-Install Custom Action.vi"/>
+			<Item Name="Log Build.vi" Type="VI" URL="../../build support/Log Build.vi"/>
+		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="STM Multi Client Server" Type="Folder">
 				<Item Name="subVIs" Type="Folder">
@@ -50,27 +63,14 @@
 				<Item Name="Throughput.000000.itx" Type="Document" URL="../../tests/test results/Throughput.000000.itx"/>
 			</Item>
 			<Item Name="Test Create Instrument SMO.vi" Type="VI" URL="../../tests/Test Create Instrument SMO.vi"/>
+			<Item Name="Test RC.vi" Type="VI" URL="../../tests/Test RC.vi"/>
 			<Item Name="Remote Client Metrics.vi" Type="VI" URL="../../tests/Remote Client Metrics.vi"/>
-			<Item Name="Test Remote Client.vi" Type="VI" URL="../../tests/Test Remote Client.vi"/>
-		</Item>
-		<Item Name="build support" Type="Folder">
-			<Item Name="PreBuildSupport" Type="Folder">
-				<Item Name="rename to VIPT.vi" Type="VI" URL="../../build support/PreBuildSupport/rename to VIPT.vi"/>
-				<Item Name="VIPT to rename.vi" Type="VI" URL="../../build support/PreBuildSupport/VIPT to rename.vi"/>
-			</Item>
-			<Item Name="Instruments.vipb" Type="Document" URL="../../build support/Instruments.vipb"/>
-			<Item Name="Instruments.vipc" Type="Document" URL="../../build support/Instruments.vipc"/>
-			<Item Name="Package Pre-Build.vi" Type="VI" URL="../../build support/Package Pre-Build.vi"/>
-			<Item Name="Package Post-Build.vi" Type="VI" URL="../../build support/Package Post-Build.vi"/>
-			<Item Name="Pre-Install Custom Action.vi" Type="VI" URL="../../build support/Pre-Install Custom Action.vi"/>
-			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../../build support/Post-Install Custom Action.vi"/>
-			<Item Name="Log Build.vi" Type="VI" URL="../../build support/Log Build.vi"/>
+			<Item Name="Remote Client Metrics subVI.vi" Type="VI" URL="../../tests/Remote Client Metrics subVI.vi"/>
 		</Item>
 		<Item Name="Subsystems" Type="Folder">
 			<Item Name="Configuration.lvclass" Type="LVClass" URL="../SMOs/Configuration/Configuration.lvclass"/>
 			<Item Name="Logger.lvclass" Type="LVClass" URL="../SMOs/Logger/Logger.lvclass"/>
 			<Item Name="Logger.Error.lvclass" Type="LVClass" URL="../SMOs/Logger.Error/Logger.Error.lvclass"/>
-			<Item Name="Logger.DSC.lvclass" Type="LVClass" URL="../SMOs/Logger.DSC/Logger.DSC.lvclass"/>
 			<Item Name="Logger.PGSQL.lvclass" Type="LVClass" URL="../SMOs/Logger.PGSQL/Logger.PGSQL.lvclass"/>
 			<Item Name="Logger.syslog.lvclass" Type="LVClass" URL="../SMOs/Logger.syslog/Logger.syslog.lvclass"/>
 			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../SMOs/RemoteControl/RemoteControl.lvclass"/>
@@ -1592,6 +1592,8 @@
 				<Item Name="ZLIB Close Zip Archive__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzip.llb/ZLIB Close Zip Archive__ogtk.vi"/>
 				<Item Name="Increment Filename.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Increment Filename.vi"/>
 				<Item Name="Is String Number.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Support/Is String Number.vi"/>
+				<Item Name="MGI Threshold 1D Array Extended.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Threshold 1D Array Extended.vi"/>
+				<Item Name="MGI Interpolate 1D Array Extended.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Interpolate 1D Array Extended.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
