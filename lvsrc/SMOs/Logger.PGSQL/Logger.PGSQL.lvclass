@@ -167,6 +167,16 @@
 		</Item>
 	</Item>
 	<Item Name="Private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Shorten Cluster.vi" Type="VI" URL="../Shorten Cluster.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$&lt;!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$%"4"V:B=GFB&lt;H1!(E!Q`````R2W98*J97*M:3"B:'2S:8.T)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!=1$$`````%X:B=GFB9GRF)'&amp;E:(*F=X-A;7Y!-!$Q!!9!!Q!%!!5!"A!%!!=$!!"1!!!.!Q!!$11!!!U&amp;!!!+!!!!#A!!!AA!!!!!!1!)!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">128</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		</Item>
 		<Item Name="Logger.GetPrivateEvents.vi" Type="VI" URL="../Logger.GetPrivateEvents.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+&amp;!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;]!]1!!!!!!!!!#&amp;%RP:W&gt;F=CZ12V.24#ZM&gt;G.M98.T+6"S;8:B&gt;'6&amp;&gt;G6O&gt;(-N,5RP:W&gt;F=CZ%5U-O5W6U)%&amp;E:(*F=X-O9X2M!"B!-0````],5W6U)%&amp;E:(*F=X-!&amp;E"Q!"E!!1!&amp;#V.F&gt;#"":'2S:8.T!""!-0````](172E=G6T=Q!+1&amp;-%2'&amp;U91!!;!$R!!!!!!!!!!)54'^H:W6S,F"(5V&amp;-,GRW9WRB=X-M5(*J&gt;G&amp;U:56W:7ZU=SUN4'^H:W6S,E241SZ8=GFU:3"798*J97*M:3ZD&gt;'Q!(E"1!!)!"Q!)$F&gt;S;82F)&amp;:B=GFB9GRF!!!;1(!!'1!"!!E/6X*J&gt;'5A6G&amp;S;7&amp;C&lt;'5!!&amp;9!]1!!!!!!!!!#&amp;%RP:W&gt;F=CZ12V.24#ZM&gt;G.M98.T'F"S;8:B&gt;'6&amp;&gt;G6O&gt;(-N,5.M&gt;8.U:8)O9X2M!"Z!5!!#!!9!#AZ1=GFW982F)%6W:7ZU=Q!!,%"Q!"Y!!"954'^H:W6S,F"(5V&amp;-,GRW9WRB=X-!!!J-&lt;W&gt;H:8)A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#B!=!!?!!!7&amp;%RP:W&gt;F=CZ12V.24#ZM&gt;G.M98.T!!!'4'^H:W6S!!"B!0!!$!!$!!1!#Q!-!!1!"!!%!!1!$1!%!!1!$A)!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!0!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -175,7 +185,6 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Logger.ReadVariable.vi" Type="VI" URL="../Logger.ReadVariable.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Y!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#R!=!!?!!!7&amp;%RP:W&gt;F=CZ12V.24#ZM&gt;G.M98.T!!!+4'^H:W6S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!+1&amp;-%2'&amp;U91!!%%!Q`````Q&gt;":'2S:8.T!#B!=!!?!!!7&amp;%RP:W&gt;F=CZ12V.24#ZM&gt;G.M98.T!!!'4'^H:W6S!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!A!#1)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!A!!!))!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!+!!!!!!</Property>
@@ -185,7 +194,6 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
 	<Item Name="Process.vi" Type="VI" URL="../Process.vi">
