@@ -66,6 +66,7 @@
 			<Item Name="Test RC.vi" Type="VI" URL="../../tests/Test RC.vi"/>
 			<Item Name="Remote Client Metrics.vi" Type="VI" URL="../../tests/Remote Client Metrics.vi"/>
 			<Item Name="Remote Client Metrics subVI.vi" Type="VI" URL="../../tests/Remote Client Metrics subVI.vi"/>
+			<Item Name="Test Configuration.vi" Type="VI" URL="../../tests/Test Configuration.vi"/>
 		</Item>
 		<Item Name="Subsystems" Type="Folder">
 			<Item Name="Configuration.lvclass" Type="LVClass" URL="../SMOs/Configuration/Configuration.lvclass"/>
