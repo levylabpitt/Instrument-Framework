@@ -1,0 +1,9 @@
+{
+  "name":"Instrument Framework",
+  "labview-version":"2016",
+  "labview-bitness":"any",
+  "lv-venv":"lv-venv",
+  "main-project":"instrument.lvproj",
+  "main-vipc":"../build support/Instruments.vipc",
+  "main-vipb":"../build support/Instruments.vipb"
+}
