@@ -1,7 +1,9 @@
 /builds/Package
 /builds
-/lvsrc/*.lvlps
-/lvsrc/*.aliases
+/lvsrc/lv-venv/
+build support/instrument.log
+*.lvlps
+*.aliases
 /lvsrc/ProjectTemplates/Source/LevyLab/Instrument/*.aliases
 /lvsrc/ProjectTemplates/Source/LevyLab/Instrument/*.lvlps
-build support/instrument.log
+
