@@ -1,0 +1,33 @@
+user.lib\_OpenG.lib\string\string.llb\1D Array to String__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Comment__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Convert EOLs (String Array)__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Convert EOLs (String)__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Convert EOLs__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\End of Line Constant (bug fix).vi
+user.lib\_OpenG.lib\string\string.llb\Format Variant Into String__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Multi-line String to Array__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Number to Proper Engl Text__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Place Number to Proper Engl Text__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Resolve Timestamp Format__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Scan Variant from String__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Search or Split String__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Slice String 1__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Slice String__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\String to 1D Array__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\String to Character Array__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\To Camel Case (String Array)__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\To Camel Case (String)__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\To Camel Case__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\To Proper Case (String Array)__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\To Proper Case (String)__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\To Proper Case__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Trim Whitespace (String Array)__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Trim Whitespace (String)__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Trim Whitespace Lookup Table.vi
+user.lib\_OpenG.lib\string\string.llb\Trim Whitespace__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\Variant Array to Spreadsheet__ogtk.vi
+user.lib\_OpenG.lib\string\string.llb\VI Tree - string__ogtk.vi
+menus\Categories\OpenG\functions_oglib_string.mnu
+menus\Categories\OpenG\dir.mnu
+user.lib\_OpenG.lib\string
+user.lib\_OpenG.lib\string\string.llb

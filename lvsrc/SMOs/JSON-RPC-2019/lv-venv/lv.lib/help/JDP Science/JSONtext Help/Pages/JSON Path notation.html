@@ -1,0 +1,54 @@
+<h2>JSON Path notation in JSONtext</h2>
+<p>Paths specify an item in a tree of nested Elements, and start with $. Each element is either in the form .name, for Object items, or [n] for Array index ([*] for all elements). Multiple Array index can be specified ([n1,n2,n3,...]), and multiple Object items can be specified by the list form .[abc,def,...]. &nbsp; All elements/items can be specified with a * ([*] for Array elements, or .* for object items).</p>
+<p>If the Path input does not start with a $, then it is interpreted as a single Object Item name, rather than a path.</p>
+<table style="height: 206px; width: 656px;" border="1"><caption><strong>Path Elements:</strong></caption>
+<tbody>
+<tr style="height: 19px;">
+<td style="width: 160px; height: 19px;">$</td>
+<td style="width: 460px; height: 19px;">Root JSON Value</td>
+</tr>
+<tr style="height: 19px;">
+<td style="width: 160px; height: 19px;">.name</td>
+<td style="width: 460px; height: 19px;">Object item "name"</td>
+</tr>
+<tr style="height: 19px;">
+<td style="width: 160px; height: 19px;">.[name1,name2,..]</td>
+<td style="width: 460px; height: 19px;">Object items</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 160px; height: 20px;">.*</td>
+<td style="width: 460px; height: 20px;">All Object items</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 160px; height: 20px;">[n]</td>
+<td style="width: 460px; height: 20px;">Array index n (negative n counts back from end; -1 == last element)</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 160px; height: 20px;">[n1,n2,n3,...]</td>
+<td style="width: 460px; height: 20px;">Multiple Array indexes</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 160px; height: 20px;">[*]</td>
+<td style="width: 460px; height: 20px;">All Array elements</td>
+</tr>
+<tr style="height: 20px;">
+<td style="width: 160px; height: 20px;">[#]</td>
+<td style="width: 460px; height: 20px;">For appending to the Array, indicates element past the end</td>
+</tr>
+</tbody>
+</table>
+<p>Example JSON:</p>
+<p><span style="color: #666699;">{"A":[{"C":123,"D":4},{"C":567,"D":8}],"B":{"F":9},"E":true}</span></p>
+<ul>
+<li>At path $.A[*].C are <span style="color: #666699;">123</span> and <span style="color: #666699;">567</span></li>
+<li>At path $.A[1].C is <span style="color: #666699;">567</span></li>
+<li>At path $.B (or just B) is <span style="color: #666699;">{"F":9}</span></li>
+<li>At path $.B.F is <span style="color: #666699;">9</span></li>
+<li>At path $.[B,E] are <span style="color: #666699;">{"F":9}</span> and <span style="color: #666699;">true</span></li>
+<li>At path $.* are <span style="color: #666699;">[{"C":123,"D":4},{"C":567,"D":8}]</span>, <span style="color: #666699;">{"F":9}</span>, and <span style="color: #666699;">true</span></li>
+</ul>
+<p>Object items can also be specified as their proper JSON string.&nbsp; &nbsp;This allows the use of characters in names that would otherwise not parse correctly.&nbsp; For example:</p>
+<p>$."My Name that contains \"quotes\", []brackets, and dots."&nbsp;</p>
+<p>Note that this must be proper JSON (thus the escaped quotes in the example).</p>
+<p>Lastly, please note that <a href="http://jsonpath.com/">JSON Path</a> is not standardized, and will differ from other path implimentations.&nbsp;&nbsp;</p>
+<p>For support please see&nbsp;<a title="[CR] JSONtext" href="https://lavag.org/topic/20236-cr-jsontext/" target="_blank" rel="noopener">[CR] JSONtext</a>.</p>

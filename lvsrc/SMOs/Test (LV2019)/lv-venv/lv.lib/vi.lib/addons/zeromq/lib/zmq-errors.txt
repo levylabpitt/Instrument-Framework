@@ -1,0 +1,99 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+ZeroMQ socket library error codes
+</nicomment>
+<nierror code="156384712">
+Unknown ZeroMQ error
+</nierror>
+<nierror code="156384713">
+ENOTSUP: Operation not supported
+</nierror>
+<nierror code="156384714">
+EPROTONOSUPPORT: Protocol not supported
+</nierror>
+<nierror code="156384715">
+ENOBUFS: No buffer space available
+</nierror>
+<nierror code="156384716">
+ENETDOWN: Network is down
+</nierror>
+<nierror code="156384717">
+EADDRINUSE: Address already in use
+</nierror>
+<nierror code="156384718">
+EADDRNOTAVAIL: Cannot assign requested address
+</nierror>
+<nierror code="156384719">
+ECONNREFUSED: Connection refused
+</nierror>
+<nierror code="156384720">
+EINPROGRESS: Operation now in progress
+</nierror>
+<nierror code="156384721">
+ENOTSOCK: Socket operation on non-socket
+</nierror>
+<nierror code="156384722">
+EMSGSIZE: Message too long
+</nierror>
+<nierror code="156384723">
+EAFNOSUPPORT: Address family not supported by protocol
+</nierror>
+<nierror code="156384724">
+ENETUNREACH: Network is unreachable
+</nierror>
+<nierror code="156384725">
+ECONNABORTED: Software caused connection abort
+</nierror>
+<nierror code="156384726">
+ECONNRESET: Connection reset by peer
+</nierror>
+<nierror code="156384727">
+ENOTCONN: Transport endpoint is not connected
+</nierror>
+<nierror code="156384728">
+ETIMEDOUT: Connection timed out
+</nierror>
+<nierror code="156384729">
+EHOSTUNREACH: No route to host
+</nierror>
+<nierror code="156384730">
+ENETRESET: Network dropped connection on reset
+</nierror>
+<nierror code="156384732">
+EINVAL: Invalid argument
+</nierror>
+<nierror code="156384733">
+ENODEV: No such device
+</nierror>
+<nierror code="156384734">
+EFAULT: Bad address
+</nierror>
+<nierror code="156384735">
+EINTR: Interrupted system call
+</nierror>
+<nierror code="156384736">
+ENOENT: No such file or directory
+</nierror>
+<nierror code="156384737">
+ENOMEM: Cannot allocate memory
+</nierror>
+<nierror code="156384738">
+EAGAIN: Resource temporarily unavailable
+</nierror>
+<nierror code="156384739">
+EMFILE: Too many open sockets
+</nierror>
+<nierror code="156384763">
+EFSM: Operation cannot be accomplished in current state
+</nierror>
+<nierror code="156384764">
+ENOCOMPATPROTO: The protocol is not compatible with the socket type
+</nierror>
+<nierror code="156384765">
+ETERM: Context was terminated
+</nierror>
+<nierror code="156384766">
+EMTHREAD: No thread available
+</nierror>
+</nidocument>

@@ -1,0 +1,30 @@
+<VI_Documentation>
+	<Owning_Library Checkbox = "False">
+		<Owning_library_name>Put a name here</Owning_library_name>
+		<Owning_library_path></Owning_library_path>
+	</Owning_Library>
+	<Names_of_required_libraries>Base Package</Names_of_required_libraries>
+	<Names_of_platforms>Windows</Names_of_platforms>
+	<VI_Description>Gets the next JSON Value (object, array, string, number, true, false, or null)
+
+"Offset" should point to the start of the JSON Value, or to whitespace in front of the Value.vsdvsdvsdvsd</VI_Description>
+	<Detailed_help_link>False</Detailed_help_link>
+	<Scrollable_window>False</Scrollable_window>
+	<Details Checkbox = "False">
+		<Details_text>TestDetails</Details_text>
+	</Details>
+	<Examples Checkbox = "False">
+		<Path_to_example_image></Path_to_example_image>
+		<Example_VI_name></Example_VI_name>
+		<Example_VI_path></Example_VI_path>	
+	</Examples>
+	<Start_path>VI_folder</Start_path>
+	<Table Checkbox = "False">
+		<Object>
+			</Object>
+		<Link>
+			</Link>
+		<Description>
+			</Description>
+	</Table>	
+</VI_Documentation>

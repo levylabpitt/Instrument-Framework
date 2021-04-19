@@ -1,0 +1,15 @@
+<h2>Cluster conversion to/from JSON Objects or Arrays</h2>
+<p>LabVIEW clusters are ordered lists of named or unnamed elements (of mixed datatype). &nbsp; JSON Arrays are ordered lists of unnamed items, while JSON Objects are unordered collections of uniquely-named items. &nbsp;Thus, it is not a one-to-one mapping between a LabVIEW cluster and JSON types.</p>
+<p>JSONtext, when converting a cluster to JSON, follows the following convention, based on the name of the first cluster element:</p>
+<ul>
+<li>If the first element is unnamed (or has the exact name <a href="JSON%20tags.html">&lt;JSON&gt;</a>), then the cluster is converted to a JSON Array.</li>
+<li>If the first element is named then the cluster is converted to a JSON Object.</li>
+</ul>
+<p>Only the first cluster element is used to make this decision. &nbsp;If converted to a JSON Array, then any names of elements are ignored. If converted to a Object, then unnamed elements will have an empty name (""). &nbsp;</p>
+<p>Clusters must have unique names in order to produce a valid JSON Object.</p>
+<h2>Array conversion</h2>
+<p>LabVIEW arrays are ordered lists of a sigle datatype. &nbsp; They can be converted to/from JSON Arrays of all one type. &nbsp; To handle mixed-type JSON Arrays use a cluster with unnamed elements&nbsp;(can have&nbsp;<a href="JSON%20tags.html">&lt;JSON&gt; tags</a>), as described above.</p>
+<p>When converting to a LabVIEW Array, if instead of a JSON Array a JSON Scaler is found, this will be treated as the same as an Array of that type.&nbsp;&nbsp;</p>
+<h2>Special conversion &lt;JOBJ&gt; tags</h2>
+<p>JSON Objects can be coverted to/from an Array of Clusters, where the first element of each Cluster is a string that holds the Object Item name.&nbsp; Such Arrays of Clusters are identified by &lt;JOBJ&gt; at the start of the Array Name.&nbsp; See the example "Example of JOBJ tags.vi".&nbsp;</p>
+<p>For support please see&nbsp;<a title="[CR] JSONtext" href="https://lavag.org/topic/20236-cr-jsontext/" target="_blank" rel="noopener">[CR] JSONtext</a>.</p>

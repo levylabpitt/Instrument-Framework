@@ -1,0 +1,5 @@
+<h2>Offsets in JSONtext</h2>
+<p>Offsets are optional. &nbsp;They can be used to improve performance, such as by finding an item, changing it, and updating it in the original JSON without the overhead of finding the item twice. &nbsp;In general, however, the library User should ignore offsets all together.</p>
+<p>An "offset" refers to a location in the input "JSON" string at which the actual JSON Value of interest starts (or to whitespace in front of that start). &nbsp;&nbsp;</p>
+<p>For example, in the JSON <span style="color: #008080;">{"A":1,"B":[2,3]}</span>, offset=5 is <span style="color: #008080;">1</span>, while offset=10 is <span style="color: #008080;">[2,3]</span> and offset=11 is <span style="color: #008080;">2<span style="color: #000000;">.</span></span></p>
+<p>For support please see&nbsp;<a title="[CR] JSONtext" href="https://lavag.org/topic/20236-cr-jsontext/" target="_blank" rel="noopener">[CR] JSONtext</a>.</p>

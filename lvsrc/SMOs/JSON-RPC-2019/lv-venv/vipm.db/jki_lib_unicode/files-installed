@@ -1,0 +1,23 @@
+vi.lib\addons\_JKI.lib\Unicode\JKI Unicode.lvlib
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\BOM Length.vi
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\Byte Stream.ctl
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\Bytes In Rune.vi
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\Create UTF-8 String.vi
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\Has Next.vi
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\Index Rune as UTF-8 Substring.vi
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\Index Rune.vi
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\Next Rune As UTF-8 Substring.vi
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\Next Rune.vi
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\Read Byte Stream.vi
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\Read UTF-8 String.vi
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\Remove BOM.vi
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\String Length in Bytes.vi
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\String Length in Runes.vi
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\String Subset.vi
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\UTF-8 String.lvclass
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\Write Byte Stream.vi
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String\Write UTF-8 String.vi
+menus\Categories\JKI Tools\_functions_jki_lib_unicode_1.mnu
+menus\Categories\JKI Tools\functions_JKI_lib_unicode.mnu
+vi.lib\addons\_JKI.lib\Unicode
+vi.lib\addons\_JKI.lib\Unicode\UTF-8 String

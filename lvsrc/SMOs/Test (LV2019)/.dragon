@@ -1,0 +1,9 @@
+{
+  "name":"LV2019 Tests",
+  "labview-version":"2019",
+  "labview-bitness":"any",
+  "lv-venv":"lv-venv",
+  "main-project":"LV2019 Tests.lvproj",
+  "main-vipc":"",
+  "main-vipb":""
+}

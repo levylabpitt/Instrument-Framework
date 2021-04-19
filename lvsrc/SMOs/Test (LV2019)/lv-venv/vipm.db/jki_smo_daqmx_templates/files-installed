@@ -1,0 +1,64 @@
+templates\JKI\JKI SMO\SimpleDAQmx.lvproj
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\convertUnitToRing.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Create AnalogInput DAQmx(PhysChannel).vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\DAQmx(AI).FindSelectedDevice.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\DAQmx(AI).GetConfiguration.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\DAQmx(AI).GetPublicEvents.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\DAQmx(AI).lvclass
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\DAQmx(AI).METHOD_TEMPLATE.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\DAQmx(AI).SetLogging.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\DAQmx(AI).SetTDMSLogFile.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\DAQmx(AI).TestLauncher.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\GetScaling.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Install Simulated Device.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Process.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Set Custom Scaling.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Set Scaling (Linear).vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Set Scaling (MapRange).vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Set Scaling (None).vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\SetConfiguration.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\SetScale.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\SMO-SimulatedDevice.nce
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\Configuration--Cluster.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\DataChanged--EventData--Cluster.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\InputConfiguration--Cluster.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\Logging--Cluster.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\PrivateData--Cluster.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\PrivateData--Ref.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\PrivateEvents--Cluster.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\PublicEvents--Cluster.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\Scaling(Linear)--Cluster.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\Scaling(MapRange)--Cluster.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\Scaling(Polynomial)--Cluster.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\Scaling(Table)--Cluster.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\Scaling--Cluster.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\ScalingEvent--Cluster.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\ScalingType--Enum.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs\Units -- Enum.ctl
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Private\CoerceRange.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Private\CreateCustomScale.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Private\DAQmx(AI).DVRtoRef.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Private\DAQmx(AI).GetPrivateEvents.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Private\DAQmx(AI).ReftoDVR.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Private\GetPhysChannel.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Private\GetTask.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Private\SetTask.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Private\SetValue.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Private\Slope-Intercept.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Private\TaskCreationEvents.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Overrides\CreatePrivateEvents.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Overrides\CreatePublicEvents.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Overrides\CreateSelfReference.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Overrides\DestroyPrivateEvents.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Overrides\DestroyPublicEvents.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Overrides\DestroySelfReference.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Overrides\onProcessStart.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Overrides\onProcessStartedWithErrors.vi
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Overrides\onProcessStopped.vi
+templates
+templates\JKI
+templates\JKI\JKI SMO
+templates\JKI\JKI SMO\DAQmx(AnalogInput)
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Typedefs
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Private
+templates\JKI\JKI SMO\DAQmx(AnalogInput)\Overrides

@@ -1,0 +1,321 @@
+vi.lib\JDP Science\JSONtext\.hgtags
+vi.lib\JDP Science\JSONtext\Array of Variants to JSON Array.vi
+vi.lib\JDP Science\JSONtext\Array of Variants to JSON Object.vi
+vi.lib\JDP Science\JSONtext\Colour Items of a JSON string control.vi
+vi.lib\JDP Science\JSONtext\Compact.vi
+vi.lib\JDP Science\JSONtext\Delete from Object.vi
+vi.lib\JDP Science\JSONtext\Delete.vi
+vi.lib\JDP Science\JSONtext\Difference.vi
+vi.lib\JDP Science\JSONtext\Do Nothing subVI test.vi
+vi.lib\JDP Science\JSONtext\Find Item (as LVtype).vim
+vi.lib\JDP Science\JSONtext\Find Item.vi
+vi.lib\JDP Science\JSONtext\Find Multiple Items (as LVtype).vim
+vi.lib\JDP Science\JSONtext\Find Multiple Items.vi
+vi.lib\JDP Science\JSONtext\Find Object Items by Name.vi
+vi.lib\JDP Science\JSONtext\Flatten JSON Object to JSONpath Array.vi
+vi.lib\JDP Science\JSONtext\Flatten SubClusters to JSON Object.vim
+vi.lib\JDP Science\JSONtext\From JSON Text (boolean).vi
+vi.lib\JDP Science\JSONtext\From JSON Text (DBL).vi
+vi.lib\JDP Science\JSONtext\From JSON Text (I32).vi
+vi.lib\JDP Science\JSONtext\From JSON Text (I64).vi
+vi.lib\JDP Science\JSONtext\From JSON Text (LVObject).vi
+vi.lib\JDP Science\JSONtext\From JSON Text (SGL).vi
+vi.lib\JDP Science\JSONtext\From JSON Text (string).vi
+vi.lib\JDP Science\JSONtext\From JSON Text (timestamp).vi
+vi.lib\JDP Science\JSONtext\From JSON Text (U32).vi
+vi.lib\JDP Science\JSONtext\From JSON Text (U64).vi
+vi.lib\JDP Science\JSONtext\From JSON Text (Variant).vi
+vi.lib\JDP Science\JSONtext\From JSON Text.vi
+vi.lib\JDP Science\JSONtext\From JSON Text.vim
+vi.lib\JDP Science\JSONtext\Get all Object Items.vi
+vi.lib\JDP Science\JSONtext\Get Array Elements.vi
+vi.lib\JDP Science\JSONtext\Get as LabVIEW type (poly).vi
+vi.lib\JDP Science\JSONtext\Is Empty.vi
+vi.lib\JDP Science\JSONtext\JSON text to Variant (path).vi
+vi.lib\JDP Science\JSONtext\JSON text to Variant.vi
+vi.lib\JDP Science\JSONtext\JSON type.vi
+vi.lib\JDP Science\JSONtext\JSON Value Type.ctl
+vi.lib\JDP Science\JSONtext\JSONtext.aliases.orig
+vi.lib\JDP Science\JSONtext\JSONtext.lvlib
+vi.lib\JDP Science\JSONtext\JSONtext.lvproj
+vi.lib\JDP Science\JSONtext\license JSONtext.txt
+vi.lib\JDP Science\JSONtext\Make JSON Array.vi
+vi.lib\JDP Science\JSONtext\Make JSON Object.vi
+vi.lib\JDP Science\JSONtext\Merge Cluster into Object.vim
+vi.lib\JDP Science\JSONtext\Merge into Object.vi
+vi.lib\JDP Science\JSONtext\Next JSON Value.vi
+vi.lib\JDP Science\JSONtext\Next JSON Value.vi.vihlp
+vi.lib\JDP Science\JSONtext\Not Equivalent.vi
+vi.lib\JDP Science\JSONtext\Object Items (poly).vi
+vi.lib\JDP Science\JSONtext\Object Node Tree.vi
+vi.lib\JDP Science\JSONtext\Path Notation Parse leading.vi
+vi.lib\JDP Science\JSONtext\Read Multiple Sections.vim
+vi.lib\JDP Science\JSONtext\Read Section Cluster.vim
+vi.lib\JDP Science\JSONtext\Reformat.vi
+vi.lib\JDP Science\JSONtext\Replace Item at Offset.vi
+vi.lib\JDP Science\JSONtext\Replace Multiple Items at Offsets.vi
+vi.lib\JDP Science\JSONtext\Set Item (as LVtype).vim
+vi.lib\JDP Science\JSONtext\Set Item.vi
+vi.lib\JDP Science\JSONtext\Set Multiple Object Items.vi
+vi.lib\JDP Science\JSONtext\String Subset.vi
+vi.lib\JDP Science\JSONtext\Strip UTF8 Byte Order Mark (if present).vi
+vi.lib\JDP Science\JSONtext\To JSON Text (Experimental).vim
+vi.lib\JDP Science\JSONtext\To JSON Text.vim
+vi.lib\JDP Science\JSONtext\Unflatten JSONpath Array to Object.vi
+vi.lib\JDP Science\JSONtext\Unflatten SubClusters from JSON Object.vim
+vi.lib\JDP Science\JSONtext\Variant to JSON Text.vi
+vi.lib\JDP Science\JSONtext\Write Multiple Sections.vi
+vi.lib\JDP Science\JSONtext\Write Section Cluster.vi
+vi.lib\JDP Science\JSONtext\support\Compacting.vi
+vi.lib\JDP Science\JSONtext\support\DBL Aray to JSON.vi
+vi.lib\JDP Science\JSONtext\support\DBL to String.vi
+vi.lib\JDP Science\JSONtext\support\Empty string is an Object.vi
+vi.lib\JDP Science\JSONtext\support\Error Cluster From Code.vi
+vi.lib\JDP Science\JSONtext\support\Format Error.vi
+vi.lib\JDP Science\JSONtext\support\Format JSON Array Text.vi
+vi.lib\JDP Science\JSONtext\support\Format JSON Object.vi
+vi.lib\JDP Science\JSONtext\support\Get Boolean.vi
+vi.lib\JDP Science\JSONtext\support\Get DBL.vi
+vi.lib\JDP Science\JSONtext\support\Get I32.vi
+vi.lib\JDP Science\JSONtext\support\Get I64.vi
+vi.lib\JDP Science\JSONtext\support\Get LVObject.vi
+vi.lib\JDP Science\JSONtext\support\Get Number Text.vi
+vi.lib\JDP Science\JSONtext\support\Get SGL.vi
+vi.lib\JDP Science\JSONtext\support\Get String.vi
+vi.lib\JDP Science\JSONtext\support\Get Timestamp.vi
+vi.lib\JDP Science\JSONtext\support\Get U32.vi
+vi.lib\JDP Science\JSONtext\support\Get U64.vi
+vi.lib\JDP Science\JSONtext\support\Insert.vi
+vi.lib\JDP Science\JSONtext\support\Is Scaler Type.vi
+vi.lib\JDP Science\JSONtext\support\JSON Tags on Array.vi
+vi.lib\JDP Science\JSONtext\support\JSON to LVObject.vi
+vi.lib\JDP Science\JSONtext\support\LVObject to JSON.vi
+vi.lib\JDP Science\JSONtext\support\Path plus name.vi
+vi.lib\JDP Science\JSONtext\support\Possible Ragged Array.vi
+vi.lib\JDP Science\JSONtext\support\quote and escape json string 2.vi
+vi.lib\JDP Science\JSONtext\support\Quote and Escape JSON string.vi
+vi.lib\JDP Science\JSONtext\support\Remove JSON Tag.vi
+vi.lib\JDP Science\JSONtext\support\Remove OBJ Tag.vi
+vi.lib\JDP Science\JSONtext\support\Remove trailing zeros.vi
+vi.lib\JDP Science\JSONtext\support\Scan Timestamp.vi
+vi.lib\JDP Science\JSONtext\support\SGL Aray to JSON.vi
+vi.lib\JDP Science\JSONtext\support\SGL to String.vi
+vi.lib\JDP Science\JSONtext\support\Strip Quotes and Unescape.vi
+vi.lib\JDP Science\JSONtext\support\Tag for JSON Text.vi
+vi.lib\JDP Science\JSONtext\support\Tag Type.ctl
+vi.lib\JDP Science\JSONtext\support\Test DAQmx tags.vi
+vi.lib\JDP Science\JSONtext\support\Treatment of NaN and Inf.vi
+vi.lib\JDP Science\JSONtext\support\Trim Input JSON (and null).vi
+vi.lib\JDP Science\JSONtext\support\Trim Whitespace__JSONtext.vi
+vi.lib\JDP Science\JSONtext\support\Uncompact.vi
+vi.lib\JDP Science\JSONtext\support\Unescape JSON string.vi
+vi.lib\JDP Science\JSONtext\Parsing\Advance past Array.vi
+vi.lib\JDP Science\JSONtext\Parsing\Advance past colon.vi
+vi.lib\JDP Science\JSONtext\Parsing\Advance past Item Name.vi
+vi.lib\JDP Science\JSONtext\Parsing\Advance past Line Ending.vi
+vi.lib\JDP Science\JSONtext\Parsing\Advance past next JSON Scaler.vi
+vi.lib\JDP Science\JSONtext\Parsing\Advance past next JSON Value (inlined COPY).vi
+vi.lib\JDP Science\JSONtext\Parsing\Advance past next JSON Value.vi
+vi.lib\JDP Science\JSONtext\Parsing\Advance past Number.vi
+vi.lib\JDP Science\JSONtext\Parsing\Advance past Object.vi
+vi.lib\JDP Science\JSONtext\Parsing\Advance past replacable whitespace.vi
+vi.lib\JDP Science\JSONtext\Parsing\Advance past String.vi
+vi.lib\JDP Science\JSONtext\Parsing\Advance past whitespace and comma.vi
+vi.lib\JDP Science\JSONtext\Parsing\Advance past whitespace.vi
+vi.lib\JDP Science\JSONtext\Parsing\Advance to next scaler type.vi
+vi.lib\JDP Science\JSONtext\Parsing\Combine Positions by type.vi
+vi.lib\JDP Science\JSONtext\Parsing\Find (Create) Object.vi
+vi.lib\JDP Science\JSONtext\Parsing\Found Items.ctl
+vi.lib\JDP Science\JSONtext\Parsing\Get all positions.vi
+vi.lib\JDP Science\JSONtext\Parsing\Leading Path Element Type.vi
+vi.lib\JDP Science\JSONtext\Parsing\Line Size (pretty print).vi
+vi.lib\JDP Science\JSONtext\Parsing\Match Pattern.vi
+vi.lib\JDP Science\JSONtext\Parsing\NaN or null to Integer ERROR.vi
+vi.lib\JDP Science\JSONtext\Parsing\Parse Full Path or Item Name.vi
+vi.lib\JDP Science\JSONtext\Parsing\Parse Path Array indexes.vi
+vi.lib\JDP Science\JSONtext\Parsing\Parse Path Object Items.vi
+vi.lib\JDP Science\JSONtext\Parsing\Parsing Error (inlined).vi
+vi.lib\JDP Science\JSONtext\Parsing\Parsing Error in converting to LabVIEW type.vi
+vi.lib\JDP Science\JSONtext\Parsing\Parsing Error.vi
+vi.lib\JDP Science\JSONtext\Parsing\Parsing State.ctl
+vi.lib\JDP Science\JSONtext\Parsing\Path Notation End Name.vi
+vi.lib\JDP Science\JSONtext\Parsing\Replace at Offset.vi
+vi.lib\JDP Science\JSONtext\Parsing\Reverse backwards past comma.vi
+vi.lib\JDP Science\JSONtext\Parsing\Scalar JSON text to Variant.vi
+vi.lib\JDP Science\JSONtext\Offset\Find Item Locations by Path.vi
+vi.lib\JDP Science\JSONtext\Offset\Find Object Item Locations by Names.vi
+vi.lib\JDP Science\JSONtext\Offset\Find Object Item Offset by Name.vi
+vi.lib\JDP Science\JSONtext\Offset\Get all Object Item Offsets.vi
+vi.lib\JDP Science\JSONtext\Offset\Get Array Element Offsets.vi
+vi.lib\JDP Science\JSONtext\NI Palette\On Install of JSONtext.vi
+vi.lib\JDP Science\JSONtext\NI Palette\On Uninstall of JSONtext.vi
+vi.lib\JDP Science\JSONtext\NI Palette\readme.txt
+vi.lib\JDP Science\JSONtext\LVClass Serializer\JSON to LVObject.vi
+vi.lib\JDP Science\JSONtext\LVClass Serializer\JSONtext LVClass Serializer.lvclass
+vi.lib\JDP Science\JSONtext\LVClass Serializer\LVObject to JSON.vi
+vi.lib\JDP Science\JSONtext\Fixup\Advance past whitespace and comments.vi
+vi.lib\JDP Science\JSONtext\Fixup\Fixup.vi
+vi.lib\JDP Science\JSONtext\Fixup\Get all Object Items (fixup).vi
+vi.lib\JDP Science\JSONtext\Display Text\Display Text from JSON.vi
+vi.lib\JDP Science\JSONtext\Display Text\JSON Array to Display Text.vi
+vi.lib\JDP Science\JSONtext\Display Text\JSON Object to Display Text.vi
+vi.lib\JDP Science\JSONtext\Base64\Base64 Support.lvlib
+vi.lib\JDP Science\JSONtext\Base64\base64url Decode.vi
+vi.lib\JDP Science\JSONtext\Base64\base64url Encode.vi
+vi.lib\_probes\JDP Science\JSONtext\JSONtext Pretty Print.vi
+project\errors\JSONtext-errors.txt
+help\JDP Science\JSONtext Help.txt
+help\JDP Science\JSONtext Help.vi
+help\JDP Science\JSONtext Help\Array of Variants to JSON Array.html
+help\JDP Science\JSONtext Help\Array of Variants to JSON Object.html
+help\JDP Science\JSONtext Help\Colour Items of a JSON string control.html
+help\JDP Science\JSONtext Help\Delete from Object.html
+help\JDP Science\JSONtext Help\Delete.html
+help\JDP Science\JSONtext Help\Difference.html
+help\JDP Science\JSONtext Help\Display Text from JSON.html
+help\JDP Science\JSONtext Help\Empty Invalid or Null.html
+help\JDP Science\JSONtext Help\Find Item (as LVtype)_VIM.html
+help\JDP Science\JSONtext Help\Find Item.html
+help\JDP Science\JSONtext Help\Find Multiple Items (as LVtype)_VIM.html
+help\JDP Science\JSONtext Help\Find Multiple Items.html
+help\JDP Science\JSONtext Help\Find Object Items by Name.html
+help\JDP Science\JSONtext Help\Flatten JSON Object to JSONpath Array.html
+help\JDP Science\JSONtext Help\Flatten SubClusters to JSON Object_VIM.html
+help\JDP Science\JSONtext Help\From JSON Text_VIM.html
+help\JDP Science\JSONtext Help\Get all Object Items.html
+help\JDP Science\JSONtext Help\Get Array Elements.html
+help\JDP Science\JSONtext Help\Is Empty.html
+help\JDP Science\JSONtext Help\JSON text to Variant.html
+help\JDP Science\JSONtext Help\JSON type.html
+help\JDP Science\JSONtext Help\Make JSON Array.html
+help\JDP Science\JSONtext Help\Make JSON Object.html
+help\JDP Science\JSONtext Help\Merge Cluster into Object_VIM.html
+help\JDP Science\JSONtext Help\Merge into Object.html
+help\JDP Science\JSONtext Help\Next JSON Value.html
+help\JDP Science\JSONtext Help\Not Equivalent.html
+help\JDP Science\JSONtext Help\Read Multiple Sections_VIM.html
+help\JDP Science\JSONtext Help\Read Section Cluster_VIM.html
+help\JDP Science\JSONtext Help\Reformat.html
+help\JDP Science\JSONtext Help\Replace Item at Offset.html
+help\JDP Science\JSONtext Help\Replace Multiple Items at Offsets.html
+help\JDP Science\JSONtext Help\Set Item (as LVtype)_VIM.html
+help\JDP Science\JSONtext Help\Set Item.html
+help\JDP Science\JSONtext Help\Set Multiple Object Items.html
+help\JDP Science\JSONtext Help\String Subset.html
+help\JDP Science\JSONtext Help\Strip UTF8 Byte Order Mark (if present).html
+help\JDP Science\JSONtext Help\To JSON Text_VIM.html
+help\JDP Science\JSONtext Help\Unflatten JSONpath Array to Object.html
+help\JDP Science\JSONtext Help\Unflatten SubClusters from JSON Object_VIM.html
+help\JDP Science\JSONtext Help\Variant to JSON Text.html
+help\JDP Science\JSONtext Help\Write Multiple Sections.html
+help\JDP Science\JSONtext Help\Write Section Cluster.html
+help\JDP Science\JSONtext Help\Pages\Cluster and Array conversion to JSON.html
+help\JDP Science\JSONtext Help\Pages\JSON Extensions.html
+help\JDP Science\JSONtext Help\Pages\JSON Path notation.html
+help\JDP Science\JSONtext Help\Pages\JSON tags.html
+help\JDP Science\JSONtext Help\Pages\JSONtext.html
+help\JDP Science\JSONtext Help\Pages\LVObjects.html
+help\JDP Science\JSONtext Help\Pages\Offsets.html
+help\JDP Science\JSONtext Help\Images\Array of Variants to JSON Arrayc.png
+help\JDP Science\JSONtext Help\Images\Array of Variants to JSON Objectc.png
+help\JDP Science\JSONtext Help\Images\c1dfxdt.png
+help\JDP Science\JSONtext Help\Images\c1di32.png
+help\JDP Science\JSONtext Help\Images\c1dstr.png
+help\JDP Science\JSONtext Help\Images\cbool.png
+help\JDP Science\JSONtext Help\Images\cerrcodeclst.png
+help\JDP Science\JSONtext Help\Images\cfxdt.png
+help\JDP Science\JSONtext Help\Images\ci32.png
+help\JDP Science\JSONtext Help\Images\cJSONtext_LVClass_Serializerlvclass.png
+help\JDP Science\JSONtext Help\Images\cnclst.png
+help\JDP Science\JSONtext Help\Images\Colour Items of a JSON string controlc.png
+help\JDP Science\JSONtext Help\Images\cstr.png
+help\JDP Science\JSONtext Help\Images\cstrrn.png
+help\JDP Science\JSONtext Help\Images\Delete from Objectc.png
+help\JDP Science\JSONtext Help\Images\Deletec.png
+help\JDP Science\JSONtext Help\Images\Differencec.png
+help\JDP Science\JSONtext Help\Images\Display Text from JSONc.png
+help\JDP Science\JSONtext Help\Images\Empty Invalid or Nullc.png
+help\JDP Science\JSONtext Help\Images\Find Item (as LVtype)_VIMc.png
+help\JDP Science\JSONtext Help\Images\Find Itemc.png
+help\JDP Science\JSONtext Help\Images\Find Multiple Items (as LVtype)_VIMc.png
+help\JDP Science\JSONtext Help\Images\Find Multiple Itemsc.png
+help\JDP Science\JSONtext Help\Images\Find Object Items by Namec.png
+help\JDP Science\JSONtext Help\Images\Flatten JSON Object to JSONpath Arrayc.png
+help\JDP Science\JSONtext Help\Images\Flatten SubClusters to JSON Object_VIMc.png
+help\JDP Science\JSONtext Help\Images\From JSON Text_VIMc.png
+help\JDP Science\JSONtext Help\Images\Get all Object Itemsc.png
+help\JDP Science\JSONtext Help\Images\Get Array Elementsc.png
+help\JDP Science\JSONtext Help\Images\i1dfxdt.png
+help\JDP Science\JSONtext Help\Images\i1di32.png
+help\JDP Science\JSONtext Help\Images\i1dstr.png
+help\JDP Science\JSONtext Help\Images\ibool.png
+help\JDP Science\JSONtext Help\Images\ienum.png
+help\JDP Science\JSONtext Help\Images\ierrcodeclst.png
+help\JDP Science\JSONtext Help\Images\ifxdt.png
+help\JDP Science\JSONtext Help\Images\ii32.png
+help\JDP Science\JSONtext Help\Images\inclst.png
+help\JDP Science\JSONtext Help\Images\Is Emptyc.png
+help\JDP Science\JSONtext Help\Images\istr.png
+help\JDP Science\JSONtext Help\Images\JSON text to Variantc.png
+help\JDP Science\JSONtext Help\Images\JSON typec.png
+help\JDP Science\JSONtext Help\Images\Make JSON Arrayc.png
+help\JDP Science\JSONtext Help\Images\Make JSON Objectc.png
+help\JDP Science\JSONtext Help\Images\Merge Cluster into Object_VIMc.png
+help\JDP Science\JSONtext Help\Images\Merge into Objectc.png
+help\JDP Science\JSONtext Help\Images\Next JSON Valuec.png
+help\JDP Science\JSONtext Help\Images\Not Equivalentc.png
+help\JDP Science\JSONtext Help\Images\Read Multiple Sections_VIMc.png
+help\JDP Science\JSONtext Help\Images\Read Section Cluster_VIMc.png
+help\JDP Science\JSONtext Help\Images\Reformatc.png
+help\JDP Science\JSONtext Help\Images\Replace Item at Offsetc.png
+help\JDP Science\JSONtext Help\Images\Replace Multiple Items at Offsetsc.png
+help\JDP Science\JSONtext Help\Images\Set Item (as LVtype)_VIMc.png
+help\JDP Science\JSONtext Help\Images\Set Itemc.png
+help\JDP Science\JSONtext Help\Images\Set Multiple Object Itemsc.png
+help\JDP Science\JSONtext Help\Images\String Subsetc.png
+help\JDP Science\JSONtext Help\Images\Strip UTF8 Byte Order Mark (if present)c.png
+help\JDP Science\JSONtext Help\Images\Thumbs.db
+help\JDP Science\JSONtext Help\Images\To JSON Text_VIMc.png
+help\JDP Science\JSONtext Help\Images\Unflatten JSONpath Array to Objectc.png
+help\JDP Science\JSONtext Help\Images\Unflatten SubClusters from JSON Object_VIMc.png
+help\JDP Science\JSONtext Help\Images\Variant to JSON Textc.png
+help\JDP Science\JSONtext Help\Images\Write Multiple Sectionsc.png
+help\JDP Science\JSONtext Help\Images\Write Section Clusterc.png
+examples\JDP Science\JSONtext\Clusters to JSON Objects or Arrays.vi
+examples\JDP Science\JSONtext\Colour JSON items in a string control.vi
+examples\JDP Science\JSONtext\Comments and Commas.vi
+examples\JDP Science\JSONtext\Demo LVClass Serializer.lvclass
+examples\JDP Science\JSONtext\Example Custom LVClass Serialization.vi
+examples\JDP Science\JSONtext\Example of JOBJ Tag.vi
+examples\JDP Science\JSONtext\Example showing how single values are equivelent to 1-element arrays.vi
+examples\JDP Science\JSONtext\Flattening JSON Object to Array of JSON Paths.vi
+examples\JDP Science\JSONtext\JSON Difference.vi
+examples\JDP Science\JSONtext\JSON Path.vi
+examples\JDP Science\JSONtext\JSON to LVObject.vi
+examples\JDP Science\JSONtext\JSONtext API example.vi
+examples\JDP Science\JSONtext\LVObject to JSON.vi
+examples\JDP Science\JSONtext\Merge JSON Objects.vi
+vi.lib\addons\_functions_jdp_science_jsontext_1.mnu
+vi.lib\addons\_functions_jdp_science_jsontext_2.mnu
+vi.lib\addons\_functions_jdp_science_jsontext_3.mnu
+vi.lib\addons\functions_JDP_Science_JSONtext.mnu
+vi.lib\JDP Science\JSONtext
+vi.lib\JDP Science\JSONtext\support
+vi.lib\JDP Science\JSONtext\Parsing
+vi.lib\JDP Science\JSONtext\Offset
+vi.lib\JDP Science\JSONtext\NI Palette
+vi.lib\JDP Science\JSONtext\LVClass Serializer
+vi.lib\JDP Science\JSONtext\Fixup
+vi.lib\JDP Science\JSONtext\Display Text
+vi.lib\JDP Science\JSONtext\Base64
+vi.lib\_probes
+vi.lib\_probes\JDP Science
+vi.lib\_probes\JDP Science\JSONtext
+project
+project\errors
+help
+help\JDP Science
+help\JDP Science\JSONtext Help
+help\JDP Science\JSONtext Help\Pages
+help\JDP Science\JSONtext Help\Images
+examples\JDP Science\JSONtext

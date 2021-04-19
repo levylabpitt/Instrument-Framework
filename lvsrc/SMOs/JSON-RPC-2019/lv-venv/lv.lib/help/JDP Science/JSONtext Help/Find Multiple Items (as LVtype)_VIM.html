@@ -1,0 +1,219 @@
+<HTML>
+<HEAD>
+<TITLE>JSONtext.lvlib:Find Multiple Items (as LVtype).vim</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="JSONtext.lvlib:Find Multiple Items _as LVtype_.vim"></A><H2>JSONtext.lvlib:Find Multiple Items (as LVtype).vim</H2>
+<P>Find the items at the <a href="Pages\JSON Path notation.html">JSON Path</a> specified, converts them to a LabVIEW datatype, and returns them as an array.</P>
+<P></P>
+<P>Paths specify an item in a tree of nested Objects, and start with $.  Paths may point to multiple items, in the presence either of Arrays, or of multiple specified locations (using a [] form, see example).  </P>
+<P></P>
+<P>Example JSON:</P>
+<P>{&quot;A&quot;:[{&quot;C&quot;:123,&quot;D&quot;:4},{&quot;C&quot;:567,&quot;D&quot;:8}],&quot;B&quot;:false,&quot;E&quot;:true}</P>
+<P>At path $.A.C are 123 and 567 (which can be returns as an array of integers)</P>
+<P>At path $.[B,E] are false and true (which can be returned as an array of booleans)</P>
+<P><IMG SRC="Images/Find Multiple Items (as LVtype)_VIMc.png" ALT="JSONtext.lvlib:Find Multiple Items (as LVtype).vim"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>JSON</B> <P><a href="http://json.org">Input JSON</a>.  Optional &quot;Offset&quot; indicates an offset in this string pointing to the start of the JSON item to operate on.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>$Path or Item Name</B> <P><a href="Pages\JSON Path notation.html">JSON Path</a> notation starts with a $.   If not starting with a $, this input is treated as an item name (so &lt;name&gt; and $.&lt;name&gt; are equivalent).</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>Offset</B> <P><a href="Pages\Offsets.html">Optional Offset</a> in the input &quot;JSON&quot; string.   Default is zero, the start of the string.  This Offset should point to the start of the JSON Value of interest (or to whitespace in front of it).</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>Describes error conditions that occur before this node runs. This input provides standard error in functionality.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P></P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cfxdt.png" ALT="cfxdt"></P>
+</TD>
+<TD>
+<B>Data Type and Default Value</B> <P>Data type you would like to convert the JSON to.  This input accepts most LabVIEW types, including <a href="Pages\Cluster and Array conversion to JSON.html">arrays and clusters of those types</a>.   The input also sets the default value to return if it is not possible to convert the JSON (due to a missing item or type mismatch).</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cJSONtext_LVClass_Serializerlvclass.png" ALT="cJSONtext_LVClass_Serializerlvclass"></P>
+</TD>
+<TD>
+<B>LVClass Serializer</B> <P>Optional way to specify a JSON format for LabVIEW Objects.   Provide a Child Class at this input that impliments LVObject&lt;--&gt;JSON conversion.  </P>
+<P></P>
+<P>If no Serializer is provided, then LVObjects are serialized by the default method (flattened object in a JSON string).</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>Contains error information. This output provides standard error out functionality.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P></P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/i1dfxdt.png" ALT="i1dfxdt"></P>
+</TD>
+<TD>
+<B></B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ifxdt.png" ALT="ifxdt"></P>
+</TD>
+<TD>
+<B></B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/i1dstr.png" ALT="i1dstr"></P>
+</TD>
+<TD>
+<B>Names</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>result string</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/i1di32.png" ALT="i1di32"></P>
+</TD>
+<TD>
+<B>Item Offsets</B> <P>Offsets, in the input JSON, of the found items.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>Item offset</B> </TD>
+</TR>
+</Table>
+</UL>
+</BODY>
+</HTML>
+
+<p>See also <a href="Pages/JSONtext.html">JSONtext</a>.</p>
+<p>For support please see <a title="[CR] JSONtext" href="https://lavag.org/topic/20236-cr-jsontext/" target="_blank" rel="noopener">[CR] JSONtext</a> and <a title="JSONtext Issues" href="https://bitbucket.org/drjdpowell/jsontext/issues?status=new&amp;status=open">Bitbucket Issue Tracker</a>.</p>

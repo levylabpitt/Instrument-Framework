@@ -1,0 +1,6 @@
+syntax: glob
+ftw
+*.dll
+docs
+*.so
+examples/example-app/builds/*

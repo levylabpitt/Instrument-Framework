@@ -1,0 +1,32 @@
+vi.lib\JDP Science\JDP Science Common Utilities\Array of Variants to Cluster.vi
+vi.lib\JDP Science\JDP Science Common Utilities\Cluster to Array of Variants.vi
+vi.lib\JDP Science\JDP Science Common Utilities\JDP Utility.lvlib
+vi.lib\JDP Science\JDP Science Common Utilities\license.txt
+vi.lib\JDP Science\JDP Science Common Utilities\Trim Whitespace__JDP.vi
+vi.lib\JDP Science\JDP Science Common Utilities\Timestamp\JDP Timestamp.lvlib
+vi.lib\JDP Science\JDP Science Common Utilities\Timestamp\Text to Timestamp.vi
+vi.lib\JDP Science\JDP Science Common Utilities\Timestamp\Timestamp to Text.vi
+vi.lib\JDP Science\JDP Science Common Utilities\Tests\TEST Text to Timestamp.vi
+vi.lib\JDP Science\JDP Science Common Utilities\Shortcut Menu Tools\Add Item to Menu.vi
+vi.lib\JDP Science\JDP Science Common Utilities\Shortcut Menu Tools\Change by Menu Tag.vim
+vi.lib\JDP Science\JDP Science Common Utilities\Shortcut Menu Tools\Change Variant by Menu Tag.vi
+vi.lib\JDP Science\JDP Science Common Utilities\Shortcut Menu Tools\Create submenu.vi
+vi.lib\JDP Science\JDP Science Common Utilities\Shortcut Menu Tools\Insert Menu Items (if not exist) Arrays.vi
+vi.lib\JDP Science\JDP Science Common Utilities\Shortcut Menu Tools\Insert Menu Items (if not exist).vi
+vi.lib\JDP Science\JDP Science Common Utilities\Shortcut Menu Tools\Menu From Cluster.lvlib
+vi.lib\JDP Science\JDP Science Common Utilities\Shortcut Menu Tools\Development\Insert Menu Separator.vi
+vi.lib\JDP Science\JDP Science Common Utilities\Shortcut Menu Tools\Development\Test of Shortcut Menu from Cluster.vi
+vi.lib\JDP Science\JDP Science Common Utilities\Shortcut Menu Tools\Development\Test with main menus.vi
+examples\JDP Science\JDP Science Common Utilities\Shortcut Menu from Cluster.vi
+vi.lib\addons\_functions_jdp_science_lib_common_utilities_1.mnu
+vi.lib\addons\_functions_jdp_science_lib_common_utilities_2.mnu
+vi.lib\addons\_functions_jdp_science_lib_common_utilities_3.mnu
+vi.lib\addons\functions_JDP_Science_lib_Common_Utilities.mnu
+vi.lib\JDP Science
+vi.lib\JDP Science\JDP Science Common Utilities
+vi.lib\JDP Science\JDP Science Common Utilities\Timestamp
+vi.lib\JDP Science\JDP Science Common Utilities\Tests
+vi.lib\JDP Science\JDP Science Common Utilities\Shortcut Menu Tools
+vi.lib\JDP Science\JDP Science Common Utilities\Shortcut Menu Tools\Development
+examples\JDP Science
+examples\JDP Science\JDP Science Common Utilities

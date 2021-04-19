@@ -1,0 +1,202 @@
+<HTML>
+<HEAD>
+<TITLE>JSONtext.lvlib:Find Multiple Items.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="JSONtext.lvlib:Find Multiple Items.vi"></A><H2>JSONtext.lvlib:Find Multiple Items.vi</H2>
+<P>Find the JSON items at the <a href="Pages\JSON Path notation.html">JSON Path</a> specified and returns them as an array.</P>
+<P></P>
+<P>Paths specify an item in a tree of nested Elements, and start with $.  Each element is either in the form .name, for Object items, or [n] for Array index ([*] for all elements). Multiple Object items can be specified by the list form .[abc,def].</P>
+<P></P>
+<P>If the Path input does not start with a $, then it is interpreted as a single Object Item name, rather than a path.</P>
+<P></P>
+<P>Example JSON:</P>
+<P>{&quot;A&quot;:[{&quot;C&quot;:123,&quot;D&quot;:4},{&quot;C&quot;:567,&quot;D&quot;:8}],&quot;B&quot;:{&quot;F&quot;:9},&quot;E&quot;:true}</P>
+<P>At path $.A[*].C are 123 and 567</P>
+<P>At path $.B (or just B) is {&quot;F&quot;:9}</P>
+<P>At path $.B.F is 9</P>
+<P>At path $.[B,E] are {&quot;F&quot;:9} and true</P>
+<P><IMG SRC="Images/Find Multiple Itemsc.png" ALT="JSONtext.lvlib:Find Multiple Items.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>JSON</B> <P><a href="http://json.org">Input JSON</a>.  Optional &quot;Offset&quot; indicates an offset in this string pointing to the start of the JSON item to operate on.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>$Path or Item Name</B> <P><a href="Pages\JSON Path notation.html">JSON Path</a> notation starts with a $.   If not starting with a $, this input is treated as an item name (so &lt;name&gt; and $.&lt;name&gt; are equivalent).</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>Offset</B> <P><a href="Pages\Offsets.html">Optional Offset</a> in the input &quot;JSON&quot; string.   Default is zero, the start of the string.  This Offset should point to the start of the JSON Value of interest (or to whitespace in front of it).</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>Describes error conditions that occur before this node runs. This input provides standard error in functionality.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P></P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>Contains error information. This output provides standard error out functionality.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P></P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/i1dstr.png" ALT="i1dstr"></P>
+</TD>
+<TD>
+<B>&lt;JSON&gt;Items</B> <P>Output JSON.  The <a href="Pages\JSON tags.html">&lt;JSON&gt; tag</a> indicates to some downstream functions that this is JSON, rather than a standard LabVIEW string.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>JSON substring</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/i1dstr.png" ALT="i1dstr"></P>
+</TD>
+<TD>
+<B>Item Names</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>result string</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/i1di32.png" ALT="i1di32"></P>
+</TD>
+<TD>
+<B>Item Offsets</B> <P>Offsets, in the input JSON, of the found items.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>Item offset</B> </TD>
+</TR>
+</Table>
+</UL>
+</BODY>
+</HTML>
+
+<p>See also <a href="Pages/JSONtext.html">JSONtext</a>.</p>
+<p>For support please see <a title="[CR] JSONtext" href="https://lavag.org/topic/20236-cr-jsontext/" target="_blank" rel="noopener">[CR] JSONtext</a> and <a title="JSONtext Issues" href="https://bitbucket.org/drjdpowell/jsontext/issues?status=new&amp;status=open">Bitbucket Issue Tracker</a>.</p>

@@ -1,0 +1,11 @@
+The following examples are provided to demonstrate LVZMQ:
+
+"req-rep" is the simplest protocol, which uses REQuest and REPly sockets to send a request string and receive a reply. This is a one-one protocol.
+
+"pub-sub" is the PUBlish/SUBscriber paradigm, that lets messages be broadcast from many publishers to potentially many subscribers. This can be used for many-many communication; spawn some VIs from the templates to see how.
+
+"lazy-pirate" is a protocol described in "The Guide" for reliable one-one communication with resend-on-failure.
+
+"example-app" shows how to build an application with the correct dependencies for an installer aimed at a target machine without LVZMQ installed.
+
+"polling_events.vi" shows how to use LVZMQ to trigger events. Please note that using events is currently under testing and may be unstable in two-directional socket modes (i.e. use for SUB-only sockets, not REQ-REP sockets).

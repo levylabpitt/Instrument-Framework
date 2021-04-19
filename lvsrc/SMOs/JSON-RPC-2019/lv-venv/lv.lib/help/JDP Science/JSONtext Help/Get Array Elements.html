@@ -1,0 +1,162 @@
+<HTML>
+<HEAD>
+<TITLE>JSONtext.lvlib:Get Array Elements.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="JSONtext.lvlib:Get Array Elements.vi"></A><H2>JSONtext.lvlib:Get Array Elements.vi</H2>
+<P>If a JSON Array, returns all elements of the Array.</P>
+<P></P>
+<P>If the input JSON is not an Array, this function will return an error, unless &quot;Pass non-arrays&quot; is true, in which case the output will be a one-element array containing the input JSON.</P>
+<P><IMG SRC="Images/Get Array Elementsc.png" ALT="JSONtext.lvlib:Get Array Elements.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>JSON</B> <P><a href="http://json.org">Input JSON</a>.  Optional &quot;Offset&quot; indicates an offset in this string pointing to the start of the JSON item to operate on.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>Offset</B> <P><a href="Pages\Offsets.html">Optional Offset</a> in the input &quot;JSON&quot; string.   Default is zero, the start of the string.  This Offset should point to the start of the JSON Value of interest (or to whitespace in front of it).</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>Describes error conditions that occur before this node runs. This input provides standard error in functionality.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P></P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Pass non-arrays</B> <P>If the input JSON is not an Array, this function will return an error, unless &quot;Pass non-arrays&quot; is true, in which case the output will be a one-element array containing the input JSON.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>Offset past Array</B> <P>Offset, in the input JSON, just past the item of interest.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/i1dstr.png" ALT="i1dstr"></P>
+</TD>
+<TD>
+<B>&lt;JSON&gt;Elements</B> <P>Output JSON.  The <a href="Pages\JSON tags.html">&lt;JSON&gt; tag</a> indicates to some downstream functions that this is JSON, rather than a standard LabVIEW string.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>&lt;JSON&gt;</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>Contains error information. This output provides standard error out functionality.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P></P>
+</TD>
+</TR>
+</Table>
+</UL>
+</BODY>
+</HTML>
+
+<p>See also <a href="Pages/JSONtext.html">JSONtext</a>.</p>
+<p>For support please see <a title="[CR] JSONtext" href="https://lavag.org/topic/20236-cr-jsontext/" target="_blank" rel="noopener">[CR] JSONtext</a> and <a title="JSONtext Issues" href="https://bitbucket.org/drjdpowell/jsontext/issues?status=new&amp;status=open">Bitbucket Issue Tracker</a>.</p>

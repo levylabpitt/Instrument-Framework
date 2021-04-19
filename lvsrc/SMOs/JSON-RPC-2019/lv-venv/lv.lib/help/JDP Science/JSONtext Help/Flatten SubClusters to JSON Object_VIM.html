@@ -1,0 +1,174 @@
+<HTML>
+<HEAD>
+<TITLE>JSONtext.lvlib:Flatten SubClusters to JSON Object.vim</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="JSONtext.lvlib:Flatten SubClusters to JSON Object.vim"></A><H2>JSONtext.lvlib:Flatten SubClusters to JSON Object.vim</H2>
+<P>Converts a LabVIEW Cluster into a JSON Object.</P>
+<P></P>
+<P>Flattens subclusters, meaning the first subcluster level is removed.  For eample, the cluster</P>
+<P>A= 123</P>
+<P>B= subcluster(X=2,Y=3)</P>
+<P>C= &quot;abc&quot;</P>
+<P>becomes:</P>
+<P>{&quot;A&quot;:123,&quot;X&quot;:2,&quot;Y&quot;:3,&quot;C&quot;:&quot;abc&quot;}</P>
+<P></P>
+<P>Only the first level of subclusters is flattened.</P>
+<P><IMG SRC="Images/Flatten SubClusters to JSON Object_VIMc.png" ALT="JSONtext.lvlib:Flatten SubClusters to JSON Object.vim"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cnclst.png" ALT="cnclst"></P>
+</TD>
+<TD>
+<B>Any Cluster</B> <P>This malleable VI will accept any Cluster.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>element</B> <P>Placeholder: the cluster can contain any number of any type of element.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>Describes error conditions that occur before this node runs. This input provides standard error in functionality.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P></P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>enable LabVIEW extensions? (T)</B> <P>Enables LabVIEW JSON extensions to support NaN and Inf values of floating-point numbers. Not all JSON parsers support these extensions.  </P>
+<P></P>
+<P>By default, this input is true, to match the inbuilt LabVIEW JSON functions; however, one may enforce no use of of the LabVIEW Extension using the Project Conditional Disable Symbol &quot;JSONtext_Strict&quot; = &quot;True&quot;.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Pretty Print?</B> <P>Formats the ouput JSON using new lines and indentation to make it more easily human readable.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cJSONtext_LVClass_Serializerlvclass.png" ALT="cJSONtext_LVClass_Serializerlvclass"></P>
+</TD>
+<TD>
+<B>LVClass Serializer</B> <P>Optional way to specify a JSON format for LabVIEW Objects.   Provide a Child Class at this input that impliments LVObject&lt;--&gt;JSON conversion.  </P>
+<P></P>
+<P>If no Serializer is provided, then LVObjects are serialized by the default method (flattened object in a JSON string).</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B></B> <P>Output JSON.  The <a href="Pages\JSON tags.html">&lt;JSON&gt; tag</a> indicates to some downstream functions that this is JSON, rather than a standard LabVIEW string.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>Contains error information. This output provides standard error out functionality.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P></P>
+</TD>
+</TR>
+</Table>
+</UL>
+</BODY>
+</HTML>
+
+<p>See also <a href="Pages/JSONtext.html">JSONtext</a>.</p>
+<p>For support please see <a title="[CR] JSONtext" href="https://lavag.org/topic/20236-cr-jsontext/" target="_blank" rel="noopener">[CR] JSONtext</a> and <a title="JSONtext Issues" href="https://bitbucket.org/drjdpowell/jsontext/issues?status=new&amp;status=open">Bitbucket Issue Tracker</a>.</p>

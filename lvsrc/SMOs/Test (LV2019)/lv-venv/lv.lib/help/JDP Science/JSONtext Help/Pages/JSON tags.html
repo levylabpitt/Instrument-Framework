@@ -1,0 +1,4 @@
+<h2>&lt;JSON&gt; tags in JSONtext control labels</h2>
+<p>&lt;JSON&gt; tags at the front of labels of many string outputs of JSONtext functions serve to mark those strings as being JSON text, rather than standard LabVIEW text. &nbsp;Functions that input LabVIEW types (including clusters and arrays of those types) look for these tags and treat such strings as already being in JSON format. &nbsp;</p>
+<p>For example, the string control "MyString" with value '123' will be converted by "To JSON Text.vim" to the JSON String&nbsp;<span style="color: #008080;">"123"</span>, but the string control "&lt;JSON&gt;MyString" with the same value will be converted to the JSON number&nbsp;<span style="color: #008080;">123</span>.</p>
+<p>For support please see&nbsp;<a title="[CR] JSONtext" href="https://lavag.org/topic/20236-cr-jsontext/" target="_blank" rel="noopener">[CR] JSONtext</a>.</p>

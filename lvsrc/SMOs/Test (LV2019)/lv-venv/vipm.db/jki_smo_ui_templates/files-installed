@@ -1,0 +1,27 @@
+templates\JKI\JKI SMO\SMO.UI_Embed\CreatePublicEvents.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\CreateSelfReference.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\DestroyPublicEvents.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\DestroySelfReference.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\Get VI Reference.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\Hide.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\NotifyUIState.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\Process.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\Show User Interface.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\Show.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\SMO.UI_Embed.GetPublicEvents.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\SMO.UI_Embed.GetSubpanelRef.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\SMO.UI_Embed.GetUIState.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\SMO.UI_Embed.lvclass
+templates\JKI\JKI SMO\SMO.UI_Embed\SMO.UI_Embed.SetSubpanelRef.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\SMO.UI_Embed.SetUIState.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\SMO.UI_Embed.TestLauncher.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\Typedefs\PrivateData--Cluster.ctl
+templates\JKI\JKI SMO\SMO.UI_Embed\Typedefs\PrivateData--Ref.ctl
+templates\JKI\JKI SMO\SMO.UI_Embed\Typedefs\PrivateEvents--Cluster.ctl
+templates\JKI\JKI SMO\SMO.UI_Embed\Typedefs\PublicEvents--Cluster.ctl
+templates\JKI\JKI SMO\SMO.UI_Embed\Typedefs\SMO.UI_Embed State--enum.ctl
+templates\JKI\JKI SMO\SMO.UI_Embed\Private\SMO.UI_Embed.DVRtoRef.vi
+templates\JKI\JKI SMO\SMO.UI_Embed\Private\SMO.UI_Embed.ReftoDVR.vi
+templates\JKI\JKI SMO\SMO.UI_Embed
+templates\JKI\JKI SMO\SMO.UI_Embed\Typedefs
+templates\JKI\JKI SMO\SMO.UI_Embed\Private

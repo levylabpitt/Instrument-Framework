@@ -1,0 +1,43 @@
+<HTML>
+<HEAD>
+<TITLE>JSONtext.lvlib:Empty Invalid or Null.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="JSONtext.lvlib:Empty Invalid or Null.vi"></A><H2>JSONtext.lvlib:Empty Invalid or Null.vi</H2>
+<P>Returns TRUE if the input text contains either</P>
+<P>1) no valid JSON </P>
+<P>2) any of these JSON types that are &quot;empty&quot;:</P>
+<P>     null</P>
+<P>     NaN</P>
+<P>      &quot;&quot;  --&gt; empty JSON string</P>
+<P>      A JSON Object with no items</P>
+<P>      A JSON Array</P>
+<P></P>
+<P>Returns False if the input starts with valid non-empty JSON.</P>
+<P><IMG SRC="Images/Empty Invalid or Nullc.png" ALT="JSONtext.lvlib:Empty Invalid or Null.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>JSON</B> <P><a href="http://json.org">Input JSON</a>.  Optional &quot;Offset&quot; indicates an offset in this string pointing to the start of the JSON item to operate on.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Images/ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Null, Empty or Invalid</B> </TD>
+</TR>
+</Table>
+</BODY>
+</HTML>
+
+<p>See also <a href="Pages/JSONtext.html">JSONtext</a>.</p>
+<p>For support please see <a title="[CR] JSONtext" href="https://lavag.org/topic/20236-cr-jsontext/" target="_blank" rel="noopener">[CR] JSONtext</a> and <a title="JSONtext Issues" href="https://bitbucket.org/drjdpowell/jsontext/issues?status=new&amp;status=open">Bitbucket Issue Tracker</a>.</p>
