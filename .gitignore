@@ -1,6 +1,6 @@
-/builds/Package
-/builds
-/lvsrc/lv-venv/
+builds/Package/
+builds/
+lv-venv/
 build support/instrument.log
 *.lvlps
 *.aliases
