@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -10,6 +11,28 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="python" Type="Folder">
+			<Item Name="__pycache__" Type="Folder">
+				<Item Name="ExamplePythonModule.cpython-39.pyc" Type="Document" URL="../python/__pycache__/ExamplePythonModule.cpython-39.pyc"/>
+				<Item Name="JSONModule.cpython-39.pyc" Type="Document" URL="../python/__pycache__/JSONModule.cpython-39.pyc"/>
+				<Item Name="NumpyExampleModule.cpython-39.pyc" Type="Document" URL="../python/__pycache__/NumpyExampleModule.cpython-39.pyc"/>
+			</Item>
+			<Item Name="ExamplePythonModule.py" Type="Document" URL="../python/ExamplePythonModule.py"/>
+			<Item Name="JSONModule.py" Type="Document" URL="../python/JSONModule.py"/>
+			<Item Name="myPython.vi" Type="VI" URL="../python/myPython.vi"/>
+			<Item Name="NumpyExampleModule.py" Type="Document" URL="../python/NumpyExampleModule.py"/>
+		</Item>
+		<Item Name="JSON tests" Type="Folder">
+			<Item Name="Response--String--Cluster.ctl" Type="VI" URL="../Response--String--Cluster.ctl"/>
+			<Item Name="Response--Variant--Cluster.ctl" Type="VI" URL="../Response--Variant--Cluster.ctl"/>
+			<Item Name="SerializeResponse-myJSON.vim" Type="VI" URL="../myJSON/SerializeResponse-myJSON.vim"/>
+			<Item Name="SerializeResponse-JSONtext.vim" Type="VI" URL="../myJSON/SerializeResponse-JSONtext.vim"/>
+			<Item Name="SerializeResponse-PythonModule.vim" Type="VI" URL="../myJSON/SerializeResponse-PythonModule.vim"/>
+			<Item Name="ParseResponse-test.vi" Type="VI" URL="../myJSON/ParseResponse-test.vi"/>
+			<Item Name="ParseResponse-myJSON.vim" Type="VI" URL="../myJSON/ParseResponse-myJSON.vim"/>
+			<Item Name="ParseResponse-PythonModule.vim" Type="VI" URL="../myJSON/ParseResponse-PythonModule.vim"/>
+			<Item Name="ParseResponse-JSONtext.vim" Type="VI" URL="../myJSON/ParseResponse-JSONtext.vim"/>
+		</Item>
 		<Item Name="JSON-RPC.lvclass" Type="LVClass" URL="../JSON-RPC.lvclass"/>
 		<Item Name="Request.lvclass" Type="LVClass" URL="../Request/Request.lvclass"/>
 		<Item Name="Response.lvclass" Type="LVClass" URL="../Response/Response.lvclass"/>
@@ -17,12 +40,9 @@
 		<Item Name="TEST-SERIALIZE.vi" Type="VI" URL="../private/TEST-SERIALIZE.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Command Line String To Path.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Command Line String To Path.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
-				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
@@ -30,13 +50,11 @@
 				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 				<Item Name="MD5Checksum string.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum string.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
-				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="UNIXPathStringToPath.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/UNIXPathStringToPath.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 			</Item>
 			<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
 			<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -48,7 +66,6 @@
 			<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
 			<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
 			<Item Name="End of Line Constant (bug fix).vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/string/string.llb/End of Line Constant (bug fix).vi"/>
-			<Item Name="err_id.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/addons/msgpack/err_id.vi"/>
 			<Item Name="Filter Error Codes (Array)__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/error/error.llb/Filter Error Codes (Array)__ogtk.vi"/>
 			<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
 			<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
@@ -69,10 +86,6 @@
 			<Item Name="JKI Unicode.lvlib" Type="Library" URL="../lv-venv/lv.lib/vi.lib/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
 			<Item Name="JSONtext LVClass Serializer.lvclass" Type="LVClass" URL="../lv-venv/lv.lib/vi.lib/JDP Science/JSONtext/LVClass Serializer/JSONtext LVClass Serializer.lvclass"/>
 			<Item Name="JSONtext.lvlib" Type="Library" URL="../lv-venv/lv.lib/vi.lib/JDP Science/JSONtext/JSONtext.lvlib"/>
-			<Item Name="LabPack.lvlib" Type="Library" URL="../lv-venv/lv.lib/vi.lib/Field R&amp;D Services/LabPack/LabPack.lvlib"/>
-			<Item Name="msgpack.lvlib" Type="Library" URL="../lv-venv/lv.lib/vi.lib/addons/msgpack/msgpack.lvlib"/>
-			<Item Name="msgpackalt.dll" Type="Document" URL="../lv-venv/lv.lib/vi.lib/addons/msgpack/msgpackalt.dll"/>
-			<Item Name="msgunpack.lvlib" Type="Library" URL="../lv-venv/lv.lib/vi.lib/addons/msgpack/msgunpack.lvlib"/>
 			<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
 			<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
 			<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
