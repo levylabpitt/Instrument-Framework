@@ -23,12 +23,13 @@
 			<Item Name="NumpyExampleModule.py" Type="Document" URL="../python/NumpyExampleModule.py"/>
 		</Item>
 		<Item Name="VIMs" Type="Folder">
-			<Item Name="Parse Request-myJSON.vim" Type="VI" URL="../VIM/Parse Request-myJSON.vim"/>
-			<Item Name="Create Request-myJSON.vim" Type="VI" URL="../VIM/Create Request-myJSON.vim"/>
+			<Item Name="Parse Request-myJSON-do-not-use.vim" Type="VI" URL="../VIM/Parse Request-myJSON-do-not-use.vim"/>
+			<Item Name="Create Request-myJSON-do-not-use.vim" Type="VI" URL="../VIM/Create Request-myJSON-do-not-use.vim"/>
 			<Item Name="Create Response-myJSON.vim" Type="VI" URL="../VIM/Create Response-myJSON.vim"/>
 			<Item Name="Parse Response-myJSON.vim" Type="VI" URL="../VIM/Parse Response-myJSON.vim"/>
 			<Item Name="Create Response-PythonModule.vim" Type="VI" URL="../VIM/Create Response-PythonModule.vim"/>
 			<Item Name="Parse Response-PythonModule.vim" Type="VI" URL="../VIM/Parse Response-PythonModule.vim"/>
+			<Item Name="ROLFPython.vi" Type="VI" URL="../VIM/ROLFPython.vi"/>
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="TEST-SERIALIZE.vi" Type="VI" URL="../tests/TEST-SERIALIZE.vi"/>
