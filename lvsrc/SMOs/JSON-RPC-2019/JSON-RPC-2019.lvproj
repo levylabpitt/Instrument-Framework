@@ -32,7 +32,7 @@
 		<Item Name="tests" Type="Folder">
 			<Item Name="TEST-JSON-RPC.vi" Type="VI" URL="../JSON-RPC/tests/TEST-JSON-RPC.vi"/>
 			<Item Name="JSONtext-test-20210421.vi" Type="VI" URL="../tests/JSONtext-test-20210421.vi"/>
-			<Item Name="Cluster.ctl" Type="VI" URL="../tests/Cluster.ctl"/>
+			<Item Name="Test--Cluster.ctl" Type="VI" URL="../tests/Test--Cluster.ctl"/>
 		</Item>
 		<Item Name="JSON-RPC.lvclass" Type="LVClass" URL="../JSON-RPC/JSON-RPC.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
