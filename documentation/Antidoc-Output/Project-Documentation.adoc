@@ -1,0 +1,4313 @@
+= Instrument Framework
+Patrick Irvin <p.irvin@levylab.org>
+:doctype: book
+:toc: left
+:imagesdir: Images
+:sectnums: 
+:toclevels: 2
+:sectanchors: 
+:sectlinks: 
+:chapter-label: Section
+
+== Project description
+
+No description found (add content in project description)
+
+== Classes
+
+This section describes the classes contained in the project.
+
+=== Classes overview
+
+This project contains 19 classes and 0 interface.
+
+.Classes list
+[cols="<.<1d,<.<1d", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Classes|Interfaces
+
+|<<Configuration.lvclass>>
+|
+
+|<<Logger.lvclass>>
+|
+
+|<<Logger.Error.lvclass>>
+|
+
+|<<Logger.PGSQL.lvclass>>
+|
+
+|<<Logger.syslog.lvclass>>
+|
+
+|<<RemoteControl.lvclass>>
+|
+
+|<<RemoteControl.STM.lvclass>>
+|
+
+|<<RemoteControl.ZMQ.lvclass>>
+|
+
+|<<SCPI.lvclass>>
+|
+
+|<<Instrument.Cryostat.lvclass>>
+|
+
+|<<Instrument.VSource.lvclass>>
+|
+
+|<<Instrument.VNA.lvclass>>
+|
+
+|<<Instrument.CBridge.lvclass>>
+|
+
+|<<Instrument.Strain.lvclass>>
+|
+
+|<<Instrument.OpticalDelayLine.lvclass>>
+|
+
+|<<LevyLab Instrument.lvclass>>
+|
+
+|<<LevyLab Instrument UI.lvclass>>
+|
+
+|<<Instrument.lvclass>>
+|
+
+|<<Instrument UI.lvclass>>
+|
+|===
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "Configuration" {
+{field} +Path : Path
+{static} {method} +Default Path()
+{static} {method} -Handle Missing Sections()
+
+}
+"SMO" <|-- "Configuration"
+
+
+class "Logger" {
+{field} +path : Path
+{field} -Debug Mode? : Boolean
+{static} {method} +Logger.TestLauncher()
+{method} #Destroy Logger()
+{method} #Create Logger()
+{method} #Process()
+
+}
+"SMO" <|-- "Logger"
+
+
+class "Logger.Error" {
+{field} -Private Events : Cluster
+{static} {method} +Error Log Generator Example 1()
+{static} {method} +Logger.Error.LogError()
+{static} {method} +Log Error()
+{static} {method} -Logger.Error.GetPrivateEvents()
+{static} {method} -Classify Error Call Chain()
+{static} {method} -De-Classify Error Call Chain()
+{static} {method} +Logger.Error.TestLauncher()
+{method} #CreatePrivateEvents()
+{method} #DestroyPrivateEvents()
+{method} #Create Logger()
+{method} #Destroy Logger()
+{method} #Process()
+
+}
+"Logger" <|-- "Logger.Error"
+
+
+class "Logger.PGSQL" {
+{field} -Private Events : Cluster
+{field} -Public Events : Cluster
+{field} -database address : String
+{static} {method} +Logger.PGSQL.WriteVariable()
+{static} {method} +Logger.PGSQL.GetPublicEvents()
+{static} {method} -Shorten Cluster()
+{static} {method} -Logger.GetPrivateEvents()
+{static} {method} -Logger.ReadVariable()
+{static} {method} +Logger.PGSQL.TestLauncher()
+{method} #CreatePrivateEvents()
+{method} #DestroyPrivateEvents()
+{method} #CreatePublicEvents()
+{method} #DestroyPublicEvents()
+{method} #Process()
+
+}
+"Logger" <|-- "Logger.PGSQL"
+
+
+class "Logger.syslog" {
+{field} -Private Events : Cluster
+{field} -path : Path
+{static} {method} +Example - Error Handler()
+{static} {method} +Example - JKI SM MGI Error Log()
+{static} {method} +Example - Syslog Collector()
+{static} {method} +Example - Syslog D()
+{static} {method} +Report Event or Error()
+{static} {method} +Logger.syslog.syslogmessage()
+{static} {method} -Logger.syslog.GetPrivateEvents()
+{static} {method} +Logger.syslog.TestLauncher()
+{method} #CreatePrivateEvents()
+{method} #DestroyPrivateEvents()
+{method} #Process()
+
+}
+"Logger" <|-- "Logger.syslog"
+
+
+class "RemoteControl" {
+{field} -Configure : Cluster
+{field} -Public Events : Cluster
+{field} -Private Events : Cluster
+{field} -RC Process Type : Enum {}
+{field} -Debug Mode? : Boolean
+{static} {method} -VirtualTestInstrument()
+{static} {method} -RemoteControl.SendMessageFromProcess()
+{static} {method} -RemoteControl.GetPrivateEvents()
+{static} {method} +Time Message Events()
+{static} {method} +RemoteControl.GetPublicEvents()
+{static} {method} +RemoteControl.SendMessageToProcess()
+{static} {method} +RemoteControl.Configure()
+{static} {method} +RC Enum to RC Object()
+{static} {method} +RemoteControl.TestLauncher.ConnectionMonitor()
+{static} {method} +RC_Client 1()
+{static} {method} +RC_Client 2()
+{static} {method} +RC_Client 3()
+{static} {method} +Remote Client()
+{static} {method} +Client - JKI SM or SMO()
+{method} #CreatePublicEvents()
+{method} #DestroyPublicEvents()
+{method} #CreatePrivateEvents()
+{method} #DestroyPrivateEvents()
+{method} +Create RC Server()
+{method} +Create RC Client()
+{method} +Send and Receive Message()
+{method} #Open Client Connection()
+{method} #Open Server Connection()
+{method} #Get Connections()
+{method} #Connection Monitor - Loop()
+{method} #Connection Monitor - Stop()
+{method} #Send Message()
+{method} #Close Connection()
+{method} #Open Context()
+{method} #Process()
+{method} #Handle Error()
+
+}
+"SMO" <|-- "RemoteControl"
+
+
+class "RemoteControl.STM" {
+{field} -STM connections : Array of Cluster
+{field} +listener ID : TCPNetConnection
+{field} -meta data : Array of String
+{static} {method} +STM_Client_SM()
+{static} {method} +STM_Client()
+{static} {method} +STM_Server()
+{static} {method} +PRI Counts Since Last Reset()
+{static} {method} +RC_STM_Client 1()
+{static} {method} +RC_STM_Client 2()
+{static} {method} +RC_STM_Client 3()
+{static} {method} +RC_STM_Server()
+{static} {method} +Test Variant Flatten Unflatten()
+{static} {method} -Find STM connection by ID()
+{method} #Connection Monitor - Loop()
+{method} #Connection Monitor - Stop()
+{method} #Open Client Connection()
+{method} #Close Connection()
+{method} #Send Message()
+{method} #onCreate()
+{method} #Handle Error()
+{method} #Get Connections()
+
+}
+"RemoteControl" <|-- "RemoteControl.STM"
+
+
+class "RemoteControl.ZMQ" {
+{field} -Context : LV Class
+{field} -Config : Cluster
+{field} -Public Events : Cluster
+{field} -Private Events : Cluster
+{static} {method} +ZMQ.TestLauncher.PUB()
+{static} {method} +ZMQ.TestLauncher.SUB()
+{static} {method} +ZMQ.TestLauncher.REQ()
+{static} {method} +ZMQ.TestLauncher.REP()
+{static} {method} +ZMQ Rep Test()
+{static} {method} +ZMQ Req Test()
+{static} {method} +Req Client 2()
+{static} {method} +Client 3()
+{static} {method} -ZMQ.receiveMessage()
+{static} {method} -ZMQ.GetPrivateEvents()
+{static} {method} +ZMQ.GetPublicEvents()
+{static} {method} +ZMQ.sendMessage()
+{static} {method} +Config Socket()
+{method} #DNR Process()
+{method} #CreatePublicEvents()
+{method} #DestroyPublicEvents()
+{method} #CreatePrivateEvents()
+{method} #DestroyPrivateEvents()
+{method} #Build Endpoint()
+{method} #Open Client Connection()
+{method} #Open Server Connection()
+{method} #Close Connection()
+{method} #Send Message()
+{method} #Get Connections()
+{method} #Connection Monitor - Stop()
+{method} #Open Context()
+{method} #Send Ack()
+{method} #Receive Ack()
+
+}
+"RemoteControl" <|-- "RemoteControl.ZMQ"
+"RemoteControl.ZMQ" *-- "zmq_context"
+"RemoteControl.ZMQ" *-- "zmq_socket"
+
+
+class "SCPI" {
+{static} {method} +SCPI Decode()
+{static} {method} +SCPI Encode()
+
+}
+
+
+class "Instrument.Cryostat" {
+{static} {method} +Wait for Magnet Setpoint()
+{static} {method} +Wait for Temperature Setpoint()
+{method} +Get Nitrogen Level()
+{method} +Get Helium Level()
+{method} +Get Magnet Field()
+{method} +Set Magnet Field()
+{method} +Get Angle()
+{method} +Set Angle()
+{method} +Get Temperature()
+{method} +Set Temperature()
+{method} +Get Pressure()
+
+}
+"Instrument" <|-- "Instrument.Cryostat"
+
+
+class "Instrument.VSource" {
+{method} +Get Bias Voltage()
+{method} +Set Bias Voltage()
+
+}
+"Instrument" <|-- "Instrument.VSource"
+
+
+class "Instrument.VNA" {
+{method} +Get Data()
+{method} +Set Format()
+{method} +Set Power()
+{method} +Set Measurement()
+{method} +Set Sweep()
+{method} +Set Average()
+
+}
+"Instrument" <|-- "Instrument.VNA"
+
+
+class "Instrument.CBridge" {
+{method} +Get Capacitance()
+
+}
+"Instrument" <|-- "Instrument.CBridge"
+
+
+class "Instrument.Strain" {
+{method} +Get Strain()
+{method} +Set Strain()
+
+}
+"Instrument" <|-- "Instrument.Strain"
+
+
+class "Instrument.OpticalDelayLine" {
+{method} +Get Delay()
+{method} +Set Delay()
+
+}
+"Instrument" <|-- "Instrument.OpticalDelayLine"
+
+
+class "LevyLab Instrument" {
+{field} -Configuration : Cluster
+{static} {method} +LevyLab Instrument.getAll()
+{static} {method} -LevyLab Instrument.Command Enum to String()
+{static} {method} -LevyLab Instrument.Configuration Window()
+{static} {method} #LevyLab Instrument.Client()
+{static} {method} +LevyLab Instrument.AppLauncher()
+{method} +Open()
+{method} +Close()
+{method} #Configure Instrument()
+{method} #Handle Command()
+{method} #getAll()
+{method} #Get SMO Name()
+{method} #Get SMO Public API()
+{method} #Get SMO Port()
+{method} #Get SMO RC Type()
+{method} #Process()
+
+}
+"Instrument" <|-- "LevyLab Instrument"
+
+
+class "LevyLab Instrument UI" {
+{field} -Instrument : LV Class
+{static} {method} +LevyLab Instrument UI.TestLauncher()
+{method} #Process()
+
+}
+"Instrument UI" <|-- "LevyLab Instrument UI"
+"LevyLab Instrument UI" *-- "Instrument"
+
+
+class "Instrument" {
+{field} -Public Events : Cluster
+{field} -Private Events : Cluster
+{field} -Configuration : Cluster
+{field} -Configuration.lvclass : LV Class
+{static} {method} +HELP()
+{static} {method} +GET ALL()
+{static} {method} +Instrument.GetPublicEvents()
+{static} {method} +Instrument.MessageToProcess()
+{static} {method} +Instrument.LogPGSQL()
+{static} {method} -Instrument.Command Enum to String()
+{static} {method} -Instrument.GetPrivateEvents()
+{static} {method} -Instrument.MessageFromProcess()
+{static} {method} -Instrument.Configuration Window()
+{static} {method} -Get Dependencies()
+{static} {method} -List D()
+{static} {method} #Remote Client()
+{static} {method} +Instrument.TestLauncher()
+{method} #enumerateStaticDependencies()
+{method} #CreatePublicEvents()
+{method} #DestroyPublicEvents()
+{method} #CreatePrivateEvents()
+{method} #DestroyPrivateEvents()
+{method} #Handle Error()
+{method} +Create Instrument SMO()
+{method} +Open()
+{method} +Close()
+{method} #Configure Instrument()
+{method} #Close Instrument()
+{method} #Open Instrument()
+{method} #Handle Command()
+{method} #getAll()
+{method} #Get SMO Name()
+{method} #Get SMO Address()
+{method} #Get SMO Port()
+{method} #Get SMO Public API()
+{method} #Get SMO RC Type()
+{method} #Get SMO PGSQL Log Paths()
+{method} #Process()
+
+}
+"SMO" <|-- "Instrument"
+"Instrument" *-- "Configuration"
+
+
+class "Instrument UI" {
+{field} #Instrument : LV Class
+{static} {method} +Create UI()
+{static} {method} +Instrument UI.TestLauncher()
+{method} #Handle Error()
+{method} #Process()
+
+}
+"SMO.UI" <|-- "Instrument UI"
+"Instrument UI" *-- "Instrument"
+
+
+
+@enduml
+....
+
+=== Configuration.lvclass
+
+*Responsibility:*
+No description found (add content in lvclass description)
+
+*Version:* 1.0.0.7
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "Configuration" {
+{field} +Path : Path
+{static} {method} +Default Path()
+{static} {method} -Handle Missing Sections()
+
+}
+"SMO" <|-- "Configuration"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|Write Path
+|:imgpath: Configuration.lvclass_Write_Path.vi__.png
+image:{imgpath}[Configuration.lvclass:Write Path.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Default Path
+|:imgpath: Configuration.lvclass_Default_Path.vi__.png
+image:{imgpath}[Configuration.lvclass:Default Path.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read Configuration
+|:imgpath: Configuration.lvclass_Read_Configuration.vi__.png
+image:{imgpath}[Configuration.lvclass:Read Configuration.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read Configuration (Template)
+|:imgpath: Configuration.lvclass_Read_Configuration_(Template).vi__.png
+image:{imgpath}[Configuration.lvclass:Read Configuration (Template).vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Write Configuration
+|:imgpath: Configuration.lvclass_Write_Configuration.vi__.png
+image:{imgpath}[Configuration.lvclass:Write Configuration.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== Logger.lvclass
+
+*Responsibility:*
++++By value SMO class with very small footprint. It includes a process and a launcher.+++
+
+
+*Version:* 1.0.0.4
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "Logger" {
+{field} +path : Path
+{field} -Debug Mode? : Boolean
+{static} {method} +Logger.TestLauncher()
+{method} #Destroy Logger()
+{method} #Create Logger()
+{method} #Process()
+
+}
+"SMO" <|-- "Logger"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|Read Debug Mode
+|:imgpath: Logger.lvclass_Read_Debug_Mode.vi__.png
+image:{imgpath}[Logger.lvclass:Read Debug Mode.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Write Debug Mode
+|:imgpath: Logger.lvclass_Write_Debug_Mode.vi__.png
+image:{imgpath}[Logger.lvclass:Write Debug Mode.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Write path
+|:imgpath: Logger.lvclass_Write_path.vi__.png
+image:{imgpath}[Logger.lvclass:Write path.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read path
+|:imgpath: Logger.lvclass_Read_path.vi__.png
+image:{imgpath}[Logger.lvclass:Read path.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Destroy Logger
+|:imgpath: Logger.lvclass_Destroy_Logger.vi__.png
+image:{imgpath}[Logger.lvclass:Destroy Logger.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Create Logger
+|:imgpath: Logger.lvclass_Create_Logger.vi__.png
+image:{imgpath}[Logger.lvclass:Create Logger.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Process
+|:imgpath: Logger.lvclass_Process.vi__.png
+image:{imgpath}[Logger.lvclass:Process.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVED+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Logger.TestLauncher
+|:imgpath: Logger.lvclass_Logger.TestLauncher.vi__.png
+image:{imgpath}[Logger.lvclass:Logger.TestLauncher.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== Logger.Error.lvclass
+
+*Responsibility:*
++++By value SMO class with very small footprint. It includes a process and a launcher.+++
+
+
+*Version:* 1.0.0.4
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "Logger.Error" {
+{field} -Private Events : Cluster
+{static} {method} +Error Log Generator Example 1()
+{static} {method} +Logger.Error.LogError()
+{static} {method} +Log Error()
+{static} {method} -Logger.Error.GetPrivateEvents()
+{static} {method} -Classify Error Call Chain()
+{static} {method} -De-Classify Error Call Chain()
+{static} {method} +Logger.Error.TestLauncher()
+{method} #CreatePrivateEvents()
+{method} #DestroyPrivateEvents()
+{method} #Create Logger()
+{method} #Destroy Logger()
+{method} #Process()
+
+}
+"Logger" <|-- "Logger.Error"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|Error Log Generator Example 1
+|:imgpath: Logger.Error.lvclass_Error_Log_Generator_Example_1.vi__.png
+image:{imgpath}[Logger.Error.lvclass:Error Log Generator Example 1.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|CreatePrivateEvents
+|:imgpath: Logger.Error.lvclass_CreatePrivateEvents.vi__.png
+image:{imgpath}[Logger.Error.lvclass:CreatePrivateEvents.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|DestroyPrivateEvents
+|:imgpath: Logger.Error.lvclass_DestroyPrivateEvents.vi__.png
+image:{imgpath}[Logger.Error.lvclass:DestroyPrivateEvents.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.5+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Create Logger
+|:imgpath: Logger.Error.lvclass_Create_Logger.vi__.png
+image:{imgpath}[Logger.Error.lvclass:Create Logger.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Destroy Logger
+|:imgpath: Logger.Error.lvclass_Destroy_Logger.vi__.png
+image:{imgpath}[Logger.Error.lvclass:Destroy Logger.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Logger.Error.LogError
+|:imgpath: Logger.Error.lvclass_Logger.Error.LogError.vi__.png
+image:{imgpath}[Logger.Error.lvclass:Logger.Error.LogError.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Log Error
+|:imgpath: Logger.Error.lvclass_Log_Error.vi__.png
+image:{imgpath}[Logger.Error.lvclass:Log Error.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Process
+|:imgpath: Logger.Error.lvclass_Process.vi__.png
+image:{imgpath}[Logger.Error.lvclass:Process.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVED+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Logger.Error.TestLauncher
+|:imgpath: Logger.Error.lvclass_Logger.Error.TestLauncher.vi__.png
+image:{imgpath}[Logger.Error.lvclass:Logger.Error.TestLauncher.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== Logger.PGSQL.lvclass
+
+*Responsibility:*
++++By value SMO class with very small footprint. It includes a process and a launcher.+++
+
+
+*Version:* 1.0.0.0
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "Logger.PGSQL" {
+{field} -Private Events : Cluster
+{field} -Public Events : Cluster
+{field} -database address : String
+{static} {method} +Logger.PGSQL.WriteVariable()
+{static} {method} +Logger.PGSQL.GetPublicEvents()
+{static} {method} -Shorten Cluster()
+{static} {method} -Logger.GetPrivateEvents()
+{static} {method} -Logger.ReadVariable()
+{static} {method} +Logger.PGSQL.TestLauncher()
+{method} #CreatePrivateEvents()
+{method} #DestroyPrivateEvents()
+{method} #CreatePublicEvents()
+{method} #DestroyPublicEvents()
+{method} #Process()
+
+}
+"Logger" <|-- "Logger.PGSQL"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|CreatePrivateEvents
+|:imgpath: Logger.PGSQL.lvclass_CreatePrivateEvents.vi__.png
+image:{imgpath}[Logger.PGSQL.lvclass:CreatePrivateEvents.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|DestroyPrivateEvents
+|:imgpath: Logger.PGSQL.lvclass_DestroyPrivateEvents.vi__.png
+image:{imgpath}[Logger.PGSQL.lvclass:DestroyPrivateEvents.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.5+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|CreatePublicEvents
+|:imgpath: Logger.PGSQL.lvclass_CreatePublicEvents.vi__.png
+image:{imgpath}[Logger.PGSQL.lvclass:CreatePublicEvents.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|DestroyPublicEvents
+|:imgpath: Logger.PGSQL.lvclass_DestroyPublicEvents.vi__.png
+image:{imgpath}[Logger.PGSQL.lvclass:DestroyPublicEvents.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.5+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Write to PGSQL
+|:imgpath: Logger.PGSQL.lvclass_Write_to_PGSQL.vi__.png
+image:{imgpath}[Logger.PGSQL.lvclass:Write to PGSQL.vi]
+|+++- If "Variant" is double, string, boolean, etc, "Path" should be the full path to the trace.+++
++++- If "Variant" is a cluster, "Path" can just be the Process name. This VI will parse the cluster and write each element to its own trace. The name of each element must match the name of a trace in the DSC database.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Write Cluster to PGSQL
+|:imgpath: Logger.PGSQL.lvclass_Write_Cluster_to_PGSQL.vi__.png
+image:{imgpath}[Logger.PGSQL.lvclass:Write Cluster to PGSQL.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read from PGSQL (unused)
+|:imgpath: Logger.PGSQL.lvclass_Read_from_PGSQL_(unused).vi__.png
+image:{imgpath}[Logger.PGSQL.lvclass:Read from PGSQL (unused).vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Logger.PGSQL.WriteVariable
+|:imgpath: Logger.PGSQL.lvclass_Logger.PGSQL.WriteVariable.vi__.png
+image:{imgpath}[Logger.PGSQL.lvclass:Logger.PGSQL.WriteVariable.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Logger.PGSQL.GetPublicEvents
+|:imgpath: Logger.PGSQL.lvclass_Logger.PGSQL.GetPublicEvents.vi__.png
+image:{imgpath}[Logger.PGSQL.lvclass:Logger.PGSQL.GetPublicEvents.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Process
+|:imgpath: Logger.PGSQL.lvclass_Process.vi__.png
+image:{imgpath}[Logger.PGSQL.lvclass:Process.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVED+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Logger.PGSQL.TestLauncher
+|:imgpath: Logger.PGSQL.lvclass_Logger.PGSQL.TestLauncher.vi__.png
+image:{imgpath}[Logger.PGSQL.lvclass:Logger.PGSQL.TestLauncher.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== Logger.syslog.lvclass
+
+*Responsibility:*
++++By value SMO class with very small footprint. It includes a process and a launcher.+++
+
+
+*Version:* 1.0.0.3
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "Logger.syslog" {
+{field} -Private Events : Cluster
+{field} -path : Path
+{static} {method} +Example - Error Handler()
+{static} {method} +Example - JKI SM MGI Error Log()
+{static} {method} +Example - Syslog Collector()
+{static} {method} +Example - Syslog D()
+{static} {method} +Report Event or Error()
+{static} {method} +Logger.syslog.syslogmessage()
+{static} {method} -Logger.syslog.GetPrivateEvents()
+{static} {method} +Logger.syslog.TestLauncher()
+{method} #CreatePrivateEvents()
+{method} #DestroyPrivateEvents()
+{method} #Process()
+
+}
+"Logger" <|-- "Logger.syslog"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|Example - Error Handler
+|:imgpath: Logger.syslog.lvclass_Example___Error_Handler.vi__.png
+image:{imgpath}[Logger.syslog.lvclass:Example - Error Handler.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Example - JKI SM MGI Error Log
+|:imgpath: Logger.syslog.lvclass_Example___JKI_SM_MGI_Error_Log.vi__.png
+image:{imgpath}[Logger.syslog.lvclass:Example - JKI SM MGI Error Log.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Example - Syslog Collector
+|:imgpath: Logger.syslog.lvclass_Example___Syslog_Collector.vi__.png
+image:{imgpath}[Logger.syslog.lvclass:Example - Syslog Collector.vi]
+|+++This VI illustrates using the Syslog reference design library to implement a Syslog collector application.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Example - Syslog Device
+|:imgpath: Logger.syslog.lvclass_Example___Syslog_Device.vi__.png
+image:{imgpath}[Logger.syslog.lvclass:Example - Syslog Device.vi]
+|+++This VI illustrates sending Syslog debug messages to a  collector using the Syslog reference design library.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|CreatePrivateEvents
+|:imgpath: Logger.syslog.lvclass_CreatePrivateEvents.vi__.png
+image:{imgpath}[Logger.syslog.lvclass:CreatePrivateEvents.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|DestroyPrivateEvents
+|:imgpath: Logger.syslog.lvclass_DestroyPrivateEvents.vi__.png
+image:{imgpath}[Logger.syslog.lvclass:DestroyPrivateEvents.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.5+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Report Event or Error
+|:imgpath: Logger.syslog.lvclass_Report_Event_or_Error.vi__.png
+image:{imgpath}[Logger.syslog.lvclass:Report Event or Error.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Logger.syslog.syslogmessage
+|:imgpath: Logger.syslog.lvclass_Logger.syslog.syslogmessage.vi__.png
+image:{imgpath}[Logger.syslog.lvclass:Logger.syslog.syslogmessage.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Process
+|:imgpath: Logger.syslog.lvclass_Process.vi__.png
+image:{imgpath}[Logger.syslog.lvclass:Process.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVED+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Logger.syslog.TestLauncher
+|:imgpath: Logger.syslog.lvclass_Logger.syslog.TestLauncher.vi__.png
+image:{imgpath}[Logger.syslog.lvclass:Logger.syslog.TestLauncher.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== RemoteControl.lvclass
+
+*Responsibility:*
++++By value SMO class with very small footprint. It includes a process and a launcher.+++
+
+
+*Version:* 1.0.0.11
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "RemoteControl" {
+{field} -Configure : Cluster
+{field} -Public Events : Cluster
+{field} -Private Events : Cluster
+{field} -RC Process Type : Enum {}
+{field} -Debug Mode? : Boolean
+{static} {method} -VirtualTestInstrument()
+{static} {method} -RemoteControl.SendMessageFromProcess()
+{static} {method} -RemoteControl.GetPrivateEvents()
+{static} {method} +Time Message Events()
+{static} {method} +RemoteControl.GetPublicEvents()
+{static} {method} +RemoteControl.SendMessageToProcess()
+{static} {method} +RemoteControl.Configure()
+{static} {method} +RC Enum to RC Object()
+{static} {method} +RemoteControl.TestLauncher.ConnectionMonitor()
+{static} {method} +RC_Client 1()
+{static} {method} +RC_Client 2()
+{static} {method} +RC_Client 3()
+{static} {method} +Remote Client()
+{static} {method} +Client - JKI SM or SMO()
+{method} #CreatePublicEvents()
+{method} #DestroyPublicEvents()
+{method} #CreatePrivateEvents()
+{method} #DestroyPrivateEvents()
+{method} +Create RC Server()
+{method} +Create RC Client()
+{method} +Send and Receive Message()
+{method} #Open Client Connection()
+{method} #Open Server Connection()
+{method} #Get Connections()
+{method} #Connection Monitor - Loop()
+{method} #Connection Monitor - Stop()
+{method} #Send Message()
+{method} #Close Connection()
+{method} #Open Context()
+{method} #Process()
+{method} #Handle Error()
+
+}
+"SMO" <|-- "RemoteControl"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|CreatePublicEvents
+|:imgpath: RemoteControl.lvclass_CreatePublicEvents.vi__.png
+image:{imgpath}[RemoteControl.lvclass:CreatePublicEvents.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|DestroyPublicEvents
+|:imgpath: RemoteControl.lvclass_DestroyPublicEvents.vi__.png
+image:{imgpath}[RemoteControl.lvclass:DestroyPublicEvents.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.5+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|CreatePrivateEvents
+|:imgpath: RemoteControl.lvclass_CreatePrivateEvents.vi__.png
+image:{imgpath}[RemoteControl.lvclass:CreatePrivateEvents.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|DestroyPrivateEvents
+|:imgpath: RemoteControl.lvclass_DestroyPrivateEvents.vi__.png
+image:{imgpath}[RemoteControl.lvclass:DestroyPrivateEvents.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.5+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Time Message Events
+|:imgpath: RemoteControl.lvclass_Time_Message_Events.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Time Message Events.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-preallocated.png
+image:{imgpath}[reentrancy-preallocated.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|RemoteControl.GetPublicEvents
+|:imgpath: RemoteControl.lvclass_RemoteControl.GetPublicEvents.vi__.png
+image:{imgpath}[RemoteControl.lvclass:RemoteControl.GetPublicEvents.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|RemoteControl.SendMessageToProcess
+|:imgpath: RemoteControl.lvclass_RemoteControl.SendMessageToProcess.vi__.png
+image:{imgpath}[RemoteControl.lvclass:RemoteControl.SendMessageToProcess.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|RemoteControl.Configure
+|:imgpath: RemoteControl.lvclass_RemoteControl.Configure.vi__.png
+image:{imgpath}[RemoteControl.lvclass:RemoteControl.Configure.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Create RC Server
+|:imgpath: RemoteControl.lvclass_Create_RC_Server.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Create RC Server.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Create RC Client
+|:imgpath: RemoteControl.lvclass_Create_RC_Client.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Create RC Client.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read Port
+|:imgpath: RemoteControl.lvclass_Read_Port.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Read Port.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read Commands
+|:imgpath: RemoteControl.lvclass_Read_Commands.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Read Commands.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read address
+|:imgpath: RemoteControl.lvclass_Read_address.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Read address.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|RC Enum to RC Object
+|:imgpath: RemoteControl.lvclass_RC_Enum_to_RC_Object.vi__.png
+image:{imgpath}[RemoteControl.lvclass:RC Enum to RC Object.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-preallocated.png
+image:{imgpath}[reentrancy-preallocated.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Write Port
+|:imgpath: RemoteControl.lvclass_Write_Port.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Write Port.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Write Commands
+|:imgpath: RemoteControl.lvclass_Write_Commands.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Write Commands.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Write address
+|:imgpath: RemoteControl.lvclass_Write_address.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Write address.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Write Debug Mode
+|:imgpath: RemoteControl.lvclass_Write_Debug_Mode.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Write Debug Mode.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-preallocated.png
+image:{imgpath}[reentrancy-preallocated.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+
+|Send and Receive Message
+|:imgpath: RemoteControl.lvclass_Send_and_Receive_Message.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Send and Receive Message.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Open Client Connection
+|:imgpath: RemoteControl.lvclass_Open_Client_Connection.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Open Client Connection.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Open Server Connection
+|:imgpath: RemoteControl.lvclass_Open_Server_Connection.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Open Server Connection.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get Connections
+|:imgpath: RemoteControl.lvclass_Get_Connections.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Get Connections.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Connection Monitor - Loop
+|:imgpath: RemoteControl.lvclass_Connection_Monitor___Loop.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Connection Monitor - Loop.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Connection Monitor - Stop
+|:imgpath: RemoteControl.lvclass_Connection_Monitor___Stop.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Connection Monitor - Stop.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Send Message
+|:imgpath: RemoteControl.lvclass_Send_Message.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Send Message.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read Message
+|:imgpath: RemoteControl.lvclass_Read_Message.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Read Message.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Close Connection
+|:imgpath: RemoteControl.lvclass_Close_Connection.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Close Connection.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Open Context
+|:imgpath: RemoteControl.lvclass_Open_Context.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Open Context.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|RemoteControl.TestLauncher.ConnectionMonitor
+|:imgpath: RemoteControl.lvclass_RemoteControl.TestLauncher.ConnectionMonitor.vi__.png
+image:{imgpath}[RemoteControl.lvclass:RemoteControl.TestLauncher.ConnectionMonitor.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|RC_Client 1
+|:imgpath: RemoteControl.lvclass_RC_Client_1.vi__.png
+image:{imgpath}[RemoteControl.lvclass:RC_Client 1.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|RC_Client 2
+|:imgpath: RemoteControl.lvclass_RC_Client_2.vi__.png
+image:{imgpath}[RemoteControl.lvclass:RC_Client 2.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|RC_Client 3
+|:imgpath: RemoteControl.lvclass_RC_Client_3.vi__.png
+image:{imgpath}[RemoteControl.lvclass:RC_Client 3.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Remote Client
+|:imgpath: RemoteControl.lvclass_Remote_Client.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Remote Client.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-preallocated.png
+image:{imgpath}[reentrancy-preallocated.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Client - JKI SM or SMO
+|:imgpath: RemoteControl.lvclass_Client___JKI_SM_or_SMO.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Client - JKI SM or SMO.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Process
+|:imgpath: RemoteControl.lvclass_Process.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Process.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVED+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Handle Error
+|:imgpath: RemoteControl.lvclass_Handle_Error.vi__.png
+image:{imgpath}[RemoteControl.lvclass:Handle Error.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.11+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKIJKI State Machine Objects (SMO) 1.3.0.56+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2017, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== RemoteControl.STM.lvclass
+
+*Responsibility:*
++++By value SMO class with very small footprint. It includes a process and a launcher.+++
+
+
+*Version:* 1.0.0.14
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "RemoteControl.STM" {
+{field} -STM connections : Array of Cluster
+{field} +listener ID : TCPNetConnection
+{field} -meta data : Array of String
+{static} {method} +STM_Client_SM()
+{static} {method} +STM_Client()
+{static} {method} +STM_Server()
+{static} {method} +PRI Counts Since Last Reset()
+{static} {method} +RC_STM_Client 1()
+{static} {method} +RC_STM_Client 2()
+{static} {method} +RC_STM_Client 3()
+{static} {method} +RC_STM_Server()
+{static} {method} +Test Variant Flatten Unflatten()
+{static} {method} -Find STM connection by ID()
+{method} #Connection Monitor - Loop()
+{method} #Connection Monitor - Stop()
+{method} #Open Client Connection()
+{method} #Close Connection()
+{method} #Send Message()
+{method} #onCreate()
+{method} #Handle Error()
+{method} #Get Connections()
+
+}
+"RemoteControl" <|-- "RemoteControl.STM"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|Connection Monitor - Loop
+|:imgpath: RemoteControl.STM.lvclass_Connection_Monitor___Loop.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:Connection Monitor - Loop.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Connection Monitor - Stop
+|:imgpath: RemoteControl.STM.lvclass_Connection_Monitor___Stop.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:Connection Monitor - Stop.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Open Client Connection
+|:imgpath: RemoteControl.STM.lvclass_Open_Client_Connection.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:Open Client Connection.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Close Connection
+|:imgpath: RemoteControl.STM.lvclass_Close_Connection.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:Close Connection.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Send Message
+|:imgpath: RemoteControl.STM.lvclass_Send_Message.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:Send Message.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read Message
+|:imgpath: RemoteControl.STM.lvclass_Read_Message.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:Read Message.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|onCreate
+|:imgpath: RemoteControl.STM.lvclass_onCreate.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:onCreate.vi]
+|+++JKI State Machine Objects (SMO) 1.3.0.56+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2017, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Handle Error
+|:imgpath: RemoteControl.STM.lvclass_Handle_Error.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:Handle Error.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.11+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKIJKI State Machine Objects (SMO) 1.3.0.56+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2017, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get Connections
+|:imgpath: RemoteControl.STM.lvclass_Get_Connections.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:Get Connections.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|STM_Client_SM
+|:imgpath: RemoteControl.STM.lvclass_STM_Client_SM.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:STM_Client_SM.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|STM_Client
+|:imgpath: RemoteControl.STM.lvclass_STM_Client.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:STM_Client.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|STM_Server
+|:imgpath: RemoteControl.STM.lvclass_STM_Server.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:STM_Server.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|PRI Counts Since Last Reset
+|:imgpath: RemoteControl.STM.lvclass_PRI_Counts_Since_Last_Reset.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:PRI Counts Since Last Reset.vi]
+|+++Returns the amount of time in milliseconds since the last time the VI was reset.  This VI is non-reentrant.+++
+
++++Authored by Brandon D. Steele+++
++++support@mooregoodideas.com+++
++++www.mooregoodideas.com+++
+
++++Copyright (c) 2010, Moore Good Ideas, Inc.+++
+
++++All rights reserved.+++
+
++++Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:+++
+
++++    * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.+++
++++    * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.+++
++++    * Neither the name of Moore Good Ideas, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.+++
+
++++THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|RC_STM_Client 1
+|:imgpath: RemoteControl.STM.lvclass_RC_STM_Client_1.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:RC_STM_Client 1.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|RC_STM_Client 2
+|:imgpath: RemoteControl.STM.lvclass_RC_STM_Client_2.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:RC_STM_Client 2.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|RC_STM_Client 3
+|:imgpath: RemoteControl.STM.lvclass_RC_STM_Client_3.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:RC_STM_Client 3.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|RC_STM_Server
+|:imgpath: RemoteControl.STM.lvclass_RC_STM_Server.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:RC_STM_Server.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Test Variant Flatten Unflatten
+|:imgpath: RemoteControl.STM.lvclass_Test_Variant_Flatten_Unflatten.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:Test Variant Flatten Unflatten.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read STM connection info
+|:imgpath: RemoteControl.STM.lvclass_Read_STM_connection_info.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:Read STM connection info.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Write STM connection info
+|:imgpath: RemoteControl.STM.lvclass_Write_STM_connection_info.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:Write STM connection info.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read listener ID
+|:imgpath: RemoteControl.STM.lvclass_Read_listener_ID.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:Read listener ID.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Write listener ID
+|:imgpath: RemoteControl.STM.lvclass_Write_listener_ID.vi__.png
+image:{imgpath}[RemoteControl.STM.lvclass:Write listener ID.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== RemoteControl.ZMQ.lvclass
+
+*Responsibility:*
++++By value SMO class with very small footprint. It includes a process and a launcher.+++
+
+
+*Version:* 1.0.0.2
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "RemoteControl.ZMQ" {
+{field} -Context : LV Class
+{field} -Config : Cluster
+{field} -Public Events : Cluster
+{field} -Private Events : Cluster
+{static} {method} +ZMQ.TestLauncher.PUB()
+{static} {method} +ZMQ.TestLauncher.SUB()
+{static} {method} +ZMQ.TestLauncher.REQ()
+{static} {method} +ZMQ.TestLauncher.REP()
+{static} {method} +ZMQ Rep Test()
+{static} {method} +ZMQ Req Test()
+{static} {method} +Req Client 2()
+{static} {method} +Client 3()
+{static} {method} -ZMQ.receiveMessage()
+{static} {method} -ZMQ.GetPrivateEvents()
+{static} {method} +ZMQ.GetPublicEvents()
+{static} {method} +ZMQ.sendMessage()
+{static} {method} +Config Socket()
+{method} #DNR Process()
+{method} #CreatePublicEvents()
+{method} #DestroyPublicEvents()
+{method} #CreatePrivateEvents()
+{method} #DestroyPrivateEvents()
+{method} #Build Endpoint()
+{method} #Open Client Connection()
+{method} #Open Server Connection()
+{method} #Close Connection()
+{method} #Send Message()
+{method} #Get Connections()
+{method} #Connection Monitor - Stop()
+{method} #Open Context()
+{method} #Send Ack()
+{method} #Receive Ack()
+
+}
+"RemoteControl" <|-- "RemoteControl.ZMQ"
+"RemoteControl.ZMQ" *-- "zmq_context"
+"RemoteControl.ZMQ" *-- "zmq_socket"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|DNR Process
+|:imgpath: RemoteControl.ZMQ.lvclass_DNR_Process.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:DNR Process.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVED+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|ZMQ.TestLauncher.PUB
+|:imgpath: RemoteControl.ZMQ.lvclass_ZMQ.TestLauncher.PUB.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:ZMQ.TestLauncher.PUB.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|ZMQ.TestLauncher.SUB
+|:imgpath: RemoteControl.ZMQ.lvclass_ZMQ.TestLauncher.SUB.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:ZMQ.TestLauncher.SUB.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|ZMQ.TestLauncher.REQ
+|:imgpath: RemoteControl.ZMQ.lvclass_ZMQ.TestLauncher.REQ.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:ZMQ.TestLauncher.REQ.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|ZMQ.TestLauncher.REP
+|:imgpath: RemoteControl.ZMQ.lvclass_ZMQ.TestLauncher.REP.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:ZMQ.TestLauncher.REP.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|ZMQ Rep Test
+|:imgpath: RemoteControl.ZMQ.lvclass_ZMQ_Rep_Test.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:ZMQ Rep Test.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|ZMQ Req Test
+|:imgpath: RemoteControl.ZMQ.lvclass_ZMQ_Req_Test.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:ZMQ Req Test.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Req Client 2
+|:imgpath: RemoteControl.ZMQ.lvclass_Req_Client_2.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:Req Client 2.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Client 3
+|:imgpath: RemoteControl.ZMQ.lvclass_Client_3.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:Client 3.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|CreatePublicEvents
+|:imgpath: RemoteControl.ZMQ.lvclass_CreatePublicEvents.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:CreatePublicEvents.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|DestroyPublicEvents
+|:imgpath: RemoteControl.ZMQ.lvclass_DestroyPublicEvents.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:DestroyPublicEvents.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.5+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|CreatePrivateEvents
+|:imgpath: RemoteControl.ZMQ.lvclass_CreatePrivateEvents.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:CreatePrivateEvents.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|DestroyPrivateEvents
+|:imgpath: RemoteControl.ZMQ.lvclass_DestroyPrivateEvents.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:DestroyPrivateEvents.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.5+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Build Endpoint
+|:imgpath: RemoteControl.ZMQ.lvclass_Build_Endpoint.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:Build Endpoint.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Open Client Connection
+|:imgpath: RemoteControl.ZMQ.lvclass_Open_Client_Connection.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:Open Client Connection.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Open Server Connection
+|:imgpath: RemoteControl.ZMQ.lvclass_Open_Server_Connection.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:Open Server Connection.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Close Connection
+|:imgpath: RemoteControl.ZMQ.lvclass_Close_Connection.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:Close Connection.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Send Message
+|:imgpath: RemoteControl.ZMQ.lvclass_Send_Message.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:Send Message.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read Message
+|:imgpath: RemoteControl.ZMQ.lvclass_Read_Message.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:Read Message.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get Connections
+|:imgpath: RemoteControl.ZMQ.lvclass_Get_Connections.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:Get Connections.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Connection Monitor - Stop
+|:imgpath: RemoteControl.ZMQ.lvclass_Connection_Monitor___Stop.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:Connection Monitor - Stop.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Open Context
+|:imgpath: RemoteControl.ZMQ.lvclass_Open_Context.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:Open Context.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Send Ack
+|:imgpath: RemoteControl.ZMQ.lvclass_Send_Ack.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:Send Ack.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Receive Ack
+|:imgpath: RemoteControl.ZMQ.lvclass_Receive_Ack.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:Receive Ack.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|ZMQ.GetPublicEvents
+|:imgpath: RemoteControl.ZMQ.lvclass_ZMQ.GetPublicEvents.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:ZMQ.GetPublicEvents.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|ZMQ.sendMessage
+|:imgpath: RemoteControl.ZMQ.lvclass_ZMQ.sendMessage.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:ZMQ.sendMessage.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Config Socket
+|:imgpath: RemoteControl.ZMQ.lvclass_Config_Socket.vi__.png
+image:{imgpath}[RemoteControl.ZMQ.lvclass:Config Socket.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-preallocated.png
+image:{imgpath}[reentrancy-preallocated.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== SCPI.lvclass
+
+*Responsibility:*
+No description found (add content in lvclass description)
+
+*Version:* 1.0.0.0
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "SCPI" {
+{static} {method} +SCPI Decode()
+{static} {method} +SCPI Encode()
+
+}
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|SCPI Decode
+|:imgpath: SCPI.lvclass_SCPI_Decode.vi__.png
+image:{imgpath}[SCPI.lvclass:SCPI Decode.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|SCPI Encode
+|:imgpath: SCPI.lvclass_SCPI_Encode.vi__.png
+image:{imgpath}[SCPI.lvclass:SCPI Encode.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== Instrument.Cryostat.lvclass
+
+*Responsibility:*
+No description found (add content in lvclass description)
+
+*Version:* 1.0.0.0
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "Instrument.Cryostat" {
+{static} {method} +Wait for Magnet Setpoint()
+{static} {method} +Wait for Temperature Setpoint()
+{method} +Get Nitrogen Level()
+{method} +Get Helium Level()
+{method} +Get Magnet Field()
+{method} +Set Magnet Field()
+{method} +Get Angle()
+{method} +Set Angle()
+{method} +Get Temperature()
+{method} +Set Temperature()
+{method} +Get Pressure()
+
+}
+"Instrument" <|-- "Instrument.Cryostat"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|Get Nitrogen Level
+|:imgpath: Instrument.Cryostat.lvclass_Get_Nitrogen_Level.vi__.png
+image:{imgpath}[Instrument.Cryostat.lvclass:Get Nitrogen Level.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get Helium Level
+|:imgpath: Instrument.Cryostat.lvclass_Get_Helium_Level.vi__.png
+image:{imgpath}[Instrument.Cryostat.lvclass:Get Helium Level.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get Magnet Field
+|:imgpath: Instrument.Cryostat.lvclass_Get_Magnet_Field.vi__.png
+image:{imgpath}[Instrument.Cryostat.lvclass:Get Magnet Field.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Magnet Field
+|:imgpath: Instrument.Cryostat.lvclass_Set_Magnet_Field.vi__.png
+image:{imgpath}[Instrument.Cryostat.lvclass:Set Magnet Field.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Wait for Magnet Setpoint
+|:imgpath: Instrument.Cryostat.lvclass_Wait_for_Magnet_Setpoint.vi__.png
+image:{imgpath}[Instrument.Cryostat.lvclass:Wait for Magnet Setpoint.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get Angle
+|:imgpath: Instrument.Cryostat.lvclass_Get_Angle.vi__.png
+image:{imgpath}[Instrument.Cryostat.lvclass:Get Angle.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Angle
+|:imgpath: Instrument.Cryostat.lvclass_Set_Angle.vi__.png
+image:{imgpath}[Instrument.Cryostat.lvclass:Set Angle.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get Temperature
+|:imgpath: Instrument.Cryostat.lvclass_Get_Temperature.vi__.png
+image:{imgpath}[Instrument.Cryostat.lvclass:Get Temperature.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Temperature
+|:imgpath: Instrument.Cryostat.lvclass_Set_Temperature.vi__.png
+image:{imgpath}[Instrument.Cryostat.lvclass:Set Temperature.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Wait for Temperature Setpoint
+|:imgpath: Instrument.Cryostat.lvclass_Wait_for_Temperature_Setpoint.vi__.png
+image:{imgpath}[Instrument.Cryostat.lvclass:Wait for Temperature Setpoint.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get Pressure
+|:imgpath: Instrument.Cryostat.lvclass_Get_Pressure.vi__.png
+image:{imgpath}[Instrument.Cryostat.lvclass:Get Pressure.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== Instrument.VSource.lvclass
+
+*Responsibility:*
+No description found (add content in lvclass description)
+
+*Version:* 1.0.0.0
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "Instrument.VSource" {
+{method} +Get Bias Voltage()
+{method} +Set Bias Voltage()
+
+}
+"Instrument" <|-- "Instrument.VSource"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|Get Bias Voltage
+|:imgpath: Instrument.VSource.lvclass_Get_Bias_Voltage.vi__.png
+image:{imgpath}[Instrument.VSource.lvclass:Get Bias Voltage.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Bias Voltage
+|:imgpath: Instrument.VSource.lvclass_Set_Bias_Voltage.vi__.png
+image:{imgpath}[Instrument.VSource.lvclass:Set Bias Voltage.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== Instrument.VNA.lvclass
+
+*Responsibility:*
+No description found (add content in lvclass description)
+
+*Version:* 1.0.0.0
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "Instrument.VNA" {
+{method} +Get Data()
+{method} +Set Format()
+{method} +Set Power()
+{method} +Set Measurement()
+{method} +Set Sweep()
+{method} +Set Average()
+
+}
+"Instrument" <|-- "Instrument.VNA"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|Get Data
+|:imgpath: Instrument.VNA.lvclass_Get_Data.vi__.png
+image:{imgpath}[Instrument.VNA.lvclass:Get Data.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Format
+|:imgpath: Instrument.VNA.lvclass_Set_Format.vi__.png
+image:{imgpath}[Instrument.VNA.lvclass:Set Format.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Power
+|:imgpath: Instrument.VNA.lvclass_Set_Power.vi__.png
+image:{imgpath}[Instrument.VNA.lvclass:Set Power.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Measurement
+|:imgpath: Instrument.VNA.lvclass_Set_Measurement.vi__.png
+image:{imgpath}[Instrument.VNA.lvclass:Set Measurement.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Sweep
+|:imgpath: Instrument.VNA.lvclass_Set_Sweep.vi__.png
+image:{imgpath}[Instrument.VNA.lvclass:Set Sweep.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Average
+|:imgpath: Instrument.VNA.lvclass_Set_Average.vi__.png
+image:{imgpath}[Instrument.VNA.lvclass:Set Average.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== Instrument.CBridge.lvclass
+
+*Responsibility:*
+No description found (add content in lvclass description)
+
+*Version:* 1.0.0.0
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "Instrument.CBridge" {
+{method} +Get Capacitance()
+
+}
+"Instrument" <|-- "Instrument.CBridge"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|Get Capacitance
+|:imgpath: Instrument.CBridge.lvclass_Get_Capacitance.vi__.png
+image:{imgpath}[Instrument.CBridge.lvclass:Get Capacitance.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== Instrument.Strain.lvclass
+
+*Responsibility:*
+No description found (add content in lvclass description)
+
+*Version:* 1.0.0.0
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "Instrument.Strain" {
+{method} +Get Strain()
+{method} +Set Strain()
+
+}
+"Instrument" <|-- "Instrument.Strain"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|Get Strain
+|:imgpath: Instrument.Strain.lvclass_Get_Strain.vi__.png
+image:{imgpath}[Instrument.Strain.lvclass:Get Strain.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Strain
+|:imgpath: Instrument.Strain.lvclass_Set_Strain.vi__.png
+image:{imgpath}[Instrument.Strain.lvclass:Set Strain.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== Instrument.OpticalDelayLine.lvclass
+
+*Responsibility:*
+No description found (add content in lvclass description)
+
+*Version:* 1.0.0.0
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "Instrument.OpticalDelayLine" {
+{method} +Get Delay()
+{method} +Set Delay()
+
+}
+"Instrument" <|-- "Instrument.OpticalDelayLine"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|Get Delay
+|:imgpath: Instrument.OpticalDelayLine.lvclass_Get_Delay.vi__.png
+image:{imgpath}[Instrument.OpticalDelayLine.lvclass:Get Delay.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Delay
+|:imgpath: Instrument.OpticalDelayLine.lvclass_Set_Delay.vi__.png
+image:{imgpath}[Instrument.OpticalDelayLine.lvclass:Set Delay.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== LevyLab Instrument.lvclass
+
+*Responsibility:*
++++LevyLab Instrument based on JKI SMO (by val).+++
+
+
+*Version:* 1.0.0.0
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "LevyLab Instrument" {
+{field} -Configuration : Cluster
+{static} {method} +LevyLab Instrument.getAll()
+{static} {method} -LevyLab Instrument.Command Enum to String()
+{static} {method} -LevyLab Instrument.Configuration Window()
+{static} {method} #LevyLab Instrument.Client()
+{static} {method} +LevyLab Instrument.AppLauncher()
+{method} +Open()
+{method} +Close()
+{method} #Configure Instrument()
+{method} #Handle Command()
+{method} #getAll()
+{method} #Get SMO Name()
+{method} #Get SMO Public API()
+{method} #Get SMO Port()
+{method} #Get SMO RC Type()
+{method} #Process()
+
+}
+"Instrument" <|-- "LevyLab Instrument"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|Open
+|:imgpath: LevyLab_Instrument.lvclass_Open.vi__.png
+image:{imgpath}[LevyLab Instrument.lvclass:Open.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Close
+|:imgpath: LevyLab_Instrument.lvclass_Close.vi__.png
+image:{imgpath}[LevyLab Instrument.lvclass:Close.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|LevyLab Instrument.getAll
+|:imgpath: LevyLab_Instrument.lvclass_LevyLab_Instrument.getAll.vi__.png
+image:{imgpath}[LevyLab Instrument.lvclass:LevyLab Instrument.getAll.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Configure Instrument
+|:imgpath: LevyLab_Instrument.lvclass_Configure_Instrument.vi__.png
+image:{imgpath}[LevyLab Instrument.lvclass:Configure Instrument.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Handle Command
+|:imgpath: LevyLab_Instrument.lvclass_Handle_Command.vi__.png
+image:{imgpath}[LevyLab Instrument.lvclass:Handle Command.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|getAll
+|:imgpath: LevyLab_Instrument.lvclass_getAll.vi__.png
+image:{imgpath}[LevyLab Instrument.lvclass:getAll.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get SMO Name
+|:imgpath: LevyLab_Instrument.lvclass_Get_SMO_Name.vi__.png
+image:{imgpath}[LevyLab Instrument.lvclass:Get SMO Name.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get SMO Public API
+|:imgpath: LevyLab_Instrument.lvclass_Get_SMO_Public_API.vi__.png
+image:{imgpath}[LevyLab Instrument.lvclass:Get SMO Public API.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get SMO Port
+|:imgpath: LevyLab_Instrument.lvclass_Get_SMO_Port.vi__.png
+image:{imgpath}[LevyLab Instrument.lvclass:Get SMO Port.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get SMO RC Type
+|:imgpath: LevyLab_Instrument.lvclass_Get_SMO_RC_Type.vi__.png
+image:{imgpath}[LevyLab Instrument.lvclass:Get SMO RC Type.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read Configuration File
+|:imgpath: LevyLab_Instrument.lvclass_Read_Configuration_File.vi__.png
+image:{imgpath}[LevyLab Instrument.lvclass:Read Configuration File.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Write Configuration File
+|:imgpath: LevyLab_Instrument.lvclass_Write_Configuration_File.vi__.png
+image:{imgpath}[LevyLab Instrument.lvclass:Write Configuration File.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|LevyLab Instrument.Client
+|:imgpath: LevyLab_Instrument.lvclass_LevyLab_Instrument.Client.vi__.png
+image:{imgpath}[LevyLab Instrument.lvclass:LevyLab Instrument.Client.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Process
+|:imgpath: LevyLab_Instrument.lvclass_Process.vi__.png
+image:{imgpath}[LevyLab Instrument.lvclass:Process.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVED+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|LevyLab Instrument.AppLauncher
+|:imgpath: LevyLab_Instrument.lvclass_LevyLab_Instrument.AppLauncher.vi__.png
+image:{imgpath}[LevyLab Instrument.lvclass:LevyLab Instrument.AppLauncher.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== LevyLab Instrument UI.lvclass
+
+*Responsibility:*
++++LevyLab Instrument UI class that inherits from SMO.UI.+++
+
+
+*Version:* 1.0.0.0
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "LevyLab Instrument UI" {
+{field} -Instrument : LV Class
+{static} {method} +LevyLab Instrument UI.TestLauncher()
+{method} #Process()
+
+}
+"Instrument UI" <|-- "LevyLab Instrument UI"
+"LevyLab Instrument UI" *-- "Instrument"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|Process
+|:imgpath: LevyLab_Instrument_UI.lvclass_Process.vi__.png
+image:{imgpath}[LevyLab Instrument UI.lvclass:Process.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.5+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|LevyLab Instrument UI.TestLauncher
+|:imgpath: LevyLab_Instrument_UI.lvclass_LevyLab_Instrument_UI.TestLauncher.vi__.png
+image:{imgpath}[LevyLab Instrument UI.lvclass:LevyLab Instrument UI.TestLauncher.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.5+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKI+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== Instrument.lvclass
+
+*Responsibility:*
++++By value SMO class with very small footprint. It includes a process and a launcher.+++
+
+
+*Version:* 1.0.0.43
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "Instrument" {
+{field} -Public Events : Cluster
+{field} -Private Events : Cluster
+{field} -Configuration : Cluster
+{field} -Configuration.lvclass : LV Class
+{static} {method} +HELP()
+{static} {method} +GET ALL()
+{static} {method} +Instrument.GetPublicEvents()
+{static} {method} +Instrument.MessageToProcess()
+{static} {method} +Instrument.LogPGSQL()
+{static} {method} -Instrument.Command Enum to String()
+{static} {method} -Instrument.GetPrivateEvents()
+{static} {method} -Instrument.MessageFromProcess()
+{static} {method} -Instrument.Configuration Window()
+{static} {method} -Get Dependencies()
+{static} {method} -List D()
+{static} {method} #Remote Client()
+{static} {method} +Instrument.TestLauncher()
+{method} #enumerateStaticDependencies()
+{method} #CreatePublicEvents()
+{method} #DestroyPublicEvents()
+{method} #CreatePrivateEvents()
+{method} #DestroyPrivateEvents()
+{method} #Handle Error()
+{method} +Create Instrument SMO()
+{method} +Open()
+{method} +Close()
+{method} #Configure Instrument()
+{method} #Close Instrument()
+{method} #Open Instrument()
+{method} #Handle Command()
+{method} #getAll()
+{method} #Get SMO Name()
+{method} #Get SMO Address()
+{method} #Get SMO Port()
+{method} #Get SMO Public API()
+{method} #Get SMO RC Type()
+{method} #Get SMO PGSQL Log Paths()
+{method} #Process()
+
+}
+"SMO" <|-- "Instrument"
+"Instrument" *-- "Configuration"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|enumerateStaticDependencies
+|:imgpath: Instrument.lvclass_enumerateStaticDependencies.vi__.png
+image:{imgpath}[Instrument.lvclass:enumerateStaticDependencies.vi]
+|+++JKI State Machine Objects (SMO) 1.3.0.56+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2017, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|CreatePublicEvents
+|:imgpath: Instrument.lvclass_CreatePublicEvents.vi__.png
+image:{imgpath}[Instrument.lvclass:CreatePublicEvents.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|DestroyPublicEvents
+|:imgpath: Instrument.lvclass_DestroyPublicEvents.vi__.png
+image:{imgpath}[Instrument.lvclass:DestroyPublicEvents.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.5+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|CreatePrivateEvents
+|:imgpath: Instrument.lvclass_CreatePrivateEvents.vi__.png
+image:{imgpath}[Instrument.lvclass:CreatePrivateEvents.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|DestroyPrivateEvents
+|:imgpath: Instrument.lvclass_DestroyPrivateEvents.vi__.png
+image:{imgpath}[Instrument.lvclass:DestroyPrivateEvents.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.5+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Handle Error
+|:imgpath: Instrument.lvclass_Handle_Error.vi__.png
+image:{imgpath}[Instrument.lvclass:Handle Error.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.11+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKIJKI State Machine Objects (SMO) 1.3.0.56+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2017, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Create Instrument SMO
+|:imgpath: Instrument.lvclass_Create_Instrument_SMO.vi__.png
+image:{imgpath}[Instrument.lvclass:Create Instrument SMO.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Open
+|:imgpath: Instrument.lvclass_Open.vi__.png
+image:{imgpath}[Instrument.lvclass:Open.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Close
+|:imgpath: Instrument.lvclass_Close.vi__.png
+image:{imgpath}[Instrument.lvclass:Close.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|HELP
+|:imgpath: Instrument.lvclass_HELP.vi__.png
+image:{imgpath}[Instrument.lvclass:HELP.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|GET ALL
+|:imgpath: Instrument.lvclass_GET_ALL.vi__.png
+image:{imgpath}[Instrument.lvclass:GET ALL.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Write RC Type
+|:imgpath: Instrument.lvclass_Write_RC_Type.vi__.png
+image:{imgpath}[Instrument.lvclass:Write RC Type.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read Debug Mode
+|:imgpath: Instrument.lvclass_Read_Debug_Mode.vi__.png
+image:{imgpath}[Instrument.lvclass:Read Debug Mode.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read Configuration Class
+|:imgpath: Instrument.lvclass_Read_Configuration_Class.vi__.png
+image:{imgpath}[Instrument.lvclass:Read Configuration Class.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-preallocated.png
+image:{imgpath}[reentrancy-preallocated.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+
+|Read Hardware Address
+|:imgpath: Instrument.lvclass_Read_Hardware_Address.vi__.png
+image:{imgpath}[Instrument.lvclass:Read Hardware Address.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-preallocated.png
+image:{imgpath}[reentrancy-preallocated.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+
+|Instrument.GetPublicEvents
+|:imgpath: Instrument.lvclass_Instrument.GetPublicEvents.vi__.png
+image:{imgpath}[Instrument.lvclass:Instrument.GetPublicEvents.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Instrument.MessageToProcess
+|:imgpath: Instrument.lvclass_Instrument.MessageToProcess.vi__.png
+image:{imgpath}[Instrument.lvclass:Instrument.MessageToProcess.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Instrument.LogPGSQL
+|:imgpath: Instrument.lvclass_Instrument.LogPGSQL.vi__.png
+image:{imgpath}[Instrument.lvclass:Instrument.LogPGSQL.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.4+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2015, JKI+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Configure Instrument
+|:imgpath: Instrument.lvclass_Configure_Instrument.vi__.png
+image:{imgpath}[Instrument.lvclass:Configure Instrument.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Close Instrument
+|:imgpath: Instrument.lvclass_Close_Instrument.vi__.png
+image:{imgpath}[Instrument.lvclass:Close Instrument.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Open Instrument
+|:imgpath: Instrument.lvclass_Open_Instrument.vi__.png
+image:{imgpath}[Instrument.lvclass:Open Instrument.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Handle Command
+|:imgpath: Instrument.lvclass_Handle_Command.vi__.png
+image:{imgpath}[Instrument.lvclass:Handle Command.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|getAll
+|:imgpath: Instrument.lvclass_getAll.vi__.png
+image:{imgpath}[Instrument.lvclass:getAll.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get SMO Name
+|:imgpath: Instrument.lvclass_Get_SMO_Name.vi__.png
+image:{imgpath}[Instrument.lvclass:Get SMO Name.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get SMO Address
+|:imgpath: Instrument.lvclass_Get_SMO_Address.vi__.png
+image:{imgpath}[Instrument.lvclass:Get SMO Address.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get SMO Port
+|:imgpath: Instrument.lvclass_Get_SMO_Port.vi__.png
+image:{imgpath}[Instrument.lvclass:Get SMO Port.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get SMO Public API
+|:imgpath: Instrument.lvclass_Get_SMO_Public_API.vi__.png
+image:{imgpath}[Instrument.lvclass:Get SMO Public API.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get SMO RC Type
+|:imgpath: Instrument.lvclass_Get_SMO_RC_Type.vi__.png
+image:{imgpath}[Instrument.lvclass:Get SMO RC Type.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get SMO PGSQL Log Paths
+|:imgpath: Instrument.lvclass_Get_SMO_PGSQL_Log_Paths.vi__.png
+image:{imgpath}[Instrument.lvclass:Get SMO PGSQL Log Paths.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Remote Client
+|:imgpath: Instrument.lvclass_Remote_Client.vi__.png
+image:{imgpath}[Instrument.lvclass:Remote Client.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-preallocated.png
+image:{imgpath}[reentrancy-preallocated.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Write Configuration Path
+|:imgpath: Instrument.lvclass_Write_Configuration_Path.vi__.png
+image:{imgpath}[Instrument.lvclass:Write Configuration Path.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read Configuration File
+|:imgpath: Instrument.lvclass_Read_Configuration_File.vi__.png
+image:{imgpath}[Instrument.lvclass:Read Configuration File.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Write Configuration File
+|:imgpath: Instrument.lvclass_Write_Configuration_File.vi__.png
+image:{imgpath}[Instrument.lvclass:Write Configuration File.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Process
+|:imgpath: Instrument.lvclass_Process.vi__.png
+image:{imgpath}[Instrument.lvclass:Process.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVED+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Instrument.TestLauncher
+|:imgpath: Instrument.lvclass_Instrument.TestLauncher.vi__.png
+image:{imgpath}[Instrument.lvclass:Instrument.TestLauncher.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+=== Instrument UI.lvclass
+
+*Responsibility:*
++++LevyLab Instrument UI class that inherits from SMO.UI.+++
+
+
+*Version:* 1.0.0.0
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "Instrument UI" {
+{field} #Instrument : LV Class
+{static} {method} +Create UI()
+{static} {method} +Instrument UI.TestLauncher()
+{method} #Handle Error()
+{method} #Process()
+
+}
+"SMO.UI" <|-- "Instrument UI"
+"Instrument UI" *-- "Instrument"
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|Create UI
+|:imgpath: Instrument_UI.lvclass_Create_UI.vi__.png
+image:{imgpath}[Instrument UI.lvclass:Create UI.vi]
+|No description found (add content in vi description)
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Handle Error
+|:imgpath: Instrument_UI.lvclass_Handle_Error.vi__.png
+image:{imgpath}[Instrument UI.lvclass:Handle Error.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.11+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKIJKI State Machine Objects (SMO) 1.3.0.56+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2017, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Read Instrument
+|:imgpath: Instrument_UI.lvclass_Read_Instrument.vi__.png
+image:{imgpath}[Instrument UI.lvclass:Read Instrument.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-preallocated.png
+image:{imgpath}[reentrancy-preallocated.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+
+|Process
+|:imgpath: Instrument_UI.lvclass_Process.vi__.png
+image:{imgpath}[Instrument UI.lvclass:Process.vi]
+|
++++---------------------------------------------------------------+++
++++JKI State Machine Objects™+++
++++http://jki.net/state-machine-objects/+++
++++Copyright (C) 2005-2015, JKI <info@jki.net>+++
++++ALL RIGHTS RESERVEDJKI State Machine Objects (SMO) 1.0.0.5+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKI+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Instrument UI.TestLauncher
+|:imgpath: Instrument_UI.lvclass_Instrument_UI.TestLauncher.vi__.png
+image:{imgpath}[Instrument UI.lvclass:Instrument UI.TestLauncher.vi]
+|+++JKI State Machine Objects (SMO) 1.0.0.5+++
+
++++JKI - JKI+++
+
++++Copyright (c) 2016, JKI+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+== Legal Information
+
+=== Document creation
+
+This document has been generated using the following tools.
+
+==== Antidoc
+
+Project website: https://wovalab.gitlab.io/open-source/labview-doc-generator/[Antidoc] 
+
+Maintainer website: https://wovalab.com[Wovalab] 
+
+BSD 3-Clause License
+
+Copyright (C) 2019, Wovalab,
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+==== Asciidoc for LabVIEW(TM)
+
+Project website: https://wovalab.gitlab.io/open-source/asciidoc-toolkit/[Asciidoc toolkit] 
+
+Maintainer website: https://wovalab.com[Wovalab] 
+
+BSD 3-Clause License
+
+Copyright (C) 2019, Wovalab,
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+==== Graph Builder
+
+Project website: https://gitlab.com/cgambini/graph-builder[Graph Builder]
+
+BSD 3-Clause License
+
+Copyright (c) 2020, Cyril GAMBINI
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+==== classy Diagram Viewer
+
+Project website: https://gitlab.com/tatiana.boye/classy-diagram-viewer[classy Diagram Viewer]
+
+BSD 3-Clause License
+
+Copyright (c) 2021, Tatiana Boyé
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+=== Product used in the project
+
+Antidoc hasn't been able to detect third party products in the project.
+This is the author's responsibility to list any of the missing product used.
