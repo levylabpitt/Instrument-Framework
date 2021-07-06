@@ -1,9 +1,0 @@
-{
-  "name":"JSON-RPC",
-  "labview-version":"2019",
-  "labview-bitness":"any",
-  "lv-venv":"lv-venv",
-  "main-project":"JSON-RPC-2019.lvproj",
-  "main-vipc":"JSON-RPC.vipc",
-  "main-vipb":""
-}
