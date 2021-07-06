@@ -30,7 +30,9 @@
 			<Item Name="ROLFPython.vi" Type="VI" URL="../VIM/ROLFPython.vi"/>
 		</Item>
 		<Item Name="tests" Type="Folder">
+			<Item Name="TEST-JSON-RPC.vi" Type="VI" URL="../JSON-RPC/tests/TEST-JSON-RPC.vi"/>
 			<Item Name="JSONtext-test-20210421.vi" Type="VI" URL="../tests/JSONtext-test-20210421.vi"/>
+			<Item Name="Cluster.ctl" Type="VI" URL="../tests/Cluster.ctl"/>
 		</Item>
 		<Item Name="JSON-RPC.lvclass" Type="LVClass" URL="../JSON-RPC/JSON-RPC.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -57,7 +59,6 @@
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="JSONtext LVClass Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JDP Science/JSONtext/LVClass Serializer/JSONtext LVClass Serializer.lvclass"/>
 			</Item>
-			<Item Name="Flatten JSON Object to JSONpath Array.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/JDP Science/JSONtext/Flatten JSON Object to JSONpath Array.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
