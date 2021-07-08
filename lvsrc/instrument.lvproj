@@ -1156,6 +1156,10 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="TEST-JSON-RPC--Cluster.ctl" Type="VI" URL="../SMOs/JSON-RPC/tests/TEST-JSON-RPC--Cluster.ctl"/>
+			<Item Name="PublicEvents--Cluster.ctl" Type="VI" URL="../SMOs/RemoteControl.ZMQ/Typedefs/PublicEvents--Cluster.ctl"/>
+			<Item Name="PublicEvents--ZMQ.receiveMessage.ctl" Type="VI" URL="../SMOs/RemoteControl.ZMQ/Typedefs/PublicEvents--ZMQ.receiveMessage.ctl"/>
+			<Item Name="PrivateEvents--Cluster.ctl" Type="VI" URL="../SMOs/RemoteControl.ZMQ/Typedefs/PrivateEvents--Cluster.ctl"/>
+			<Item Name="PrivateEvents--ZMQ.sendMessage.ctl" Type="VI" URL="../SMOs/RemoteControl.ZMQ/Typedefs/PrivateEvents--ZMQ.sendMessage.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
