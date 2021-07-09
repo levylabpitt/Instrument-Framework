@@ -718,6 +718,7 @@
 				<Item Name="059DC194CAFE701435A8C0AF06F6A663Empty 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/059DC194CAFE701435A8C0AF06F6A663Empty 1D Array (LVObject)__ogtk.vi"/>
 				<Item Name="059DC194CAFE701435A8C0AF06F6A663Empty 2D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/059DC194CAFE701435A8C0AF06F6A663Empty 2D Array (LVObject)__ogtk.vi"/>
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Ramp_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Control VI/Other/Ramp_SubVI.vi"/>
@@ -1156,10 +1157,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="TEST-JSON-RPC--Cluster.ctl" Type="VI" URL="../SMOs/JSON-RPC/tests/TEST-JSON-RPC--Cluster.ctl"/>
-			<Item Name="PublicEvents--Cluster.ctl" Type="VI" URL="../SMOs/RemoteControl.ZMQ/Typedefs/PublicEvents--Cluster.ctl"/>
-			<Item Name="PublicEvents--ZMQ.receiveMessage.ctl" Type="VI" URL="../SMOs/RemoteControl.ZMQ/Typedefs/PublicEvents--ZMQ.receiveMessage.ctl"/>
-			<Item Name="PrivateEvents--Cluster.ctl" Type="VI" URL="../SMOs/RemoteControl.ZMQ/Typedefs/PrivateEvents--Cluster.ctl"/>
-			<Item Name="PrivateEvents--ZMQ.sendMessage.ctl" Type="VI" URL="../SMOs/RemoteControl.ZMQ/Typedefs/PrivateEvents--ZMQ.sendMessage.ctl"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
