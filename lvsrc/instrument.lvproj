@@ -126,6 +126,7 @@
 		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Instrument UI.lvclass" Type="LVClass" URL="../SMOs/Instrument UI/Instrument UI.lvclass"/>
+		<Item Name="2021-07-09.vi" Type="VI" URL="../../tests/test results/2021-07-09.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
