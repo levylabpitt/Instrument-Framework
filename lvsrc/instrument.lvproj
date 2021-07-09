@@ -61,6 +61,7 @@
 				<Item Name="MessageRate.000000.itx" Type="Document" URL="../../tests/test results/MessageRate.000000.itx"/>
 				<Item Name="MessageTime.000000.itx" Type="Document" URL="../../tests/test results/MessageTime.000000.itx"/>
 				<Item Name="Throughput.000000.itx" Type="Document" URL="../../tests/test results/Throughput.000000.itx"/>
+				<Item Name="2021-07-09.vi" Type="VI" URL="../../tests/test results/2021-07-09.vi"/>
 			</Item>
 			<Item Name="JSON-RPC" Type="Folder">
 				<Item Name="TEST-JSON-RPC.vi" Type="VI" URL="../SMOs/JSON-RPC/tests/TEST-JSON-RPC.vi"/>
@@ -126,7 +127,6 @@
 		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
 		<Item Name="Instrument UI.lvclass" Type="LVClass" URL="../SMOs/Instrument UI/Instrument UI.lvclass"/>
-		<Item Name="2021-07-09.vi" Type="VI" URL="../../tests/test results/2021-07-09.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
