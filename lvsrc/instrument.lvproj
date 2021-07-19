@@ -75,37 +75,15 @@
 				</Item>
 				<Item Name="Lockin" Type="Folder"/>
 			</Item>
+			<Item Name="Test Instrument Framework.vi" Type="VI" URL="../../tests/Test Instrument Framework.vi"/>
 			<Item Name="Test Create Instrument SMO.vi" Type="VI" URL="../../tests/Test Create Instrument SMO.vi"/>
 			<Item Name="Test RC.vi" Type="VI" URL="../../tests/Test RC.vi"/>
 			<Item Name="Test Configuration.vi" Type="VI" URL="../../tests/Test Configuration.vi"/>
 		</Item>
-		<Item Name="Subsystems" Type="Folder">
-			<Item Name="Configuration.lvclass" Type="LVClass" URL="../SMOs/Configuration/Configuration.lvclass"/>
-			<Item Name="Logger.lvclass" Type="LVClass" URL="../SMOs/Logger/Logger.lvclass"/>
-			<Item Name="Logger.Error.lvclass" Type="LVClass" URL="../SMOs/Logger.Error/Logger.Error.lvclass"/>
-			<Item Name="Logger.PGSQL.lvclass" Type="LVClass" URL="../SMOs/Logger.PGSQL/Logger.PGSQL.lvclass"/>
-			<Item Name="Logger.syslog.lvclass" Type="LVClass" URL="../SMOs/Logger.syslog/Logger.syslog.lvclass"/>
-			<Item Name="JSON-RPC.lvclass" Type="LVClass" URL="../SMOs/JSON-RPC/JSON-RPC/JSON-RPC.lvclass"/>
-			<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../SMOs/RemoteControl/RemoteControl.lvclass"/>
-			<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
-			<Item Name="RemoteControl.ZMQ.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.ZMQ/RemoteControl.ZMQ.lvclass"/>
-			<Item Name="SCPI.lvclass" Type="LVClass" URL="../SMOs/SCPI/SCPI.lvclass"/>
-			<Item Name="Shortcuts.vi" Type="VI" URL="../SMOs/Shortcuts.vi"/>
-			<Item Name="showrunningvis.vi" Type="VI" URL="../SMOs/showrunningvis.vi"/>
-		</Item>
-		<Item Name="Instrument Types" Type="Folder">
-			<Item Name="Instrument.API.lvclass" Type="LVClass" URL="../Instrument Types/API/Instrument.API.lvclass"/>
-			<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="../Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
-			<Item Name="Instrument.Lockin.lvclass" Type="LVClass" URL="../Instrument Types/Lockin/Instrument.Lockin.lvclass"/>
-			<Item Name="Instrument.VSource.lvclass" Type="LVClass" URL="../Instrument Types/VSource/Instrument.VSource.lvclass"/>
-			<Item Name="Instrument.VNA.lvclass" Type="LVClass" URL="../Instrument Types/VNA/Instrument.VNA.lvclass"/>
-			<Item Name="Instrument.CBridge.lvclass" Type="LVClass" URL="../Instrument Types/CBridge/Instrument.CBridge.lvclass"/>
-			<Item Name="Instrument.Strain.lvclass" Type="LVClass" URL="../Instrument Types/Strain/Instrument.Strain.lvclass"/>
-			<Item Name="Instrument.OpticalDelayLine.lvclass" Type="LVClass" URL="../Instrument Types/Optical Delay Line/Instrument.OpticalDelayLine.lvclass"/>
-		</Item>
 		<Item Name="Templates" Type="Folder">
-			<Item Name="LevyLab Instrument.lvclass" Type="LVClass" URL="../Templates/LevyLab Instrument/LevyLab Instrument.lvclass"/>
-			<Item Name="LevyLab Instrument UI.lvclass" Type="LVClass" URL="../Templates/LevyLab Instrument UI/LevyLab Instrument UI.lvclass"/>
+			<Item Name="Example.lvclass" Type="LVClass" URL="../Templates/Example/Example.lvclass"/>
+			<Item Name="Example UI.lvclass" Type="LVClass" URL="../Templates/Example UI/Example UI.lvclass"/>
+			<Item Name="Example API.lvclass" Type="LVClass" URL="../Templates/Example API/Example API.lvclass"/>
 		</Item>
 		<Item Name="ProjectTemplates" Type="Folder">
 			<Item Name="MetaData" Type="Folder">
@@ -134,8 +112,36 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
-		<Item Name="Instrument UI.lvclass" Type="LVClass" URL="../SMOs/Instrument UI/Instrument UI.lvclass"/>
+		<Item Name="Framework" Type="Folder">
+			<Item Name="Top Level" Type="Folder">
+				<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
+				<Item Name="Instrument UI.lvclass" Type="LVClass" URL="../SMOs/Instrument UI/Instrument UI.lvclass"/>
+				<Item Name="Instrument API.lvclass" Type="LVClass" URL="../Instrument Types/API/Instrument API.lvclass"/>
+			</Item>
+			<Item Name="Subsystems" Type="Folder">
+				<Item Name="Configuration.lvclass" Type="LVClass" URL="../SMOs/Configuration/Configuration.lvclass"/>
+				<Item Name="Logger.lvclass" Type="LVClass" URL="../SMOs/Logger/Logger.lvclass"/>
+				<Item Name="Logger.Error.lvclass" Type="LVClass" URL="../SMOs/Logger.Error/Logger.Error.lvclass"/>
+				<Item Name="Logger.PGSQL.lvclass" Type="LVClass" URL="../SMOs/Logger.PGSQL/Logger.PGSQL.lvclass"/>
+				<Item Name="Logger.syslog.lvclass" Type="LVClass" URL="../SMOs/Logger.syslog/Logger.syslog.lvclass"/>
+				<Item Name="JSON-RPC.lvclass" Type="LVClass" URL="../SMOs/JSON-RPC/JSON-RPC/JSON-RPC.lvclass"/>
+				<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../SMOs/RemoteControl/RemoteControl.lvclass"/>
+				<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
+				<Item Name="RemoteControl.ZMQ.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.ZMQ/RemoteControl.ZMQ.lvclass"/>
+				<Item Name="SCPI.lvclass" Type="LVClass" URL="../SMOs/SCPI/SCPI.lvclass"/>
+				<Item Name="Shortcuts.vi" Type="VI" URL="../SMOs/Shortcuts.vi"/>
+				<Item Name="showrunningvis.vi" Type="VI" URL="../SMOs/showrunningvis.vi"/>
+			</Item>
+			<Item Name="Instrument Types" Type="Folder">
+				<Item Name="Instrument API.Cryostat.lvclass" Type="LVClass" URL="../Instrument Types/Cryostat/Instrument API.Cryostat.lvclass"/>
+				<Item Name="Instrument API.Lockin.lvclass" Type="LVClass" URL="../Instrument Types/Lockin/Instrument API.Lockin.lvclass"/>
+				<Item Name="Instrument API.VSource.lvclass" Type="LVClass" URL="../Instrument Types/VSource/Instrument API.VSource.lvclass"/>
+				<Item Name="Instrument API.VNA.lvclass" Type="LVClass" URL="../Instrument Types/VNA/Instrument API.VNA.lvclass"/>
+				<Item Name="Instrument API.CBridge.lvclass" Type="LVClass" URL="../Instrument Types/CBridge/Instrument API.CBridge.lvclass"/>
+				<Item Name="Instrument API.Strain.lvclass" Type="LVClass" URL="../Instrument Types/Strain/Instrument API.Strain.lvclass"/>
+				<Item Name="Instrument API.DelayLine.lvclass" Type="LVClass" URL="../Instrument Types/Optical Delay Line/Instrument API.DelayLine.lvclass"/>
+			</Item>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
