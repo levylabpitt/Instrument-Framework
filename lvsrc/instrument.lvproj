@@ -1173,6 +1173,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="TEST-JSON-RPC--Cluster.ctl" Type="VI" URL="../SMOs/JSON-RPC/tests/TEST-JSON-RPC--Cluster.ctl"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

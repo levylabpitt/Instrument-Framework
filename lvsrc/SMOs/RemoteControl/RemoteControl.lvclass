@@ -145,16 +145,6 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
-		<Item Name="Handle Error.vi" Type="VI" URL="../Methods (Overrides)/Handle Error.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;6!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!=1&amp;!!!Q!!!!%!!AZI97ZE&lt;'FO:S"F=H*P=A!!"!!!!"R!5!!$!!!!!1!#$V6O;'&amp;O:'RF:#"F=H*P=A!S1(!!(A!!&amp;R63:7VP&gt;'6$&lt;WZU=G^M,GRW9WRB=X-!%6*F&lt;7^U:5.P&lt;H2S&lt;WQA&lt;X6U!#"!)2N4&gt;'^Q)'^O)&amp;6O;'&amp;O:'RF:#"&amp;=H*P=C!I6#E!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!#Z!=!!?!!!8&amp;6*F&lt;7^U:5.P&lt;H2S&lt;WQO&lt;(:D&lt;'&amp;T=Q!.5G6N&lt;X2F1W^O&gt;(*P&lt;!"5!0!!$!!$!!1!"1!'!!1!"!!%!!=!#!!%!!1!#1-!!(A!!!E!!!!!!!!!$1A!!)U,!!!!!!!!!!!!!!!!!!!+!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!I!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-		</Item>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
