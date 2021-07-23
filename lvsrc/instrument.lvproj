@@ -51,6 +51,7 @@
 			</Item>
 			<Item Name="JSON-RPC" Type="Folder">
 				<Item Name="TEST-JSON-RPC.vi" Type="VI" URL="../SMOs/JSON-RPC/tests/TEST-JSON-RPC.vi"/>
+				<Item Name="TEST-JSON-RPC+caraya.vi" Type="VI" URL="../SMOs/JSON-RPC/tests/TEST-JSON-RPC+caraya.vi"/>
 			</Item>
 			<Item Name="Remote Test Metrics" Type="Folder">
 				<Item Name="subVI" Type="Folder">
