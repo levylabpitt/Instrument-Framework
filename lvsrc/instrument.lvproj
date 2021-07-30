@@ -84,7 +84,6 @@
 		<Item Name="Templates" Type="Folder">
 			<Item Name="Example.lvclass" Type="LVClass" URL="../Templates/Example/Example.lvclass"/>
 			<Item Name="Example UI.lvclass" Type="LVClass" URL="../Templates/Example UI/Example UI.lvclass"/>
-			<Item Name="Example API.lvclass" Type="LVClass" URL="../Templates/Example API/Example API.lvclass"/>
 		</Item>
 		<Item Name="ProjectTemplates" Type="Folder">
 			<Item Name="MetaData" Type="Folder">
@@ -117,7 +116,6 @@
 			<Item Name="Top Level" Type="Folder">
 				<Item Name="Instrument.lvclass" Type="LVClass" URL="../SMOs/Instrument/Instrument.lvclass"/>
 				<Item Name="Instrument UI.lvclass" Type="LVClass" URL="../SMOs/Instrument UI/Instrument UI.lvclass"/>
-				<Item Name="Instrument API.lvclass" Type="LVClass" URL="../Instrument Types/API/Instrument API.lvclass"/>
 			</Item>
 			<Item Name="Subsystems" Type="Folder">
 				<Item Name="Configuration.lvclass" Type="LVClass" URL="../SMOs/Configuration/Configuration.lvclass"/>
@@ -134,13 +132,13 @@
 				<Item Name="showrunningvis.vi" Type="VI" URL="../SMOs/showrunningvis.vi"/>
 			</Item>
 			<Item Name="Instrument Types" Type="Folder">
-				<Item Name="Instrument API.Cryostat.lvclass" Type="LVClass" URL="../Instrument Types/Cryostat/Instrument API.Cryostat.lvclass"/>
-				<Item Name="Instrument API.Lockin.lvclass" Type="LVClass" URL="../Instrument Types/Lockin/Instrument API.Lockin.lvclass"/>
-				<Item Name="Instrument API.VSource.lvclass" Type="LVClass" URL="../Instrument Types/VSource/Instrument API.VSource.lvclass"/>
-				<Item Name="Instrument API.VNA.lvclass" Type="LVClass" URL="../Instrument Types/VNA/Instrument API.VNA.lvclass"/>
-				<Item Name="Instrument API.CBridge.lvclass" Type="LVClass" URL="../Instrument Types/CBridge/Instrument API.CBridge.lvclass"/>
-				<Item Name="Instrument API.Strain.lvclass" Type="LVClass" URL="../Instrument Types/Strain/Instrument API.Strain.lvclass"/>
-				<Item Name="Instrument API.DelayLine.lvclass" Type="LVClass" URL="../Instrument Types/Optical Delay Line/Instrument API.DelayLine.lvclass"/>
+				<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="../Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
+				<Item Name="Instrument.Lockin.lvclass" Type="LVClass" URL="../Instrument Types/Lockin/Instrument.Lockin.lvclass"/>
+				<Item Name="Instrument.VSource.lvclass" Type="LVClass" URL="../Instrument Types/VSource/Instrument.VSource.lvclass"/>
+				<Item Name="Instrument.VNA.lvclass" Type="LVClass" URL="../Instrument Types/VNA/Instrument.VNA.lvclass"/>
+				<Item Name="Instrument.CBridge.lvclass" Type="LVClass" URL="../Instrument Types/CBridge/Instrument.CBridge.lvclass"/>
+				<Item Name="Instrument.Strain.lvclass" Type="LVClass" URL="../Instrument Types/Strain/Instrument.Strain.lvclass"/>
+				<Item Name="Instrument.DelayLine.lvclass" Type="LVClass" URL="../Instrument Types/Optical Delay Line/Instrument.DelayLine.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
