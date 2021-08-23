@@ -475,7 +475,7 @@
 	</Item>
 	<Item Name="Protected" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-		<Item Name="Instrument.Command Enum to String.vim" Type="VI" URL="../Private/Instrument.Command Enum to String.vim">
+		<Item Name="Instrument.Command Enum to String.vim" Type="VI" URL="../Protected/Instrument.Command Enum to String.vim">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#P!!!!"A!%!!!!#!!Q`````Q!91%!!!@````]!!1N$&lt;WVN97ZE=S"&lt;81!11$$`````"U.P&lt;7VB&lt;G1!(U!7!!-%3%6-5!."1UM':W6U17RM!!&gt;$&lt;WVN97ZE!&amp;1!]!!-!!!!!!!#!!-!!!!!!!!!!!!!!!!!!!!%!A!!?!!!!!!!!!!!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!%!"1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
