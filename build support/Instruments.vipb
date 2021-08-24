@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2021-08-24 16:50:23" Creator="Patrick" Comments="" ID="6fe78448ce033aee64e66d756d37a959">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2021-08-24 18:03:55" Creator="Patrick" Comments="" ID="f19716b062bc835a3c1e6c13809095ad">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.9.0.6</Library_Version>
+    <Library_Version>1.9.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -143,11 +143,11 @@ JSON-RPC 2.0
 - Batch messages are supported but not fully tested. (You are on your own to decode the batch requests.)
 
 New/Changed APIs:
-- State History.vi
-- GET ALL.vim
 - Remote Client.vim
+- GET ALL.vim
 - Enum to String.vim
 - Variant to LV Data.vim
+- State History.vi
 
 Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
 [6]: Reliable ZMQ messaging
@@ -2104,10 +2104,24 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>3</Column>
+          <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\SMOs\Instrument\API\State History.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Variant to LV Data.vim</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\SMOs\Instrument\API\Variant to LV Data.vim</Path>
         <VI_Title/>
       </Items_Data>
       <GUID>13A3331A29F1E46285DA65ED88804C33</GUID>
