@@ -232,13 +232,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1115684880</Property>
 		</Item>
 		<Item Name="Remote Client.vim" Type="VI" URL="../API/Remote Client.vim">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;^!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$E"4#%2B&gt;'%A&lt;X6U!!!51$$`````#U.P&lt;7VB&lt;G1A&lt;X6U!#Z!=!!?!!!5%EFO=X2S&gt;7VF&lt;H1O&lt;(:D&lt;'&amp;T=Q!!$EFO=X2S&gt;7VF&lt;H1A&lt;X6U!!!%!!!!(%!B&amp;F&gt;B;81A:G^S)&amp;*F=X"P&lt;H.F0S"&lt;6&amp;U!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!#E"4"%2B&gt;'%!!"&amp;!&amp;A!"!!!!"U.P&lt;7VB&lt;G1!,%"Q!"Y!!"1337ZT&gt;(*V&lt;76O&gt;#ZM&gt;G.M98.T!!!.37ZT&gt;(*V&lt;76O&gt;#"J&lt;A"B!0!!$!!$!!1!"1!'!!=!"Q!)!!=!#1!+!!M!$!-!!(A!!!U)!!!*!!!!#1!!!!U,!!!!!!!!!!!!!!A!!!!!!!!!#A!!!!A!!!!)!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!.!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'2!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$E"4#%2B&gt;'%A&lt;X6U!!!51$$`````#U.P&lt;7VB&lt;G1A&lt;X6U!#Z!=!!?!!!5%EFO=X2S&gt;7VF&lt;H1O&lt;(:D&lt;'&amp;T=Q!!$EFO=X2S&gt;7VF&lt;H1A&lt;X6U!!!%!!!!(%!B&amp;F&gt;B;81A:G^S)&amp;*F=X"P&lt;H.F0S"&lt;6&amp;U!!"*!5QV%982B)%^V&gt;#"U?8"F!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$%"4"U2B&gt;'%A;7Y!%5!7!!%!!!!(1W^N&lt;7&amp;O:!!M1(!!(A!!&amp;"**&lt;H.U=H6N:7ZU,GRW9WRB=X-!!!V*&lt;H.U=H6N:7ZU)'FO!'%!]!!-!!-!"!!&amp;!!9!"Q!(!!A!#1!+!!M!$!!.!Q!!?!!!$1A!!!E!!!!*!!!!$1M!!!!!!!!!!!!!#!!!!!A!!!!+!!!!#!!!!!A!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!Y!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">532498</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">269230096</Property>
 		</Item>
 		<Item Name="Enum to String.vim" Type="VI" URL="../API/Enum to String.vim">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#P!!!!"A!%!!!!#!!Q`````Q!91%!!!@````]!!1N$&lt;WVN97ZE=S"&lt;81!11$$`````"U.P&lt;7VB&lt;G1!(U!7!!-%3%6-5!."1UM':W6U17RM!!&gt;$&lt;WVN97ZE!&amp;1!]!!-!!!!!!!#!!-!!!!!!!!!!!!!!!!!!!!%!A!!?!!!!!!!!!!!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!%!"1!!!!!</Property>
@@ -377,6 +377,15 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1074266640</Property>
+		</Item>
+		<Item Name="JSON Variant to LV Data.vim" Type="VI" URL="../Private/JSON Variant to LV Data.vim">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$B!!!!#A!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!1!#!!-*:8*S&lt;X)A&lt;X6U!!Z!5QB%982B)'^V&gt;!!!#E"4"(2Z='5!!#"!5!!$!!%!!A!$%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$%"4"U2B&gt;'%A;7Y!6!$Q!!Q!!!!!!!1!"1!!!!!!!!!'!!!!!!!(!!A$!!"Y!!!!!!!!!!!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!#!!!!!A!!!!!!1!*!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">268967954</Property>
 		</Item>
 	</Item>
 	<Item Name="Framework (For Override)" Type="Folder">

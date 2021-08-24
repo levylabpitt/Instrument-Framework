@@ -1888,7 +1888,6 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Instrument.Command Enum to String.vim" Type="VI" URL="../SMOs/Instrument/Protected/Instrument.Command Enum to String.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
