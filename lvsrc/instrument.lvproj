@@ -1886,6 +1886,25 @@
 			<Item Name="IB_SRdB_Unlock.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB/IB_SRdB_Unlock.vi"/>
 			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
 			<Item Name="Read Configuration.vim" Type="VI" URL="../SMOs/Configuration/Read Configuration.vim"/>
+			<Item Name="JSON-RPC.ctl" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/JSON-RPC.lvclass/JSON-RPC.ctl"/>
+			<Item Name="Create Request Cluster.vim" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/API/Create Request Cluster.vim"/>
+			<Item Name="Request--Cluster.ctl" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/typedefs/Request--Cluster.ctl"/>
+			<Item Name="Create Request.vim" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/API/Create Request.vim"/>
+			<Item Name="Write ids.vi" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/private/Write ids.vi"/>
+			<Item Name="Create Request-JSONtext.vim" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/private/Create Request-JSONtext.vim"/>
+			<Item Name="Create ID.vi" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/private/Create ID.vi"/>
+			<Item Name="Create Response.vim" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/API/Create Response.vim"/>
+			<Item Name="Create Response-JSONtext.vim" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/private/Create Response-JSONtext.vim"/>
+			<Item Name="Error--Cluster.ctl" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/typedefs/Error--Cluster.ctl"/>
+			<Item Name="Create Error Object.vi" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/private/Create Error Object.vi"/>
+			<Item Name="Read ids.vi" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/private/Read ids.vi"/>
+			<Item Name="Parse Response.vi" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/API/Parse Response.vi"/>
+			<Item Name="Parse Response-JSONtext.vi" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/private/Parse Response-JSONtext.vi"/>
+			<Item Name="Parse Request.vi" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/API/Parse Request.vi"/>
+			<Item Name="Parse Request-JSONtext.vi" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/private/Parse Request-JSONtext.vi"/>
+			<Item Name="JSON-RPC Errors.vi" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/API/JSON-RPC Errors.vi"/>
+			<Item Name="Parse Params.vi" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/API/Parse Params.vi"/>
+			<Item Name="Parse Params-JSONtext.vi" Type="VI" URL="../SMOs/JSON-RPC/JSON-RPC/private/Parse Params-JSONtext.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
