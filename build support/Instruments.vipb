@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2021-08-26 15:35:00" Creator="Patrick" Comments="" ID="282eba70661f280387425465f0159d8e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2021-08-30 16:48:25" Creator="Patrick" Comments="" ID="4c003c6b5f91f62aa5de4dbf53ea854d">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.9.0.9</Library_Version>
+    <Library_Version>1.9.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -367,7 +367,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0DF70A31969225D99AC2FA2279699863</GUID>
+      <GUID>300800594DB97542EDE42F7DCDEEB7C7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -486,7 +486,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\Instrument Types\Lockin</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C03A1F8CEDF84E87861DDF45B938715</GUID>
+      <GUID>CE9A11DE434FBE431679D46C7E251CA1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -689,7 +689,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>50B0362C94504BEF391D757C259FC13D</GUID>
+      <GUID>BFCB5B799B42BFC1412EFAF0A6E9342A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -724,7 +724,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\Instrument Types\CBridge\Get Capacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7240E802D3EB3C3DA524D59FFB76E228</GUID>
+      <GUID>1CE68EA5E4615F56A7783B039ECCAFB7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -927,7 +927,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Magnet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8D2C6F2F2DD23761D4EA69AACBBD3230</GUID>
+      <GUID>09EF8E150D4516D1FA0A62F9D6878F29</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -976,7 +976,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\Instrument Types\Optical Delay Line\Get Delay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>16EA23344758E70093D0ED26CA82967B</GUID>
+      <GUID>E07421C1D2D1CF959603DD195CD018BD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1025,7 +1025,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\Instrument Types\Strain\Set Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B0D6C19FCA41EF6D54C092E89AA7F030</GUID>
+      <GUID>5339AF1EB8372ABEE698AD282A58C07E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1130,7 +1130,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\Instrument Types\VNA\Get Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D6CCE26A511E0956CEFEA3C386FE4E8A</GUID>
+      <GUID>32BB7B95CF176C8FB243CF088FA97B13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1179,7 +1179,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\Instrument Types\VSource\Set Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A801D6281B1E63975E4F46BE38B55A39</GUID>
+      <GUID>38CA98387CDEDD390F60C2E082AA0EF6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1256,7 +1256,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\Configuration\Read Configuration (Template).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>40301E5CA255C4B669D3107260FFCC5D</GUID>
+      <GUID>A49DA9D07E92D623AA0051FA02B393DF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1375,7 +1375,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\Instrument\Overrides</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ED6D5416CCF3A997550075708991BDA5</GUID>
+      <GUID>9AD5D2B046408116D79F99C60A98E9E1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1508,7 +1508,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C0E164B682B14F92EB2C40DDC1755D2</GUID>
+      <GUID>796318C5679A5B27C0AF55487A288679</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1641,7 +1641,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\Logger.Error\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9F0BB8C2904C0ED004913C93083B3514</GUID>
+      <GUID>746FD61A2AC784EA05D4523796F8F885</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1858,7 +1858,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\Logger.PGSQL\Write to PGSQL.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>993251DAA438441187C04CB93564BC72</GUID>
+      <GUID>845DE4360557B845AB97D08CE54DF8C0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1907,7 +1907,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\SCPI\SCPI Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8CBA89FD7D648736E38C65C3A6774DD8</GUID>
+      <GUID>3D1E71AAB3F7951F1866B5799B027AFF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2138,7 +2138,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\Instrument\API\Variant to LV Data.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>349CCC85C0967722C2578C6A731FB086</GUID>
+      <GUID>AA523A6AD3AFB3AD8195A6268A1C385A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2313,7 +2313,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\Instrument\Framework (for override)\Get SMO PGSQL Log Paths.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>498F94F9F9DD44E268F08BF529AEA107</GUID>
+      <GUID>8A8DA0F6A5AF1160CD9BE6AC6DB4661A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2418,7 +2418,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\Instrument\Private\List Devices.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A79D7625A6B4DFFB878998ADFF3C2A59</GUID>
+      <GUID>C5BFA86F974FB57901F3F3D50D6E2185</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2481,7 +2481,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\Instrument\Protected\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E02A0FDE65B55522F86FAC3757F57DE</GUID>
+      <GUID>AF978C1267B76B9C50943E306A1D1CA3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2502,7 +2502,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Synchronyze_with_Directory>true</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>Instrument Types\Lockin</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>0BD78B8CB1C8C59FF671EEF965418961</GUID>
+      <GUID>163B9F7FB6F499EB6FF318CBBADB3DC1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2537,7 +2537,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B2C49A1A1432450FF4CD0876D11FEEC9</GUID>
+      <GUID>49679411B3E0CF481147F2CC07EA8069</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>20</Parent_Palette_Index>
@@ -2656,7 +2656,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\API\JSON-RPC Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F745FA7F174548F0154AA68E14CA0CB4</GUID>
+      <GUID>39E4AB08B71475E757C918C216AD2DE8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2733,7 +2733,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\Instrument UI\Read Instrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>835B5BE875DA9D3C1F37011C4A534FFE</GUID>
+      <GUID>78D4064CE09D4571542521B853CB7291</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2824,7 +2824,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41593052CE11DE10030C9BDAC78AED2B</GUID>
+      <GUID>23FA310B2F29DB118E8BC3D38566DC04</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2887,7 +2887,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\RemoteControl\Methods (Framework)</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7DCA800BB882F7B43357A406BE1AF384</GUID>
+      <GUID>CF5B2353C0D2102B85D4DD366F6269FC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>24</Parent_Palette_Index>
@@ -3230,7 +3230,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\RemoteControl\API\Write Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>59540A637C2095BCA04D52C59D5240B8</GUID>
+      <GUID>4235BEC005D96418E0793BD5ED94ACA3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>24</Parent_Palette_Index>
@@ -3391,7 +3391,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\RemoteControl\Methods (Framework)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FE5621DC66B50DBA6E65E85D095B21A7</GUID>
+      <GUID>2139D40E19ECFA3B030B04E0BC14BCF0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3426,7 +3426,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Methods (Overrides)</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB1ED383C69DAC0C343884283DB01F8B</GUID>
+      <GUID>BB46BD7AC572A408A303C0FEBC014E77</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3461,7 +3461,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\Methods (Overrides)</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A1B1DA5A08D9FB3551CCC8BA22C0C9B0</GUID>
+      <GUID>32A117C0281B070D0E615D335D5DDF75</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>27</Parent_Palette_Index>
@@ -3608,7 +3608,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Methods (Overrides)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>04C04FF4A311149C0D4CB51F77BE8E26</GUID>
+      <GUID>C7C7D3BD24B6B7982D202F6CA750FE5D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>28</Parent_Palette_Index>
@@ -3727,7 +3727,7 @@ Bug Fixes:[1]: Improved handling of bad instrument (hw) connection
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\Methods (Overrides)\Send Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0FFE8BA2A4F4065C477BBBECC5D7CBD1</GUID>
+      <GUID>E04BBF27AE350884E9A84929ED9BCE52</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
