@@ -78,8 +78,8 @@
 			</Item>
 			<Item Name="Test Instrument Framework.vi" Type="VI" URL="../../tests/Test Instrument Framework.vi"/>
 			<Item Name="Test Create Instrument SMO.vi" Type="VI" URL="../../tests/Test Create Instrument SMO.vi"/>
-			<Item Name="Test RC.vi" Type="VI" URL="../../tests/Test RC.vi"/>
 			<Item Name="Test Configuration.vi" Type="VI" URL="../../tests/Test Configuration.vi"/>
+			<Item Name="Test RC.vi" Type="VI" URL="../../tests/Test RC.vi"/>
 		</Item>
 		<Item Name="Templates" Type="Folder">
 			<Item Name="Example.lvclass" Type="LVClass" URL="../Templates/Example/Example.lvclass"/>
