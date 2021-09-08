@@ -22,7 +22,7 @@ The LevyLab Instrument Framework makes extensive use of [JKI State Machines](htt
 
 ## Installation
 
-Unless otherwise noted, all software is written with LabVIEW 2016. Please install using the [VI Package Manager](https://vipm.jki.net/)
+Unless otherwise noted, all software is written with LabVIEW 2019. Please install using the [VI Package Manager](https://vipm.jki.net/)
 
 ## Documentation
 
