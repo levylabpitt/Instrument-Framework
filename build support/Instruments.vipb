@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2021-09-08 12:54:23" Creator="Patrick" Comments="" ID="8dec9a5c5495d0739a30a1cf345d8da4">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2021-09-10 13:52:50" Creator="Patrick" Comments="" ID="24b7ad50c8af4312979dc17585c04efe">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.9.1.2</Library_Version>
+    <Library_Version>1.9.2.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -25,12 +25,11 @@
       <External_Dependencies>jki_lib_serialization &gt;= 1.0.1.14</External_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>jki_statemachineobjects &gt;= 1.4.0.63</External_Dependencies>
-      <External_Dependencies>labview-zmq &gt;= 3.5.1.109</External_Dependencies>
+      <External_Dependencies>labview-zmq &gt;= 3.6.1.111</External_Dependencies>
       <External_Dependencies>lava_lib_ui_tools &gt;= 1.4.1.74</External_Dependencies>
       <External_Dependencies>levylab_lib_fileutilities &gt;= 1.2.6.13</External_Dependencies>
       <External_Dependencies>levylab_lib_graph_utilities &gt;= 2.1.7.10</External_Dependencies>
-      <External_Dependencies>levylab_lib_lvtoitx &gt;= 3.0.6.14</External_Dependencies>
-      <External_Dependencies>levylab_lib_postgresql &gt;= 1.4.0.22</External_Dependencies>
+      <External_Dependencies>levylab_lib_lvtoitx &gt;= 3.1.0.1</External_Dependencies>
       <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.4.0.17</External_Dependencies>
       <External_Dependencies>mgi_lib_1d_array &gt;= 1.0.2.3</External_Dependencies>
       <External_Dependencies>mgi_lib_application_control &gt;= 1.1.1.10</External_Dependencies>
@@ -59,6 +58,7 @@
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
       <External_Dependencies>oglib_variantconfig &gt;= 4.0.0.5</External_Dependencies>
       <External_Dependencies>wireflow_ab_lib_wf_progressbar &gt;= 1.0.2.56</External_Dependencies>
+      <Package_Conflicts>levylab_lib_postgresql &gt;=1.4.0.22</Package_Conflicts>
       <Direct_Dependencies>jdp_science_jsontext-1.6.5.105</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.3.0.14</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_postgresql-0.3.4.22</Direct_Dependencies>
@@ -67,12 +67,11 @@
       <Direct_Dependencies>jki_lib_serialization-1.0.1.14</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>jki_statemachineobjects-1.4.0.63</Direct_Dependencies>
-      <Direct_Dependencies>labview-zmq-3.5.1.109</Direct_Dependencies>
+      <Direct_Dependencies>labview-zmq-3.6.1.111</Direct_Dependencies>
       <Direct_Dependencies>lava_lib_ui_tools-1.4.1.74</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_fileutilities-1.2.6.13</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_graph_utilities-2.1.7.10</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_lvtoitx-3.0.6.14</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_postgresql-1.4.0.22</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_lvtoitx-3.1.0.1</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_xy_utilities-1.4.0.17</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_1d_array-1.0.2.3</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_application_control-1.1.1.10</Direct_Dependencies>
@@ -127,9 +126,9 @@ The LevyLab Instrument Framework makes extensive use of JKI State Machines and S
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.9.1]
-
-Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely reply from its owner it will resend the message</Release_Notes>
+      <Release_Notes>[1.9.2]
+- Update to LV-Data v3.1.0
+- Updated unit tests</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -342,7 +341,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>38300C3C22C6F11CE4BA4025E9A36AAD</GUID>
+      <GUID>B4B9EACB4716E5B5318A83EBAB2D3055</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -461,7 +460,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\Instrument Types\Lockin</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FA417402B860659CD279A0E76CCFFE3D</GUID>
+      <GUID>2A8650E397A7591658A6798CB37EC191</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -664,7 +663,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E33584A673CE84FBEC9004115D5EC6AB</GUID>
+      <GUID>47EC82B4466BE502EAC85BF41F5AFFAB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -699,7 +698,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\Instrument Types\CBridge\Get Capacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6A1FD405F044494C97E733C6C7E12E7</GUID>
+      <GUID>703FD02D7BCFD986D5A447F35A3981D7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -902,7 +901,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Magnet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8BF7029CA2FE9ADB30A0B7D597BBB031</GUID>
+      <GUID>24B4EF9EC51473C862F3A416F5C44B83</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -951,7 +950,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\Instrument Types\Optical Delay Line\Get Delay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7D7559666E51778C6F996899BB426834</GUID>
+      <GUID>7A50EFD306124DF3F486A2CDE9626229</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1000,7 +999,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\Instrument Types\Strain\Set Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>00E5990D767F87D6CFD0F67AC81F68C8</GUID>
+      <GUID>C6FFFB291CEC7987C3D69970B46056E3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1105,7 +1104,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\Instrument Types\VNA\Get Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8365376126F9BC0FCF081E2B3582A254</GUID>
+      <GUID>3F8863569C8FCB8278344D7C1AB911E8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1154,7 +1153,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\Instrument Types\VSource\Set Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6C8396256FF657DE03DACD1246B566AE</GUID>
+      <GUID>B275FEBC6ACBD72B9259123401E93E09</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1231,7 +1230,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\Configuration\Read Configuration (Template).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>33A4167CB539EA2DDE520B7833750EC2</GUID>
+      <GUID>71E6C330C6150FBFEEC5D46D9B9D9960</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1350,7 +1349,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\Instrument\Overrides</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3B507111AEB63E9CEA83829080F40BF6</GUID>
+      <GUID>270DB5F00BCB45C2F85D96C2EB9062C0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1483,7 +1482,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6AE85A9A16DE67E1F524BEEA1666ED65</GUID>
+      <GUID>8138DE25CD1121F330B7DA73E3701EDE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1616,7 +1615,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\Logger.Error\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>97D11216DB96D978AEECE5C3A3975ADF</GUID>
+      <GUID>3324BE87A16C237E97C1C24BEE48BBB9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1833,7 +1832,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\Logger.PGSQL\Write to PGSQL.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6742043B0548ED02BD6265B41AD5B016</GUID>
+      <GUID>3B303C64DB04EE813AE879BD42E95A29</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1882,7 +1881,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\SCPI\SCPI Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D057838839595C32ACD7A29D2BD337DE</GUID>
+      <GUID>864C25BB738D779F363E06916AD05240</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2113,7 +2112,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\Instrument\API\Variant to LV Data.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>35A9B05871B93BDA3010A469168CB827</GUID>
+      <GUID>5FC58AA5A938A9DD6D2B433FA7F4A5E6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2288,7 +2287,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\Instrument\Framework (for override)\Get SMO PGSQL Log Paths.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F0F6A1D2B7BD876148948070A8D3A8A4</GUID>
+      <GUID>31DA1E5D7D5E175D16C311F019939D0B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2393,7 +2392,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\Instrument\Private\List Devices.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20FF30E38B9275B9B2C92663799DFAE5</GUID>
+      <GUID>CDF8606C97E7A6F9E96DD33EBD37427D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2456,7 +2455,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\Instrument\Protected\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C7539C51F10BED47B2F4F79DB313A85</GUID>
+      <GUID>E5BAE010E00A334C13DD9883A39A0923</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2477,7 +2476,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Synchronyze_with_Directory>true</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>Instrument Types\Lockin</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>D06A55216F4AECA22F2C0D4CF6AD85C9</GUID>
+      <GUID>A5FE8547E6FBC5216EFB4613583DB1F9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2512,7 +2511,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1ED031D9F95AB7A39DF5B6EFC8DBFB1</GUID>
+      <GUID>D2E5C5865D11E6FA50EB5340C31B6DAD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>20</Parent_Palette_Index>
@@ -2631,7 +2630,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\API\JSON-RPC Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>507C94FDC7DF7D2B389558A7A65D6057</GUID>
+      <GUID>0886B6DD6527286B37A5345C78487F94</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2708,7 +2707,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\Instrument UI\Read Instrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51B03EB3B95AA2049E70A84527F21749</GUID>
+      <GUID>6B0C2EECEDD40F0554B163AD95A5C9B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2799,7 +2798,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E5CEB54AB92B0BA12BFC45FA4753CDA6</GUID>
+      <GUID>4682D27699FB85ABEF081BF478621749</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2862,7 +2861,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\RemoteControl\Methods (Framework)</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>781632A4D73CAE9C2031D605BA603492</GUID>
+      <GUID>E27F278D4EC242AC04A2360CA240E2CF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>24</Parent_Palette_Index>
@@ -3205,7 +3204,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\RemoteControl\API\Write Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5A6339565AED59A9360167B98892725D</GUID>
+      <GUID>998CFD5B20E3E05822B7E3562A46019E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>24</Parent_Palette_Index>
@@ -3366,7 +3365,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\RemoteControl\Methods (Framework)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>84314A314D276D9F11A22970179D4CE8</GUID>
+      <GUID>419B0852ADA57DCF09C5F49A853AB209</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3401,7 +3400,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Methods (Overrides)</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56F163822B618486EC8057985082D1F0</GUID>
+      <GUID>46B33E84F0CDF2D3785A09F591D4A865</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3436,7 +3435,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\Methods (Overrides)</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>491A2BC78D728EF1179814F0C7A5CDD3</GUID>
+      <GUID>F36623E219C8C3C03C939E90D6204EFF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>27</Parent_Palette_Index>
@@ -3583,7 +3582,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Methods (Overrides)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2197ABF81F340872560077699468F3FE</GUID>
+      <GUID>F3F6246E9B59A76CB6C569A6F72C61B7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>28</Parent_Palette_Index>
@@ -3702,7 +3701,7 @@ Bug Fixes:[53]: Fix behavior of RC process: if it does not receive a timely rep
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\Methods (Overrides)\Send Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>04992954EB26D29A03D4032F420B574F</GUID>
+      <GUID>F3C3CB4AA141D43928DC8A85C9BF4E47</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
