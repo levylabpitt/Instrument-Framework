@@ -82,8 +82,8 @@
 			<Item Name="Test RC.vi" Type="VI" URL="../../tests/Test RC.vi"/>
 		</Item>
 		<Item Name="Templates" Type="Folder">
-			<Item Name="Example.lvclass" Type="LVClass" URL="../Templates/Example/Example.lvclass"/>
-			<Item Name="Example UI.lvclass" Type="LVClass" URL="../Templates/Example UI/Example UI.lvclass"/>
+			<Item Name="Instrument.Template.lvclass" Type="LVClass" URL="../Templates/Instrument.Template/Instrument.Template.lvclass"/>
+			<Item Name="Instrument.Template UI.lvclass" Type="LVClass" URL="../Templates/Instrument.Template UI/Instrument.Template UI.lvclass"/>
 		</Item>
 		<Item Name="ProjectTemplates" Type="Folder">
 			<Item Name="MetaData" Type="Folder">
