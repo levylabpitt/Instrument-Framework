@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2021-09-14 08:44:35" Creator="Patrick" Comments="" ID="10f2eb3da292552c61be1dca881dc1a9">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2021-09-14 10:14:24" Creator="Patrick" Comments="" ID="5a9e676fc3ea22c4e8f30f7a5ed2a3c0">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.9.2.2</Library_Version>
+    <Library_Version>1.9.3.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -58,6 +58,8 @@
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
       <External_Dependencies>oglib_variantconfig &gt;= 4.0.0.5</External_Dependencies>
       <External_Dependencies>wireflow_ab_lib_wf_progressbar &gt;= 1.0.2.56</External_Dependencies>
+      <Additional_External_Dependencies>jki_lib_smo_editor &gt;=2.0.2.5</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_build_support &gt;=1.1.1.8</Additional_External_Dependencies>
       <Package_Conflicts>levylab_lib_postgresql &gt;=1.4.0.22</Package_Conflicts>
       <Direct_Dependencies>jdp_science_jsontext-1.6.5.105</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.3.0.14</Direct_Dependencies>
@@ -126,9 +128,12 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.9.2]
-- Update to LV-Data v3.1.0
-- Updated unit tests</Release_Notes>
+      <Release_Notes>[1.9.3]
+- Update package dependencies (+ SMO Editor and Build Support)
+- Update template install location
+- Rename templates and update icons
+- Create all template overrides
+- Add required dlls to ZMQ class</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -210,13 +215,13 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Templates/Example</Path>
+        <Path>Templates/Instrument.Template</Path>
         <Destination>5</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Templates/Example UI</Path>
+        <Path>Templates/Instrument.Template UI</Path>
         <Destination>5</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
@@ -290,7 +295,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
       <OS_32-Bit>true</OS_32-Bit>
       <OS_64-Bit>true</OS_64-Bit>
       <LV_32-Bit>true</LV_32-Bit>
-      <LV_64-Bit>true</LV_64-Bit>
+      <LV_64-Bit>false</LV_64-Bit>
     </Install_Requirements>
     <LabVIEW>
       <close_labview_before_install>false</close_labview_before_install>
@@ -353,7 +358,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\Instrument Types</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB23CA86FE91837F7FE9FC3A49E65E30</GUID>
+      <GUID>C073AC451AFDB942D10FB7F8E1549BD7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -472,7 +477,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\Instrument Types\Lockin</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3E06FAF440C6789BA430E07AAC951FCA</GUID>
+      <GUID>16B2CB5B5D51D948C2740C6AAA3F3A6E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -675,7 +680,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0D9B00DEF08321CB4215EF5B274D392B</GUID>
+      <GUID>3EBF7862FC7B97112C4C787558D19377</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -710,7 +715,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\Instrument Types\CBridge\Get Capacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>795CA5AF1CAE753B783D123C50210B1D</GUID>
+      <GUID>20D3BD235098DD0EA548DCB85F9696BD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -913,7 +918,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\Instrument Types\Cryostat\Get Magnet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C779B2D2C4D52F5B733923F755948820</GUID>
+      <GUID>F2FE05F54408779C121F4B5B4FC34B14</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -962,7 +967,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\Instrument Types\Optical Delay Line\Get Delay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>38AEB8AFED1D797D66A23A2B62106C00</GUID>
+      <GUID>D1C1A94613A8F0CF55106F6EEAE3405F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1011,7 +1016,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\Instrument Types\Strain\Set Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>95CC4D08CBB9634B8E72AED1B1BC0F9F</GUID>
+      <GUID>98198DE14227A10FC4BEAC878B63B1E6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1116,7 +1121,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\Instrument Types\VNA\Get Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A277A9AAF9FF117F2F12C4A75629807</GUID>
+      <GUID>9B08448D0F1508ECBAB24C1F7CDD745E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1165,7 +1170,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\Instrument Types\VSource\Set Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E4520C83C7A6144ED1654C96B6C81473</GUID>
+      <GUID>9360F92B721920109EDBD5EF6735C516</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1242,7 +1247,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\Configuration\Read Configuration (Template).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C01BC52B20B7B85241EE856FD987BDFE</GUID>
+      <GUID>21A91F4872D6FFFC3C610CA9019C677D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1361,7 +1366,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\Instrument\Overrides</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>729FFE8E50E9D9A6E147D80AF31EE6EC</GUID>
+      <GUID>8C9A07FE227803039BF18D1637B25FA8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1494,7 +1499,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\Logger\Read path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24579988707D999883D31DCC9EEF85EA</GUID>
+      <GUID>8A384641F64495C7DDAA7063D76A5271</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1627,7 +1632,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\Logger.Error\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>392D9D1C2C2BA0122E0CF99F09D99BE5</GUID>
+      <GUID>0358831BA269C8D4079136C94436A561</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1844,7 +1849,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\Logger.PGSQL\Write to PGSQL.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>13D2EFF21352D831AE510E639EC89E42</GUID>
+      <GUID>3AF65D01CCEBF5EDFE4E93CADCF392E6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1893,7 +1898,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\SCPI\SCPI Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2AA6E56BD589C14707B59724B7EDEE3D</GUID>
+      <GUID>F9F58392611B1B396FC3C2610EEA8FAD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2124,7 +2129,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\Instrument\API\Variant to LV Data.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9CBF02991543ECC4EA78FDE778226930</GUID>
+      <GUID>320FA40C28AD671DCC60A3FACA14C0D4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2299,7 +2304,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\Instrument\Framework (for override)\Get SMO PGSQL Log Paths.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>59677F4DC61B90ED173F7EDBAC79146A</GUID>
+      <GUID>B1EC1C8EA96F86188AEFECCC8910DEA1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2404,7 +2409,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\Instrument\Private\List Devices.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25122D909C08020D7088EF8A9E38982F</GUID>
+      <GUID>28E73611F30A0C4D5F6E497991B25634</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2467,7 +2472,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\Instrument\Protected\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8AF71E472144412EBC05DDB54CDCA132</GUID>
+      <GUID>9301007A1D2ED85AEA867586C477D744</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2488,7 +2493,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Synchronyze_with_Directory>true</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>Instrument Types\Lockin</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>69A3551951D38D7609C66A45F754B2E0</GUID>
+      <GUID>6BD1DDBCDB86B4905ED74473B19B2969</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2523,7 +2528,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E541FBF239A931D7DB12A00C5C8750C1</GUID>
+      <GUID>317B5CA029ECD64A3322FD0FC4AE8735</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>20</Parent_Palette_Index>
@@ -2642,7 +2647,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\API\JSON-RPC Errors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5366453CBFC61D4FE5EBF79DB2271DFC</GUID>
+      <GUID>2D03927E5E7348CE2C9BBD58CFA8FB32</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2719,7 +2724,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\Instrument UI\Read Instrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9595F01DAE36C032E4887F1F7841940A</GUID>
+      <GUID>F54D8743AB14008A335C6ED18573AA7C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2810,7 +2815,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8149E6F03CC281161F0906BB09CF638</GUID>
+      <GUID>DB9F40A4E1A5531DF310836F15976913</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2873,7 +2878,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\RemoteControl\Methods (Framework)</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A886B820B35EC5C805406DAF350DE9F</GUID>
+      <GUID>BAAAC1B0B3E5EEA8314EFDD0B2263856</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>24</Parent_Palette_Index>
@@ -3216,7 +3221,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\RemoteControl\API\Write Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0999981A14D72CBC9F52C79290CB503A</GUID>
+      <GUID>88348CB30060C5BFCD4EEDACE9C4D74E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>24</Parent_Palette_Index>
@@ -3377,7 +3382,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\RemoteControl\Methods (Framework)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>46A24B74B50526EDAD9B60B6072F8007</GUID>
+      <GUID>F2FD94551A5DE745B2FEE9D07EB1C3A1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3412,7 +3417,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Methods (Overrides)</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A91EAF7B813EC9C54B7C208A55347ED7</GUID>
+      <GUID>BC41F24A3FF44505C72AAC6A663371FB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3447,7 +3452,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\Methods (Overrides)</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B48B1FE75EB191FBC6E57678BDA20A5C</GUID>
+      <GUID>47B291F5802D9F3964E6F64D1F51EBA1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>27</Parent_Palette_Index>
@@ -3594,7 +3599,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Methods (Overrides)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E62EF43E7A159025B7329DD3FAC645DD</GUID>
+      <GUID>0BDD10999F9D8AC3E3344F9AA08F3045</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>28</Parent_Palette_Index>
@@ -3713,7 +3718,7 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\Methods (Overrides)\Send Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A4F323E06CC5D27E2AB63BCBD73A7250</GUID>
+      <GUID>75B8D08539E0131D915D9745649ABE94</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
