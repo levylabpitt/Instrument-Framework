@@ -92,7 +92,9 @@
 			<Item Name="Source" Type="Folder">
 				<Item Name="LevyLab" Type="Folder">
 					<Item Name="Instrument" Type="Folder">
-						<Item Name="images" Type="Folder"/>
+						<Item Name="images" Type="Folder">
+							<Item Name="instrument.png" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/images/instrument.png"/>
+						</Item>
 						<Item Name="project files" Type="Folder">
 							<Item Name="build support" Type="Folder">
 								<Item Name="buildspec-template.vipt" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project files/build support/buildspec-template.vipt"/>
@@ -108,7 +110,7 @@
 						<Item Name="scripting" Type="Folder">
 							<Item Name="MetaDataObj.Instrument.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/LevyLab/Instrument/scripting/MetaDataObj.Instrument.lvclass"/>
 						</Item>
-						<Item Name="LevyLab Instrument.lvproj" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/LevyLab Instrument.lvproj"/>
+						<Item Name="Instrument-Template.lvproj" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/Instrument-Template.lvproj"/>
 					</Item>
 				</Item>
 			</Item>
