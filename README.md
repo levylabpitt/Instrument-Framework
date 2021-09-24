@@ -71,18 +71,18 @@ Instrument X\builds\Package       :: VIPB Build Output Directory
 ```
 
 #### Build spec files
-It is important to define and use canonical name for your project right away. In this tutorial I am calling it "**Instrument X**".
+It is important to define and use canonical name for your project right away. In this tutorial I am calling it **Instrument X**.
 This is important when setting up your build spec files:
 - VIPB file
   - Used for building VIP Package for API and code reuse in LabVIEW
-  - `"Product Name" = "**Instrument X**"`
-  - `"Build Output" = **Instrument X**\builds\Package`
+  - `"Product Name" = "Instrument X"`
+  - `"Build Output" = "Instrument X\builds\Package"`
 - Application (exe) build spec
-  - `"Build specification name" = "**Instrument X** Application"`
-  - `"Application (exe) Destination" = Instrument X\builds\Application`
+  - `"Build specification name" = "Instrument X Application"`
+  - `"Application (exe) Destination" = "Instrument X\builds\Application"`
 - Installer build spec
-  - `"Build specification name" = "**Instrument X** Installer"`
-  - `"Installer Destination" = "**Instrument X**" = Instrument X\builds\Installer`
+  - `"Build specification name" = "Instrument X Installer"`
+  - `"Installer Destination" = "Instrument X\builds\Installer"`
 
 ![image](https://user-images.githubusercontent.com/26659428/134714025-ea832f65-a9d4-4900-b0d0-de2eac6cef02.png)
 
