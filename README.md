@@ -56,7 +56,7 @@ Instrument X\lvsrc\               :: Instrument X.lvproj and all other LabVIEW c
 Instrument X\.gitattributes       :: Tell git to treat certain text files as if they are binary
 Instrument X\.gitignore           :: Tell git which files and folders to ignore
 Instrument X\LICENSE              :: LICENSE file. Default is BSD-3 Clause
-Instrument X\README.md            :: README for your project
+Instrument X\README.md            :: Your project README
 ```
 
 The following folders are **not** created by the Template (because they are initially empty folders), but they are important for building to run smoothly.
