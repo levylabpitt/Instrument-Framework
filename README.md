@@ -94,7 +94,7 @@ Instrument X\builds\Latest
 Instrument X\builds\Package       :: VIPB Build Output Directory
 ```
 
-#### *Build Spec Files*
+##### *Build Spec Files*
 It is important to define and use canonical name for your project right away. In this tutorial I am calling it **Instrument X**.
 This is important when setting up your build spec files:
 - VIPB file
