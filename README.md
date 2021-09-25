@@ -47,7 +47,7 @@ Instrument Framework makes extensive use of [JKI State Machines](https://github.
 
 #### 3. Repository Description
 
-The following files and folders are creeated from the Instrument Framework Template
+The following files and folders are created from the Instrument Framework Template
 
 ```Batchfile
 Instrument X\                     :: Project Root
@@ -58,6 +58,30 @@ Instrument X\.gitignore           :: Tell git which files and folders to ignore
 Instrument X\LICENSE              :: LICENSE file. Default is BSD-3 Clause
 Instrument X\README.md            :: Your project README
 ```
+
+![image](https://user-images.githubusercontent.com/26659428/134714025-ea832f65-a9d4-4900-b0d0-de2eac6cef02.png)
+
+#### 4. Create and modify SMOs
+1. Use the SMO Editor to create two SMOs using the **Instrument.Template** and **Instrument.Template UI** templates.
+
+![image](https://user-images.githubusercontent.com/26659428/134717049-c889dbcb-86b6-45bb-b716-db056356fdb8.png)
+
+2. Modify the two new SMOs to refer to each other rather than the template SMOs.
+
+![image](https://user-images.githubusercontent.com/26659428/134717354-91b726ec-8714-4560-8668-00e6ac95d099.png)
+
+#### 5. Write your code!
+- Start with the overrides provided in the template SMOs.
+- Add code to interface with your hardware.
+- Define your relevant methods (set inheritance to existing Instrument types).
+- Create a dope UI.
+- *Have Fun!*
+
+#### 6. Builds
+
+When you are ready to build your project into a VI package, EXE application, or a self-extracting installer, there are a few things to keep in mind.
+
+##### *Build Folders*
 
 The following folders are **not** created by the Template (because they are initially empty folders), but they are important for building to run smoothly.
 
@@ -70,7 +94,7 @@ Instrument X\builds\Latest
 Instrument X\builds\Package       :: VIPB Build Output Directory
 ```
 
-#### Build spec files
+#### *Build Spec Files*
 It is important to define and use canonical name for your project right away. In this tutorial I am calling it **Instrument X**.
 This is important when setting up your build spec files:
 - VIPB file
@@ -83,25 +107,6 @@ This is important when setting up your build spec files:
 - Installer build spec
   - `"Build specification name" = "Instrument X Installer"`
   - `"Installer Destination" = "Instrument X\builds\Installer"`
-
-![image](https://user-images.githubusercontent.com/26659428/134714025-ea832f65-a9d4-4900-b0d0-de2eac6cef02.png)
-
-#### 4. Create SMOs
-Use the SMO Editor to create two SMOs using the **Instrument.Template** and **Instrument.Template UI** templates.
-
-![image](https://user-images.githubusercontent.com/26659428/134717049-c889dbcb-86b6-45bb-b716-db056356fdb8.png)
-
-#### 5. Modify SMOs
-Modify the two new SMOs to refer to each other rather than the template SMOs.
-
-![image](https://user-images.githubusercontent.com/26659428/134717354-91b726ec-8714-4560-8668-00e6ac95d099.png)
-
-#### 6. Write your code!
-- Start with the overrides provided in the template SMOs.
-- Add code to interface with your hardware.
-- Define your relevant methods (set inheritance to existing Instrument types).
-- Create a dope UI.
-- *Have Fun!*
 
 ## Documentation
 
