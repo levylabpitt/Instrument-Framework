@@ -106,8 +106,6 @@
 						</Item>
 						<Item Name="scripting" Type="Folder">
 							<Item Name="ProjectItem" Type="Folder">
-								<Item Name="Icon Helper.vi" Type="VI" URL="../ProjectTemplates/Source/LevyLab/Instrument/scripting/ProjectItem/Icon Helper.vi"/>
-								<Item Name="Instrument Name and Icon UI.vi" Type="VI" URL="../ProjectTemplates/Source/LevyLab/Instrument/scripting/ProjectItem/Instrument Name and Icon UI.vi"/>
 								<Item Name="ProjectItem.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/LevyLab/Instrument/scripting/ProjectItem/ProjectItem.lvclass"/>
 							</Item>
 							<Item Name="MetaDataObj.Instrument.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/LevyLab/Instrument/scripting/MetaDataObj.Instrument.lvclass"/>
