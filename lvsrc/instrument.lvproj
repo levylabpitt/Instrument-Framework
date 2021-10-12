@@ -83,7 +83,7 @@
 		</Item>
 		<Item Name="Templates" Type="Folder">
 			<Item Name="Instrument.Template.lvclass" Type="LVClass" URL="../Templates/Instrument.Template/Instrument.Template.lvclass"/>
-			<Item Name="Instrument.Template UI.lvclass" Type="LVClass" URL="../Templates/Instrument.Template UI/Instrument.Template UI.lvclass"/>
+			<Item Name="Instrument UI.Template.lvclass" Type="LVClass" URL="../Templates/Instrument UI.Template/Instrument UI.Template.lvclass"/>
 		</Item>
 		<Item Name="ProjectTemplates" Type="Folder">
 			<Item Name="MetaData" Type="Folder">
@@ -607,7 +607,6 @@
 				<Item Name="def.SMO.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Definitions/def.SMO/def.SMO.lvclass"/>
 				<Item Name="Attribute.Dependencies.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Support/Attribute.Dependencies/Attribute.Dependencies.lvclass"/>
 				<Item Name="Attribute.ErrorHandling.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JKI/JKI SMO/Support/Attribute.ErrorHandling/Attribute.ErrorHandling.lvclass"/>
-				<Item Name="Assert Scalar Numeric Or Waveform Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Scalar Numeric Or Waveform Type.vim"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
