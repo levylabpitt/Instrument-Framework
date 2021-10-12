@@ -81,7 +81,10 @@
 			<Item Name="Test Configuration.vi" Type="VI" URL="../../tests/Test Configuration.vi"/>
 			<Item Name="Test RC.vi" Type="VI" URL="../../tests/Test RC.vi"/>
 		</Item>
-		<Item Name="Templates" Type="Folder"/>
+		<Item Name="Templates" Type="Folder">
+			<Item Name="Instrument.Template.lvclass" Type="LVClass" URL="../Templates/Instrument.Template/Instrument.Template.lvclass"/>
+			<Item Name="Instrument.Template UI.lvclass" Type="LVClass" URL="../Templates/Instrument.Template UI/Instrument.Template UI.lvclass"/>
+		</Item>
 		<Item Name="ProjectTemplates" Type="Folder">
 			<Item Name="MetaData" Type="Folder">
 				<Item Name="LevyLab_Instrument_MetaData.xml" Type="Document" URL="../ProjectTemplates/MetaData/LevyLab_Instrument_MetaData.xml"/>
@@ -1892,10 +1895,8 @@
 			<Item Name="ValidateFilePath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/ValidateFilePath.vi"/>
 			<Item Name="Iterate Save Progress.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Iterate Save Progress.vi"/>
 			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
-			<Item Name="NI_MDF.lvlib" Type="Library" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
-			<Item Name="NIMdf.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
-			<Item Name="Instrument.Template.lvclass" Type="LVClass" URL="../Templates/Instrument.Template/Instrument.Template.lvclass"/>
-			<Item Name="Instrument.Template UI.lvclass" Type="LVClass" URL="../Templates/Instrument.Template UI/Instrument.Template UI.lvclass"/>
+			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
+			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
 			<Item Name="lv_icon.lvlibp" Type="LVLibp" URL="/&lt;resource&gt;/plugins/lv_icon.lvlibp">
 				<Item Name="Other" Type="Folder">
 					<Item Name="Adjust temporary rotate and flip rectangle.vi" Type="VI" URL="/&lt;resource&gt;/plugins/lv_icon.lvlibp/1abvi3w/vi.lib/LabVIEW Icon API/lv_icon/Support/Adjust temporary rotate and flip rectangle.vi"/>
