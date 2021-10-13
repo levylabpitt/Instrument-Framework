@@ -108,9 +108,7 @@
 							<Item Name="README.md" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/project files/README.md"/>
 						</Item>
 						<Item Name="scripting" Type="Folder">
-							<Item Name="ProjectItem" Type="Folder">
-								<Item Name="ProjectItem.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/LevyLab/Instrument/scripting/ProjectItem/ProjectItem.lvclass"/>
-							</Item>
+							<Item Name="ProjectItem.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/LevyLab/Instrument/scripting/ProjectItem/ProjectItem.lvclass"/>
 							<Item Name="MetaDataObj.Instrument.lvclass" Type="LVClass" URL="../ProjectTemplates/Source/LevyLab/Instrument/scripting/MetaDataObj.Instrument.lvclass"/>
 						</Item>
 						<Item Name="Instrument-Template.lvproj" Type="Document" URL="../ProjectTemplates/Source/LevyLab/Instrument/Instrument-Template.lvproj"/>
