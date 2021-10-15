@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2021-10-14 14:31:41" Creator="Patrick" Comments="" ID="39e4f45f416053d015e272b6400adddf">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2021-10-15 09:43:35" Creator="Patrick" Comments="" ID="922b6d2099c1461cad5b315779fafb03">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.10.0.5</Library_Version>
+    <Library_Version>1.10.1.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -128,21 +128,9 @@ The Instrument Framework makes extensive use of JKI State Machines and State Mac
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.10.0]
+      <Release_Notes>[1.10.1]
 Bug Fixes
-- Fixing Issue #63 resulted in many changest to the Remote Control(Instrument) Connect(Open), Send and Recieve, and Disconnect(Close) methods. The Remote Control state is now controlled from the Instrument class
-
-Updated APIs
-- Open.vi opens the remote connection to the SMO
-- Close.vi closes the remote connection to the SMO
-- Remote Client.vim calls Open.vi and Close.vi. IT tries to determine if the connection should be held open or not
-- GET ALL.vi can now be directly called from child classes (previously it needed to be wrapped in the child class)
-- SET CONFIG.vi is a new default method (Issue #61)
-
-Templates
-- Renamed: Instrument UI.Template.lvclass
-- Instrument UI.Template.lvclass:process.vi refactored, uses default methods GET ALL and SET CONFIG, R/W UI configuration to disk
-- Scripts provided for renamaing libraries (Template --&gt; NewInstrument) and updating the library icons</Release_Notes>
+- Issue #64": Fix corrupted Variant to LV Data.vi</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -373,7 +361,7 @@ Templates
         <Path>..\lvsrc\SMOs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9AC29D738248D4D12E5A519A73E29D7B</GUID>
+      <GUID>E836C3A9430CA86BF975E97E2FA8E939</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -478,7 +466,7 @@ Templates
         <Path>..\lvsrc\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FDC0EFD263FE7C589C8D3A4B44C1EB13</GUID>
+      <GUID>68BC0591600F076D9EEF879A61C25B58</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -681,7 +669,7 @@ Templates
         <Path>..\lvsrc\SMOs\showrunningvis.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>17BD301010C230D13AB992A18187A5D9</GUID>
+      <GUID>6600F14C1B7D6B585CE18FD39009E854</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -716,7 +704,7 @@ Templates
         <Path>..\lvsrc\Instrument Types\CBridge\Get Capacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B032645A8978955D1C0408EC8EE84F77</GUID>
+      <GUID>F17FB98C873AA9C1DF79E97FACBF9A17</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -933,7 +921,7 @@ Templates
         <Path>..\lvsrc\Instrument Types\Cryostat\Wait for Temperature Setpoint.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7AB11FEDFFF08FB9CAB3F81F6D8ACC52</GUID>
+      <GUID>C4FC74A5284054E905F858137BB30B7D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -982,7 +970,7 @@ Templates
         <Path>..\lvsrc\Instrument Types\Optical Delay Line\Set Delay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3DA756394252C9AC72B341CF528B1AC4</GUID>
+      <GUID>7B26A4755D7813B839B6706E3177F214</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1031,7 +1019,7 @@ Templates
         <Path>..\lvsrc\Instrument Types\Strain\Set Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1B7B73529EC74FEA0F205F99377EBEA3</GUID>
+      <GUID>1117812ACB8E242C090ECC7A50E79347</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1136,7 +1124,7 @@ Templates
         <Path>..\lvsrc\Instrument Types\VNA\Set Sweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C6592EFF12043886FB71EA1ED0487C2</GUID>
+      <GUID>AEA931E77E58F9FA022E6506E7F16D5A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1185,7 +1173,7 @@ Templates
         <Path>..\lvsrc\Instrument Types\VSource\Set Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>422725CB003F80DA7EF35FA162F02F35</GUID>
+      <GUID>9AF17D05F813B5339EA0D021E72DB1A0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1304,7 +1292,7 @@ Templates
         <Path>..\lvsrc\SMOs\Configuration\Write Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F1A7F7D698D47FACD4AC89906673A758</GUID>
+      <GUID>83A8B921E72D2DABCD1614C58D761D16</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1423,7 +1411,7 @@ Templates
         <Path>..\lvsrc\SMOs\Instrument\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CD455BD12FD7DF18E575C74EFF2B8BB9</GUID>
+      <GUID>E091CA6A644D1B300720EC0A73536D3B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1500,7 +1488,7 @@ Templates
         <Path>..\lvsrc\SMOs\Instrument UI\Read Instrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20935A730887ED67DC7135B1C9CFDBCE</GUID>
+      <GUID>7CD1BEAD4FAF3AE9C2144DB86EFA859B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1549,7 +1537,7 @@ Templates
         <Path>..\lvsrc\SMOs\JSON-RPC\tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F061E87F87BA6AC99163D41CA49C0AC0</GUID>
+      <GUID>B72F103E30F131ADC7BB10EE150CB6DC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1682,7 +1670,7 @@ Templates
         <Path>..\lvsrc\SMOs\Logger\Write path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>23C9FECFEEC51E96E482A747DD96714A</GUID>
+      <GUID>41383826B13B3C47AE82D193333EEA7D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1843,7 +1831,7 @@ Templates
         <Path>..\lvsrc\SMOs\Logger.Error\Write Dependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>98FBCDA907816973D858350BEA855BEE</GUID>
+      <GUID>0ED48F6E3888184E4E9A98D1B8EC2739</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2060,7 +2048,7 @@ Templates
         <Path>..\lvsrc\SMOs\Logger.PGSQL\Write to PGSQL.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>925FC936DDF620A325C11C1D1CC74AB2</GUID>
+      <GUID>B3CCFAE633682CF9B09AC168991F8CD0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2165,7 +2153,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>18D8195A93DDE619537D10A094242620</GUID>
+      <GUID>50C693D8BBE38936115560A9333805BB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2228,7 +2216,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AB1A40C56E09AC1BC32F1FAD3D7F77EB</GUID>
+      <GUID>24942599D7E5FA30F2CDBF41730DE152</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2291,7 +2279,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3CF9ABCDC10EA4BC81BDCAB71559D5F7</GUID>
+      <GUID>5D428C4AFCD2A277AA43A53877AFF0E8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2340,7 +2328,7 @@ Templates
         <Path>..\lvsrc\SMOs\SCPI\SCPI Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A8F99248C7CA3F055AC1CCBC2CB2D52D</GUID>
+      <GUID>DF45C3BF404E1FB1AF021126BD07CF93</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2613,7 +2601,7 @@ Templates
         <Path>..\lvsrc\SMOs\Instrument\API\HELP.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E0BA750088FAB6AE33F5B9B7C863201D</GUID>
+      <GUID>6B3465971A9E53215BD410722B011711</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2830,7 +2818,7 @@ Templates
         <Path>..\lvsrc\SMOs\Instrument\Framework (for override)\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D98B9B389BBF5A4DB9D0CD624C8E40E2</GUID>
+      <GUID>02278ED8F2FEB35AE09DF88040D4F727</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2921,7 +2909,7 @@ Templates
         <Path>..\lvsrc\SMOs\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>100BAC737EE8783BEF3DD36DEFB2BD5E</GUID>
+      <GUID>FB29000DACE8C53F6636355F27F0C19A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2984,7 +2972,7 @@ Templates
         <Path>..\lvsrc\SMOs\Instrument\Private\Instrument.MessageFromProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E6B374CE0374037B3680CF39DC7B1ECD</GUID>
+      <GUID>ADAD8761CCD446C54DC2E88512553D88</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -3019,7 +3007,7 @@ Templates
         <Path>..\lvsrc\SMOs\Instrument\Protected\Write Configuration Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A4764212E8D4FB00F88A68ED2D1856B6</GUID>
+      <GUID>CF638E31F6FFE474D93D8DCE58254C34</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -3068,7 +3056,7 @@ Templates
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E7E15775D00E1F665D8D892FD7DE263</GUID>
+      <GUID>A0F2376FA7E683FD67B06C2C71C4076E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -3131,7 +3119,7 @@ Templates
         <Path>..\lvsrc\SMOs\JSON-RPC\tests\TEST-JSON-RPC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C63D833CD0E6C8C9F7AD2F9FEF5D0705</GUID>
+      <GUID>420ECFA1294D086013778E562909A3C1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>25</Parent_Palette_Index>
@@ -3250,7 +3238,7 @@ Templates
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\API\Create Request Cluster.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>359816AF80C9D8B761A516DE96A1B181</GUID>
+      <GUID>BB019391C0B261D0878875846BAB7368</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>25</Parent_Palette_Index>
@@ -3397,7 +3385,7 @@ Templates
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\private\Parse Response-JSONtext.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9409074CFA32C6822C5CCBFE6617489D</GUID>
+      <GUID>08CF191DF156D603C0B3D5213F4373D2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -3768,7 +3756,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl\API\Write Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D2AB2463827602102ADB667D1814E0F</GUID>
+      <GUID>FD48369B96EE38763E48536D0BCC0E02</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -3943,7 +3931,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl\Methods (Framework)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43CCA05FF333E43DD3FB4E58B0CF3A83</GUID>
+      <GUID>65938B58705121C09B432BB96ADA9107</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4020,7 +4008,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl\Methods (Overrides)\DestroyPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>48DDC083E7C519CD40CD3DE7EA056BCA</GUID>
+      <GUID>DB88FB4D1FA18A7057F2C77A2EF9EEF2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4125,7 +4113,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl\Private\VirtualTestInstrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E0A7F815658E6DF6A9A1CDB9818F10E0</GUID>
+      <GUID>983D990C6AD7D7D328A39E4EA263AC20</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4230,7 +4218,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl\Tests\RemoteControl.TestLauncher.ConnectionMonitor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8652E2A4C242E3F34D1BD22D5CBE8860</GUID>
+      <GUID>2D49ECA9D4EA0BE2CAEF3077DEF3BA56</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -4377,7 +4365,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Methods (Overrides)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49C1E9CD701DDE84CDBE35A07EF9D8F7</GUID>
+      <GUID>A7CD7B6CEB887568D2001871A66FF032</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -4426,7 +4414,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Private\Find STM connection by ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6EBF50399891D11574995A05C5776D17</GUID>
+      <GUID>75437E906A1A4C95A10FBC12484EA91D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -4489,7 +4477,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Tests\Test Variant Flatten Unflatten.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>18B767E6B7645690218070170B030512</GUID>
+      <GUID>492C5FA49B3190A716FFE5EEF680C4CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>36</Parent_Palette_Index>
@@ -4552,7 +4540,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Tests\simple\STM_Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A96ECD7F5207E3B5573315C93FA0C1FC</GUID>
+      <GUID>77024B1C3045757DE5349C2D777AC780</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>37</Parent_Palette_Index>
@@ -4587,7 +4575,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Tests\simple\subVI\PRI Counts Since Last Reset.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>52C833607D429281031C322D1D89D6AF</GUID>
+      <GUID>30AEE021256E0150A6069C57AEA4C64C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>18</Parent_Palette_Index>
@@ -4706,7 +4694,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\Methods (Overrides)\Send Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0FE031F13867A5A9526446BE6A2AFF90</GUID>
+      <GUID>790D81456B392C3362A638D143D9110D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>18</Parent_Palette_Index>
@@ -4741,7 +4729,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\private\Build Endpoint.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>64D9A39539C7411B18BA6C5CA14341C6</GUID>
+      <GUID>3ED4F0448AC62F8169A925A40B9A6B9E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>18</Parent_Palette_Index>
@@ -4790,7 +4778,7 @@ Templates
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\Tests\ZMQ Req Test.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>048FC4EC8439B94F05F59C92EAB8A9AA</GUID>
+      <GUID>3E6943842B511A23920C185686A4D03E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
