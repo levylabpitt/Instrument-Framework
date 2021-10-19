@@ -80,6 +80,7 @@
 			<Item Name="Test Create Instrument SMO.vi" Type="VI" URL="../../tests/Test Create Instrument SMO.vi"/>
 			<Item Name="Test Configuration.vi" Type="VI" URL="../../tests/Test Configuration.vi"/>
 			<Item Name="Test RC.vi" Type="VI" URL="../../tests/Test RC.vi"/>
+			<Item Name="Test Instrument Remote Client.vi" Type="VI" URL="../../tests/Test Instrument Remote Client.vi"/>
 		</Item>
 		<Item Name="Templates" Type="Folder">
 			<Item Name="Instrument.Template.lvclass" Type="LVClass" URL="../Templates/Instrument.Template/Instrument.Template.lvclass"/>
@@ -141,7 +142,7 @@
 				<Item Name="Instrument.VNA.lvclass" Type="LVClass" URL="../Instrument Types/VNA/Instrument.VNA.lvclass"/>
 				<Item Name="Instrument.CBridge.lvclass" Type="LVClass" URL="../Instrument Types/CBridge/Instrument.CBridge.lvclass"/>
 				<Item Name="Instrument.Strain.lvclass" Type="LVClass" URL="../Instrument Types/Strain/Instrument.Strain.lvclass"/>
-				<Item Name="Instrument.DelayLine.lvclass" Type="LVClass" URL="../Instrument Types/Optical Delay Line/Instrument.DelayLine.lvclass"/>
+				<Item Name="Instrument.DelayLine.lvclass" Type="LVClass" URL="../Instrument Types/Delay Line/Instrument.DelayLine.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
