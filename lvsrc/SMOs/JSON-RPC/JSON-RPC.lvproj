@@ -30,7 +30,6 @@
 			<Item Name="ROLFPython.vi" Type="VI" URL="../VIM/ROLFPython.vi"/>
 		</Item>
 		<Item Name="tests" Type="Folder">
-			<Item Name="TEST-JSON-RPC.vi" Type="VI" URL="../JSON-RPC/tests/TEST-JSON-RPC.vi"/>
 			<Item Name="TEST-JSON-RPC--Cluster.ctl" Type="VI" URL="../tests/TEST-JSON-RPC--Cluster.ctl"/>
 			<Item Name="JSONtext-test-20210421.vi" Type="VI" URL="../tests/JSONtext-test-20210421.vi"/>
 		</Item>
