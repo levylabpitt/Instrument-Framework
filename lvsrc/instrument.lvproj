@@ -80,6 +80,7 @@
 			<Item Name="Test Create Instrument SMO.vi" Type="VI" URL="../../tests/Test Create Instrument SMO.vi"/>
 			<Item Name="Test Configuration.vi" Type="VI" URL="../../tests/Test Configuration.vi"/>
 			<Item Name="Test RC.vi" Type="VI" URL="../../tests/Test RC.vi"/>
+			<Item Name="Test Decode JSON.vi" Type="VI" URL="../SMOs/Instrument/Test Decode JSON.vi"/>
 			<Item Name="Test Instrument Remote Client.vi" Type="VI" URL="../../tests/Test Instrument Remote Client.vi"/>
 		</Item>
 		<Item Name="Templates" Type="Folder">
