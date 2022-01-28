@@ -39,6 +39,12 @@
 				<Item Name="STM Multi-Client - Client.vit" Type="VI" URL="../../tests/STM Multi Client Server/STM Multi-Client - Client.vit"/>
 				<Item Name="STM Multi-Client - Server.vi" Type="VI" URL="../../tests/STM Multi Client Server/STM Multi-Client - Server.vi"/>
 			</Item>
+			<Item Name="Remote Test Metrics" Type="Folder">
+				<Item Name="subVI" Type="Folder">
+					<Item Name="Remote Client Metrics subVI.vi" Type="VI" URL="../../tests/Remote Client Metrics subVI.vi"/>
+				</Item>
+				<Item Name="Remote Client Metrics.vi" Type="VI" URL="../../tests/Remote Client Metrics.vi"/>
+			</Item>
 			<Item Name="test results" Type="Folder">
 				<Item Name="Experiment.pxp" Type="Document" URL="../../tests/test results/Experiment.pxp"/>
 				<Item Name="Graph0.png" Type="Document" URL="../../tests/test results/Graph0.png"/>
@@ -53,19 +59,15 @@
 				<Item Name="TEST-JSON-RPC.vi" Type="VI" URL="../SMOs/JSON-RPC/tests/TEST-JSON-RPC.vi"/>
 				<Item Name="TEST-JSON-RPC+caraya.vi" Type="VI" URL="../SMOs/JSON-RPC/tests/TEST-JSON-RPC+caraya.vi"/>
 			</Item>
-			<Item Name="Remote Test Metrics" Type="Folder">
-				<Item Name="subVI" Type="Folder">
-					<Item Name="Remote Client Metrics subVI.vi" Type="VI" URL="../../tests/Remote Client Metrics subVI.vi"/>
-				</Item>
-				<Item Name="Remote Client Metrics.vi" Type="VI" URL="../../tests/Remote Client Metrics.vi"/>
-			</Item>
 			<Item Name="API" Type="Folder">
 				<Item Name="Cryostat" Type="Folder">
+					<Item Name="_test-cases" Type="Folder">
+						<Item Name="Test Cryogens.vi" Type="VI" URL="../../tests/API Cryostat/_test-cases/Test Cryogens.vi"/>
+						<Item Name="Test Magnet.vi" Type="VI" URL="../../tests/API Cryostat/_test-cases/Test Magnet.vi"/>
+						<Item Name="Test Rotate.vi" Type="VI" URL="../../tests/API Cryostat/_test-cases/Test Rotate.vi"/>
+						<Item Name="Test Temperature.vi" Type="VI" URL="../../tests/API Cryostat/_test-cases/Test Temperature.vi"/>
+					</Item>
 					<Item Name="Test Cryostat API.vi" Type="VI" URL="../../tests/API Cryostat/Test Cryostat API.vi"/>
-					<Item Name="Test Cryogens.vi" Type="VI" URL="../../tests/API Cryostat/Test Cryogens.vi"/>
-					<Item Name="Test Magnet.vi" Type="VI" URL="../../tests/API Cryostat/Test Magnet.vi"/>
-					<Item Name="Test Rotate.vi" Type="VI" URL="../../tests/API Cryostat/Test Rotate.vi"/>
-					<Item Name="Test Temperature.vi" Type="VI" URL="../../tests/API Cryostat/Test Temperature.vi"/>
 					<Item Name="CryostatTree.vi" Type="VI" URL="../../tests/API Cryostat/CryostatTree.vi"/>
 				</Item>
 				<Item Name="VNA" Type="Folder">
@@ -76,12 +78,14 @@
 				</Item>
 				<Item Name="Lockin" Type="Folder"/>
 			</Item>
-			<Item Name="Test Instrument Framework.vi" Type="VI" URL="../../tests/Test Instrument Framework.vi"/>
-			<Item Name="Test Create Instrument SMO.vi" Type="VI" URL="../../tests/Test Create Instrument SMO.vi"/>
-			<Item Name="Test Configuration.vi" Type="VI" URL="../../tests/Test Configuration.vi"/>
-			<Item Name="Test RC.vi" Type="VI" URL="../../tests/Test RC.vi"/>
-			<Item Name="Test Decode JSON.vi" Type="VI" URL="../SMOs/Instrument/Test Decode JSON.vi"/>
-			<Item Name="Test Instrument Remote Client.vi" Type="VI" URL="../../tests/Test Instrument Remote Client.vi"/>
+			<Item Name="_test-cases" Type="Folder">
+				<Item Name="Test Configuration.vi" Type="VI" URL="../../tests/_test-cases/Test Configuration.vi"/>
+				<Item Name="Test RC.vi" Type="VI" URL="../../tests/_test-cases/Test RC.vi"/>
+				<Item Name="Test Decode JSON.vi" Type="VI" URL="../SMOs/Instrument/Test Decode JSON.vi"/>
+				<Item Name="Test Instrument Remote Client.vi" Type="VI" URL="../../tests/_test-cases/Test Instrument Remote Client.vi"/>
+				<Item Name="Test Create Instrument SMO.vi" Type="VI" URL="../../tests/_test-cases/Test Create Instrument SMO.vi"/>
+			</Item>
+			<Item Name="Run Instrument Framework Test Suite.vi" Type="VI" URL="../../tests/Run Instrument Framework Test Suite.vi"/>
 		</Item>
 		<Item Name="Templates" Type="Folder">
 			<Item Name="Instrument.Template.lvclass" Type="LVClass" URL="../Templates/Instrument.Template/Instrument.Template.lvclass"/>
