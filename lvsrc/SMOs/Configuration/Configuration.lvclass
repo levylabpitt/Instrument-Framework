@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="19008000">
+	<Property Name="NI.Lib.Description" Type="Str">Class for handling configuration (*.ini) files. Stored data must be defined in a cluster datatype.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*!!!!*Q(C=\&gt;1R&lt;BJ"&amp;-&lt;RTV&amp;EO;!Q0I(&amp;&amp;&gt;Y6O!)XM&amp;\NDJ;3-I5&gt;[&lt;756&amp;(+=)7X2_!+8!(`:XAC+"))+6(EAFFG7&lt;[&gt;G@&gt;D&gt;\63&lt;Q`36^V@U9;B&gt;PUT=.1/?NJ0^`2Q[H"5_^`HDY/'I29[@0]Z``ZU`H#G@EU:4EK=&lt;\KV7\OV3WWRP^$_$_&amp;/;L8W_[1(X?GG6H[@Z%G?Z%G?Z%E?Z%%?Z%%?Z%(OZ%\OZ%\OZ%ZOZ%:OZ%:OZ%&lt;?.X+2CVTEE*,C3;&amp;EU73":$!5*&lt;P%EXA34_,BJR*0YEE]C3@R-%3**`%EHM34?*CGR*.Y%E`C34QMV38:.X)]C9@F&amp;8A#4_!*0)'(EAI]!3!I&amp;CQ=,!*$Q=HA)0!%HM$$I1*0Y!E]A3@Q=&amp;K"*`!%HM!4?*D3LUJU4&gt;P)]&lt;#-()`D=4S/R`'QN"S0YX%]DM@R5%[/R`%Y#+?AMTA%/:/=!=Y0R_.Y_*,D=4S/R`%Y(E\V/_4^SD2.W]DR'"\$9XA-D_&amp;B#2E?QW.Y$)`B96E:(M.D?!S0Y;'5$)`B-4Q'R#B+?2G,'2/.15:A?0DUJ]8[89IOM&lt;Z*^@#K(EL6Q[:[C&amp;10B_KGKW[G[C;J,L\KIKIOFOICK0[=#KX#K)KI*L?"WL(@UD@U.8V*H^.H^#F^1B_XK@^YY'[XUX;\V7;TU8K^VH+ZV(Q_VWQWUX1[V71SU8A]0LY'HNG/,Q1NWM(IZ&gt;@LU`@6YP(^ZY_HN^7XU=PK^?`@.V?X4`"OV"?&gt;VO);@1#4&gt;.=1!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.7</Property>

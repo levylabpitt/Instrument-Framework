@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="19008000">
-	<Property Name="NI.Lib.Description" Type="Str">By value SMO class with very small footprint. It includes a process and a launcher.</Property>
+	<Property Name="NI.Lib.Description" Type="Str">RemoteControl SMO that uses the NI Simple Messaging (STM) Library (https://www.ni.com/en-us/support/documentation/supplemental/21/simple-messaging-stm-communication-library-for-labview.html)</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)]!!!*Q(C=\&gt;1R&lt;NN!%)8BZ]#&amp;7[FW%1C_Q6R"B3[A0EXG#GJ6MIT,O5'A+[BV/1&gt;)ISPQ#JN`.R.*1!)F1))AB::;GHTETHZ?%J2'?Z)?N@FV;[W.`@FE^(Z=V`OP&lt;;[C.GZP\7J]/R?\D0D*_/_H0^4@@#P3,O-P.7]VX&gt;O^X&gt;ONNG]XWL]B0%B^LN;3(H3HG`LU,=G40-G40-G40-C$0-C$0-C$X-G&gt;X-G&gt;X-G&gt;X-C.X-C.X-C.@'TE)B?ZS#%FES=4*574!MH.5*4M%E`C34S*BV-FHM34?"*0YO%7*:\%EXA34_*BG"*0YEE]C3@R5'J)=GTE?")0Z26Y!E`A#4S"BSE6?!*!-&amp;F1/#A#1](&amp;Y#$Q"*\!Q[%#4_!*0)%H](":A3@Q"*\!%XA9-F9FBK:PZ(AI)]@D?"S0YX%]F*&lt;D=4S/R`%Y(K;4YX%]$M+:U#E/1=YAZQ&lt;HR0%Y(P\)]4A?R_.Y(!_8RB0SM4*&gt;UT&gt;S0)&lt;(]"A?QW.Y+#($9XA-D_%R0*36Y4%]BM@Q'"[GEO%R0)&lt;(A"C4-LW-9M:!YS9D-$T]RNNCYSH&amp;E.D9J(JZ63_F[G64P53KFU0VU&amp;505`716)OP7F469KE71@80K&gt;!KD'I3V?"_IW&lt;W*`K2@K"0^"V^3V`46`2&amp;(`K8&lt;ZTH7;@43=@D59@$1&gt;-U;&lt;@&lt;;&lt;P&gt;;LV?;\6;;&lt;&amp;9H$]$\^H/(Q4N_](TBXF;PDZ_?&gt;[`@6Z_?JG7(^_G0``?`(&lt;\$\[.?K@LO6CDL_@.#EA!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
@@ -95,13 +95,13 @@
 	</Item>
 	<Item Name="Methods (Overrides)" Type="Folder">
 		<Item Name="Open Client Connection.vi" Type="VI" URL="../Methods (Overrides)/Open Client Connection.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;-!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'6*F&lt;7^U:5.P&lt;H2S&lt;WQO5V2.,GRW9WRB=X-!&amp;6*F&lt;7^U:5.P&lt;H2S&lt;WQO5V2.)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!N!"A!%5'^S&gt;!!!%%!Q`````Q&gt;B:'2S:8.T!$J!=!!?!!!&lt;'6*F&lt;7^U:5.P&lt;H2S&lt;WQO5V2.,GRW9WRB=X-!&amp;&amp;*F&lt;7^U:5.P&lt;H2S&lt;WQO5V2.)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!A!#1-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!A!!!!)!!!!EA!!!!!"!!I!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;-!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'6*F&lt;7^U:5.P&lt;H2S&lt;WQO5V2.,GRW9WRB=X-!&amp;6*F&lt;7^U:5.P&lt;H2S&lt;WQO5V2.)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!N!"A!%5'^S&gt;!!!%%!Q`````Q&gt;B:'2S:8.T!$J!=!!?!!!&lt;'6*F&lt;7^U:5.P&lt;H2S&lt;WQO5V2.,GRW9WRB=X-!&amp;&amp;*F&lt;7^U:5.P&lt;H2S&lt;WQO5V2.)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!A!#1-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!A!!!%+!!!!EA!!!!!"!!I!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">33554592</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="Close Connection.vi" Type="VI" URL="../Methods (Overrides)/Close Connection.vi">
@@ -155,13 +155,13 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="Read Message.vi" Type="VI" URL="../Methods (Overrides)/Read Message.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;8!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!#E"4"%2B&gt;'%!!""!-0````](1W^N&lt;7&amp;O:!![1(!!(A!!'RF3:7VP&gt;'6$&lt;WZU=G^M,F.543ZM&gt;G.M98.T!"63:7VP&gt;'6$&lt;WZU=G^M,F.543"P&gt;81!$%!Q`````Q**2!!!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/E"Q!"Y!!"M:5G6N&lt;X2F1W^O&gt;(*P&lt;#Z46%UO&lt;(:D&lt;'&amp;T=Q!55G6N&lt;X2F1W^O&gt;(*P&lt;#Z46%UA;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"Q!)!!A!#!!*!!A!#!!+!Q!!?!!!$1A!!!E!!!!*!!!!D1M!!!E!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&lt;!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$E!Q`````Q2%982B!!!11$$`````"U.P&lt;7VB&lt;G1!/E"Q!"Y!!"M:5G6N&lt;X2F1W^O&gt;(*P&lt;#Z46%UO&lt;(:D&lt;'&amp;T=Q!65G6N&lt;X2F1W^O&gt;(*P&lt;#Z46%UA&lt;X6U!!R!-0````]#351!!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$J!=!!?!!!&lt;'6*F&lt;7^U:5.P&lt;H2S&lt;WQO5V2.,GRW9WRB=X-!&amp;&amp;*F&lt;7^U:5.P&lt;H2S&lt;WQO5V2.)'FO!!"5!0!!$!!$!!1!"1!'!!=!#!!)!!A!#1!)!!A!#A-!!(A!!!U)!!!*!!!!#1!!!)U,!!!*!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!M!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="Send Message.vi" Type="VI" URL="../Methods (Overrides)/Send Message.vi">
