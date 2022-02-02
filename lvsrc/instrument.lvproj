@@ -81,7 +81,7 @@
 			<Item Name="_test-cases" Type="Folder">
 				<Item Name="Test Configuration.vi" Type="VI" URL="../../tests/_test-cases/Test Configuration.vi"/>
 				<Item Name="Test RC.vi" Type="VI" URL="../../tests/_test-cases/Test RC.vi"/>
-				<Item Name="Test Decode JSON.vi" Type="VI" URL="../SMOs/Instrument/Test Decode JSON.vi"/>
+				<Item Name="Test Decode JSON.vi" Type="VI" URL="../../tests/_test-cases/Test Decode JSON.vi"/>
 				<Item Name="Test Instrument Remote Client.vi" Type="VI" URL="../../tests/_test-cases/Test Instrument Remote Client.vi"/>
 				<Item Name="Test Create Instrument SMO.vi" Type="VI" URL="../../tests/_test-cases/Test Create Instrument SMO.vi"/>
 			</Item>
@@ -132,12 +132,11 @@
 				<Item Name="Logger.Error.lvclass" Type="LVClass" URL="../SMOs/Logger.Error/Logger.Error.lvclass"/>
 				<Item Name="Logger.PGSQL.lvclass" Type="LVClass" URL="../SMOs/Logger.PGSQL/Logger.PGSQL.lvclass"/>
 				<Item Name="Logger.syslog.lvclass" Type="LVClass" URL="../SMOs/Logger.syslog/Logger.syslog.lvclass"/>
-				<Item Name="JSON-RPC.lvclass" Type="LVClass" URL="../SMOs/JSON-RPC/JSON-RPC/JSON-RPC.lvclass"/>
 				<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../SMOs/RemoteControl/RemoteControl.lvclass"/>
 				<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 				<Item Name="RemoteControl.ZMQ.lvclass" Type="LVClass" URL="../SMOs/RemoteControl.ZMQ/RemoteControl.ZMQ.lvclass"/>
+				<Item Name="JSON-RPC.lvclass" Type="LVClass" URL="../SMOs/JSON-RPC/JSON-RPC/JSON-RPC.lvclass"/>
 				<Item Name="SCPI.lvclass" Type="LVClass" URL="../SMOs/SCPI/SCPI.lvclass"/>
-				<Item Name="Shortcuts.vi" Type="VI" URL="../SMOs/Shortcuts.vi"/>
 				<Item Name="showrunningvis.vi" Type="VI" URL="../SMOs/showrunningvis.vi"/>
 			</Item>
 			<Item Name="Instrument Types" Type="Folder">

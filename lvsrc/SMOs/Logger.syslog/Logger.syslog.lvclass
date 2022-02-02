@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="19008000">
-	<Property Name="NI.Lib.Description" Type="Str">By value SMO class with very small footprint. It includes a process and a launcher.</Property>
+	<Property Name="NI.Lib.Description" Type="Str">Logger class for writing to syslog.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*!!!!*Q(C=\&gt;1R4O.!&amp;-&lt;R$\43U/9'+&amp;&gt;Y6]A.5#I+#K2XB&lt;2&lt;JFD20YE4Z!K'%N%]=9-UOQ6&gt;SGWWS0Y^0*,11)-12=;-M4`0T0P&amp;NCTV&gt;C&lt;^U/V(L@6&gt;[\M[&lt;L@D6O@6W]P!V`&amp;PT_N[/VDL^?$.`0W5NJ`&lt;WE(^NK^;H!_;DOX9DOW^^H0\4PM;QIEUVNJOERZUJZP']NME4`)E4`)E4`)A$`)A$`)A$X)H&gt;X)H&gt;X)H&gt;X)D.X)D.X)D.`+_E9N=Z#+(F"20#C7,*AMEA[%IW37?R*.Y%A_H3DS**`%EHM4$%#7?R*.Y%E`C9:I34_**0)EH]&lt;"5FW4@S0%E(J:8Y!E]A3@Q""Z++P!%A+"9M(#Q#!Q&amp;&amp;Y/$Q".Y!A_(#DS"*`!%HM$$:17?Q".Y!E`A95K`+^%VYU;/BW8E?"S0YX%]DI?FZ8A=D_.R0)[(=H)]DM&gt;"/!7&gt;R3()G?1-=%Y=D_0BHRS0YX%]DM@R=+E`)?^X:N3-'TE?QW.Y$)`B-4QM)=.D?!S0Y4%],#P$9XA-D_%R0*33Y4%]BM?!'%5J,W-R9[)RS!A-$X`^&lt;&lt;(_F+*,L'^3P&lt;SKFV,VMKF?)N8,I8LIKI?J?ECKG[_[K;K&lt;J&lt;I*KB_H1KMQKC+KS?.!&lt;&gt;CP[1.^26`3&amp;`1Z@5;@UC@DV%]?O.FMN&amp;[P.1S$6KO6FMOF&amp;IO&amp;ZP/Z:L/:JN/J*J0*\D.QTL&lt;\),R]F_\_0&amp;Q06`&gt;8Q]84]X$Z^^_PXT?08`&gt;&gt;_A\@2JXKM"&lt;X[$^)7BJH!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
