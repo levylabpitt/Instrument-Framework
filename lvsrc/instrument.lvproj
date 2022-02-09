@@ -84,6 +84,7 @@
 				<Item Name="Test Decode JSON.vi" Type="VI" URL="../../tests/_test-cases/Test Decode JSON.vi"/>
 				<Item Name="Test Instrument Remote Client.vi" Type="VI" URL="../../tests/_test-cases/Test Instrument Remote Client.vi"/>
 				<Item Name="Test Create Instrument SMO.vi" Type="VI" URL="../../tests/_test-cases/Test Create Instrument SMO.vi"/>
+				<Item Name="Test Error Logger.vi" Type="VI" URL="../../tests/_test-cases/Test Error Logger.vi"/>
 			</Item>
 			<Item Name="Run Instrument Framework Test Suite.vi" Type="VI" URL="../../tests/Run Instrument Framework Test Suite.vi"/>
 		</Item>
