@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2022-04-20 18:28:39" Creator="Patrick" Comments="" ID="3c2663abfbb87d9e77d3af5363d0e9d2">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2022-04-20 22:50:59" Creator="Patrick" Comments="" ID="a4781dcb6a42905612de603717d0d895">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.11.3.2</Library_Version>
+    <Library_Version>1.11.3.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -518,7 +518,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\Instrument Types</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9F1B72999F9D0381F312738270A2CFE2</GUID>
+      <GUID>B57698F6BEC539C5512754D07F0DA936</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -651,7 +651,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B16FF54F5A1E03B6765EB8823F0FFF5E</GUID>
+      <GUID>902163CA517ADA4A547993091FC7152E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -686,7 +686,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\Instrument Types\CBridge\Get Capacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>78237380A74C3F97857400E775ECD23F</GUID>
+      <GUID>64179EE7C5D38E4AA3638AF47E2ACD08</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -903,7 +903,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\Instrument Types\Cryostat\Wait for Temperature Setpoint.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FBEE8F4307E09332288D246A5B7216EC</GUID>
+      <GUID>65EC2C05F6FBAB98743CFD9600A91642</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -952,7 +952,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\Instrument Types\Delay Line\Set Delay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BEFA8D3D039409524B999D45DFE81AD5</GUID>
+      <GUID>797753BE8857F7F56BFACD0CE41F3ABD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1001,7 +1001,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\Instrument Types\Strain\Set Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BFD233A64A7840606F14C2E73E8C3BF4</GUID>
+      <GUID>4D31C1198EF25AADC30DD95E68BB1175</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1106,7 +1106,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\Instrument Types\VNA\Set Sweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>932B486570D871AE7A6B13BBABA70A21</GUID>
+      <GUID>D504729124BD1430F92FE4D226A15D7D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1155,7 +1155,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\Instrument Types\VSource\Set Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB7EF5D9F2E9B4F94DC4874BB72C47EE</GUID>
+      <GUID>3649DA8CFB67CE293661B58FA7542DC1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1274,7 +1274,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\Configuration\Write Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2A26FE9325381628252669EEE6BB19D2</GUID>
+      <GUID>686484E9CA6972C8EE82092661E2FF19</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1393,7 +1393,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\Instrument\Instrument.TestLauncher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FC900FEE5CF74738808F399D98BB9C98</GUID>
+      <GUID>E17FB5C856DA3587CFF494F953AE8D8D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1470,7 +1470,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\Instrument UI\Read Instrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>71565C0A4A62CBD047E62161E72CB2A9</GUID>
+      <GUID>5755CCAE01790D6024DEE1863C124F98</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1575,7 +1575,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\Logger\Destroy Logger.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2F24BFD61CA394B9F8E8C0A962D0D071</GUID>
+      <GUID>58F4B85D779EF776C1105C18488B56E5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1680,7 +1680,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\Logger.Error\Logger.Error.TestLauncher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5BE4DE13057106D74FDD24F3AF67ACDF</GUID>
+      <GUID>8992DA741D99B61FB48B6B0DD2C580B7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1897,7 +1897,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\Logger.PGSQL\Write to PGSQL.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E34B6EB151829C6713A3A69B20BC85E2</GUID>
+      <GUID>E13F467B86B578E1947FC48343DCCA87</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2002,7 +2002,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DAE236406E61BBED58C3501B425B21A2</GUID>
+      <GUID>9A1B9975511E83D3CA627191AD9B79AF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2065,7 +2065,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B775ADA2B25250150361515902415E50</GUID>
+      <GUID>26529192CD499221ABB054A4F9AC04DB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2128,7 +2128,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>48988932C00EBC7D81D6386A9D0B523E</GUID>
+      <GUID>A4A111469D09451B1A901D7B113A3210</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2429,7 +2429,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\Instrument\API\State History.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>788BAB6C1086DB5BFF38CFD1A8C9B401</GUID>
+      <GUID>14BC14B767C36B05E9DFA4AA218A4945</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2674,7 +2674,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\Instrument\Framework (for override)\Open Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3661195646AA3E2BFD1CD9B12CBE0031</GUID>
+      <GUID>A6E7521AB996E927EFF99FD524A7F976</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2709,7 +2709,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1803A43238DA484F14BA38B39C0306B5</GUID>
+      <GUID>2C5A92AABBF30C0D9EA7CEADF902BA71</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2772,7 +2772,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\Instrument\Private\Instrument.MessageFromProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>496E9E63F8C567208BDF59914ACDE835</GUID>
+      <GUID>AD2C9FE81F92FEEC33ABBB629F0226D9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -2807,7 +2807,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\Instrument\Protected\Write Configuration Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E05B34ACEC175E45A2996C006F884B47</GUID>
+      <GUID>7DC51AB1E600BA8C02D305F08AF52370</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2856,7 +2856,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DCA6F36543CE4E8030CF15480CDE7DBC</GUID>
+      <GUID>614E1987102686DBBBC3E164ADFFF344</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>22</Parent_Palette_Index>
@@ -2961,7 +2961,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\API\Create Response.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5FD5F0E45C35596DF4535C43B4C36BBC</GUID>
+      <GUID>370BCA3E08DC58F1E2E917C565BF466F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>22</Parent_Palette_Index>
@@ -3108,7 +3108,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\private\Parse Request-JSONtext.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F3F7CC325886E0338EF17FD9C604CE79</GUID>
+      <GUID>8F243B5E17B56FC8E26EE5C098AB79C0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -3451,7 +3451,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl\API\Write Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8E7A1A849B2CF409210A68E02E45C8E5</GUID>
+      <GUID>9AA2CABFAA815F2D05F7F4935E1EC431</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -3612,7 +3612,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl\Methods (Framework)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AD60D5A18D513DB1EF0AA0D392032358</GUID>
+      <GUID>CB1A250EA600EFF217E4D21E699DC341</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -3689,7 +3689,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl\Methods (Overrides)\DestroyPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D2852003BC7E3987BBA3F141CD95D45B</GUID>
+      <GUID>DCC1E40F4252CFF6050E6A78D16CA0E5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -3780,7 +3780,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl\Private\VirtualTestInstrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>96446852EDEC8E7E520B62CA07AEFD65</GUID>
+      <GUID>F1342B67C5AAB73227297497B4D6E5A7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -3885,7 +3885,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl\Tests\RemoteControl.TestLauncher.ConnectionMonitor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3E1FBC1C56F736C9D20F505A3EF2154E</GUID>
+      <GUID>F8D081A98B0B3D68788C4C5CE130E5B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -4032,7 +4032,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Methods (Overrides)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F5D517B0A1CD7A242FBE702272D462FA</GUID>
+      <GUID>97A34109A5693712333AFC3412685FED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -4081,7 +4081,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Private\Find STM connection by ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AE051A28446EA0609C6AA3B7F315E7EC</GUID>
+      <GUID>B40C838D4CCE73EC4B0ED9645DA83BC1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -4144,7 +4144,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Tests\Test Variant Flatten Unflatten.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F3481B4D08BA2AC6EECB0AE8ED8D93A2</GUID>
+      <GUID>19BF92416221345963FA56DDEAE53CEF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>32</Parent_Palette_Index>
@@ -4207,7 +4207,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Tests\simple\STM_Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F231B293DB951D2E6AFDBE089E6DB311</GUID>
+      <GUID>80B89FF0DF10728CDF68BF7F30345228</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>33</Parent_Palette_Index>
@@ -4242,7 +4242,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Tests\simple\subVI\PRI Counts Since Last Reset.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7CB3A9203D404AC997AC5FF78AAEFD3E</GUID>
+      <GUID>C2559ED3DD8E8D5FACD6C8F95C4F7906</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4347,7 +4347,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\Methods (Overrides)\Send Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC58815F0E44032EF767B56F842643BB</GUID>
+      <GUID>F4A1DCCCB28B621721E6E318ED7E87E4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4382,7 +4382,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\private\Build Endpoint.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5077CE806BFF45FE33823C51C34D3CE8</GUID>
+      <GUID>F260D2FD7F1625E325457193497FC3E9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4431,7 +4431,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\Tests\ZMQ Req Test.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B67CC7C83F05E235AF864BB218C3002</GUID>
+      <GUID>C5FE5858D28D401EAA705AE320FD503C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -4466,7 +4466,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\Instrument Types\Lockin\Placeholder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CF1E26F1FA1FA59AEC0485296727C566</GUID>
+      <GUID>C71DDF9D5836C091065FBF485C9FA531</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -4515,7 +4515,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\SMOs\SCPI\SCPI Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D32F48AE80B5B62A1B5883D3500363E4</GUID>
+      <GUID>4651D236A25DF9A0E6D02DC16F9BDCC4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
