@@ -85,6 +85,7 @@
 				<Item Name="Test Instrument Remote Client.vi" Type="VI" URL="../../tests/_test-cases/Test Instrument Remote Client.vi"/>
 				<Item Name="Test Create Instrument SMO.vi" Type="VI" URL="../../tests/_test-cases/Test Create Instrument SMO.vi"/>
 				<Item Name="Test Error Logger.vi" Type="VI" URL="../../tests/_test-cases/Test Error Logger.vi"/>
+				<Item Name="Test State History.vi" Type="VI" URL="../../tests/_test-cases/Test State History.vi"/>
 			</Item>
 			<Item Name="Run Instrument Framework Test Suite.vi" Type="VI" URL="../../tests/Run Instrument Framework Test Suite.vi"/>
 		</Item>
@@ -150,7 +151,6 @@
 				<Item Name="Instrument.DelayLine.lvclass" Type="LVClass" URL="../Instrument Types/Delay Line/Instrument.DelayLine.lvclass"/>
 			</Item>
 		</Item>
-		<Item Name="Test State History.vi" Type="VI" URL="../../tests/_test-cases/Test State History.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
