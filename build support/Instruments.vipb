@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2022-09-08 09:53:02" Creator="Patrick" Comments="" ID="7469154b1923023e689f9fd32555fd51">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2022-09-08 13:18:59" Creator="Patrick" Comments="" ID="1e61ed782b1771b93993e21b475e6bf9">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.12.5.2</Library_Version>
+    <Library_Version>1.12.5.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -544,7 +544,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\Templates\Instrument.Template\Documentation.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8DE72C1FC28D6B17243B0CC6E0ABFAAA</GUID>
+      <GUID>762AA6A90D5B2BAC2B1043B5A68E86C9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -663,7 +663,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\Instrument Types\VNA</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F945EC5E85FEA177B0DEAC9C90F2408</GUID>
+      <GUID>AE85F9B64889C68C64E45944603E0498</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -698,7 +698,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\Instrument Types\CBridge\Get Capacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>91BC9355812C4312E52DDC0979821C09</GUID>
+      <GUID>4CC252996AA5D2D461F27924355C0D27</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -915,7 +915,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\Instrument Types\Cryostat\Wait for Temperature Setpoint.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B1FA14D2CFE2DF9F22B1BB385B4D19CC</GUID>
+      <GUID>DE28E000BD17B26B3681410965C7BFA6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -964,7 +964,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\Instrument Types\Delay Line\Set Delay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>12A5430482C16ACF868DA727EA221A67</GUID>
+      <GUID>8902510D3FB93258F7DBFB1D5A01B4AB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1013,7 +1013,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\Instrument Types\Lockin\Placeholder.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>61122650B23C61D3C59F7C594772328A</GUID>
+      <GUID>881F84A7077EEA2DFE5E585945DC3576</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1062,7 +1062,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\Instrument Types\Strain\Set Strain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6E3B826F28BA2A5B3C2B65C1317F6A12</GUID>
+      <GUID>E5DF8669EFA3928739CE2B4239C03F9A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1167,7 +1167,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\Instrument Types\VNA\Set Sweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1748F29AABEB3D14D93FDF210BDBA9B</GUID>
+      <GUID>7791C7ADFA37940D0287FE16B159B6D1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1216,7 +1216,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\Instrument Types\VSource\Set Bias Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>80A79A620D7E7390BDB9D941721315B1</GUID>
+      <GUID>3BB8E436DEB4473619C967C08378C930</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1349,7 +1349,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\Configuration\Write Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FD4B63CE09C601EFEF5CE18F231B7930</GUID>
+      <GUID>765DF5D7A2186B95CAB3CEC9B2F607AE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1468,7 +1468,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\Instrument\Instrument.TestLauncher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>380D7FB47CCD62863483B6E29AD3FAF4</GUID>
+      <GUID>3A3B733CBE48C5B983A23B0916095BD5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1545,7 +1545,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\Instrument UI\Read Instrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6BE3FE57721C35F2EB88FD15F53B1C65</GUID>
+      <GUID>4DB3A106AA8D04DD2657728D3E334BDC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1678,7 +1678,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\Logger\Write path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AF6B64F6AE6014D1DE779C0A7BEFCC82</GUID>
+      <GUID>7DF22A1493E47D55B7FADDCD072A0879</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1839,7 +1839,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\Logger.Error\Write Dependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F910DF3006A23DE4021A8B2230EE90D7</GUID>
+      <GUID>EA3CDE789924538028B7DB1F32489B3E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2084,7 +2084,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\Logger.PGSQL\Write to PGSQL.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>98FB7C913F74017132B3A155136968AB</GUID>
+      <GUID>BE1E56F704930FEE0D4C335048F0731F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2189,7 +2189,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F94CB8126F3D093BAA5DEA8D3D63A5B</GUID>
+      <GUID>D87EB0A4E58C0052B7ADF5BF19516E5F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2252,7 +2252,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9C236DB37EF88B14957CDAD11D034493</GUID>
+      <GUID>30485710653549C8847B7B9B5CF8C5B7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2315,7 +2315,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E8E88FB9592FF856152AF9EF2C1EB8D</GUID>
+      <GUID>9CC723FEB2484C27CF8B0E11BBB8A40C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2364,7 +2364,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\SCPI\SCPI Encode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5ECD47B3C74858A614BA607D513B0D10</GUID>
+      <GUID>77161C0583452EA7C1E253A874DD9D7C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2721,7 +2721,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\Instrument\API\Examine Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C43DC32776D578F83B63310638C3C868</GUID>
+      <GUID>0D1AD74F37B623BD4312EE0FDED0B1B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2994,7 +2994,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\Instrument\Framework (for override)\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>29AB9BFA51EF097EEE515915817FBF2E</GUID>
+      <GUID>710E42990AF3601F08E0D94D7DCECDC0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -3085,7 +3085,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E27AA8936FD690CB49C3797D78A9B0E1</GUID>
+      <GUID>76BB48CCFED46E6E8E44339A610470F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -3162,7 +3162,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\Instrument\Private\Get RC Connection Status.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>866E81CADE9B6669AF18D04F3DA587FE</GUID>
+      <GUID>215370B876FB5129CB7D2AA02D3FE065</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -3211,7 +3211,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\Instrument\Protected\Write Configuration Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C06A1D0DCF55A519FE363827062E18E</GUID>
+      <GUID>47CC8F8E3D0E602D1A209208C08AE457</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3260,7 +3260,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FC6A7ECE3E131A76B67AABAA530063E1</GUID>
+      <GUID>69C538370897FDE74CE9D9DCEDDD1ACB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>24</Parent_Palette_Index>
@@ -3365,7 +3365,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\API\Parse Response.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F07A7BA48505537573193DEF4340EE41</GUID>
+      <GUID>FB7ABDBBC5FD7A7184C5947AA55A255E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>24</Parent_Palette_Index>
@@ -3512,7 +3512,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\private\Write ids.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2597BEB1CBCAA37410A5C3818D101505</GUID>
+      <GUID>368AD36FF6EB63106905718DB355D9DA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -3869,7 +3869,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl\API\RemoteControl.SendMessageToProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5A80B420CCF36BE064641D0DFB6B18BE</GUID>
+      <GUID>93D2CC37E262B5D84A6E6122E56DBD50</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -4030,7 +4030,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl\Methods (Framework)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>82411446245E1B06BCB7E2F4BA249D93</GUID>
+      <GUID>1AC45DD400E82BDA357181EDFE966130</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -4107,7 +4107,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl\Methods (Overrides)\DestroyPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A70F2826E1DBA8F9173E17195FAD9AA2</GUID>
+      <GUID>3EE964DF63D80536D3184586ADEAEF43</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -4212,7 +4212,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl\Private\VirtualTestInstrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F74AD385E1B8952321BD16AD9E25A0A</GUID>
+      <GUID>B10611F0962B1F938366CF37CABDDD58</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -4317,7 +4317,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl\Tests\RemoteControl.TestLauncher.ConnectionMonitor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20D96A215DF04FFD80D4E0611CE82DB5</GUID>
+      <GUID>BA2CC1A85E96C8912F001352E032A20F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4464,7 +4464,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Methods (Overrides)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E005A9AD94D389AD6BFF682E1CE4EFCB</GUID>
+      <GUID>BA8F3045CDC94761F1F83AF2C05BF44D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4513,7 +4513,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Private\Find STM connection by ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5899305C3031C4D35E0D9869D4E88D35</GUID>
+      <GUID>487290D60794C15D5224EAC74A6D1E0C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>16</Parent_Palette_Index>
@@ -4576,7 +4576,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Tests\Test Variant Flatten Unflatten.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6631423F0DEFC884CD4E30112C639A19</GUID>
+      <GUID>D761A30BDBF9C50E9AA9EFA2C26B0F9A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>34</Parent_Palette_Index>
@@ -4639,7 +4639,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Tests\simple\STM_Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A0E40D680AE8D60B928211BC0A9752DD</GUID>
+      <GUID>4492775B2B2217E5C4357E8B1127726F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>35</Parent_Palette_Index>
@@ -4674,7 +4674,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl.STM\Tests\simple\subVI\PRI Counts Since Last Reset.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>591AA793775934CC687C1BB60C111D1A</GUID>
+      <GUID>03E7830C19ABE9E741CDA419DC35874A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -4779,7 +4779,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\Methods (Overrides)\Send Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB840A6F99F821B863AC467C5D38180D</GUID>
+      <GUID>DFDC0DB5843FC6B85DF43367B9907C52</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -4814,7 +4814,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\private\Build Endpoint.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FE1A3589CE0C57815923F1A07FA20FA8</GUID>
+      <GUID>92C4CBC0D6906F1D3CBCC5C2892754C9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -4863,7 +4863,7 @@ This release has major changes in the way configuration is handled. You should m
         <Path>..\lvsrc\SMOs\RemoteControl.ZMQ\Tests\ZMQ Req Test.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>88A615BF004E7B1A75ACD0F453CDD419</GUID>
+      <GUID>59A7369D842189EA304DDEB6645A53FC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
