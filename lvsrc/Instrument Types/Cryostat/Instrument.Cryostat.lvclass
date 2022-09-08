@@ -92,6 +92,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
 		</Item>
+		<Item Name="Set Heater--cluster.ctl" Type="VI" URL="../Typedefs/Set Heater--cluster.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#:!!!!"!!61!I!$V2F&lt;8"F=G&amp;U&gt;8*F)#B,+1!41!I!$&amp;*B&gt;'5A+%MP&lt;7FO+1!!$5!$!!&gt;$;'&amp;O&lt;G6M!&amp;Q!]1!!!!!!!!!#'UFO=X2S&gt;7VF&lt;H1O1X*Z&lt;X.U981O&lt;(:D&lt;'&amp;T=R&gt;4:81A3'6B&gt;'6S,3VD&lt;(6T&gt;'6S,G.U&lt;!!A1&amp;!!!Q!!!!%!!A^4:81A6'6N='6S982V=G5!!1!$!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		</Item>
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Item Name="Cryogens" Type="Folder">
@@ -190,6 +199,24 @@
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			</Item>
+			<Item Name="Get Heater.vi" Type="VI" URL="../Get Heater.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;V!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!Q`````Q:4&gt;'&amp;U&gt;8-!!"&amp;!#A!,1X6S=G6O&gt;#!I13E!0E"Q!"Y!!"U&lt;37ZT&gt;(*V&lt;76O&gt;#Z$=HFP=X2B&gt;#ZM&gt;G.M98.T!"&gt;*&lt;H.U=H6N:7ZU,E.S?7^T&gt;'&amp;U)'^V&gt;!!/1#%*2GFO;8.I:71`!!1!!!!.1!-!"U.I97ZO:7Q!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!_1(!!(A!!(2N*&lt;H.U=H6N:7ZU,E.S?7^T&gt;'&amp;U,GRW9WRB=X-!&amp;EFO=X2S&gt;7VF&lt;H1O1X*Z&lt;X.U981A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"Q!)!!E!#!!+!!A!#!!,!Q!!?!!!$1A!!!E!!!!*!!!!D1M!!!E!!!!!!!!!#!!!!!!!!!!+!!!!!!!!!!!!!!#1!!!!!!%!$!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			</Item>
+			<Item Name="Set Heater.vi" Type="VI" URL="../Set Heater.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;8!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!&gt;'UFO=X2S&gt;7VF&lt;H1O1X*Z&lt;X.U981O&lt;(:D&lt;'&amp;T=Q!837ZT&gt;(*V&lt;76O&gt;#Z$=HFP=X2B&gt;#"P&gt;81!$5!$!!&gt;$;'&amp;O&lt;G6M!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%5!+!!N$&gt;8*S:7ZU)#B"+1!_1(!!(A!!(2N*&lt;H.U=H6N:7ZU,E.S?7^T&gt;'&amp;U,GRW9WRB=X-!&amp;EFO=X2S&gt;7VF&lt;H1O1X*Z&lt;X.U981A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!9!"!!(!!1!#!!*!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!#!!!!!!!!!!+!!!!!!!!!!A!!!#1!!!!!!%!#A!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 			</Item>
 		</Item>
 		<Item Name="Chamber" Type="Folder">
