@@ -65,7 +65,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1115684864</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1117782016</Property>
 		</Item>
 		<Item Name="Read Configuration.vi" Type="VI" URL="../Read Configuration.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;?!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"*!5QV$&lt;WZG;7&gt;V=G&amp;U;7^O!$*!=!!?!!!8&amp;5.P&lt;G:J:X6S982J&lt;WYO&lt;(:D&lt;'&amp;T=Q!21W^O:GFH&gt;8*B&gt;'FP&lt;C"P&gt;81!(E"4'5F/33"'&lt;WVB&gt;(2F:#"$&lt;(6T&gt;'6S)&amp;2Z='5!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!S1(!!(A!!&amp;R6$&lt;WZG;7&gt;V=G&amp;U;7^O,GRW9WRB=X-!%%.P&lt;G:J:X6S982J&lt;WYA;7Y!!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"Q!)!!1!"!!*!Q!!?!!!$1A!!!!!!!!."Q!!$1M!!!!!!!!!!!!!!!!!!!I!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
@@ -104,7 +104,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 		</Item>
 	</Item>
 </LVClass>
