@@ -15,11 +15,13 @@
 ![Class Diagram](images/SMO.LevyLab-Instrument-v1-UML.svg?sanitize=true)
 
 
-## SMO Lifecycle
+## SMO Lifecycle 1
 
-![Lifecycle](196119_SMO-lifecycle7.png)
+![Lifecycle](images/SMO-lifecycle-1.png)
 
-[Lifecycle](SMO-Process-Life-Cycle.pdf)
+## SMO Lifecycle 2
+
+![Lifecycle](images/SMO-Process-Life-Cycle-2.png)
 
 ## SMO Reference
 
