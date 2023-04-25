@@ -47,15 +47,14 @@ Instrument Framework makes extensive use of [JKI State Machines](https://github.
 
 #### 3. RunMe.vi
 
-*screenshot windows explorer*
-- double click "RunMe.vi"
-- runs a script to rename your template project
+![image](https://user-images.githubusercontent.com/26659428/234387511-da1393fd-b7d2-4644-b4d9-a8f8d8cc4bb2.png)
 
-*screenshot rename window*
+- double click "RunMe.vi"
+- a script will execute to rename the framework-template project
 
 #### 4. Repository Description
 
-The following files and folders are created from the Instrument Framework Template
+The following files and folders are created from the Instrument Framework Template:
 
 ```Batchfile
 Instrument X\                     :: Project Root
@@ -69,23 +68,18 @@ Instrument X\README.md            :: Your project README
 
 ![image](https://user-images.githubusercontent.com/26659428/134714025-ea832f65-a9d4-4900-b0d0-de2eac6cef02.png)
 
-#### 5. Create and modify SMOs
-1. Use the SMO Editor to create two SMOs using the **Instrument.Template** and **Instrument.Template UI** templates.
+#### 5. Write your code!
 
-![image](https://user-images.githubusercontent.com/26659428/134717049-c889dbcb-86b6-45bb-b716-db056356fdb8.png)
+![image](https://user-images.githubusercontent.com/26659428/234388215-875dc9dd-d51f-43b6-b3b1-0487919caf39.png)
 
-2. Modify the two new SMOs to refer to each other rather than the template SMOs.
-
-![image](https://user-images.githubusercontent.com/26659428/134717354-91b726ec-8714-4560-8668-00e6ac95d099.png)
-
-#### 6. Write your code!
+- Help can be found in the Documentation.vi included with the Framework-Template
 - Start with the overrides provided in the template SMOs.
 - Add code to interface with your hardware.
 - Define your relevant methods (set inheritance to existing Instrument types).
 - Create a dope UI.
 - *Have Fun!*
 
-#### 7. Builds
+#### 6. Builds
 
 When you are ready to build your project into a VI package, EXE application, or a self-extracting installer, there are a few things to keep in mind.
 
