@@ -17,11 +17,11 @@
 
 ## SMO Lifecycle 1
 
-![Lifecycle](196119_SMO-lifecycle7.png)
+![Lifecycle](images/SMO-lifecycle-1.png)
 
 ## SMO Lifecycle 2
 
-![Lifecycle](SMO-Process-Life-Cycle.png)
+![Lifecycle](images/SMO-Process-Life-Cycle-2.png)
 
 ## SMO Reference
 
