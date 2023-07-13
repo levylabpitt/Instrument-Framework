@@ -52,6 +52,7 @@
 				<Item Name="2021-07-09.vi" Type="VI" URL="../../tests/test results/2021-07-09.vi"/>
 			</Item>
 			<Item Name="JSON-RPC" Type="Folder">
+				<Item Name="TEST-JSON-RPC--Cluster.ctl" Type="VI" URL="../SMOs/JSON-RPC/tests/TEST-JSON-RPC--Cluster.ctl"/>
 				<Item Name="TEST-JSON-RPC.vi" Type="VI" URL="../SMOs/JSON-RPC/tests/TEST-JSON-RPC.vi"/>
 				<Item Name="TEST-JSON-RPC+caraya.vi" Type="VI" URL="../SMOs/JSON-RPC/tests/TEST-JSON-RPC+caraya.vi"/>
 			</Item>
@@ -916,8 +917,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TEST-JSON-RPC--Cluster.ctl" Type="VI" URL="../SMOs/JSON-RPC/tests/TEST-JSON-RPC--Cluster.ctl"/>
-			<Item Name="Choose Random Command.vi" Type="VI" URL="../SMOs/RemoteControl/Tests/Choose Random Command.vi"/>
 			<Item Name="lp-server-timeouts.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-server-timeouts.vi"/>
 			<Item Name="lp-client.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-client.vi"/>
 		</Item>
