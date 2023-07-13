@@ -374,13 +374,7 @@
 				<Item Name="Timestamp to ISO8601 UTC DateTime.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/formatter.iso8601/Timestamp to ISO8601 UTC DateTime.vi"/>
 				<Item Name="Get Local UTC Offset.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/Get Local UTC Offset.vi"/>
 				<Item Name="UTC Offsets -- enum.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/UTC Offsets -- enum.ctl"/>
-				<Item Name="Advanced Encryption Standard (AES).lvlib" Type="Library" URL="/&lt;vilib&gt;/IgorTitov/AES/Advanced Encryption Standard (AES).lvlib"/>
-				<Item Name="Decryption Phases Enum (Typedef).ctl" Type="VI" URL="/&lt;vilib&gt;/IgorTitov/AES/Controls and Typedefs/Decryption Phases Enum (Typedef).ctl"/>
-				<Item Name="Decipher Phases Enum (Typedef).ctl" Type="VI" URL="/&lt;vilib&gt;/IgorTitov/AES/Controls and Typedefs/Decipher Phases Enum (Typedef).ctl"/>
-				<Item Name="Cipher Phases Enum (Typedef).ctl" Type="VI" URL="/&lt;vilib&gt;/IgorTitov/AES/Controls and Typedefs/Cipher Phases Enum (Typedef).ctl"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
-				<Item Name="Encryption Phases Enum (Typedef).ctl" Type="VI" URL="/&lt;vilib&gt;/IgorTitov/AES/Controls and Typedefs/Encryption Phases Enum (Typedef).ctl"/>
-				<Item Name="Mix Bytes Phases Enum (Typedef).ctl" Type="VI" URL="/&lt;vilib&gt;/IgorTitov/AES/Controls and Typedefs/Mix Bytes Phases Enum (Typedef).ctl"/>
 				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
