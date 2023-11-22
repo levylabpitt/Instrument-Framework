@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:17:45" Modified_Date="2023-11-18 13:19:00" Creator="Patrick Irvin" Comments="" ID="f05b06bd25fc9e28a9a532a31cd7690d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:17:45" Modified_Date="2023-11-22 11:45:08" Creator="Patrick Irvin" Comments="" ID="94e94e9274852b3fd50a80181398b8f5">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_json_rpc</Package_File_Name>
     <Library_Version>1.0.0.2</Library_Version>
@@ -21,7 +21,6 @@
       <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.1.18</External_Dependencies>
       <External_Dependencies>oglib_numeric &gt;= 4.1.0.8</External_Dependencies>
       <Additional_External_Dependencies>levylab_lib_build_support &gt;=1.2.5.1</Additional_External_Dependencies>
-      <Package_Conflicts>levylab_lib_postgresql &gt;=1.4.0.22</Package_Conflicts>
       <Direct_Dependencies>jdp_science_jsontext-1.7.0.118</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.1.18</Direct_Dependencies>
       <Direct_Dependencies>oglib_numeric-4.1.0.8</Direct_Dependencies>
@@ -123,18 +122,6 @@ https://www.jsonrpc.org/specification</Description>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>SMOs/Logger.syslog</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>SMOs/JSON-RPC/python</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>SMOs/JSON-RPC/VIM</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Framework-Template</Path>
-      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -249,7 +236,7 @@ https://www.jsonrpc.org/specification</Description>
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AE4E173FD86775D9C8436D0FC9863477</GUID>
+      <GUID>EC8251058C68764A9E2651667F1CA7DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -354,7 +341,7 @@ https://www.jsonrpc.org/specification</Description>
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\API\Parse Response.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7615A08A522CBB43178CFC8C6524829E</GUID>
+      <GUID>92B8275938DFBF0ACFE9872513F3412F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -501,7 +488,7 @@ https://www.jsonrpc.org/specification</Description>
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\private\Write ids.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>013E79F12AA7ABE3FCCED0DE568A58C3</GUID>
+      <GUID>74C4DC9B400117DE459B7A416FE36773</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -536,7 +523,7 @@ https://www.jsonrpc.org/specification</Description>
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>935ED85141F853BA0AEE4548F8B6FE54</GUID>
+      <GUID>790517612B04C7FD50AB6ECBA524FFE4</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -585,7 +572,7 @@ https://www.jsonrpc.org/specification</Description>
         <Path>..\lvsrc\SMOs\JSON-RPC\JSON-RPC\typedefs\Request--Cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>30DE8D24FA3437FC453C1FAD22CD45EF</GUID>
+      <GUID>1035CB17C9C297B9DAFF3260EA9BE142</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
