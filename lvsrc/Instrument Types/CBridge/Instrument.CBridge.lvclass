@@ -30,14 +30,25 @@
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Item Name="Capacitance" Type="Folder">
-			<Item Name="Get Capacitance.vi" Type="VI" URL="../Get Capacitance.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&lt;!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&gt;!#A!11W&amp;Q97.J&gt;'&amp;O9W5A+("'+1!!0E"Q!"Y!!"Q;37ZT&gt;(*V&lt;76O&gt;#Z$1H*J:'&gt;F,GRW9WRB=X-!!":*&lt;H.U=H6N:7ZU,E.#=GFE:W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!V!!Q!(1WBB&lt;GZF&lt;!!]1(!!(A!!("J*&lt;H.U=H6N:7ZU,E.#=GFE:W5O&lt;(:D&lt;'&amp;T=Q!!&amp;5FO=X2S&gt;7VF&lt;H1O1U*S;72H:3"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!)!!1!#1-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!A!!!!!!!!!E!!!!!!"!!I!!!!!</Property>
+			<Item Name="depricated" Type="Folder">
+				<Item Name="Get Capacitance.vi" Type="VI" URL="../Get Capacitance.vi">
+					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&lt;!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&gt;!#A!11W&amp;Q97.J&gt;'&amp;O9W5A+("'+1!!0E"Q!"Y!!"Q;37ZT&gt;(*V&lt;76O&gt;#Z$1H*J:'&gt;F,GRW9WRB=X-!!":*&lt;H.U=H6N:7ZU,E.#=GFE:W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!V!!Q!(1WBB&lt;GZF&lt;!!]1(!!(A!!("J*&lt;H.U=H6N:7ZU,E.#=GFE:W5O&lt;(:D&lt;'&amp;T=Q!!&amp;5FO=X2S&gt;7VF&lt;H1O1U*S;72H:3"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!)!!1!#1-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!A!!!!!!!!!EA!!!!!"!!I!!!!!</Property>
+					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+					<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+					<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+				</Item>
+			</Item>
+			<Item Name="getCapacitance.vi" Type="VI" URL="../getCapacitance.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&lt;!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&gt;!#A!11W&amp;Q97.J&gt;'&amp;O9W5A+("'+1!!0E"Q!"Y!!"Q;37ZT&gt;(*V&lt;76O&gt;#Z$1H*J:'&gt;F,GRW9WRB=X-!!":*&lt;H.U=H6N:7ZU,E.#=GFE:W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!V!!Q!(1WBB&lt;GZF&lt;!!]1(!!(A!!("J*&lt;H.U=H6N:7ZU,E.#=GFE:W5O&lt;(:D&lt;'&amp;T=Q!!&amp;5FO=X2S&gt;7VF&lt;H1O1U*S;72H:3"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!)!!1!#1-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!A!!!!!!!!!EA!!!!!"!!I!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 			</Item>
 		</Item>
 	</Item>

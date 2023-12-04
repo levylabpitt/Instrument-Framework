@@ -28,25 +28,56 @@
 	<Item Name="Instrument.DelayLine.ctl" Type="Class Private Data" URL="Instrument.DelayLine.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="setDelay--cluster.ctl" Type="VI" URL="../Typedefs/setDelay--cluster.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$:!!!!"!!01!I!#5&amp;O:WRF)#CQ+1!41!I!$&amp;*B&gt;'5A+,!P&lt;7FO+1!!7A$R!!!!!!!!!!)&lt;37ZT&gt;(*V&lt;76O&gt;#Z$=HFP=X2B&gt;#ZM&gt;G.M98.T&amp;F*P&gt;'&amp;U&lt;X)A18BJ=SUN27ZV&lt;3ZD&gt;'Q!(U!7!!)'18BJ=S!R"E&amp;Y;8-A-A!%18BJ=Q!!61$R!!!!!!!!!!)=37ZT&gt;(*V&lt;76O&gt;#Z%:7RB?5RJ&lt;G5O&lt;(:D&lt;'&amp;T=R6T:82%:7RB?3UN9WRV=X2F=CZD&gt;'Q!'E"1!!-!!!!"!!))=W6U17ZH&lt;'5!!!%!!Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
+		</Item>
+	</Item>
 	<Item Name="API" Type="Folder">
 		<Item Name="Delay" Type="Folder">
-			<Item Name="Get Delay.vi" Type="VI" URL="../Get Delay.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;7!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#A!+2'6M98EA+("T+1!!0E"Q!"Y!!"Y=37ZT&gt;(*V&lt;76O&gt;#Z%:7RB?5RJ&lt;G5O&lt;(:D&lt;'&amp;T=Q!!&amp;%FO=X2S&gt;7VF&lt;H1O2'6M98EA&lt;X6U!!!/1#%*2GFO;8.I:71`!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0%"Q!"Y!!"Y=37ZT&gt;(*V&lt;76O&gt;#Z%:7RB?5RJ&lt;G5O&lt;(:D&lt;'&amp;T=Q!!%UFO=X2S&gt;7VF&lt;H1O2'6M98EA;7Y!6!$Q!!Q!!Q!%!!5!"A!(!!1!"!!%!!A!"!!%!!E$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!#1!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*!!!!!!!1!+!!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
+			<Item Name="depricated" Type="Folder">
+				<Item Name="Get Delay.vi" Type="VI" URL="../Get Delay.vi">
+					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;7!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#A!+2'6M98EA+("T+1!!0E"Q!"Y!!"Y=37ZT&gt;(*V&lt;76O&gt;#Z%:7RB?5RJ&lt;G5O&lt;(:D&lt;'&amp;T=Q!!&amp;%FO=X2S&gt;7VF&lt;H1O2'6M98EA&lt;X6U!!!/1#%*2GFO;8.I:71`!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0%"Q!"Y!!"Y=37ZT&gt;(*V&lt;76O&gt;#Z%:7RB?5RJ&lt;G5O&lt;(:D&lt;'&amp;T=Q!!%UFO=X2S&gt;7VF&lt;H1O2'6M98EA;7Y!6!$Q!!Q!!Q!%!!5!"A!(!!1!"!!%!!A!"!!%!!E$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!#1!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!+!!!!!!</Property>
+					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+					<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+					<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+				</Item>
+				<Item Name="Set Delay.vi" Type="VI" URL="../Set Delay.vi">
+					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;:!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!?(%FO=X2S&gt;7VF&lt;H1O2'6M98F-;7ZF,GRW9WRB=X-!!"2*&lt;H.U=H6N:7ZU,E2F&lt;'&amp;Z)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!21!I!#V*B&gt;'5A+("T,X-J!"&amp;!#A!+2'6M98EA+("T+1!!0%"Q!"Y!!"Y=37ZT&gt;(*V&lt;76O&gt;#Z%:7RB?5RJ&lt;G5O&lt;(:D&lt;'&amp;T=Q!!%UFO=X2S&gt;7VF&lt;H1O2'6M98EA;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!!#!!!!*)!!!!!!1!+!!!!!!</Property>
+					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+					<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+					<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+				</Item>
 			</Item>
-			<Item Name="Set Delay.vi" Type="VI" URL="../Set Delay.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;:!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!?(%FO=X2S&gt;7VF&lt;H1O2'6M98F-;7ZF,GRW9WRB=X-!!"2*&lt;H.U=H6N:7ZU,E2F&lt;'&amp;Z)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!21!I!#V*B&gt;'5A+("T,X-J!"&amp;!#A!+2'6M98EA+("T+1!!0%"Q!"Y!!"Y=37ZT&gt;(*V&lt;76O&gt;#Z%:7RB?5RJ&lt;G5O&lt;(:D&lt;'&amp;T=Q!!%UFO=X2S&gt;7VF&lt;H1O2'6M98EA;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!!#!!!!*!!!!!!!1!+!!!!!!</Property>
+			<Item Name="getDelay.vi" Type="VI" URL="../getDelay.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;7!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#A!+2'6M98EA+("T+1!!0E"Q!"Y!!"Y=37ZT&gt;(*V&lt;76O&gt;#Z%:7RB?5RJ&lt;G5O&lt;(:D&lt;'&amp;T=Q!!&amp;%FO=X2S&gt;7VF&lt;H1O2'6M98EA&lt;X6U!!!/1#%*2GFO;8.I:71`!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0%"Q!"Y!!"Y=37ZT&gt;(*V&lt;76O&gt;#Z%:7RB?5RJ&lt;G5O&lt;(:D&lt;'&amp;T=Q!!%UFO=X2S&gt;7VF&lt;H1O2'6M98EA;7Y!6!$Q!!Q!!Q!%!!5!"A!(!!1!"!!%!!A!"!!%!!E$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!#1!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!+!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+			</Item>
+			<Item Name="setDelay.vi" Type="VI" URL="../setDelay.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;:!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!?(%FO=X2S&gt;7VF&lt;H1O2'6M98F-;7ZF,GRW9WRB=X-!!"2*&lt;H.U=H6N:7ZU,E2F&lt;'&amp;Z)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!21!I!#V*B&gt;'5A+("T,X-J!"&amp;!#A!+2'6M98EA+("T+1!!0%"Q!"Y!!"Y=37ZT&gt;(*V&lt;76O&gt;#Z%:7RB?5RJ&lt;G5O&lt;(:D&lt;'&amp;T=Q!!%UFO=X2S&gt;7VF&lt;H1O2'6M98EA;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!!#!!!!*)!!!!!!1!+!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 			</Item>
 		</Item>
 	</Item>
