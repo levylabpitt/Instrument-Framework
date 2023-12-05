@@ -32,6 +32,10 @@
 		<Item Name="tests" Type="Folder">
 			<Item Name="TEST-JSON-RPC--Cluster.ctl" Type="VI" URL="../tests/TEST-JSON-RPC--Cluster.ctl"/>
 			<Item Name="JSONtext-test-20210421.vi" Type="VI" URL="../tests/JSONtext-test-20210421.vi"/>
+			<Item Name="Unit Tests.vi" Type="VI" URL="../tests/Unit Tests.vi"/>
+			<Item Name="UNITTEST-JSON-RPC-cluster.vi" Type="VI" URL="../tests/UNITTEST-JSON-RPC-cluster.vi"/>
+			<Item Name="UNITTEST-JSON-RPC-Flatten.vi" Type="VI" URL="../tests/UNITTEST-JSON-RPC-Flatten.vi"/>
+			<Item Name="UNITTEST-JSON-RPC-speed.vi" Type="VI" URL="../tests/UNITTEST-JSON-RPC-speed.vi"/>
 			<Item Name="TEST-JSON-RPC.vi" Type="VI" URL="../tests/TEST-JSON-RPC.vi"/>
 			<Item Name="TEST-JSON-RPC+caraya.vi" Type="VI" URL="../tests/TEST-JSON-RPC+caraya.vi"/>
 		</Item>
@@ -190,12 +194,17 @@
 				<Item Name="7F74EC14CB6F87B712ADB3E4000AA489Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/7F74EC14CB6F87B712ADB3E4000AA489Get Waveform Type Enum from TD__ogtk.vi"/>
 				<Item Name="7F74EC14CB6F87B712ADB3E4000AA489Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/7F74EC14CB6F87B712ADB3E4000AA489Resolve Timestamp Format__ogtk.vi"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
+				<Item Name="Guid Generator.vi" Type="VI" URL="/&lt;vilib&gt;/National Instruments/GUID Generator/Guid Generator.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Random Number Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range__ogtk.vi"/>
 				<Item Name="Random Number Within Range - DBL__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - DBL__ogtk.vi"/>
 				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
 				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
+			</Item>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
