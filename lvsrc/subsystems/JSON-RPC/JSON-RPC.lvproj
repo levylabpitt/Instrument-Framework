@@ -31,13 +31,12 @@
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="TEST-JSON-RPC--Cluster.ctl" Type="VI" URL="../tests/TEST-JSON-RPC--Cluster.ctl"/>
-			<Item Name="JSONtext-test-20210421.vi" Type="VI" URL="../tests/JSONtext-test-20210421.vi"/>
-			<Item Name="Unit Tests.vi" Type="VI" URL="../tests/Unit Tests.vi"/>
+			<Item Name="JSONtext-test-results-20210421.vi" Type="VI" URL="../tests/JSONtext-test-results-20210421.vi"/>
+			<Item Name="UNITTESTS.vi" Type="VI" URL="../tests/UNITTESTS.vi"/>
+			<Item Name="UNITTEST-JSON-RPC.vi" Type="VI" URL="../tests/UNITTEST-JSON-RPC.vi"/>
 			<Item Name="UNITTEST-JSON-RPC-cluster.vi" Type="VI" URL="../tests/UNITTEST-JSON-RPC-cluster.vi"/>
 			<Item Name="UNITTEST-JSON-RPC-Flatten.vi" Type="VI" URL="../tests/UNITTEST-JSON-RPC-Flatten.vi"/>
 			<Item Name="UNITTEST-JSON-RPC-speed.vi" Type="VI" URL="../tests/UNITTEST-JSON-RPC-speed.vi"/>
-			<Item Name="TEST-JSON-RPC.vi" Type="VI" URL="../tests/TEST-JSON-RPC.vi"/>
-			<Item Name="TEST-JSON-RPC+caraya.vi" Type="VI" URL="../tests/TEST-JSON-RPC+caraya.vi"/>
 		</Item>
 		<Item Name="build support" Type="Folder">
 			<Item Name="JSON-RPC.vipb" Type="Document" URL="../../../../build support/JSON-RPC.vipb"/>
@@ -196,12 +195,14 @@
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Guid Generator.vi" Type="VI" URL="/&lt;vilib&gt;/National Instruments/GUID Generator/Guid Generator.vi"/>
+				<Item Name="Shuffle 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Shuffle 1D Array.vim"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Random Number Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range__ogtk.vi"/>
 				<Item Name="Random Number Within Range - DBL__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - DBL__ogtk.vi"/>
 				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
 				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

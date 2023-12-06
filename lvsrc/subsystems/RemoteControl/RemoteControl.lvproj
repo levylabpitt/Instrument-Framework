@@ -11,8 +11,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
-			<Item Name="Remote Control.vipb" Type="Document" URL="../../../../build support/Remote Control.vipb"/>
-			<Item Name="Remote Control.vipc" Type="Document" URL="../../../../build support/Remote Control.vipc"/>
+			<Item Name="RemoteControl.vipb" Type="Document" URL="../../../../build support/RemoteControl.vipb"/>
+			<Item Name="RemoteControl.vipc" Type="Document" URL="../../../../build support/RemoteControl.vipc"/>
 		</Item>
 		<Item Name="RemoteControl.lvclass" Type="LVClass" URL="../RemoteControl.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
