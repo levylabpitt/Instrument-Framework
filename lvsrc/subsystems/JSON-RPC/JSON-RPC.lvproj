@@ -42,7 +42,7 @@
 			<Item Name="JSON-RPC.vipb" Type="Document" URL="../../../../build support/JSON-RPC.vipb"/>
 			<Item Name="JSON-RPC.vipc" Type="Document" URL="../../../../build support/JSON-RPC.vipc"/>
 		</Item>
-		<Item Name="JSON-RPC.lvclass" Type="LVClass" URL="../JSON-RPC/JSON-RPC.lvclass"/>
+		<Item Name="JSON-RPC.lvlib" Type="Library" URL="../JSON-RPC/JSON-RPC.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
