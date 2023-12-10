@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:17:45" Modified_Date="2023-12-06 12:06:47" Creator="Patrick Irvin" Comments="" ID="82ff9cdca773655ea9b242ac2ef7b611">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:17:45" Modified_Date="2023-12-10 08:42:32" Creator="Patrick Irvin" Comments="" ID="dc140d6fbd5f0fae49c02ce132366706">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_json_rpc</Package_File_Name>
-    <Library_Version>1.1.1.5</Library_Version>
+    <Library_Version>1.2.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\subsystems\JSON-RPC\JSON-RPC</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -42,10 +42,8 @@ https://www.jsonrpc.org/specification</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.1.1]
-- update palette
-- recompile VIs and VIMs
-- updated and improved unit tests</Release_Notes>
+      <Release_Notes>[1.2.0]
+- convert JSON-RPC class to library</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -350,7 +348,7 @@ https://www.jsonrpc.org/specification</Description>
         <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2EAB85BAA02BFA74BD33F608488E2BE8</GUID>
+      <GUID>9B3DE034C7247AE73D9FD54B5F5B598D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -458,34 +456,6 @@ https://www.jsonrpc.org/specification</Description>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read ids.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\private\Read ids.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write ids.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\private\Write ids.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Create ID.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -539,7 +509,7 @@ https://www.jsonrpc.org/specification</Description>
         <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\private\Text to UTF-8.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4C6EB23A8665B94DE1860BE11C871395</GUID>
+      <GUID>46E5F3BC29735810DD514D39997F9003</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
