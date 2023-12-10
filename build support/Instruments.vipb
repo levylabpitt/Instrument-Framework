@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2023-12-09 13:24:31" Creator="Patrick" Comments="" ID="ba590ccdf6cad9ad0152a9ad94057b51">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2023-12-10 10:25:55" Creator="Patrick" Comments="" ID="eae316430136abd0cf298738ee1fd67e">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.14.0.3</Library_Version>
+    <Library_Version>1.14.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\Framework</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -43,14 +43,14 @@ An Instrument developed using this framework will have the access to the followi
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
       <Release_Notes>[1.14.0]
-beta
-This is a major release that will break your existing code, but hopefully will not be too painful to fix.
+beta: This is a major release that will break your existing code, but hopefully will not be too painful to fix.
 - Subsystems used by the Instrument Framework are now packaged separately (Configuration, RemoteControl, Logger, etc)
-- Issue #91: API style and uniformity. The  included "abstract methods" or "interface methods" (ie Instrument.Cryostat.lvclass) not do more work to enforce a standard command and params datatype for child overrides. This uniformity will more easily enable calls from external languages (Python, etc)
-  - Instrument.LockinAPI.lvclass is now a fully-supported Interface class.
-- Issue #92: Attempt to consolidate methods to flatten/unflatten message data
+- Issue #91: improved API style and uniformity. The  included "abstract" or "interface" methods (ie Instrument.Cryostat.lvclass) do more to enforce a standard command format and params datatype for child overrides. This uniformity will more easily enable calls from external languages (Python, etc)
+  - Instrument.LockinAPI.lvclass is now a fully-supported Interface class
+  - Instrument.SCPI iprovides a uniform way to send and receive arbitrary SCPI commands
+- Issue #92: Consolidate methods to flatten/unflatten message data
 - Issue #95: Time interval for logging instrument status is now an overridable parameter
-- Issue #96: Minimize the number of malleable VIs. Save memory, reduce headaches. Make it clearer when the developer needs to convert data to LV type (Local Client.vi: yes, Remote Client.vi: no)</Release_Notes>
+- Issue #96: Minimize the number of malleable VIs. Saves memory and minimize headaches. Make it clearer when the developer needs to convert data to LV type (Local Client.vi: yes, Remote Client.vi: no)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -257,7 +257,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Instrument UI</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E808B7AB7589E4F3F2DFAE0859E9BB32</GUID>
+      <GUID>BFE0FE174663C3DE72AB29FE64E509C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -376,7 +376,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56CE9412682B6340E1427F88DC53A86C</GUID>
+      <GUID>9CBA62131CA3B384CF36762670899872</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -509,7 +509,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Instrument Types\SignalGenerator</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F52D153293FD81D24170BF5C86F0644E</GUID>
+      <GUID>5DCE39BB581BECF62516BD368E4A2DEE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -586,7 +586,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument UI\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>31094898492A3E230B1CFE38CA81BDEE</GUID>
+      <GUID>6BF5947693E21078FC6EE7300AA72E07</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -817,7 +817,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\Get SMO RC Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D62523F583045BF41F72A2323FAB1DB</GUID>
+      <GUID>CB8DDD650A96D7EDEBE25482F631AD14</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -922,7 +922,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument\Overrides\onProcessStarted.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>807843B4C59FF7A5AC5621D240234F32</GUID>
+      <GUID>F43E6453E5A347E2D5FDD2D9FB1FC718</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1083,7 +1083,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument\Private\Set Dependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>965B5AED08A0FA7F0CEF0484714555D3</GUID>
+      <GUID>AABC5CF678D476C8A01614A2B4CA6D72</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1216,7 +1216,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument\Protected\Examine Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B3CCCA86775B9B08749471CC4855574D</GUID>
+      <GUID>66386F1F0F26D576A98D51DD5516B2CC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1251,7 +1251,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument Types\CBridge\getCapacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>157A1853DC0473DFEC24AB0944E16753</GUID>
+      <GUID>CB72874D9A62FFFC8B9C5DBB8B1E96AA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1524,7 +1524,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument Types\Cryostat\Cryostat JSON.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>59AB9E4154C4DA5E230DB96CE7203E76</GUID>
+      <GUID>01DB24EDFEBD67C80CDFE7F3C7BA82EE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1573,7 +1573,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument Types\Delay Line\setDelay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>279EDD9ACE3B47FA6880B3628EC95BB8</GUID>
+      <GUID>233E9735A496AC83591265EB921F2B99</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1622,7 +1622,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Instrument Types\Lockin\Private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>794BCB9E1A3858478B52C99C2D52ABAD</GUID>
+      <GUID>E21D91A1601E03DA81518CD32FF196A8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1671,7 +1671,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument Types\Strain\setStrain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>05925792CF3349DEB5BC1A1F986CC128</GUID>
+      <GUID>D5989BBE492680DF38D2B1299F8B1A14</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1776,7 +1776,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument Types\VNA\setPower.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5FB65273ED6C4537CA9B5EA270022046</GUID>
+      <GUID>86F686C7C51EBDA8ED9AC2D95A366203</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2231,7 +2231,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\getSweepData.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C3EB0176BF192B4043579BFE68325D82</GUID>
+      <GUID>6738B5D07FD142E8017E144123AFB700</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2280,7 +2280,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\Private\Retry Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AF34AA6A11170983BEA0D8631AD84BD9</GUID>
+      <GUID>83B1307CA5562F42C2A0E0446FBE3989</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -2399,7 +2399,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\AO\setAO.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>825E86D6DD842A993873B5BFF7EAD79B</GUID>
+      <GUID>62C42960F751E94795C898C2B4D591A7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -2420,7 +2420,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>Instrument Types\Lockin\API\Data</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>F00171731AFA49D4E6B72ADBE91D2E72</GUID>
+      <GUID>CEB2090E6A2C2337F4525A6EA9781AAA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -2581,7 +2581,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\Macros\startSweepAndWait.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>88C06DE69A40DFECDE61418311CF1EB9</GUID>
+      <GUID>56FED6E8384E57D5A133597A841FFD2F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -2686,7 +2686,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\REF\setREF_TC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A6197053F6E9962A0D04A29723780AE</GUID>
+      <GUID>529A4AFB4B97475B719E46657C6DBBC3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -2791,7 +2791,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\State\stopDAQ.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D914203B613BF3A172488CCD5B7537B</GUID>
+      <GUID>E7550AD161BF3CD860282B460B6F81D7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2840,7 +2840,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument Types\SCPI\SCPI.Send.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>70BA9C39459DEAF5C3AA61E3F4F137BB</GUID>
+      <GUID>2AB1DB38B8ED51F348912D5610929E3E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2945,7 +2945,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument Types\SignalGenerator\setOffset.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>648B86612B60EE0936172837CE96CFC4</GUID>
+      <GUID>7AB1D63B8AE223FBBD0DFE7A552F360E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -3274,7 +3274,7 @@ This is a major release that will break your existing code, but hopefully will n
         <Path>..\lvsrc\Framework\Instrument\API\Write RC Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ABD19C917B7488B6EAEE1B77D7F1F091</GUID>
+      <GUID>B900B2C15238ADC1248167ED48EA8B81</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
