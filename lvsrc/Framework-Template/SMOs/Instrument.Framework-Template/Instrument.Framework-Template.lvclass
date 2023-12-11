@@ -299,13 +299,13 @@
 		</Item>
 	</Item>
 	<Item Name="Process.vi" Type="VI" URL="../Process.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%`!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%B!=!!?!!!H*5FO=X2S&gt;7VF&lt;H1O2H*B&lt;76X&lt;X*L,62F&lt;8"M982F,GRW9WRB=X-!&amp;E:S97VF&gt;W^S;SV5:7VQ&lt;'&amp;U:3"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!"%1(!!(A!!*S6*&lt;H.U=H6N:7ZU,E:S97VF&gt;W^S;SV5:7VQ&lt;'&amp;U:3ZM&gt;G.M98.T!"*'=G&amp;N:8&gt;P=GMN6'6N='RB&gt;'5!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!C1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%`!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%B!=!!?!!!H*5FO=X2S&gt;7VF&lt;H1O2H*B&lt;76X&lt;X*L,62F&lt;8"M982F,GRW9WRB=X-!&amp;E:S97VF&gt;W^S;SV5:7VQ&lt;'&amp;U:3"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!"%1(!!(A!!*S6*&lt;H.U=H6N:7ZU,E:S97VF&gt;W^S;SV5:7VQ&lt;'&amp;U:3ZM&gt;G.M98.T!"*'=G&amp;N:8&gt;P=GMN6'6N='RB&gt;'5!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!#1!!!!!!!!!!!!!!C1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1090519424</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1090519432</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1084240400</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
 	<Item Name="Instrument.Framework-Template.AppLauncher.vi" Type="VI" URL="../Instrument.Framework-Template.AppLauncher.vi">

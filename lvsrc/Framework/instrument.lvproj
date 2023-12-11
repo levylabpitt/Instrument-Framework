@@ -19,6 +19,16 @@
 			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../../../build support/Post-Install Custom Action.vi"/>
 			<Item Name="Pre-Install Custom Action.vi" Type="VI" URL="../../../build support/Pre-Install Custom Action.vi"/>
 		</Item>
+		<Item Name="API Cryostat" Type="Folder">
+			<Item Name="_test-cases" Type="Folder">
+				<Item Name="Test Cryogens.vi" Type="VI" URL="../../../tests/API Cryostat/_test-cases/Test Cryogens.vi"/>
+				<Item Name="Test Magnet.vi" Type="VI" URL="../../../tests/API Cryostat/_test-cases/Test Magnet.vi"/>
+				<Item Name="Test Rotate.vi" Type="VI" URL="../../../tests/API Cryostat/_test-cases/Test Rotate.vi"/>
+				<Item Name="Test Temperature.vi" Type="VI" URL="../../../tests/API Cryostat/_test-cases/Test Temperature.vi"/>
+			</Item>
+			<Item Name="CryostatTree.vi" Type="VI" URL="../../../tests/API Cryostat/CryostatTree.vi"/>
+			<Item Name="Test Cryostat API.vi" Type="VI" URL="../../../tests/API Cryostat/Test Cryostat API.vi"/>
+		</Item>
 		<Item Name="_test-cases" Type="Folder">
 			<Item Name="Run Instrument Framework Test Suite.vi" Type="VI" URL="../../../tests/Run Instrument Framework Test Suite.vi"/>
 			<Item Name="Test Configuration.vi" Type="VI" URL="../../../tests/_test-cases/Test Configuration.vi"/>
@@ -751,11 +761,6 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Test Cryostat API.vi" Type="VI" URL="../../../tests/API Cryostat/Test Cryostat API.vi"/>
-			<Item Name="Test Rotate.vi" Type="VI" URL="../../../tests/API Cryostat/_test-cases/Test Rotate.vi"/>
-			<Item Name="Test Magnet.vi" Type="VI" URL="../../../tests/API Cryostat/_test-cases/Test Magnet.vi"/>
-			<Item Name="Test Temperature.vi" Type="VI" URL="../../../tests/API Cryostat/_test-cases/Test Temperature.vi"/>
-			<Item Name="Test Cryogens.vi" Type="VI" URL="../../../tests/API Cryostat/_test-cases/Test Cryogens.vi"/>
 			<Item Name="Instrument.Framework-Template.lvclass" Type="LVClass" URL="../../Framework-Template/SMOs/Instrument.Framework-Template/Instrument.Framework-Template.lvclass"/>
 			<Item Name="Instrument UI.Framework-Template.lvclass" Type="LVClass" URL="../../Framework-Template/SMOs/Instrument UI.Framework-Template/Instrument UI.Framework-Template.lvclass"/>
 			<Item Name="Log Build.vi" Type="VI" URL="../../../build support/Log Build.vi"/>

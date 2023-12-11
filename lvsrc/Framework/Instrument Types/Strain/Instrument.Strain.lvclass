@@ -61,13 +61,13 @@
 					<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 				</Item>
 				<Item Name="Set Strain.vi" Type="VI" URL="../Set Strain.vi">
-					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;A!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'5FO=X2S&gt;7VF&lt;H1O5X2S97FO,GRW9WRB=X-!&amp;5FO=X2S&gt;7VF&lt;H1O5X2S97FO)'^V&gt;!!.1!-!"U.I97ZO:7Q!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!21!I!#F.M:8=A+&amp;9P=SE!!"&amp;!#A!+5X2S97FO)#B7+1!!/E"Q!"Y!!"M:37ZT&gt;(*V&lt;76O&gt;#Z4&gt;(*B;7YO&lt;(:D&lt;'&amp;T=Q!537ZT&gt;(*V&lt;76O&gt;#Z4&gt;(*B;7YA;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!9!"!!(!!A!#1!+!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!#!!!!!!!!!!+!!!!#!!!!!A!!!#3!!!!!!%!#Q!!!!!</Property>
+					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;A!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'5FO=X2S&gt;7VF&lt;H1O5X2S97FO,GRW9WRB=X-!&amp;5FO=X2S&gt;7VF&lt;H1O5X2S97FO)'^V&gt;!!.1!-!"U.I97ZO:7Q!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!21!I!#F.M:8=A+&amp;9P=SE!!"&amp;!#A!+5X2S97FO)#B7+1!!/E"Q!"Y!!"M:37ZT&gt;(*V&lt;76O&gt;#Z4&gt;(*B;7YO&lt;(:D&lt;'&amp;T=Q!537ZT&gt;(*V&lt;76O&gt;#Z4&gt;(*B;7YA;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!9!"!!(!!A!#1!+!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!#!!!!!!!!!!+!!!!#!!!!!A!!!#1!!!!!!%!#Q!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 					<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 					<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-					<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
+					<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 				</Item>
 			</Item>
 			<Item Name="getStrain.vi" Type="VI" URL="../getStrain.vi">
