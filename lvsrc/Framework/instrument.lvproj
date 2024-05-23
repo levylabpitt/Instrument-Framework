@@ -42,6 +42,7 @@
 			<Item Name="Test State History.vi" Type="VI" URL="../../../tests/_test-cases/Test State History.vi"/>
 		</Item>
 		<Item Name="Interfaces" Type="Folder">
+			<Item Name="API.lvclass" Type="LVClass" URL="../../subsystems/API/API.lvclass"/>
 			<Item Name="Instrument.CBridge.lvclass" Type="LVClass" URL="../Instrument Types/CBridge/Instrument.CBridge.lvclass"/>
 			<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="../Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
 			<Item Name="Instrument.DelayLine.lvclass" Type="LVClass" URL="../Instrument Types/Delay Line/Instrument.DelayLine.lvclass"/>

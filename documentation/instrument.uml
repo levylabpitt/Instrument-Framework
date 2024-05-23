@@ -503,11 +503,19 @@ Dependencies : Dependencies--Cluster&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
+<<<<<<< HEAD
 &lt;Val&gt;1400.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
 &lt;Val&gt;60.00000000000000&lt;/Val&gt;
+=======
+&lt;Val&gt;1530.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;220.00000000000000&lt;/Val&gt;
+>>>>>>> 870e03a295b342ca66e3694f0de9e39f1038f744
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -773,11 +781,19 @@ Pre-Start : Variant&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
+<<<<<<< HEAD
 &lt;Val&gt;1090.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
 &lt;Val&gt;80.00000000000000&lt;/Val&gt;
+=======
+&lt;Val&gt;1320.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;20.00000000000000&lt;/Val&gt;
+>>>>>>> 870e03a295b342ca66e3694f0de9e39f1038f744
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
