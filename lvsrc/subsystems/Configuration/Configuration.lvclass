@@ -29,10 +29,6 @@
 	<Item Name="Configuration.ctl" Type="Class Private Data" URL="Configuration.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="build support" Type="Folder">
-		<Item Name="Configuration.vipb" Type="Document" URL="../../../../build support/Configuration.vipb"/>
-		<Item Name="Configuration.vipc" Type="Document" URL="../../../../build support/Configuration.vipc"/>
-	</Item>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Default Path.vi" Type="VI" URL="../Default Path.vi">
