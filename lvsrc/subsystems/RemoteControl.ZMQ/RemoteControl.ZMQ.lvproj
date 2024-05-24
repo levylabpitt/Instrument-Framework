@@ -12,7 +12,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
 			<Item Name="RemoteControl.ZMQ.vipb" Type="Document" URL="../../../../build support/RemoteControl.ZMQ.vipb"/>
-			<Item Name="RemoteControl.ZMQ.vipc" Type="Document" URL="../../../../build support/RemoteControl.ZMQ.vipc"/>
 		</Item>
 		<Item Name="RemoteControl.ZMQ.lvclass" Type="LVClass" URL="../RemoteControl.ZMQ.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
