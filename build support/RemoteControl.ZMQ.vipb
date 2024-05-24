@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2024-05-23 20:40:54" Creator="Patrick Irvin" Comments="" ID="93ae6cab1449d30833a35cc7a938fb82">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2024-05-23 21:42:53" Creator="Patrick Irvin" Comments="" ID="200d091d35241b752406b6927d1b7673">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_remote_control_zmq</Package_File_Name>
-    <Library_Version>1.1.1.10</Library_Version>
+    <Library_Version>1.1.1.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\subsystems\RemoteControl.ZMQ</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -269,7 +269,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl.ZMQ\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8D22C7E0162AE532356AF14FC772551D</GUID>
+      <GUID>B02BA005588F61422C1B0CCDF73A0D65</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -374,7 +374,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl.ZMQ\Methods (Overrides)\Get Connections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A27A144A2927142ECED1A0F7BC38789E</GUID>
+      <GUID>235125BB0AA7189AC4A2A6E9C7A1C05B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -437,7 +437,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl.ZMQ\private\ZMQ.Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>262CCBF8ED0B3DA5C67A1A40239AB961</GUID>
+      <GUID>DAE5377D03C1814D85AB5612F3AA3BA5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -542,7 +542,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl.ZMQ\Tests\ZMQ sandbox.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>950ED3C562F815BBC996764BB402C118</GUID>
+      <GUID>A520E971A0479C1885DF7B58326C5E10</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -661,7 +661,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl.ZMQ\Tests\Unit Tests\Test Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>218DCEFE11C60EAD8FF6A4AF6318A121</GUID>
+      <GUID>2E9ABD7247E44DFC6816D5ED111DCFC2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
