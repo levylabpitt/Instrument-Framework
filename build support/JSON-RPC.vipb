@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:17:45" Modified_Date="2023-12-10 08:42:32" Creator="Patrick Irvin" Comments="" ID="dc140d6fbd5f0fae49c02ce132366706">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:17:45" Modified_Date="2024-05-30 16:31:39" Creator="Patrick Irvin" Comments="" ID="194964e1df91d7ac75bd2c8076806a16">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_json_rpc</Package_File_Name>
-    <Library_Version>1.2.0.6</Library_Version>
+    <Library_Version>1.2.1.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\subsystems\JSON-RPC\JSON-RPC</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,11 +17,11 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>jdp_science_jsontext &gt;= 1.8.1.121</External_Dependencies>
+      <External_Dependencies>jdp_science_jsontext &gt;= 1.8.2.122</External_Dependencies>
       <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.1.18</External_Dependencies>
       <External_Dependencies>oglib_numeric &gt;= 4.1.0.8</External_Dependencies>
       <Additional_External_Dependencies>levylab_lib_build_support &gt;=1.2.5.1</Additional_External_Dependencies>
-      <Direct_Dependencies>jdp_science_jsontext-1.8.1.121</Direct_Dependencies>
+      <Direct_Dependencies>jdp_science_jsontext-1.8.2.122</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.1.18</Direct_Dependencies>
       <Direct_Dependencies>oglib_numeric-4.1.0.8</Direct_Dependencies>
     </Package_Dependencies>
@@ -42,8 +42,8 @@ https://www.jsonrpc.org/specification</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.2.0]
-- convert JSON-RPC class to library</Release_Notes>
+      <Release_Notes>[1.2.1]
+- Issue #108: change creation of result behavior to keep input structure (previously was converting to an array as required of the params object)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -348,7 +348,7 @@ https://www.jsonrpc.org/specification</Description>
         <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B3DE034C7247AE73D9FD54B5F5B598D</GUID>
+      <GUID>12ACC26D1023E2EFA8077F386A4302BA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -484,7 +484,7 @@ https://www.jsonrpc.org/specification</Description>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Variant to JSON.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Variant to JSONRPC params.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -492,24 +492,24 @@ https://www.jsonrpc.org/specification</Description>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\private\Variant to JSON.vi</Path>
+        <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\private\Variant to JSONRPC params.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Text to UTF-8.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Variant to JSONRPC result .vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>3</Row>
+          <Row>2</Row>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\private\Text to UTF-8.vi</Path>
+        <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\private\Variant to JSONRPC result .vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>46E5F3BC29735810DD514D39997F9003</GUID>
+      <GUID>3D3E5A84042877314E7CC80D694900C4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -19,17 +19,20 @@
 		<Item Name="Unflatten from String.vim" Type="VI" URL="../API/Unflatten from String.vim"/>
 	</Item>
 	<Item Name="private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Create Error Object.vi" Type="VI" URL="../private/Create Error Object.vi"/>
 		<Item Name="Create ID.vi" Type="VI" URL="../private/Create ID.vi"/>
 		<Item Name="Create Request-JSONtext.vi" Type="VI" URL="../private/Create Request-JSONtext.vi"/>
+		<Item Name="Variant to JSONRPC params.vi" Type="VI" URL="../private/Variant to JSONRPC params.vi"/>
 		<Item Name="Create Response-JSONtext.vi" Type="VI" URL="../private/Create Response-JSONtext.vi"/>
+		<Item Name="Variant to JSONRPC result .vi" Type="VI" URL="../private/Variant to JSONRPC result .vi"/>
 		<Item Name="Parse Params-JSONtext.vi" Type="VI" URL="../private/Parse Params-JSONtext.vi"/>
 		<Item Name="Parse Request-JSONtext.vi" Type="VI" URL="../private/Parse Request-JSONtext.vi"/>
 		<Item Name="Parse Response-JSONtext.vi" Type="VI" URL="../private/Parse Response-JSONtext.vi"/>
 		<Item Name="Text to UTF-8.vi" Type="VI" URL="../private/Text to UTF-8.vi"/>
 		<Item Name="UTF-8 LV80.vi" Type="VI" URL="../private/UTF-8 LV80.vi"/>
 		<Item Name="UTF-8 to Text.vi" Type="VI" URL="../private/UTF-8 to Text.vi"/>
-		<Item Name="Variant to JSON.vi" Type="VI" URL="../private/Variant to JSON.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Error--Cluster.ctl" Type="VI" URL="../typedefs/Error--Cluster.ctl"/>
