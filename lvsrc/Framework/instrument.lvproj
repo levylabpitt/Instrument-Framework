@@ -702,6 +702,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Serial - ASCII Characters.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/Instrument IO/Serial/support/Serial - ASCII Characters.ctl"/>
+			<Item Name="Minify jsonrpc id.vi" Type="VI" URL="../Instrument/Help/Minify jsonrpc id.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
