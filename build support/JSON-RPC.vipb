@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:17:45" Modified_Date="2024-05-30 16:31:39" Creator="Patrick Irvin" Comments="" ID="194964e1df91d7ac75bd2c8076806a16">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:17:45" Modified_Date="2024-08-15 10:29:09" Creator="Patrick Irvin" Comments="" ID="56bfa89773c9d12513bf0933dfefae0b">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_json_rpc</Package_File_Name>
-    <Library_Version>1.2.1.7</Library_Version>
+    <Library_Version>1.2.2.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\subsystems\JSON-RPC\JSON-RPC</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -42,8 +42,8 @@ https://www.jsonrpc.org/specification</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.2.1]
-- Issue #108: change creation of result behavior to keep input structure (previously was converting to an array as required of the params object)</Release_Notes>
+      <Release_Notes>[1.2.2]
+- Issue #112: Adjust icon sizes to 32x24</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -267,62 +267,6 @@ https://www.jsonrpc.org/specification</Description>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Flatten to String.vim</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\API\Flatten to String.vim</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Unflatten from String.vim</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\API\Unflatten from String.vim</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>JSON to LVtype.vim</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\API\JSON to LVtype.vim</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Parse Params.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\API\Parse Params.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>JSON-RPC Errors.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -348,7 +292,63 @@ https://www.jsonrpc.org/specification</Description>
         <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>12ACC26D1023E2EFA8077F386A4302BA</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>JSON to LVtype.vim</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\API\JSON to LVtype.vim</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Unflatten from String.vim</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\API\Unflatten from String.vim</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Flatten to String.vim</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\API\Flatten to String.vim</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Parse Params.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\API\Parse Params.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>80B66C229A967C347FB72255633ABDA8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -509,7 +509,7 @@ https://www.jsonrpc.org/specification</Description>
         <Path>..\lvsrc\subsystems\JSON-RPC\JSON-RPC\private\Variant to JSONRPC result .vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3D3E5A84042877314E7CC80D694900C4</GUID>
+      <GUID>5CEF69DEA01F11DE3916088DEDEBA9EA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
