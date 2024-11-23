@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2024-01-05 13:19:53" Creator="Patrick" Comments="" ID="655a443b8ce306ef9b31df0862b9c6b6">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2024-11-22 09:04:07" Creator="Patrick" Comments="" ID="bf03f0f9648ca854f8669b90bcf3ff5c">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
     <Library_Version>1.14.0.11</Library_Version>
@@ -44,16 +44,31 @@ An Instrument developed using this framework will have the access to the followi
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
       <Release_Notes>[1.14.0]
 beta 1-6: This is a major release that will break your existing code, but hopefully will not be too painful to fix.
-beta 7-8: Change handling of logging data
-beta 9    : Add Instrument.lvlib, updated LockinAPI (Issue #100)
-beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep for enum &lt;&gt; string.vim)
 - Subsystems used by the Instrument Framework are now packaged separately (Configuration, RemoteControl, Logger, etc)
 - Issue #91: improved API style and uniformity. The  included "abstract" or "interface" methods (ie Instrument.Cryostat.lvclass) do more to enforce a standard command format and params datatype for child overrides. This uniformity will more easily enable calls from external languages (Python, etc)
   - Instrument.LockinAPI.lvclass is now a fully-supported Interface class
   - Instrument.SCPI iprovides a uniform way to send and receive arbitrary SCPI commands
 - Issue #92: Consolidate methods to flatten/unflatten message data
 - Issue #95: Time interval for logging instrument status is now an overridable parameter
-- Issue #96: Minimize the number of malleable VIs. Save memory and minimize headaches. Local Client.vi and Remote Client.vi are not longer malleable VIs. Rename to RemoteClient and LocalClient</Release_Notes>
+- Issue #96: Minimize the number of malleable VIs. Save memory and minimize headaches. Local Client.vi and Remote Client.vi are not longer malleable VIs. Rename to RemoteClient and LocalClient
+
+beta 7-8:
+- Change handling of logging data
+
+beta 9:
+- Add Instrument.lvlib, updated LockinAPI (Issue #100)
+
+beta 10:
+- lvlib no bueno for the classes. re-linking hell... try without (keep for enum &lt;&gt; string.vim)
+
+beta 11:
+- Issue #96 rename LocalClient --&gt; Local Client and RemoteClient --&gt; Remote Client
+- Issue #102: Client.vi is an experimental overridable method with control for Remote/Local client type
+- Issue #103: resurrect Instrument.VSource.lvclass and other changes leftover from ca 12/2023
+- Add experimental HAL.lvclass
+- Issue #105: extended HELP
+- Issue #110: GET and SET
+- Issue #109: IDN</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -288,7 +303,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\string to enum.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>61D5B6E4AE37C87C84CA336CD873D57C</GUID>
+      <GUID>950C5985E76C8F1B2C7C0ABFB311C212</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -407,7 +422,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>05DC54D593963C41301FF1A8CE0A23E8</GUID>
+      <GUID>3958EBAEA68025791C503D121F5E1FD6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -540,7 +555,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument Types\VNA</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F23D20A77CB5EBF4FBCA4E6B9FEBD340</GUID>
+      <GUID>9DB24BCBC440D63FA6FE6B11C63F23C4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -617,7 +632,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument UI\Read Instrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C62C8AD934C70DB40DFACEE47142964</GUID>
+      <GUID>5890D957796CB3292016F4CB7DCFA89F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -678,20 +693,6 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\Framework\Instrument\API\Create Instrument SMO.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>RemoteClient.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\API\RemoteClient.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -893,20 +894,6 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>setConfiguration.vim</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>7</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\API\setConfiguration.vim</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>ACK.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -918,7 +905,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument\API\ACK.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C242EFD72EBA2F90E4947DF47BE02D72</GUID>
+      <GUID>AEBE01E0209CBBC4A3392185808EBFCA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -950,7 +937,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Framework (for override)\Close Hardware.vi</Path>
+        <Path>..\lvsrc\Framework\Instrument\Framework (for override)\hardware\Close Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1132,7 +1119,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Framework (for override)\Open Hardware.vi</Path>
+        <Path>..\lvsrc\Framework\Instrument\Framework (for override)\hardware\Open Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1163,7 +1150,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E9F66277BBD66D0AE143C57ABBC3F584</GUID>
+      <GUID>B16004D5B3BA728661867B0681F60529</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1268,7 +1255,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument\Overrides\onProcessStarted.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F08AAF5391557C95FD9AC404977E65E0</GUID>
+      <GUID>891B3211B182FEA2B895556D6AF15568</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1429,7 +1416,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument\Private\Set Dependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>98ACA1F0B35D036280A259FB6F59DF6A</GUID>
+      <GUID>3372587442F8C88626D411A637163AE1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1562,7 +1549,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument\Protected\Write Configuration Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2168C73C15577FEAB0A416FABA157E77</GUID>
+      <GUID>F48290944F9DA991ED707042EE11A788</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1597,7 +1584,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument Types\CBridge\getCapacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DEDF9FB6C356A89C0B65489236BD59FD</GUID>
+      <GUID>30BC11F25C9FA06E3E7EFEC7A84A4CC2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1870,7 +1857,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument Types\Cryostat\Cryostat JSON.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>03BEF0C473DBFF9C0E0E0263B9C4009E</GUID>
+      <GUID>4E91111BBD77B5E87987E6D2496B6AC7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1919,7 +1906,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument Types\Delay Line\getDelay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D42ED332E0B979BA7B56D4FDE296F7C1</GUID>
+      <GUID>64D3C85AC497BCC8367C00D807AB51B8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1968,7 +1955,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\Private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>70C96F33F269CC55A4D25F55063E3741</GUID>
+      <GUID>ED5F95FE287E62926317ACF3D7519C29</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2017,7 +2004,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument Types\SCPI\SCPI.Send.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2DB059E05CAFBB4F3BB0837F341DFBA3</GUID>
+      <GUID>C9C4C3BEB155FFBAE89A9195CB47572D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2122,7 +2109,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument Types\SignalGenerator\setPower.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F5A195DB9CB61C530D2E62B0318083B3</GUID>
+      <GUID>FEDB797009649828A8539C97DF8367B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2171,7 +2158,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument Types\Strain\getStrain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>17C919E05B25122228BF50360030DD7D</GUID>
+      <GUID>D2B260DC80202B2DA4813831548D42AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2276,7 +2263,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument Types\VNA\setSweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>078D97919A6C5C1614887A0D9F4E3EF2</GUID>
+      <GUID>76B8195568B6EBAB2AF323223E4B137D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -2619,7 +2606,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\setSweepTime.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9A05AA36C81E95D200A54B4DA314E67C</GUID>
+      <GUID>B65C534F423679379187EA03C64E6B4C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -2654,7 +2641,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\Private\Retry Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0D7DCF18975ACAA3F3CDE7CD5356BC89</GUID>
+      <GUID>5A75F285912FA9D4D368254D6EF3C608</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -2745,7 +2732,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\AO\setAO_Amp.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51525676590F8FC3AB4FA1FCFAF4CE54</GUID>
+      <GUID>72EFEBF6DAF82F015CA0FEB62FB0B8B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -2892,7 +2879,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\Macros\waitNewWaveforms.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01CFD4AA19034063A9E213A8C4254796</GUID>
+      <GUID>4CC3B3FC89FB997EB4E9175CBED2E098</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -2969,7 +2956,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\REF\setREF_f.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AF21EE1F070FE442444461864E23E7B4</GUID>
+      <GUID>850983B2C676A1CFEC7A1CDA1D05DACB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -3088,7 +3075,7 @@ beta 10-: lvlib no bueno for the classes. re-linking hell... try without (keep f
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\State\resetDAQ.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FEC7B19081ABE8FBF28B8B4BF8D2616C</GUID>
+      <GUID>3D59484DBB23CEB2DAFC0C58B8716288</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
