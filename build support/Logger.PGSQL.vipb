@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:54:27" Modified_Date="2024-05-28 16:29:36" Creator="Patrick Irvin" Comments="" ID="345ad2093e4a9a604e6545647ef2f2a0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:54:27" Modified_Date="2024-11-26 14:22:01" Creator="Patrick Irvin" Comments="" ID="b4c872cf10111c28b950f6fb063140dc">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_logger_pgsql</Package_File_Name>
-    <Library_Version>1.0.1.4</Library_Version>
+    <Library_Version>1.0.2.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\subsystems\Logger.PGSQL</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -32,9 +32,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.0.1]
-- add functional method API for reading variables
-- update dependencies</Release_Notes>
+      <Release_Notes>[1.0.2]
+- Issues #117 and #118: better handle null data and logger process UI status</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -297,7 +296,7 @@
         <Path>..\lvsrc\subsystems\Logger.PGSQL\Read from PGSQL.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B40FAAB5019E603BC3D7212C1458AAD6</GUID>
+      <GUID>F7ED12CFFB0E1A7D2A31A1F0CC8B7ABB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
