@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:54:27" Modified_Date="2024-11-27 13:36:11" Creator="Patrick Irvin" Comments="" ID="f8efc42eb781d617557fd6c489b8d831">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:54:27" Modified_Date="2024-11-27 14:28:23" Creator="Patrick Irvin" Comments="" ID="e31224240562a13f577a99a005445b41">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_logger_pgsql</Package_File_Name>
-    <Library_Version>1.1.0.5</Library_Version>
+    <Library_Version>1.1.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\subsystems\Logger.PGSQL</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -296,7 +296,7 @@
         <Path>..\lvsrc\subsystems\Logger.PGSQL\Read from PGSQL.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1DCAAAE253F61FE1127BA5C0031BFD72</GUID>
+      <GUID>B0F0B62548D86F0455491FE6D815DF81</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
