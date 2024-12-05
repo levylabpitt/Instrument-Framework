@@ -706,7 +706,6 @@
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="deleteInstrument.updateLogTime.vi" Type="VI" URL="../Instrument/API/deleteInstrument.updateLogTime.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
