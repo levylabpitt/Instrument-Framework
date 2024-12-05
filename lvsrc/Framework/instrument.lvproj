@@ -21,28 +21,6 @@
 			<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../../../build support/Post-Install Custom Action.vi"/>
 			<Item Name="Pre-Install Custom Action.vi" Type="VI" URL="../../../build support/Pre-Install Custom Action.vi"/>
 		</Item>
-		<Item Name="API Cryostat" Type="Folder">
-			<Item Name="_test-cases" Type="Folder">
-				<Item Name="Test Cryogens.vi" Type="VI" URL="../../../tests/API Cryostat/_test-cases/Test Cryogens.vi"/>
-				<Item Name="Test Magnet.vi" Type="VI" URL="../../../tests/API Cryostat/_test-cases/Test Magnet.vi"/>
-				<Item Name="Test Rotate.vi" Type="VI" URL="../../../tests/API Cryostat/_test-cases/Test Rotate.vi"/>
-				<Item Name="Test Temperature.vi" Type="VI" URL="../../../tests/API Cryostat/_test-cases/Test Temperature.vi"/>
-			</Item>
-			<Item Name="CryostatTree.vi" Type="VI" URL="../../../tests/API Cryostat/CryostatTree.vi"/>
-			<Item Name="Test Cryostat API.vi" Type="VI" URL="../../../tests/API Cryostat/Test Cryostat API.vi"/>
-		</Item>
-		<Item Name="_test-cases" Type="Folder">
-			<Item Name="Run Instrument Framework Test Suite.vi" Type="VI" URL="../../../tests/Run Instrument Framework Test Suite.vi"/>
-			<Item Name="test enum to string to enum.vi" Type="VI" URL="../../../tests/_test-cases/test enum to string to enum.vi"/>
-			<Item Name="Test Configuration.vi" Type="VI" URL="../../../tests/_test-cases/Test Configuration.vi"/>
-			<Item Name="Test Create Instrument SMO.vi" Type="VI" URL="../../../tests/_test-cases/Test Create Instrument SMO.vi"/>
-			<Item Name="Test Decode JSON.vi" Type="VI" URL="../../../tests/_test-cases/Test Decode JSON.vi"/>
-			<Item Name="Test Error Logger.vi" Type="VI" URL="../../../tests/_test-cases/Test Error Logger.vi"/>
-			<Item Name="Test Instrument Remote API.vi" Type="VI" URL="../../../tests/_test-cases/Test Instrument Remote API.vi"/>
-			<Item Name="Test Instrument Remote Client.vi" Type="VI" URL="../../../tests/_test-cases/Test Instrument Remote Client.vi"/>
-			<Item Name="Test RC.vi" Type="VI" URL="../../../tests/_test-cases/Test RC.vi"/>
-			<Item Name="Test State History.vi" Type="VI" URL="../../../tests/_test-cases/Test State History.vi"/>
-		</Item>
 		<Item Name="Interfaces" Type="Folder">
 			<Item Name="API.lvclass" Type="LVClass" URL="../../subsystems/API/API.lvclass"/>
 			<Item Name="Instrument.Amplifier.lvclass" Type="LVClass" URL="../Instrument Types/Amplifier/Instrument.Amplifier.lvclass"/>
@@ -402,7 +380,6 @@
 				<Item Name="RemoteControl.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/RemoteControl/RemoteControl.lvclass"/>
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
 				<Item Name="RemoteControl.ZMQ.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/RemoteControl.ZMQ/RemoteControl.ZMQ.lvclass"/>
-				<Item Name="RemoteControl.STM.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/RemoteControl.STM/RemoteControl.STM.lvclass"/>
 				<Item Name="Set Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Cluster Element by Name__ogtk.vi"/>
 				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
 				<Item Name="Debug.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Configuration/Debug.lvlib"/>
@@ -683,12 +660,6 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
-				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
-				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
-				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
-				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
-				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
-				<Item Name="VariantFlattenExp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantFlattenExp.vi"/>
 				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
@@ -727,8 +698,6 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Instrument.Framework-Template.lvclass" Type="LVClass" URL="../../Framework-Template/SMOs/Instrument.Framework-Template/Instrument.Framework-Template.lvclass"/>
-			<Item Name="Instrument UI.Framework-Template.lvclass" Type="LVClass" URL="../../Framework-Template/SMOs/Instrument UI.Framework-Template/Instrument UI.Framework-Template.lvclass"/>
 			<Item Name="Log Build.vi" Type="VI" URL="../../../build support/Log Build.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -737,6 +706,7 @@
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="deleteInstrument.updateLogTime.vi" Type="VI" URL="../Instrument/API/deleteInstrument.updateLogTime.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
