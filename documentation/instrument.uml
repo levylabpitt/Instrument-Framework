@@ -1,0 +1,6862 @@
+<Cluster>
+<Name></Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>TYPEDEF-FileSaveVersion</Name>
+<Choice>A</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>diagramType</Name>
+<Choice>None</Choice>
+<Choice>Class</Choice>
+<Choice>Sequency</Choice>
+<Choice>State</Choice>
+<Choice>UseCase</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>DiagramData</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>nodeInfo</Name>
+<NumElts>4</NumElts>
+<Array>
+<Name>NodeType</Name>
+<Dimsize>12</Dimsize>
+<String>
+<Name>Class name</Name>
+<Val>ClassNode</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassNode</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassNode</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassNode</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassNode</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassNode</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassNode</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassNode</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassNode</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassNode</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassNode</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassNode</Val>
+</String>
+</Array>
+<Array>
+<Name>ParentIndex</Name>
+<Dimsize>12</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>-1</Val>
+</I32>
+</Array>
+<Array>
+<Name>ChildernIndexies</Name>
+<Dimsize>12</Dimsize>
+<Cluster>
+<Name></Name>
+<NumElts>1</NumElts>
+<Array>
+<Name></Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>1</NumElts>
+<Array>
+<Name></Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>1</NumElts>
+<Array>
+<Name></Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>1</NumElts>
+<Array>
+<Name></Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>1</NumElts>
+<Array>
+<Name></Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>1</NumElts>
+<Array>
+<Name></Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>1</NumElts>
+<Array>
+<Name></Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>1</NumElts>
+<Array>
+<Name></Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>1</NumElts>
+<Array>
+<Name></Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>1</NumElts>
+<Array>
+<Name></Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>1</NumElts>
+<Array>
+<Name></Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>1</NumElts>
+<Array>
+<Name></Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+</Array>
+<Array>
+<Name>FlattenData</Name>
+<Dimsize>12</Dimsize>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;50.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;50.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;200.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;1040.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;70.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;952.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;Instrument\Instrument.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Instrument&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Public Events : PublicEvents--Cluster
+Private Events : PrivateEvents--Cluster
+Configuration : Configuration--Cluster
+Data : PrivateEvents--Instrument
+Dependencies : Dependencies--Cluster&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+Create Instrument SMO
++Open
++Send and Receive
++Close
++ACK
++HELP
++getAll
++setConfiguration
++Remote Client
++Local Client
++Read Debug Mode
++Read Configuration Class
++Read Hardware Address
++Read SMO Address
++Read COM Type
++Write RC Type
++Write Hardware Address
++Write COM Type
++Write Client Type
++Instrument
++Instrument
++Instrument
++Instrument
++Client
++Instrument
+#enumerateStaticDependencies
+#CreatePublicEvents
+#DestroyPublicEvents
+#CreatePrivateEvents
+#DestroyPrivateEvents
+#onProcessStarted
+-Get RC Connection Status
+-Get Dependencies
+-Rename RC SMO Private Events
+-Rename PGSQL SMO Private Events
+-Rename Error SMO Private Events
+-Counts Since Last Reset
+-Instrument
+-Instrument
+-Instrument.MessageFromProcess
+-Set Dependencies
+#Open Hardware
+#Write Hardware
+#Read Hardware
+#Close Hardware
+#Handle Command
+#Handle setLogData
+#Handle setConfiguration
+#Handle getAll
+#Configuration Window
+#Read Configuration File
+#Write Configuration File
+#Get SMO Name
+#Get SMO Address
+#Get SMO PGSQL Log Paths
+#Get SMO Port
+#Get SMO Public API
+#Get SMO RC Type
+#Get SMO LogTime
+#Initialize Configuration
+#Open SMO
+#Close SMO
+#Write Configuration Path
+#Wait Logic
+#State History
+#Examine Configuration
+#Validate API method
+#Process&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+<<<<<<< HEAD
+&lt;Val&gt;1400.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;60.00000000000000&lt;/Val&gt;
+=======
+&lt;Val&gt;1530.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;220.00000000000000&lt;/Val&gt;
+>>>>>>> 870e03a295b342ca66e3694f0de9e39f1038f744
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;220.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;2190.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;56.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;2114.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\SMO.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;SMO&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Ref : UINT32
+Reserved : Reserved(Self)--Cluster
+Event Registration Refnum : RefNum
+Pre-Start : Variant&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+GetReserveState
++ReserveDependency
++CheckAccessibility
++UnReserveDependency
++Create
++GetState
++GetName
++GetGUID
++GetQualifiedName
++isStateMachineObject
++Set Process Kill timeout
++Start
++GetPublicEvents
++WaitForStateChange
++WaitForState
++isSharedResource
++setErrorHandlingBehavior
++ListSharedResources
++LaunchDependency
++Stop
++Destroy
++GetCallingProcessCloneName
++Get PublicEventRegistration
++Get State
++Get Name
++Get GUID
++Get Qualified Name
++is StateMachineObject
+#CreateSelfReference
+#CreatePublicEvents
+#CreateProtectedEvents
+#CreatePrivateEvents
+#DestroyPublicEvents
+#DestroyProtectedEvents
+#DestroyPrivateEvents
+#DestroySelfReference
+#GetDefaultConfigurationPath
+#Handle Error
+#onUnhandledDependencyError
+#onDependencyAttributeChanged
+#onDependencyConfigChanged
+#onDependencyMessage
+#onDependencyStarted
+#onDependencyStopped
+#onOwnershipChanged
+#onCreate
+#onCreated
+#enumerateStaticDependencies
+#onStart
+#onStaticDependenciesStart
+#onStaticDependenciesStarted
+#onProcessStart
+#onProcessStarted
+#onStarted
+#onProcessStartedWithErrors
+#onSelfStop
+#onStop
+#onProcessStop
+#onProcessStopped
+#onProcessKill
+#onProcessKilled
+#onStopped
+#onDestroy
+#onDestroyed
+-Wait on VI Idle
+-LoadPreStartAttributes
+-GetVariant(Attr)
+-SetVariant(Attr)
+-UpdateAttribute
+-ReadStartupBehavior
+-ValidateOwner
+-AddAttribute
+-ListAttributes
+-Get RegistryKey
+-Get SecretKey
+-GetIdentity
+-GetIdentityAttr
+-GetLineage
+-GetOwner
+-GetErrorBehavior
+-NotifyOwner(SelfTermination)
+-GetDependencies
+-ClearDependencies
+-SMO
+-SMO
+-SMO
+-SetStaticDepNumber
+-GetStaticDepNumber
+-AddDependency
+-CleanDependencies
+-Request Ownership
+-Ensure Dependencies Started
+-Ensure Dependencies Created
+-Declare Dependency
+-UpdateDependencyAttr
+-Create CallerWatchdog Queue
+-Get CallerWatchdog Queue
+-SetSyncNotifier
+-GetSyncNotifier
+-List All Valid Notifiers
+#WaitOnProcessSync
+#WaitOnFinalProcessSync
+-WaitForLauchCloseSync
+-WaitForAsyncReturnData
+-StartProcesses
+-LaunchProcess
+-StopProcesses
+-Abort
+-Create Process Event Registration
+-Get Process Event Registration
+-Set Process Event Registration
+-Clear Registered Process
+-Send StopProcessedEvent
+-Add Registered Process
+-Catch Process Error
+-prepareSelfTerminate
+-cleanupSelfTerminate
+-SetParentCall
+-isParentCalled
+-SetSMOState
+-Get Accessibility
+-Generate ReserveState ChangeEvent
+-objectCreationSequence
+-Create Events
+-Destroy Events
+-ReftoDVR--SMO
+-DVRtoRef--SMO
+#Stop Dependency
+#FindDependency(byKey)
+#SelfTerminate
+#NotifyOwner(Message)
+#isProcessAllowedRun
+#GetProtectedEvents
+#Get Dependency State Events
+#Register Process
+#Register Process (Default)
+#GetProcessInstanceRef
+#GetProcessNotifierFromRef
+#List Processes
+#ListDependencies
+#ListThisLevelDependencies
+#ThisLevelClassName
+#Read Process Kill timeout
+#CastDependenciesClusterToArray
+#CastArrayDependenciesToClusterOrClass
+#ListPublicAttributes
+#hasAttributeByType
+#GetAttributeByName
+#SetAttributeByName
+#Process
+-Activity Tree&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+<<<<<<< HEAD
+&lt;Val&gt;1090.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;80.00000000000000&lt;/Val&gt;
+=======
+&lt;Val&gt;1320.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;20.00000000000000&lt;/Val&gt;
+>>>>>>> 870e03a295b342ca66e3694f0de9e39f1038f744
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;130.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;330.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;98.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;210.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\Dependency\Dependency.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Dependency&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Name : STRING
+Self GUID : STRING
+Owner GUID : STRING
+Start Order : INT8
+Instance : SMO
+Shared Resource : BOOL
+Level : STRING&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+Declare
++Read Instance
++Read Level
++Read Name
++Read Owner GUID
++Read Self GUID
++Read Shared Resource
++Read Start Order
++Write Instance
++Write Level
++Write Name
++Write Owner GUID
++Write Self GUID
++Write Shared Resource
++Write Start Order&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;460.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;30.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;220.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;850.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;112.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;714.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\RemoteControl.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;RemoteControl&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Configure : PrivateEvents--RemoteControl
+Public Events : PublicEvents--Cluster
+Private Events : PrivateEvents--Cluster
+RC Process Type : RC Process Type--Enum
+Debug Mode? : BOOL
+Message (sent) : Message--Cluster
+Message (read) : Message--Cluster
+Connected : BOOL&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+Connect
++Send and Receive
++Disconnect
++RemoteControl
++RemoteControl
++RemoteControl
++Create Server SMO
++Read Port
++Read Commands
++Read address
++Read timeout
++Read Connected
++Read RC Process Type
++Write Port
++Write Commands
++Write address
++Write Debug Mode
++Write Timeout
++RemoteControl
++RemoteControl
++Read Message (sent)
++Write Message (sent)
++RemoteControl.TestLauncher
++RC_Client
++RC_Client N
++RC_Client Client
++RC_Client Client 2
+#CreatePublicEvents
+#DestroyPublicEvents
+#CreatePrivateEvents
+#DestroyPrivateEvents
+-VirtualTestInstrument
+-RemoteControl
+-RemoteControl
+-Time Message Events
+-Message to Display String
+-Format Message String
+-Variant to Display String
+-Choose Random Command
+-State History
+#Open Client Connection
+#Open Server Connection
+#Get Connections
+#Start Listener
+#Stop Listener
+#Listen
+#Send Message
+#Read Message
+#Close Connection
+#Send and Receive Message
+#Process&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;310.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;490.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;170.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;180.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;20.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;140.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Logger.Error.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Logger.Error&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Dependencies : Cluster&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+Initialize Error Log
++Write Dependencies
++Logger.Error
+#Create Logger
+#Destroy Logger
+-Error Cluster to Array
+-Write Class to Error
+-Read Class from Error
+-Get SMO Name from Error Event
+#Process&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;190.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;270.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;110.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;180.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;28.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;126.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Logger.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Logger&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;path : PATH
+Debug Mode? : BOOL&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+Read Debug Mode
++Write Debug Mode
++Write path
++Read path
++Logger
+#Create
+#Destroy
+#State History
+#Process_DoNotRun&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;10.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;480.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;200.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;290.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;42.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;224.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Logger.PGSQL.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Logger.PGSQL&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Private Events : PrivateEvents--Cluster
+Public Events : PublicEvents--Cluster
+database address : STRING&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+Write to PGSQL
++Write Cluster to PGSQL
++Read from PGSQL (unused)
++Logger.PGSQL
++Logger.PGSQL
++Logger.PGSQL
++Test PGSQL
+#CreatePrivateEvents
+#DestroyPrivateEvents
+#CreatePublicEvents
+#DestroyPublicEvents
+-Shorten Cluster
+-Logger
+-Logger
+-Write Or Not
+#Process&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;1100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;270.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;220.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;200.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;28.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;154.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Configuration\Configuration.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Configuration&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Path : PATH
+Section : STRING&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+Read Configuration (FrameworkTemplate)
++Default Path
++Write Path
++Write Section
++Read
++Read
++Write
++Show
+-Handle Missing Sections
+-Read Path
+-Read Section&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;230.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;630.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;40.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;20.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;56.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\subsystems\HAL\HAL.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;HAL&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+Open
++Write
++Read
++Close&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;830.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;470.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;280.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;690.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;20.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;630.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\NI_Data Type.lvlib&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;&amp;lt;&amp;lt;LVLIB&amp;gt;&amp;gt;
+NI_Data Type&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+Get Array Information
++Get Channel Information
++Get Cluster Information
++Get Fixed-Point Information
++Get LabVIEW Class Information
++Get LabVIEW Class Parent And Member VI Information
++Get Map Collection Information
++Get Numeric Information
++Get Polymorphic VI Information
++Get Refnum Information
++Get Set Collection Information
++Get Tag Information
++Get Type Information
++Get User-Defined Refnum Information
++Get User-Defined Tag Information
++Get VI Information
++Get Waveform Information
++Scrub Type Names
++Set Array Information
++Set Cluster Information
++Set Fixed-Point Information
++Set Map Collection Information
++Set Numeric Information
++Set Refnum Information
++Set Set Collection Information
++Set Type Information
++Set User-Defined Refnum Information
++Set User-Defined Tag Information
++Set VI Information
++Is or Contains Type Definition
++Disconnect Type Definitions
++Check for Contained Data Type
++Get Type Definition Path
++Is Error Cluster
++All Palette VIs
++Get LabVIEW Class Default Palette Information
+-GetRefnumInfoInternal
+-I32ToMemoryInfo
+-I32ToRefnumType
+-MDTFlavorToTypeEnum
+-MemoryInfoToI32
+-RefnumTypeToI32
+-SetNumericFxpBitInfo
+-SetNumericFxpIncludeOverflowStatus
+-SetNumericFxpRangeInfo&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;1180.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;460.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;220.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;1350.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;28.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;1302.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\LV-Data\LV-Data.PG\LV-Data.PGSQL.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;LV-Data.PGSQL&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;PQ Connection : PQ Connection
+Connection String : STRING&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+Administer Tables UI
++Create User UI
++Get Path UI
++Get Paths Array UI
++PGSQL
++Compare Previous INSERT
++Read Variable
++Read Variable (double)
++Read Variable (boolean)
++Read Variable (string)
++Read Variable (integer)
++Execute SQL Statement
++Read Trace
++Read Traces
++Write Variable
++Write Variable (one-row)
++Write Variable (multirow)
++Copy (String Data)
++Copy (Data)
++Copy (File)
++Close
++List Tables
++Get Table Path
++List Columns
++Get Column Path
++Create Column
++Build Path
++Parse path
++Parse Variant
++Result to Trace
++Test Move Columns
++Check existence
++Copy Speed Test
++Multi-Table Insert
++Get Trace (example)
++INSERT (example)
++INSERT PPMS4 (example)
++Convert Dictionary to ITEMs and VALUEs
++Format SQL CREATE TABLE
++Format SQL INSERT Dictionary
++Read
++Write
++DSC TSV to PGSQL
++DSC TSV to PGSQL Choose Column Dialog
++DSC TSV Date Time to Timestamp
++DSC TSV Process Files
++DSC TSV Process Files with Queues
++DSC TSV PRE-Process Files with Queues
++DSC TSV to PGSQL Record Processed
++DSC TSV Process Path
++PQ Unit Tests
++PQ Test Valid User
++PQ Test Invalid User
++Test Switch Tables
++Test Switch Tables 2
++Test MultiValue INSERT format
++Test MultiValue INSERT
++Test PQ modes
++Test Data
++Test Write and Read Data
++Tree
++PQ Test List Tables
+-Get PGSQL datatype
+-Path Variant to Path Array
+-INSERT
+-INSERT Multivalue
+-Execute SQL
+-Format SQL INSERT
+-Format SQL INSERT Multivalue
+-Create Table
+-Delete Table
+-Delete Column
+-Convert Double to String
+-Change Column Name
+-Change Column Units
+-Path flags
+-Paths to String with Commas
+-String Array to String with Commas
+-Push Backup to DB
+-SQL Time to Timestamp
+-Timestamp to SQL Time
+-Handle INSERT Error
+-Error Code
+-Get Users
+-Get Data Type Prefix
+-Get Data Type from Path
+-Data Type Enum to Data Type String
+-Create User
+-Configuration Path
+-Read Configuration
+-Write Configuration
+-Rename Table
+-Switch Tables&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;940.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;370.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;150.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;360.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;42.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;294.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl.ZMQ\RemoteControl.ZMQ.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;RemoteControl.ZMQ&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Context : zmq_context
+Socket : zmq_socket
+Config : ZMQ Config&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+Test Context
++Test Connect REQ Socket
++Test Bind REP Socket
++Test Write
++Test Read
++Test REQ Socket
++Test REP Socket
++ZMQ Rep Test
++ZMQ Req Test
++ZMQ sandbox
++RemoteControl.ZMQ
++RemoteControl.ZMQ
+#Read Message
+#Send Message
+#Open Client Connection
+#Open Server Connection
+#Close Connection
+#Get Connections
+-Build Endpoint
+-ZMQ
+-ZMQ&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+</Array>
+</Cluster>
+<Cluster>
+<Name>edgeInfo</Name>
+<NumElts>4</NumElts>
+<Array>
+<Name>EdgeType</Name>
+<Dimsize>21</Dimsize>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+</Array>
+<Array>
+<Name>StartNodeIndex</Name>
+<Dimsize>21</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>2</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>3</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>3</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>4</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>5</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>6</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>6</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>6</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>10</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>11</Val>
+</I32>
+</Array>
+<Array>
+<Name>EndNodeIndex</Name>
+<Dimsize>21</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>3</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>4</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>5</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>6</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>7</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>8</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>9</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>10</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>11</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>2</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>9</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>5</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>5</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>9</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>10</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>9</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>3</Val>
+</I32>
+</Array>
+<Array>
+<Name>FlattenData</Name>
+<Dimsize>21</Dimsize>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;32&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\CreatePublicEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\DestroyPublicEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\CreatePrivateEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\DestroyPrivateEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\onProcessStarted.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\API\Create Instrument SMO.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\API\Read Configuration Class.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Get Dependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Rename RC SMO Private Events.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Rename PGSQL SMO Private Events.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Rename Error SMO Private Events.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Instrument.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Instrument.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Instrument.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Instrument.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Instrument.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Instrument.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;32&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\GetName.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Create.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\CreatePublicEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\DestroyPublicEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\CreatePrivateEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\DestroyPrivateEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\onProcessStarted.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Create.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\ThisLevelClassName.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\ListThisLevelDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Typedefs\Public Events.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Typedefs\Public Events.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Typedefs\Public Events.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Typedefs\SMOState --Enum.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\GetPublicEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Start.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Destroy.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Stop.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Typedefs\SMOState --Enum.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\Register Process (Default).vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\Stop Dependency.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Start.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Destroy.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\LaunchDependency.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\Handle Error.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\GetName.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\WaitOnProcessSync.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\SelfTerminate.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\GetPublicEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\GetProtectedEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;17&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\CreatePublicEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\CreatePrivateEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\API\Send and Receive.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\API\Write RC Type.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\API\Instrument.sendMessageToProcess.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Get RC Connection Status.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Get Dependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Instrument.MessageFromProcess.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Set Dependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Framework (for override)\Get SMO RC Type.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Framework (for override)\Get SMO RC Type.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Protected\Open SMO.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Protected\Close SMO.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;17&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\API\Create Server SMO.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Typedefs\Message--Cluster.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Typedefs\Message--Cluster.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\API\Send and Receive.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Typedefs\RC Com Type--enum.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Typedefs\Message--Cluster.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\API\Read Connected.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\RemoteControl.lvclass\RemoteControl.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Typedefs\Message--Cluster.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\RemoteControl.lvclass\RemoteControl.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\RemoteControl.lvclass\RemoteControl.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\RemoteControl.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\API\Connect.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\API\Disconnect.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\API\RemoteControl.GetPublicEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\API\RemoteControl.SendMessageToProcess.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Typedefs\Message--Cluster.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;V&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;5&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Get Dependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Set Dependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;5&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Initialize Error Log.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Write Dependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Logger.Error.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Logger.Error.lvclass\Logger.Error.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Logger.Error.lvclass\Logger.Error.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;V&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;HV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;1&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;1&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Write Debug Mode.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;V&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Overrides\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Get Dependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Set Dependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Logger.PGSQL.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Logger.PGSQL.lvclass\Logger.PGSQL.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Logger.PGSQL.lvclass\Logger.PGSQL.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Logger.PGSQL.WriteVariable.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;V&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;7&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\API\Read Configuration Class.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\API\Read Configuration Class.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Get Dependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Set Dependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Framework (for override)\Write Configuration File.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Protected\Write Configuration Path.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Protected\Examine Configuration.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;7&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Configuration\Configuration.lvclass\Configuration.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Configuration\Write Section.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Configuration\Configuration.lvclass\Configuration.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Configuration\Configuration.lvclass\Configuration.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Configuration\Write Configuration.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Configuration\Default Path.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Configuration\Show Configuration.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;V&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;2&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Get Dependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Private\Set Dependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;2&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\subsystems\HAL\HAL.lvclass\HAL.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\subsystems\HAL\HAL.lvclass\HAL.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;V&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;2&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Framework (for override)\Get SMO PGSQL Log Paths.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Framework (for override)\Get SMO PGSQL Log Paths.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;2&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Get Type Information.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Get Cluster Information.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;V&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;2&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Framework (for override)\Get SMO PGSQL Log Paths.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Framework (for override)\Get SMO PGSQL Log Paths.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;2&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\LV-Data\LV-Data.PG\admin\Get Paths Array UI.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\LV-Data\LV-Data.PG\API\Write Variable (one-row).vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;V&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;1&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Users\patrick\Documents\GitHub\Instrument-Framework\lvsrc\Framework\Instrument\Framework (for override)\Get SMO RC Type.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;1&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl.ZMQ\RemoteControl.ZMQ.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;V&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;10&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\enumerateStaticDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Private\SMO.StartDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Private\SMO.StartDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Private\SMO.StartDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Private\SMO.StartDependencies.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;10&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\Dependency\Dependency.lvclass\Dependency.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\Dependency\Declare Dependency.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\Dependency\Dependency.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\Dependency\Dependency.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\Dependency\Dependency.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\Dependency\Dependency.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\Dependency\Read Level.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\Dependency\Read Shared Resource.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\Dependency\Read Name.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\Dependency\Read Instance.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;V&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;3&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\Dependency\Declare Dependency.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\Dependency\Read Instance.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\Dependency\Write Instance.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;3&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\SMO.lvclass\SMO.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\SMO.lvclass\SMO.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\SMO.lvclass\SMO.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;BLACK_DIAMOND&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;STRAIGHT&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;25&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Methods (Overrides)\CreatePublicEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Methods (Overrides)\DestroyPublicEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Methods (Overrides)\CreatePrivateEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Methods (Overrides)\DestroyPrivateEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\API\Create Server SMO.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\API\Create Server SMO.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Tests\RemoteControl.TestLauncher.ConnectionMonitor.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Tests\RemoteControl.TestLauncher.ConnectionMonitor.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Tests\RemoteControl.TestLauncher.ConnectionMonitor.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Tests\RemoteControl.TestLauncher.ConnectionMonitor.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Tests\RemoteControl.TestLauncher.ConnectionMonitor.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Tests\RemoteControl.TestLauncher.ConnectionMonitor.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Tests\RemoteControl.TestLauncher.ConnectionMonitor.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;25&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\CreatePublicEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\DestroyPublicEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\CreatePrivateEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\DestroyPrivateEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Create.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Typedefs\Public Events.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Typedefs\SMOState --Enum.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Destroy.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Start.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\GetPublicEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Create.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Stop.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Typedefs\SMOState --Enum.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\Register Process (Default).vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\Handle Error.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\WaitOnProcessSync.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\SelfTerminate.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\GetProtectedEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\GetPublicEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Create.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Start.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Stop.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Destroy.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Typedefs\Public Events.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;2&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Private\Time Message Events.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Private\Time Message Events.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;2&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Get Type Information.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Type Definitions\Data Type.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;V&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;10&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Create Logger.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Create Logger.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Create Logger.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Destroy Logger.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Initialize Error Log.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Logger.Error.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.Error\Logger.Error.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;10&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Write path.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Create Logger.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Read path.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Destroy Logger.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Write path.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\State History.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Read Debug Mode.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Read path.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Write path.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Write Debug Mode.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;11&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Process_DoNotRun.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Process_DoNotRun.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Process_DoNotRun.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Process_DoNotRun.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Logger.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Logger.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Logger.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Logger.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Logger.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Logger.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Logger.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;11&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\Register Process (Default).vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\Handle Error.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\WaitOnProcessSync.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Protected\GetProtectedEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Typedefs\SMOState --Enum.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\GetPublicEvents.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Start.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Destroy.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Create.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Stop.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\JKI\JKI SMO\SMO\Typedefs\SMOState --Enum.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;3&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Logger.PGSQL.TestLauncher.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;3&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\State History.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Read Debug Mode.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger\Write Debug Mode.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;5&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Write to PGSQL.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Write Cluster to PGSQL.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Shorten Cluster.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Shorten Cluster.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Write Or Not.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;5&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Get Type Information.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Get Type Information.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Get Type Information.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Type Definitions\Data Type.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Get Type Information.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;V&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;6&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Write Or Not.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\Logger.PGSQL\Process.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;6&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\LV-Data\LV-Data.PG\API\Compare Previous INSERT.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\LV-Data\LV-Data.PG\API\PGSQL.Open.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\LV-Data\LV-Data.PG\API\Write Variable (one-row).vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\LV-Data\LV-Data.PG\API\Read Variable (double).vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\LV-Data\LV-Data.PG\API\Close.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\LV-Data\LV-Data.PG\LV-Data.PGSQL.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;V&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;5&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\LV-Data\LV-Data.PG\API\Parse Variant.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\LV-Data\LV-Data.PG\API\Parse Variant.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\LV-Data\LV-Data.PG\Private\Path Variant to Path Array.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\LV-Data\LV-Data.PG\unused\Format SQL CREATE TABLE.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\LV-Data\LV-Data.PG\unused\Format SQL CREATE TABLE.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;5&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Type Definitions\Data Type.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Get Type Information.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Get Type Information.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Get Type Information.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Get Array Information.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;V&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;11&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl.ZMQ\Methods (Overrides)\Read Message.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl.ZMQ\Methods (Overrides)\Read Message.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl.ZMQ\Methods (Overrides)\Send Message.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl.ZMQ\Methods (Overrides)\Send Message.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl.ZMQ\Methods (Overrides)\Open Client Connection.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl.ZMQ\Methods (Overrides)\Close Connection.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl.ZMQ\Tests\ZMQ Rep Test.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl.ZMQ\Tests\ZMQ Req Test.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl.ZMQ\Tests\ZMQ Req Test.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl.ZMQ\Tests\RemoteControl.ZMQ.TestServer.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl.ZMQ\Tests\RemoteControl.ZMQ.TestClient.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;11&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\API\Read timeout.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\API\Read Message (sent).vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\API\Write Message (sent).vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Typedefs\Message--Cluster.ctl&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Methods (Framework)\Open Client Connection.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Methods (Framework)\Close Connection.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\API\Write Timeout.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\API\Write Timeout.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Methods (Framework)\Send and Receive Message.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Tests\RemoteControl.TestLauncher.ConnectionMonitor.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;C:\Program Files (x86)\National Instruments\LabVIEW 2019\user.lib\LevyLab\RemoteControl\Tests\RC_Client.vi&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+</Array>
+</Cluster>
+</Cluster>
