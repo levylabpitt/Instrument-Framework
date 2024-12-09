@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2024-12-05 15:40:33" Creator="Patrick" Comments="" ID="08b85ab8dbb3dcc954bab25598d93e74">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2024-12-09 11:23:01" Creator="Patrick" Comments="" ID="a571224bff41c3c3dc454e48cd981eb3">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.14.0.13</Library_Version>
+    <Library_Version>1.14.0.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\Framework</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -100,41 +100,34 @@ An Instrument developed using this framework will have the access to the followi
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.14.0]
-beta 1-6: This is a major release that will break your existing code, but hopefully will not be too painful to fix.
-- Subsystems used by the Instrument Framework are now packaged separately (Configuration, RemoteControl, Logger, etc)
-- Issue #91: improved API style and uniformity. The  included "abstract" or "interface" methods (ie Instrument.Cryostat.lvclass) do more to enforce a standard command format and params datatype for child overrides. This uniformity will more easily enable calls from external languages (Python, etc)
-  - Instrument.LockinAPI.lvclass is now a fully-supported Interface class
-  - Instrument.SCPI iprovides a uniform way to send and receive arbitrary SCPI commands
-- Issue #92: Consolidate methods to flatten/unflatten message data
-- Issue #95: Time interval for logging instrument status is now an overridable parameter
-- Issue #96: Minimize the number of malleable VIs. Save memory and minimize headaches. Local Client.vi and Remote Client.vi are not longer malleable VIs. Rename to RemoteClient and LocalClient
+      <Release_Notes>**[1.14.0] Release Notes**
 
-beta 7-8:
-- Change handling of logging data
+This is a major release that introduces breaking changes to existing code. These updates aim to enhance uniformity, performance, and usability.
 
-beta 9:
-- Add Instrument.lvlib, updated LockinAPI (Issue #100)
+**Highlights**
+- **Subsystem Packaging**:
+  Core subsystems of the Instrument Framework (e.g., Configuration, RemoteControl, Logger) are now distributed as separate packages.
 
-beta 10:
-- lvlib no bueno for the classes. re-linking hell... try without (keep for enum &lt;&gt; string.vim)
+- **Improved API Uniformity** (Issue #91):
+  - Enhance external language compatibility (e.g., Python) via unified method names.
+  - Instrument interfaces classes introduce uniform "abstract" or "interface" methods (e.g., `Instrument.Cryostat.lvclass`) to enforce standardized command formats and parameter data types for child overrides. These are not enforceable by LabVIEW but hoepfully utilizing them will be easier than before.
+  - `Instrument.LockinAPI.lvclass` is now a fully supported interface class.
+  - `Instrument.Amplifier.lvclass` is a new interface class (#116).
+  - `Instrument.SCPI` provides a standardized mechanism for sending and receiving SCPI commands.
+  - New methods supported by base instrument: `IDN`; `GET` and `SET` methods supported via override (Issue #110).
+  - Improved documentation and HELP functionality (Issue #105).
 
-beta 11:
-- Issue #96 rename LocalClient --&gt; Local Client and RemoteClient --&gt; Remote Client
-- Issue #102: Client.vi is an experimental overridable method with control for Remote/Local client type
-- Issue #103: resurrect Instrument.VSource.lvclass and other changes leftover from ca 12/2023
-- Add experimental HAL.lvclass
-- Issue #105: extended HELP
-- Issue #110: GET and SET
-- Issue #109: IDN
-- Issue #114: HAL (experimental)
-- Issue #116: Amplifier Instrument interface
-- Issue #119/#122 Debug mode now handled through attributes
+**Other Additions and Improvements**
+- **New Features**:
+  - `Instrument.lvlib` introduced for malleable VI organization
+  - `HAL.lvclass` added as an experimental hardware abstraction layer (Issue #114).
+  - `API.lvclass` added as an experimental API abstraction layer
 
-beta 12:
-- Issue #123: update package dependencies
-- Issue #124: convert sendMessageToProcess to polymorphic VI
-</Release_Notes>
+- **Usability Enhancements**:
+  - Debug mode is now attribute-based (Issues #119, #122).
+  - Flatten/unflatten message data methods unified (Issue #92).
+  - `Client.vi` added as a new overridable method to manage remote/local client types (Issue #102).
+  - `sendMessageToProcess` is converted to a polymorphic VI (Issue #124).</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -372,7 +365,7 @@ beta 12:
         <Path>..\lvsrc\Framework\string to enum.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>36BD16BA2B59A01D449A33B38372D9F5</GUID>
+      <GUID>0DD18AB4D2C63E446F65E2271D82D5EB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -533,7 +526,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6F997E8CE021D4F10632A42D01B6269E</GUID>
+      <GUID>B32EABA29F30E1F255C4439443BF4BE8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -694,7 +687,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D1F12660382B98ACC4EAE796BA2BF57A</GUID>
+      <GUID>D6756761F9F4C37E238271F1C89A2D8A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -785,7 +778,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument UI\State History.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>554A87B1B71E8D9139B0689E08BD6DA4</GUID>
+      <GUID>65B24607E32A22AE3EB3400C67BDAED6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1100,7 +1093,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument\API\Read Configuration Class.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>11AD6D29F57037181287CF604885D351</GUID>
+      <GUID>C541E387D52319F66E173B7C6E2E0900</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1205,7 +1198,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument\Deprecated\Read Debug Mode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C35504D3FC6832221AB804C9015DE92A</GUID>
+      <GUID>E8146DAEDB2D78B293387D20A3F20C92</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1296,7 +1289,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\Client.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41153D4607D3C8FC1D50FE0A27ACBFE3</GUID>
+      <GUID>9D5CB499B22221AFA27C0474792732F0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1443,7 +1436,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument\Help\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5FB50BA1C7C20C52F54E33D88F07FA79</GUID>
+      <GUID>868E589AF6F72D2BAA4133A5E9AADCE1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1534,7 +1527,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6308C355709B70629EE28582EDA558C7</GUID>
+      <GUID>E37EBF446570FCF726B99D5D7E07ECD0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1695,7 +1688,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument\Private\Set Dependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5106183E2241DCEC7E893E78A89AEF61</GUID>
+      <GUID>0DAEA307B5298900884E50EA270262CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1926,7 +1919,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument\Protected\Examine Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A40EC8E1CE849FBE7B8FE170BB400906</GUID>
+      <GUID>661EF331C1D2DE1223A7FF337107E745</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1975,7 +1968,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument\Tests\Test JSON config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F589BA13210CD673B9AE25545F5242AC</GUID>
+      <GUID>FD3461F280A256EB721744C91CC93F3E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2094,7 +2087,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\commands\Handle Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E7676FE82EAEE8B120B0D8AFEBE4958</GUID>
+      <GUID>5A0E366DFAA814FDD083DA68888A8809</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2157,7 +2150,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\configuration\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C651D39F2FEE8D3B05578AC00777B81</GUID>
+      <GUID>59A683F04166096B611B302100407F06</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2234,7 +2227,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\hardware\Write Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C2C24272989986AD6FEA431A965F5A9</GUID>
+      <GUID>A13EA0EB538BB491845DB084D4B640AE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2423,7 +2416,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\SMO\Get SMO HELP.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>739808293ACF6FBA26D57B923580F296</GUID>
+      <GUID>F511F469FF549A06B1CAB22961C62371</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2500,7 +2493,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument\Help\private\Minify jsonrpc id.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9604CBCA8FA6C8090E5AC8D1405CB868</GUID>
+      <GUID>FF5ABD534964515E46FA950104793D97</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2577,7 +2570,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\Amplifier\setChannel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>74B67D6EC73DD14EF7F9DC9A61697B4E</GUID>
+      <GUID>9FCB94737286A3FD9604AC48D89023FF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2626,7 +2619,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\CBridge\getCapacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E4DB237144F994BA25C7DF35AC873D3</GUID>
+      <GUID>E7146125268F65967C376E7D677D4ED3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3109,7 +3102,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\Cryostat\waitForTemperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A3B516945B6BAC36C318679BB835C259</GUID>
+      <GUID>9F312A4E48772E535FC6E1FF2B589E43</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3186,7 +3179,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\Delay Line\setDelay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>582A82DAC580BF1EDF1181D526F8BAF1</GUID>
+      <GUID>4A281661A31CD897E2A3EBFA86F2B1B4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3235,7 +3228,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\Private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C63E2084DFB8CFB0F2788400C258F385</GUID>
+      <GUID>BF2289C7E04CC603FB64CA44BD07D05C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3284,7 +3277,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\SCPI\SCPI.Send.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4AD3B6E4E91A4ECEFE7159746A93F6D1</GUID>
+      <GUID>BE0F91DE310E1876171CCC2C01225CB8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3389,7 +3382,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\SignalGenerator\setPower.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1D4531DB3C2F9212C7E760423FDAF291</GUID>
+      <GUID>CC7039992C007546CEBE48C9A9B4BDB4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3466,7 +3459,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\Strain\setStrain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A86EB387B51CC9EB2FDE226BD68A796B</GUID>
+      <GUID>5A14B377F107683ED1184F5EA736FBBB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3571,7 +3564,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\VNA\setSweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F790A056E4AFD7BD26A85B4E0BC5DD4</GUID>
+      <GUID>AEFE2D6295EEE4582D3E2E2FD5479BBA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3606,7 +3599,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\VSource\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51E455A34CA6DD6EF5367CF96F9B8F49</GUID>
+      <GUID>833214F026E405078E9C8C151CAE57B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>21</Parent_Palette_Index>
@@ -3949,7 +3942,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\setSweepTime.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A1D9B4E40D9604BB54B854B586991B5C</GUID>
+      <GUID>A3164765F1A6F059ECAE1952532EDF83</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>21</Parent_Palette_Index>
@@ -3984,7 +3977,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\Private\Retry Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB87492DD1696783E5BEADC160784340</GUID>
+      <GUID>0326C2E25FB0F9B15683BE3C12865A6E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>27</Parent_Palette_Index>
@@ -4075,7 +4068,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\AO\setAO_phi.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>66D118EE0C9BDEDE7A50F9A276EC405B</GUID>
+      <GUID>3B19C1FB5E0E15F927A1AE1C31579181</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>27</Parent_Palette_Index>
@@ -4222,7 +4215,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\Macros\waitStatusSweepingStopped.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A3CEF98BF0CC2AD718E8150EB1028EA7</GUID>
+      <GUID>1F084308666413C3EB1348D9D2914811</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>27</Parent_Palette_Index>
@@ -4299,7 +4292,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\REF\setREF_TC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D1C4C5883A423267F19D6223C9D9562A</GUID>
+      <GUID>076A1DE6E3F34294DB4AA2610B894743</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>27</Parent_Palette_Index>
@@ -4418,7 +4411,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\State\stopSweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>450497022921E9B67EC14DE8D9DF3DDE</GUID>
+      <GUID>C3B14ED39D163D3E23EF912C38BA7F94</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>26</Parent_Palette_Index>
@@ -4495,7 +4488,7 @@ beta 12:
         <Path>..\lvsrc\Framework\Instrument Types\VSource\API\setBiasVoltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E6A63F162FB359DA143F534BAFB8ACF</GUID>
+      <GUID>DD4B7C78CD26CB4D2C30CE1B667D5CC3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
