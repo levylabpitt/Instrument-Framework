@@ -35,6 +35,11 @@
 			<Item Name="Instrument.VSource.lvclass" Type="LVClass" URL="../Instrument Types/VSource/Instrument.VSource.lvclass"/>
 			<Item Name="Cryostat.Test.lvclass" Type="LVClass" URL="../Instrument Types/Test/Cryostat.Test.lvclass"/>
 		</Item>
+		<Item Name="Framework-Template" Type="Folder">
+			<Item Name="Framework-Template.lvproj" Type="Document" URL="../../Framework-Template/Framework-Template.lvproj"/>
+			<Item Name="Instrument UI.Framework-Template.lvclass" Type="LVClass" URL="../../Framework-Template/SMOs/Instrument UI.Framework-Template/Instrument UI.Framework-Template.lvclass"/>
+			<Item Name="Instrument.Framework-Template.lvclass" Type="LVClass" URL="../../Framework-Template/SMOs/Instrument.Framework-Template/Instrument.Framework-Template.lvclass"/>
+		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../Instrument/Instrument.lvclass"/>
 		<Item Name="Instrument UI.lvclass" Type="LVClass" URL="../Instrument UI/Instrument UI.lvclass"/>
 		<Item Name="Instrument.lvlib" Type="Library" URL="../Instrument.lvlib"/>
@@ -383,6 +388,7 @@
 				<Item Name="Set Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Cluster Element by Name__ogtk.vi"/>
 				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
 				<Item Name="Debug.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Configuration/Debug.lvlib"/>
+				<Item Name="Unwrap VVariant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Unwrap VVariant__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>

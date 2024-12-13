@@ -41,11 +41,12 @@
 		<Item Name="Strain.Commands--Enum.ctl" Type="VI" URL="../Typedefs/Strain.Commands--Enum.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!]!!!!!1!U!0%!!!!!!!!!!BF*&lt;H.U=H6N:7ZU,F.U=G&amp;J&lt;CZM&gt;G.M98.T#5.P&lt;H2S&lt;WQA.Q!)!!!!!1!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">5242880</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
 	<Item Name="API" Type="Folder">
@@ -88,6 +89,28 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 			</Item>
+		</Item>
+	</Item>
+	<Item Name="Overrrides" Type="Folder">
+		<Item Name="Get SMO HELP.vi" Type="VI" URL="../Get SMO HELP.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Q!!!!%A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````](9W^N&lt;7&amp;O:!!=1$$`````%W.P&lt;7VB&lt;G1A:'6T9X*J=(2J&lt;WY!&amp;%"4$X*F=86F=X1A9WRV=X2F=A!)!$$`````!#*!1!!#``````````]!#"&amp;S:8&amp;V:8.U)%FO:G^597*M:1!71&amp;-1=G6T='^O=W5A9WRV=X2F=A!!*%"!!!,``````````Q!)%H*F=X"P&lt;H.F)%FO:G^597*M:1!!3Q$R!!!!!!!!!!)-3'6M=#ZM&gt;G.M98.T%5BF&lt;(!N,7.M&gt;8.U:8)O9X2M!#2!5!!'!!5!"A!(!!E!#A!,$'BF&lt;(!A9WRV=X2F=A!!/E"Q!"Y!!"M:37ZT&gt;(*V&lt;76O&gt;#Z4&gt;(*B;7YO&lt;(:D&lt;'&amp;T=Q!637ZT&gt;(*V&lt;76O&gt;#Z4&gt;(*B;7YA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%%!Q`````Q&gt;$&lt;WVN97ZE!$J!=!!?!!!&lt;'5FO=X2S&gt;7VF&lt;H1O5X2S97FO,GRW9WRB=X-!&amp;%FO=X2S&gt;7VF&lt;H1O5X2S97FO)'FO!!"5!0!!$!!$!!1!$!!.!!1!"!!%!!1!$A!%!!]!%!-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!%+!!!!EA!!!!!"!"%!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+		</Item>
+		<Item Name="Get SMO Public API.vi" Type="VI" URL="../Get SMO Public API.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;8!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'5X2S;7ZH!!!71%!!!@````]!"1BD&lt;WVN97ZE=Q!!/E"Q!"Y!!"M:37ZT&gt;(*V&lt;76O&gt;#Z4&gt;(*B;7YO&lt;(:D&lt;'&amp;T=Q!637ZT&gt;(*V&lt;76O&gt;#Z4&gt;(*B;7YA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/E"Q!"Y!!"M:37ZT&gt;(*V&lt;76O&gt;#Z4&gt;(*B;7YO&lt;(:D&lt;'&amp;T=Q!537ZT&gt;(*V&lt;76O&gt;#Z4&gt;(*B;7YA;7Y!!&amp;1!]!!-!!-!"!!'!!=!"!!%!!1!"!!)!!1!"!!*!Q!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>
 </LVClass>
