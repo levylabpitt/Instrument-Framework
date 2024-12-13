@@ -10,5 +10,4 @@
 </Property>
 	<Item Name="enum to string.vim" Type="VI" URL="../enum to string.vim"/>
 	<Item Name="string to enum.vim" Type="VI" URL="../string to enum.vim"/>
-	<Item Name="Test enum to string.vi" Type="VI" URL="../Test enum to string.vi"/>
 </Library>
