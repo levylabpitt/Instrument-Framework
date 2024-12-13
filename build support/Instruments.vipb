@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2024-12-09 11:23:01" Creator="Patrick" Comments="" ID="a571224bff41c3c3dc454e48cd981eb3">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2024-12-13 14:55:29" Creator="Patrick" Comments="" ID="64e504e6bdcc27b1851b3829d6cdb06d">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.14.0.14</Library_Version>
+    <Library_Version>1.14.1.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\Framework</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -100,34 +100,17 @@ An Instrument developed using this framework will have the access to the followi
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>**[1.14.0] Release Notes**
+      <Release_Notes>[1.14.1]
+Major Changes:
+- Issue #96: Malleaable VIs Remote Control.vim, Set Config.vim, Get All.vim, and getAll.vim are removed from the package
 
-This is a major release that introduces breaking changes to existing code. These updates aim to enhance uniformity, performance, and usability.
-
-**Highlights**
-- **Subsystem Packaging**:
-  Core subsystems of the Instrument Framework (e.g., Configuration, RemoteControl, Logger) are now distributed as separate packages.
-
-- **Improved API Uniformity** (Issue #91):
-  - Enhance external language compatibility (e.g., Python) via unified method names.
-  - Instrument interfaces classes introduce uniform "abstract" or "interface" methods (e.g., `Instrument.Cryostat.lvclass`) to enforce standardized command formats and parameter data types for child overrides. These are not enforceable by LabVIEW but hoepfully utilizing them will be easier than before.
-  - `Instrument.LockinAPI.lvclass` is now a fully supported interface class.
-  - `Instrument.Amplifier.lvclass` is a new interface class (#116).
-  - `Instrument.SCPI` provides a standardized mechanism for sending and receiving SCPI commands.
-  - New methods supported by base instrument: `IDN`; `GET` and `SET` methods supported via override (Issue #110).
-  - Improved documentation and HELP functionality (Issue #105).
-
-**Other Additions and Improvements**
-- **New Features**:
-  - `Instrument.lvlib` introduced for malleable VI organization
-  - `HAL.lvclass` added as an experimental hardware abstraction layer (Issue #114).
-  - `API.lvclass` added as an experimental API abstraction layer
-
-- **Usability Enhancements**:
-  - Debug mode is now attribute-based (Issues #119, #122).
-  - Flatten/unflatten message data methods unified (Issue #92).
-  - `Client.vi` added as a new overridable method to manage remote/local client types (Issue #102).
-  - `sendMessageToProcess` is converted to a polymorphic VI (Issue #124).</Release_Notes>
+Other Issues:
+- #128: define Help objects in Instrument.Strain
+- #129: Instrument.Strain commands moved to private scope
+- #130: Instrument method enums moved to private scope. Call protected methods setConfiguration.vi, etc, instead
+- #131: "* (This Level).vi" and related calls have been removed. Return your own public API list inside a non-dynamic dispatch VI, if you wish
+- #133: Enum to String.vi more robust when supplied command as a variant
+- #134: Change Help design pattern following #131 changes</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -365,7 +348,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\string to enum.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0DD18AB4D2C63E446F65E2271D82D5EB</GUID>
+      <GUID>30E0E4F544EB46867B82DAC9E2BF8CD2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -526,7 +509,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B32EABA29F30E1F255C4439443BF4BE8</GUID>
+      <GUID>8AE2F5F17E5850DF3DF07B65D452F721</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -687,7 +670,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D6756761F9F4C37E238271F1C89A2D8A</GUID>
+      <GUID>EF42B7CCEB8FA7972444ED108CE19398</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -778,7 +761,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument UI\State History.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>65B24607E32A22AE3EB3400C67BDAED6</GUID>
+      <GUID>DDC902ACB0C553078C865CA72667D350</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -928,62 +911,6 @@ This is a major release that introduces breaking changes to existing code. These
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>getAll.vim</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>7</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\API\getAll.vim</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>getAll.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>7</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\API\getAll.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get All.vim</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>7</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\API\Get All.vim</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Instrument.GetPublicEvents.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>7</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\API\Instrument.GetPublicEvents.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Read SMO Address.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1093,7 +1020,21 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument\API\Read Configuration Class.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C541E387D52319F66E173B7C6E2E0900</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>getAll.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>7</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\Framework\Instrument\API\getAll.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>257571C0996C3EEE4852B227285EA63E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1101,7 +1042,7 @@ This is a major release that introduces breaking changes to existing code. These
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>1</Height_Row>
-        <Width_Col.>6</Width_Col.>
+        <Width_Col.>4</Width_Col.>
       </Size>
       <_256_Color_Icon>00000519002900000012000000020000000D00FFFFFF000100000000000A00000008000000000020002000280000029500000261000000020007001F00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000007C0000027A4CC89B7AEA9D2A7A8C912A7C688C99700000007002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</_256_Color_Icon>
       <BW_Color_Icon>00000000</BW_Color_Icon>
@@ -1170,35 +1111,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument\Deprecated\Instrument.MessageToProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Remote Client.vim</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Deprecated\Remote Client.vim</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Debug Mode.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Deprecated\Read Debug Mode.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>E8146DAEDB2D78B293387D20A3F20C92</GUID>
+      <GUID>569FCBEFAEA140E7445C9257D15CC5D9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1289,7 +1202,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\Client.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D5CB499B22221AFA27C0474792732F0</GUID>
+      <GUID>3C012FC90DB8D083F0484F33B5ACDAE0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1436,7 +1349,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument\Help\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>868E589AF6F72D2BAA4133A5E9AADCE1</GUID>
+      <GUID>222179DED9A350A629596B76BE32F8B4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1527,7 +1440,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E37EBF446570FCF726B99D5D7E07ECD0</GUID>
+      <GUID>24C0A982AEA02CA65A372D907B60AA1B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1688,7 +1601,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument\Private\Set Dependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0DAEA307B5298900884E50EA270262CE</GUID>
+      <GUID>36FDF888EB857B2260626DA5B2574312</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1696,7 +1609,7 @@ This is a major release that introduces breaking changes to existing code. These
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>3</Height_Row>
-        <Width_Col.>7</Width_Col.>
+        <Width_Col.>9</Width_Col.>
       </Size>
       <_256_Color_Icon>00000543002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000002BF0000028B000000010007002000180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000000000000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000001C0100403AC991647C953A4EB8952248B8889926700000001002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</_256_Color_Icon>
       <BW_Color_Icon>00000000</BW_Color_Icon>
@@ -1754,29 +1667,29 @@ This is a major release that introduces breaking changes to existing code. These
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Handle IDN.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>setConfiguration.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>2</Column>
+          <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Protected\Handle IDN.vi</Path>
+        <Path>..\lvsrc\Framework\Instrument\Protected\setConfiguration.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write IDN.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>State History.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
-          <Column>1</Column>
+          <Row>3</Row>
+          <Column>9</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Protected\Write IDN.vi</Path>
+        <Path>..\lvsrc\Framework\Instrument\Protected\State History.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1796,12 +1709,26 @@ This is a major release that introduces breaking changes to existing code. These
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>setAllData.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\Framework\Instrument\Protected\setAllData.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Initialize Configuration.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
-          <Column>5</Column>
+          <Row>3</Row>
+          <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\Framework\Instrument\Protected\Initialize Configuration.vi</Path>
@@ -1810,43 +1737,29 @@ This is a major release that introduces breaking changes to existing code. These
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>setConfiguration.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Protected\setConfiguration.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Set Config.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Initialize IDN.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>3</Row>
-          <Column>5</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Protected\Set Config.vim</Path>
+        <Path>..\lvsrc\Framework\Instrument\Protected\Initialize IDN.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write Configuration Path.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>setIDN.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
+          <Row>2</Row>
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Protected\Write Configuration Path.vi</Path>
+        <Path>..\lvsrc\Framework\Instrument\Protected\setIDN.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1857,7 +1770,7 @@ This is a major release that introduces breaking changes to existing code. These
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>7</Column>
+          <Column>9</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\Framework\Instrument\Protected\Wait Logic.vi</Path>
@@ -1866,35 +1779,7 @@ This is a major release that introduces breaking changes to existing code. These
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Validate API Method (This Level).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Protected\Validate API Method (This Level).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Validate API method.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Protected\Validate API method.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>State History.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Write Configuration Path.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1902,7 +1787,7 @@ This is a major release that introduces breaking changes to existing code. These
           <Column>7</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Protected\State History.vi</Path>
+        <Path>..\lvsrc\Framework\Instrument\Protected\Write Configuration Path.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1913,13 +1798,41 @@ This is a major release that introduces breaking changes to existing code. These
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>3</Row>
-          <Column>4</Column>
+          <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\Framework\Instrument\Protected\Examine Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>661EF331C1D2DE1223A7FF337107E745</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Validate API method.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\Framework\Instrument\Protected\Validate API method.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Instrument.Public API.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\Framework\Instrument\Protected\Instrument.Public API.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>8E1139256304ED065AF9A85685B7BDA4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1968,7 +1881,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument\Tests\Test JSON config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FD3461F280A256EB721744C91CC93F3E</GUID>
+      <GUID>79D83CAD8092BA94D0DCCCA525B06083</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2087,7 +2000,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\commands\Handle Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5A0E366DFAA814FDD083DA68888A8809</GUID>
+      <GUID>428BC03B746007E77BC059DBBA83970A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2150,7 +2063,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\configuration\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>59A683F04166096B611B302100407F06</GUID>
+      <GUID>464608D0835A55F0A84B06C7D177C8C8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2227,7 +2140,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\hardware\Write Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A13EA0EB538BB491845DB084D4B640AE</GUID>
+      <GUID>EF1A9E80C0774B4F952A0C67CD1CD5E7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2335,34 +2248,6 @@ This is a major release that introduces breaking changes to existing code. These
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get SMO Public API (This Level).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Framework (for override)\SMO\Get SMO Public API (This Level).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get SMO RC Type.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Framework (for override)\SMO\Get SMO RC Type.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Get SMO API Type.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -2416,7 +2301,21 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\SMO\Get SMO HELP.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F511F469FF549A06B1CAB22961C62371</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get SMO RC Type.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\lvsrc\Framework\Instrument\Framework (for override)\SMO\Get SMO RC Type.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>D7F71BFB3A708FB7E9D98D899B297F10</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2493,7 +2392,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument\Help\private\Minify jsonrpc id.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FF5ABD534964515E46FA950104793D97</GUID>
+      <GUID>2684A2691E19DB6327689A1730D4E764</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2570,7 +2469,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\Amplifier\setChannel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9FCB94737286A3FD9604AC48D89023FF</GUID>
+      <GUID>209201BFCC04F56A1271074C45EBDBE9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2619,7 +2518,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\CBridge\getCapacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E7146125268F65967C376E7D677D4ED3</GUID>
+      <GUID>F40FCA50F7C00A1C20158B9D2BAE2593</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3102,7 +3001,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\Cryostat\waitForTemperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9F312A4E48772E535FC6E1FF2B589E43</GUID>
+      <GUID>3D9F158086D741D7F0E39A4F44E93AB7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3179,7 +3078,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\Delay Line\setDelay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A281661A31CD897E2A3EBFA86F2B1B4</GUID>
+      <GUID>8D55378EA32DFEFCB1241F2A7639BB2B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3228,7 +3127,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\Private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BF2289C7E04CC603FB64CA44BD07D05C</GUID>
+      <GUID>4830320F4F265EC9CCF05AFE2D03C247</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3277,7 +3176,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\SCPI\SCPI.Send.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BE0F91DE310E1876171CCC2C01225CB8</GUID>
+      <GUID>1301B4F00C8B1C4CBB34ED35EFA7CE23</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3382,7 +3281,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\SignalGenerator\setPower.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC7039992C007546CEBE48C9A9B4BDB4</GUID>
+      <GUID>8C29E0EC4DD009894DDF6F68731D4E20</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3459,7 +3358,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\Strain\setStrain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5A14B377F107683ED1184F5EA736FBBB</GUID>
+      <GUID>1E8450B78BE28F27EEAA2EAD42F77B7B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3564,7 +3463,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\VNA\setSweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AEFE2D6295EEE4582D3E2E2FD5479BBA</GUID>
+      <GUID>999B447F60E28C48DB78E943739C7A2A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3599,7 +3498,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\VSource\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>833214F026E405078E9C8C151CAE57B5</GUID>
+      <GUID>C1111ADFE47599823D6E69F07AC32D8B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>21</Parent_Palette_Index>
@@ -3942,7 +3841,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\setSweepTime.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A3164765F1A6F059ECAE1952532EDF83</GUID>
+      <GUID>2760901FBC788996CED21629DA288A26</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>21</Parent_Palette_Index>
@@ -3977,7 +3876,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\Private\Retry Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0326C2E25FB0F9B15683BE3C12865A6E</GUID>
+      <GUID>63F268BB4CF029F94FB96134C653F751</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>27</Parent_Palette_Index>
@@ -4068,7 +3967,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\AO\setAO_phi.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3B19C1FB5E0E15F927A1AE1C31579181</GUID>
+      <GUID>91F7399A8A9F5171479C279D96C0C21E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>27</Parent_Palette_Index>
@@ -4215,7 +4114,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\Macros\waitStatusSweepingStopped.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F084308666413C3EB1348D9D2914811</GUID>
+      <GUID>D5BDF7EAD5FF0AFB79EADFC7DA6998C4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>27</Parent_Palette_Index>
@@ -4292,7 +4191,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\REF\setREF_TC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>076A1DE6E3F34294DB4AA2610B894743</GUID>
+      <GUID>BE2AB641D3EA453DD3CABA059246C3D2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>27</Parent_Palette_Index>
@@ -4411,7 +4310,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\State\stopSweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C3B14ED39D163D3E23EF912C38BA7F94</GUID>
+      <GUID>67BB1DDACB9AE137CF8D3EC7DA902190</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>26</Parent_Palette_Index>
@@ -4488,7 +4387,7 @@ This is a major release that introduces breaking changes to existing code. These
         <Path>..\lvsrc\Framework\Instrument Types\VSource\API\setBiasVoltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DD4B7C78CD26CB4D2C30CE1B667D5CC3</GUID>
+      <GUID>86D7DC9D01DED331D3EA8C9475EBDF2B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
