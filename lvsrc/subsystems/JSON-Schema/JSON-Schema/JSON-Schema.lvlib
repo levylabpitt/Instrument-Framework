@@ -14,13 +14,14 @@
 	<Item Name="API" Type="Folder">
 		<Item Name="Initialize JSON Schema.vi" Type="VI" URL="../Initialize JSON Schema.vi"/>
 		<Item Name="Choose JSON Schema Dialect.vi" Type="VI" URL="../Choose JSON Schema Dialect.vi"/>
-		<Item Name="Read Control (by Reference).vi" Type="VI" URL="../Read Control (by Reference).vi"/>
+		<Item Name="Read Control Description.vi" Type="VI" URL="../Read Control Description.vi"/>
+		<Item Name="Read Control Description (by Reference).vi" Type="VI" URL="../Read Control Description (by Reference).vi"/>
+		<Item Name="Write Control Description.vi" Type="VI" URL="../Write Control Description.vi"/>
 		<Item Name="Write Control Description (by Reference).vi" Type="VI" URL="../Write Control Description (by Reference).vi"/>
 		<Item Name="Add Object to JSON Schema.vi" Type="VI" URL="../Add Object to JSON Schema.vi"/>
 		<Item Name="JSON Schema Pretty Print.vi" Type="VI" URL="../JSON Schema Pretty Print.vi"/>
 		<Item Name="JSON Schema to Table.vi" Type="VI" URL="../JSON Schema to Table.vi"/>
 		<Item Name="Table to JSON Schema.vi" Type="VI" URL="../Table to JSON Schema.vi"/>
-		<Item Name="Read Control Description.vi" Type="VI" URL="../Read Control Description.vi"/>
 	</Item>
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -38,5 +39,6 @@
 	<Item Name="tests" Type="Folder">
 		<Item Name="TEST-JSON-Schema.lvlib" Type="Library" URL="../../TEST-JSON-Schema/TEST-JSON-Schema.lvlib"/>
 	</Item>
-	<Item Name="Create JSON Schema Interactive.vi" Type="VI" URL="../Create JSON Schema Interactive.vi"/>
+	<Item Name="Create JSON Schema (Interactive).vi" Type="VI" URL="../Create JSON Schema (Interactive).vi"/>
+	<Item Name="Create JSON Schema.vi" Type="VI" URL="../Create JSON Schema.vi"/>
 </Library>
