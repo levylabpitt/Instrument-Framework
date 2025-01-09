@@ -47,7 +47,6 @@
 		<Item Name="HAL.Serial.lvclass" Type="LVClass" URL="../../subsystems/HAL.Serial/HAL.Serial.lvclass"/>
 		<Item Name="HAL.TCP.lvclass" Type="LVClass" URL="../../subsystems/HAL.TCP/HAL.TCP.lvclass"/>
 		<Item Name="Help.lvclass" Type="LVClass" URL="../Instrument/Help/Help.lvclass"/>
-		<Item Name="JSON-Schema.lvlib" Type="Library" URL="../../subsystems/JSON-Schema/JSON-Schema/JSON-Schema.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -718,6 +717,7 @@
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="JSON-Schema.lvlib" Type="Library" URL="../../subsystems/JSON-Schema/JSON-Schema/JSON-Schema.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
