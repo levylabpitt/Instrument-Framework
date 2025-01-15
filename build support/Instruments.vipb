@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2024-12-13 14:55:29" Creator="Patrick" Comments="" ID="64e504e6bdcc27b1851b3829d6cdb06d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2025-01-10 16:55:29" Creator="Patrick" Comments="" ID="5ca07e6d8ebeb17c06a7d09a7c21012e">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.14.1.15</Library_Version>
+    <Library_Version>1.14.2.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\Framework</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,6 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <External_Dependencies>ciozi137_lib_json_schema &gt;= 0.1.0.4</External_Dependencies>
       <External_Dependencies>jdp_science_jsontext &gt;= 1.9.0.124</External_Dependencies>
       <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.1.18</External_Dependencies>
       <External_Dependencies>jdp_science_postgresql &gt;= 0.6.2.48</External_Dependencies>
@@ -28,6 +29,7 @@
       <External_Dependencies>levylab_lib_control_vi &gt;= 1.3.0.11</External_Dependencies>
       <External_Dependencies>levylab_lib_fileutilities &gt;= 1.2.6.13</External_Dependencies>
       <External_Dependencies>levylab_lib_graph_utilities &gt;= 2.1.10.3</External_Dependencies>
+      <External_Dependencies>levylab_lib_json_rpc &gt;= 1.2.2.10</External_Dependencies>
       <External_Dependencies>levylab_lib_lvtdatpgsql &gt;= 3.9.1.6</External_Dependencies>
       <External_Dependencies>levylab_lib_lvtoitx &gt;= 3.9.1.6</External_Dependencies>
       <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.5.4.1</External_Dependencies>
@@ -47,6 +49,7 @@
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
       <External_Dependencies>oglib_variantconfig &gt;= 4.0.0.5</External_Dependencies>
       <Package_Conflicts>levylab_lib_postgresql &gt;=1.4.0.22</Package_Conflicts>
+      <Direct_Dependencies>ciozi137_lib_json_schema-0.1.0.4</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_jsontext-1.9.0.124</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.1.18</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_postgresql-0.6.2.48</Direct_Dependencies>
@@ -58,6 +61,7 @@
       <Direct_Dependencies>levylab_lib_control_vi-1.3.0.11</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_fileutilities-1.2.6.13</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_graph_utilities-2.1.10.3</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_json_rpc-1.2.2.10</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_lvtdatpgsql-3.9.1.6</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_lvtoitx-3.9.1.6</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_xy_utilities-1.5.4.1</Direct_Dependencies>
@@ -100,17 +104,8 @@ An Instrument developed using this framework will have the access to the followi
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.14.1]
-Major Changes:
-- Issue #96: Malleaable VIs Remote Control.vim, Set Config.vim, Get All.vim, and getAll.vim are removed from the package
-
-Other Issues:
-- #128: define Help objects in Instrument.Strain
-- #129: Instrument.Strain commands moved to private scope
-- #130: Instrument method enums moved to private scope. Call protected methods setConfiguration.vi, etc, instead
-- #131: "* (This Level).vi" and related calls have been removed. Return your own public API list inside a non-dynamic dispatch VI, if you wish
-- #133: Enum to String.vi more robust when supplied command as a variant
-- #134: Change Help design pattern following #131 changes</Release_Notes>
+      <Release_Notes>[1.14.2]
+- Issue #105 and #135: modified HELP documentation (using JSON-Schema)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -348,7 +343,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\string to enum.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>30E0E4F544EB46867B82DAC9E2BF8CD2</GUID>
+      <GUID>E0E25728E09B08FFADBA394C6892685E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -441,20 +436,6 @@ Other Issues:
       </Items_Data>
       <Items_Data>
         <Type>Sub Palette</Type>
-        <Sub_Palette_Index>9</Sub_Palette_Index>
-        <NameSub_Menu_Name>Private</NameSub_Menu_Name>
-        <Short_Name>Private</Short_Name>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>0000049B002900000012000000020000000D00FFFFFF000100000000000A000000080000000000200020002800000217000001E3000000050007001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000000000000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000001FFC10041FFAC5365FFC9554FFF895549FF892327FF000001FF002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Private</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Sub Palette</Type>
         <Sub_Palette_Index>11</Sub_Palette_Index>
         <NameSub_Menu_Name>Tests</NameSub_Menu_Name>
         <Short_Name>Tests</Short_Name>
@@ -509,7 +490,21 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8AE2F5F17E5850DF3DF07B65D452F721</GUID>
+      <Items_Data>
+        <Type>Sub Palette</Type>
+        <Sub_Palette_Index>9</Sub_Palette_Index>
+        <NameSub_Menu_Name>Private</NameSub_Menu_Name>
+        <Short_Name>Private</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>0000049B002900000012000000020000000D00FFFFFF000100000000000A000000080000000000200020002800000217000001E3000000050007001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000000000000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000001FFC10041FFAC5365FFC9554FFF895549FF892327FF000001FF002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</Icon>
+        <Path>..\lvsrc\Framework\Instrument\Private</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>4CE3A17EAD9B114B296CE182D646E33B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -670,7 +665,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF42B7CCEB8FA7972444ED108CE19398</GUID>
+      <GUID>AA0ED7F85C7990ACCEA1CF369470F0D2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -761,7 +756,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument UI\State History.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DDC902ACB0C553078C865CA72667D350</GUID>
+      <GUID>42E16B41873F9A89869AF3450AA43ABD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1034,7 +1029,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument\API\getAll.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>257571C0996C3EEE4852B227285EA63E</GUID>
+      <GUID>76073BC8A1F915DF462EEDC00383ED92</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1111,7 +1106,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument\Deprecated\Instrument.MessageToProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>569FCBEFAEA140E7445C9257D15CC5D9</GUID>
+      <GUID>DD8ECDC9A05AE3650010A9F2C4C2E657</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1202,7 +1197,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\Client.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3C012FC90DB8D083F0484F33B5ACDAE0</GUID>
+      <GUID>3054DF4AAEC25AEF662D8D209C82954A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1223,48 +1218,6 @@ Other Issues:
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>Instrument\Help</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write command.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Help\API\Write command.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write Request.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Help\API\Write Request.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write Response.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Help\API\Write Response.vi</Path>
-        <VI_Title/>
-      </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
@@ -1322,20 +1275,6 @@ Other Issues:
         <VI_Title/>
       </Items_Data>
       <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>InfoTable to JSON.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\lvsrc\Framework\Instrument\Help\API\InfoTable to JSON.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
         <Type>Sub Palette</Type>
         <Sub_Palette_Index>16</Sub_Palette_Index>
         <NameSub_Menu_Name>private</NameSub_Menu_Name>
@@ -1349,7 +1288,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument\Help\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>222179DED9A350A629596B76BE32F8B4</GUID>
+      <GUID>BAF0CBF9B16E35FE435A1C36EEC8E8CA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1440,7 +1379,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24C0A982AEA02CA65A372D907B60AA1B</GUID>
+      <GUID>474B971775067816F262F2C82193148A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1601,7 +1540,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument\Private\Set Dependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>36FDF888EB857B2260626DA5B2574312</GUID>
+      <GUID>475D42D80CE3CF0EE0DDD36FCCEEE24A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1832,7 +1771,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument\Protected\Instrument.Public API.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8E1139256304ED065AF9A85685B7BDA4</GUID>
+      <GUID>DC3F01509F685929936457F32F0DDA74</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1881,7 +1820,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument\Tests\Test JSON config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>79D83CAD8092BA94D0DCCCA525B06083</GUID>
+      <GUID>01406901AA72CB3039489AC91F308B7A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2000,7 +1939,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\commands\Handle Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>428BC03B746007E77BC059DBBA83970A</GUID>
+      <GUID>C76886311E2533D7B230E83F6D03F18E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2063,7 +2002,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\configuration\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>464608D0835A55F0A84B06C7D177C8C8</GUID>
+      <GUID>4504A6E44AABFF2A642719E1DF6DED20</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2140,7 +2079,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\hardware\Write Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF1A9E80C0774B4F952A0C67CD1CD5E7</GUID>
+      <GUID>1FC6F161729D237DBEBB79DBFC0E68DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2315,7 +2254,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\SMO\Get SMO RC Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D7F71BFB3A708FB7E9D98D899B297F10</GUID>
+      <GUID>0686D084F7E73C9B283D9B97E3D9AAD2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -2392,7 +2331,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument\Help\private\Minify jsonrpc id.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2684A2691E19DB6327689A1730D4E764</GUID>
+      <GUID>242D940D7CB1526990B5F02922043F4B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2469,7 +2408,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\Amplifier\setChannel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>209201BFCC04F56A1271074C45EBDBE9</GUID>
+      <GUID>52C622085BB6C609B0D41F84F3C9BB71</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2498,7 +2437,7 @@ Other Issues:
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>1</Column>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\Framework\Instrument Types\CBridge\Get Capacitance.vi</Path>
@@ -2512,13 +2451,13 @@ Other Issues:
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>2</Column>
+          <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\lvsrc\Framework\Instrument Types\CBridge\getCapacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F40FCA50F7C00A1C20158B9D2BAE2593</GUID>
+      <GUID>22490A993289CD24E17194CC681C77F8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3001,7 +2940,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\Cryostat\waitForTemperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3D9F158086D741D7F0E39A4F44E93AB7</GUID>
+      <GUID>8A1D9EC8FCF8262399FD8B9CC23448D8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3078,7 +3017,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\Delay Line\setDelay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8D55378EA32DFEFCB1241F2A7639BB2B</GUID>
+      <GUID>71655E9D6E6C3526C39C9827CDC9D0F5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3127,7 +3066,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\Private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4830320F4F265EC9CCF05AFE2D03C247</GUID>
+      <GUID>2AB99ED87AEDD4ED7C866C81C6BF5077</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3176,7 +3115,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\SCPI\SCPI.Send.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1301B4F00C8B1C4CBB34ED35EFA7CE23</GUID>
+      <GUID>91EAF73FB4DB404F486BEE4715879DD9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3281,7 +3220,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\SignalGenerator\setPower.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8C29E0EC4DD009894DDF6F68731D4E20</GUID>
+      <GUID>2E33950F351DC2B1AB941FDD4A618043</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3358,7 +3297,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\Strain\setStrain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E8450B78BE28F27EEAA2EAD42F77B7B</GUID>
+      <GUID>50BAF46FDC867BAEE6AC53600FDECC9C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3463,7 +3402,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\VNA\setSweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>999B447F60E28C48DB78E943739C7A2A</GUID>
+      <GUID>366CD994C8FA87AAC6034076871367B2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -3498,7 +3437,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\VSource\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1111ADFE47599823D6E69F07AC32D8B</GUID>
+      <GUID>743A2ED1636E402FFE0BB7E440D000A2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>21</Parent_Palette_Index>
@@ -3841,7 +3780,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\setSweepTime.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2760901FBC788996CED21629DA288A26</GUID>
+      <GUID>28EC92D2CBBEAB542C0C412165E9763B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>21</Parent_Palette_Index>
@@ -3876,7 +3815,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\Private\Retry Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>63F268BB4CF029F94FB96134C653F751</GUID>
+      <GUID>97BFC2E3AC44CE494AC542CFFAC238AB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>27</Parent_Palette_Index>
@@ -3967,7 +3906,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\AO\setAO_phi.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>91F7399A8A9F5171479C279D96C0C21E</GUID>
+      <GUID>586026820813301DB9147C42C7CE3179</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>27</Parent_Palette_Index>
@@ -4114,7 +4053,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\Macros\waitStatusSweepingStopped.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D5BDF7EAD5FF0AFB79EADFC7DA6998C4</GUID>
+      <GUID>471BFD770090DB06FCAA648FFD9473E3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>27</Parent_Palette_Index>
@@ -4191,7 +4130,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\REF\setREF_TC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BE2AB641D3EA453DD3CABA059246C3D2</GUID>
+      <GUID>51746DBF695B404579E3551EB369FEA7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>27</Parent_Palette_Index>
@@ -4310,7 +4249,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\Lockin\API\State\stopSweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>67BB1DDACB9AE137CF8D3EC7DA902190</GUID>
+      <GUID>382676DD1658B3592F5C496CCEBA1767</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>26</Parent_Palette_Index>
@@ -4387,7 +4326,7 @@ Other Issues:
         <Path>..\lvsrc\Framework\Instrument Types\VSource\API\setBiasVoltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>86D7DC9D01DED331D3EA8C9475EBDF2B</GUID>
+      <GUID>34B8D16F9CCF5F8D712E401C05D246C7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
