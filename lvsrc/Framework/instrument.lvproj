@@ -22,7 +22,7 @@
 			<Item Name="Pre-Install Custom Action.vi" Type="VI" URL="../../../build support/Pre-Install Custom Action.vi"/>
 		</Item>
 		<Item Name="Interfaces" Type="Folder">
-			<Item Name="API.lvclass" Type="LVClass" URL="../../subsystems/API/API.lvclass"/>
+			<Item Name="API.lvclass" Type="LVClass" URL="../subsystems/API/API.lvclass"/>
 			<Item Name="Instrument.Amplifier.lvclass" Type="LVClass" URL="../Instrument Types/Amplifier/Instrument.Amplifier.lvclass"/>
 			<Item Name="Instrument.CBridge.lvclass" Type="LVClass" URL="../Instrument Types/CBridge/Instrument.CBridge.lvclass"/>
 			<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="../Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
@@ -40,13 +40,7 @@
 			<Item Name="Instrument UI.Framework-Template.lvclass" Type="LVClass" URL="../../Framework-Template/SMOs/Instrument UI.Framework-Template/Instrument UI.Framework-Template.lvclass"/>
 			<Item Name="Instrument.Framework-Template.lvclass" Type="LVClass" URL="../../Framework-Template/SMOs/Instrument.Framework-Template/Instrument.Framework-Template.lvclass"/>
 		</Item>
-		<Item Name="Instrument.lvclass" Type="LVClass" URL="../Instrument/Instrument.lvclass"/>
-		<Item Name="Instrument UI.lvclass" Type="LVClass" URL="../Instrument UI/Instrument UI.lvclass"/>
 		<Item Name="Instrument.lvlib" Type="Library" URL="../Instrument.lvlib"/>
-		<Item Name="HAL.lvclass" Type="LVClass" URL="../../subsystems/HAL/HAL.lvclass"/>
-		<Item Name="HAL.Serial.lvclass" Type="LVClass" URL="../../subsystems/HAL.Serial/HAL.Serial.lvclass"/>
-		<Item Name="HAL.TCP.lvclass" Type="LVClass" URL="../../subsystems/HAL.TCP/HAL.TCP.lvclass"/>
-		<Item Name="Help.lvclass" Type="LVClass" URL="../Instrument/Help/Help.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -388,6 +382,7 @@
 				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
 				<Item Name="Debug.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Configuration/Debug.lvlib"/>
 				<Item Name="Unwrap VVariant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Unwrap VVariant__ogtk.vi"/>
+				<Item Name="JSON to LVtype.vim" Type="VI" URL="/&lt;userlib&gt;/LevyLab/JSON-RPC/API/JSON to LVtype.vim"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
