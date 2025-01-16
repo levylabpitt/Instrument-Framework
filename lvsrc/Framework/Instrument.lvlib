@@ -10,4 +10,10 @@
 </Property>
 	<Item Name="enum to string.vim" Type="VI" URL="../enum to string.vim"/>
 	<Item Name="string to enum.vim" Type="VI" URL="../string to enum.vim"/>
+	<Item Name="Instrument.lvclass" Type="LVClass" URL="../Instrument/Instrument.lvclass"/>
+	<Item Name="Instrument UI.lvclass" Type="LVClass" URL="../Instrument UI/Instrument UI.lvclass"/>
+	<Item Name="HAL.lvclass" Type="LVClass" URL="../subsystems/HAL/HAL.lvclass"/>
+	<Item Name="HAL.Serial.lvclass" Type="LVClass" URL="../subsystems/HAL.Serial/HAL.Serial.lvclass"/>
+	<Item Name="HAL.TCP.lvclass" Type="LVClass" URL="../subsystems/HAL.TCP/HAL.TCP.lvclass"/>
+	<Item Name="Help.lvclass" Type="LVClass" URL="../subsystems/Help/Help.lvclass"/>
 </Library>
