@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 08:35:30" Modified_Date="2024-11-27 14:56:02" Creator="Patrick Irvin" Comments="" ID="a5275933263e1d5966844a118b3751a9">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 08:35:30" Modified_Date="2025-01-17 15:28:34" Creator="Patrick Irvin" Comments="" ID="d21c96751cf1e138a2c79eaa8c89deb4">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_remote_control</Package_File_Name>
-    <Library_Version>1.2.0.8</Library_Version>
+    <Library_Version>1.2.1.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\subsystems\RemoteControl</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,17 +17,27 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <External_Dependencies>jdp_science_jsontext &gt;= 1.9.0.124</External_Dependencies>
+      <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.1.18</External_Dependencies>
+      <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
+      <External_Dependencies>jki_statemachineobjects &gt;= 1.4.0.69</External_Dependencies>
+      <External_Dependencies>national_instruments_lib_guid_generator &gt;= 1.0.2.3</External_Dependencies>
+      <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
       <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
-      <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
       <External_Dependencies>oglib_lvdata &gt;= 5.0.0.27</External_Dependencies>
       <External_Dependencies>oglib_string &gt;= 5.0.0.25</External_Dependencies>
-      <External_Dependencies>oglib_variantconfig &gt;= 4.0.0.5</External_Dependencies>
+      <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
       <Additional_External_Dependencies>levylab_lib_build_support &gt;=1.2.5.1</Additional_External_Dependencies>
+      <Direct_Dependencies>jdp_science_jsontext-1.9.0.124</Direct_Dependencies>
+      <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.1.18</Direct_Dependencies>
+      <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
+      <Direct_Dependencies>jki_statemachineobjects-1.4.0.69</Direct_Dependencies>
+      <Direct_Dependencies>national_instruments_lib_guid_generator-1.0.2.3</Direct_Dependencies>
+      <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
       <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
-      <Direct_Dependencies>oglib_file-4.0.1.22</Direct_Dependencies>
       <Direct_Dependencies>oglib_lvdata-5.0.0.27</Direct_Dependencies>
       <Direct_Dependencies>oglib_string-5.0.0.25</Direct_Dependencies>
-      <Direct_Dependencies>oglib_variantconfig-4.0.0.5</Direct_Dependencies>
+      <Direct_Dependencies>oglib_time-4.0.1.3</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -44,8 +54,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.2.0]
-- Issue #120 use debug attribute</Release_Notes>
+      <Release_Notes>[1.2.1]
+- Updated dependencies</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -294,7 +304,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F636EA8911E8F91A4A97411D984877C4</GUID>
+      <GUID>75F57F501255FB060C31DEFD00704ADD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -455,7 +465,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl\Methods (Framework)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1B07007246C2796E94F35E6FFA01848F</GUID>
+      <GUID>3AE93FBD68F2BDA7063FE2B58015BB72</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -532,7 +542,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl\Methods (Overrides)\DestroyPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC3488EDAFEF498171163183C9662594</GUID>
+      <GUID>331322AFB17F7CE8C6A336552A215A31</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -693,7 +703,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl\Private\VirtualTestInstrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>609294FCBF21BCC0B84383C8469515A2</GUID>
+      <GUID>1FF8B25F0A764E1C94721B43253EF0B8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -784,7 +794,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl\Tests\RemoteControl.TestLauncher.ConnectionMonitor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F73C2A915906B386C5CE041CE6667B96</GUID>
+      <GUID>E3092F9CD9D1B42FEBF6D94A2ACF3C1D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1099,7 +1109,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl\API\Write Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>39389EB518A466C82378C27429A66F94</GUID>
+      <GUID>5147A8C352484E70D6EBFE76AFEFE4A3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
