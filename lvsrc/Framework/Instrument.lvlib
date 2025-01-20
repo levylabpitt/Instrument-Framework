@@ -10,6 +10,7 @@
 </Property>
 	<Item Name="Instrument.lvclass" Type="LVClass" URL="../Instrument/Instrument.lvclass"/>
 	<Item Name="Instrument UI.lvclass" Type="LVClass" URL="../Instrument UI/Instrument UI.lvclass"/>
+	<Item Name="API.lvclass" Type="LVClass" URL="../subsystems/API/API.lvclass"/>
 	<Item Name="HAL.lvclass" Type="LVClass" URL="../subsystems/HAL/HAL.lvclass"/>
 	<Item Name="HAL.Serial.lvclass" Type="LVClass" URL="../subsystems/HAL.Serial/HAL.Serial.lvclass"/>
 	<Item Name="HAL.TCP.lvclass" Type="LVClass" URL="../subsystems/HAL.TCP/HAL.TCP.lvclass"/>
