@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:36:05" Modified_Date="2024-11-27 13:00:06" Creator="Patrick Irvin" Comments="" ID="32e14d4fd1306209182fef0bd9b4d605">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:36:05" Modified_Date="2025-01-27 16:12:42" Creator="Patrick Irvin" Comments="" ID="112287f0e6d11e2579a9ee9301a07d05">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_debug</Package_File_Name>
-    <Library_Version>1.0.1.3</Library_Version>
+    <Library_Version>2.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\builds\Package</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>jki_statemachineobjects &gt;= 1.4.0.69</External_Dependencies>
-      <Direct_Dependencies>jki_statemachineobjects-1.4.0.69</Direct_Dependencies>
+      <External_Dependencies>jki_statemachineobjects &gt;= 2.0.0.73</External_Dependencies>
+      <Direct_Dependencies>jki_statemachineobjects-2.0.0.73</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -35,8 +35,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.0.1]
-- Issue #122: handle undefined debug behavior</Release_Notes>
+      <Release_Notes>[2.0.1]
+- Update to SMO v2.0 + ppl</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -249,7 +249,7 @@
         <Path>..\Get Debug Mode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0D0332AB52374DF78BFD8B96E9A2236F</GUID>
+      <GUID>79FD9129AFBF2718C6DFF30C616D9B77</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -298,7 +298,7 @@
         <Path>..\subsystems\SMO.Mediator</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C2F1575275D353F6DF5682EDECF01D8B</GUID>
+      <GUID>91B9ACCB9B0A0B2A96BEBD747229595C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -347,7 +347,7 @@
         <Path>..\subsystems\Attribute.Debug\Read Debug Behavior.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D8DFB72F93B4C9088A3E920D64C25A4</GUID>
+      <GUID>AE4FDDCE36EDEECCED38E5DA8343446D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -396,7 +396,7 @@
         <Path>..\subsystems\SMO.Mediator\Get Debug Attribute.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3905A74CCE108BAEC97B0D3F9B5B6D06</GUID>
+      <GUID>07790BC2503C943266F68D9F0F5A3AA0</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -431,7 +431,7 @@
         <Path>..\subsystems</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FCFAB817C2FCF05D3FC3E5087497CCC3</GUID>
+      <GUID>E1BDEB685DCF9C94D7B2760A2EB551B1</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -466,7 +466,7 @@
         <Path>..\subsystems\Attribute.Debug</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB8550FD283CB6E30C751FE05A6FCA82</GUID>
+      <GUID>8CCAF36B28EDA06E595C90944B669F57</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -501,7 +501,7 @@
         <Path>..\subsystems\Attribute.Debug\DebugBehavior.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>35033E3E800367E17F8C4E08E90A6A11</GUID>
+      <GUID>FE07CE6723759333C0D108D18E125808</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
