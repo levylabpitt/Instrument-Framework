@@ -7,3 +7,4 @@ build support/instrument.log
 /lvsrc/ProjectTemplates/Source/LevyLab/Instrument/*.aliases
 /lvsrc/ProjectTemplates/Source/LevyLab/Instrument/*.lvlps
 lvsrc/Antidoc-Output/
+*.vip
