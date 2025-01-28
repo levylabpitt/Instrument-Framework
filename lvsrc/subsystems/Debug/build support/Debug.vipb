@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:36:05" Modified_Date="2025-01-28 09:54:09" Creator="Patrick Irvin" Comments="" ID="5ff606c4f640af0af850e94c8bd0c548">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:36:05" Modified_Date="2025-01-28 17:24:44" Creator="Patrick Irvin" Comments="" ID="9a9afe6aa693ca4ba2c8c2c2e733838a">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_debug</Package_File_Name>
-    <Library_Version>2.0.0.5</Library_Version>
+    <Library_Version>2.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\builds\Package</Library_Output_Folder>
@@ -35,8 +35,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[2.0.1]
-- Update to SMO v2.0 + ppl</Release_Notes>
+      <Release_Notes>[2.0.0]
+- Update to SMO v2.0</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -115,9 +115,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>tests</Path>
-      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\..\..\..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -232,7 +229,7 @@
         <Path>..\src\Debug\Get Debug Mode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0FC936BF01384A0D9066356193CC1494</GUID>
+      <GUID>A5A24F5BFD145C5BD4DA45298B59B422</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
