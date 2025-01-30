@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:24:44" Modified_Date="2025-01-29 11:24:11" Creator="Patrick Irvin" Comments="" ID="0a6d125f7664eeab5d579e853134e56b">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:24:44" Modified_Date="2025-01-30 14:42:28" Creator="Patrick Irvin" Comments="" ID="8f9cd8c0f7f5cd4b58997c98a574346c">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_logger</Package_File_Name>
-    <Library_Version>2.0.0.6</Library_Version>
+    <Library_Version>2.0.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -42,7 +42,7 @@
 - #119 Debug Attribute
 - #139 SMO 1.4 Error Handler
 - #140 Macro: Exit
-- #142 SMO v2.0 lvlib</Release_Notes>
+- #142 SMO v2.0 lvlib (not lvlibp)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -171,7 +171,7 @@
       <OS_32-Bit>true</OS_32-Bit>
       <OS_64-Bit>true</OS_64-Bit>
       <LV_32-Bit>true</LV_32-Bit>
-      <LV_64-Bit>false</LV_64-Bit>
+      <LV_64-Bit>true</LV_64-Bit>
     </Install_Requirements>
     <LabVIEW>
       <close_labview_before_install>false</close_labview_before_install>
@@ -277,7 +277,7 @@
         <Path>..\src\Logger\State History.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A8D80C03A35E42B4F91219BD3FDC47C7</GUID>
+      <GUID>9D3A8F34078B57BFF490A07A4040F7E8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
