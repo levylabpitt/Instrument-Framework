@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:54:27" Modified_Date="2025-01-29 14:22:30" Creator="Patrick Irvin" Comments="" ID="900565b151fad7c9023fa1471d58d1b9">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:54:27" Modified_Date="2025-01-30 15:02:46" Creator="Patrick Irvin" Comments="" ID="1ae9f891a39d2519e8eea62b58bb01e9">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_logger_pgsql</Package_File_Name>
-    <Library_Version>2.0.0.7</Library_Version>
+    <Library_Version>2.0.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -36,7 +36,7 @@
 - #119 Debug Attribute
 - #139 SMO 1.4 Error Handler
 - #140 Macro: Exit
-- #142 SMO v2.0 lvlib lvlibp
+- #142 SMO v2.0 lvlib (not lvlibp)
 - remove unused methods (Write to PGSQL)</Release_Notes>
     </Description>
     <Destinations>
@@ -166,7 +166,7 @@
       <OS_32-Bit>true</OS_32-Bit>
       <OS_64-Bit>true</OS_64-Bit>
       <LV_32-Bit>true</LV_32-Bit>
-      <LV_64-Bit>false</LV_64-Bit>
+      <LV_64-Bit>true</LV_64-Bit>
     </Install_Requirements>
     <LabVIEW>
       <close_labview_before_install>false</close_labview_before_install>
@@ -230,7 +230,7 @@
         <Path>..\src\Logger.PGSQL\Logger.PGSQL.ReadVariable.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D8EB1B769E1ED1939D0DA6AFDE83180</GUID>
+      <GUID>65740D9FE1F752049B929989FC111E98</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
