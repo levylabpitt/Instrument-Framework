@@ -11,8 +11,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
-			<Item Name="Logger.Error.vipb" Type="Document" URL="../../../../build support/Logger.Error.vipb"/>
-			<Item Name="Logger.Error.vipc" Type="Document" URL="../../../../build support/Logger.Error.vipc"/>
+			<Item Name="Logger.Error.vipb" Type="Document" URL="../build support/Logger.Error.vipb"/>
+			<Item Name="Logger.Error.vipc" Type="Document" URL="../build support/Logger.Error.vipc"/>
 		</Item>
 		<Item Name="Logger.Error.lvlib" Type="Library" URL="../src/Logger.Error.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
