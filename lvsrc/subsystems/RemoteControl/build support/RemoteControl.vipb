@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 08:35:30" Modified_Date="2025-01-28 20:20:03" Creator="Patrick Irvin" Comments="" ID="c0b827bd323e7f73e7081ca466a48987">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 08:35:30" Modified_Date="2025-01-30 14:18:33" Creator="Patrick Irvin" Comments="" ID="f82bcbffef4f2e3f0b2d6b68fd4c424e">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_remote_control</Package_File_Name>
-    <Library_Version>2.0.0.10</Library_Version>
+    <Library_Version>2.0.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -47,7 +47,7 @@
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
-    <VI_Package_Configuration_File>Configuration.vipc</VI_Package_Configuration_File>
+    <VI_Package_Configuration_File>RemoteControl.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
       <Description>Parent library for sending messages to programs occupying different application instances, ie, LabVIEW running on different computers, multiple instances of LabVIEW on a single computer, or compiled applications. By itself this library does not implement a specific or even working communication protocol, but provides abstract methods that can be overridden by, for example, ZMQ, MQTT, etc.</Description>
@@ -55,7 +55,7 @@
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
       <Release_Notes>[2.0.0]
-- update to SMO v2.0 and inherit from SMO.lvlibp
+- update to SMO v2.0 and inherit from SMO.lvlib
 - #119: Update Macro: Debug
 - #139: verify Error Handler
 - #140: verify Macro: Exit</Release_Notes>
@@ -237,7 +237,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FD5615D827E74F9614E9A4003B93C292</GUID>
+      <GUID>4A64C8A0551D254ED62F1EAE5CA9C4AF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -325,10 +325,10 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Process.vi</Path>
+        <Path>..\src\RemoteControl\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B5C476910F11E0A89BE8DCF179324171</GUID>
+      <GUID>52764E8D5BA0450315C35C6004849DE7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -360,7 +360,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Connect.vi</Path>
+        <Path>..\src\RemoteControl\API\Connect.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -374,7 +374,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Create Server SMO.vi</Path>
+        <Path>..\src\RemoteControl\API\Create Server SMO.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -388,7 +388,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Disconnect.vi</Path>
+        <Path>..\src\RemoteControl\API\Disconnect.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -402,7 +402,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Read address.vi</Path>
+        <Path>..\src\RemoteControl\API\Read address.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -416,7 +416,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Read Commands.vi</Path>
+        <Path>..\src\RemoteControl\API\Read Commands.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -430,7 +430,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Read Connected.vi</Path>
+        <Path>..\src\RemoteControl\API\Read Connected.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -444,7 +444,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Read Message (sent).vi</Path>
+        <Path>..\src\RemoteControl\API\Read Message (sent).vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -458,7 +458,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Read Port.vi</Path>
+        <Path>..\src\RemoteControl\API\Read Port.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -472,7 +472,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Read RC Process Type.vi</Path>
+        <Path>..\src\RemoteControl\API\Read RC Process Type.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -486,7 +486,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Read timeout.vi</Path>
+        <Path>..\src\RemoteControl\API\Read timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -500,7 +500,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\RemoteControl.Configure.vi</Path>
+        <Path>..\src\RemoteControl\API\RemoteControl.Configure.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -514,7 +514,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\RemoteControl.GetPublicEvents.vi</Path>
+        <Path>..\src\RemoteControl\API\RemoteControl.GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -528,7 +528,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\RemoteControl.Remote Client.vi</Path>
+        <Path>..\src\RemoteControl\API\RemoteControl.Remote Client.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -542,7 +542,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\RemoteControl.SendMessageToProcess.vi</Path>
+        <Path>..\src\RemoteControl\API\RemoteControl.SendMessageToProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -556,7 +556,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Send and Receive.vi</Path>
+        <Path>..\src\RemoteControl\API\Send and Receive.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -570,7 +570,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Write address.vi</Path>
+        <Path>..\src\RemoteControl\API\Write address.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -584,7 +584,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Write Commands.vi</Path>
+        <Path>..\src\RemoteControl\API\Write Commands.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -598,7 +598,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Write Message (sent).vi</Path>
+        <Path>..\src\RemoteControl\API\Write Message (sent).vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -612,7 +612,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Write Port.vi</Path>
+        <Path>..\src\RemoteControl\API\Write Port.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -626,10 +626,10 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\API\Write Timeout.vi</Path>
+        <Path>..\src\RemoteControl\API\Write Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C9239CC472301E6C71E39E0B02363808</GUID>
+      <GUID>71FF6A001ECE96560414C6D8AE629C73</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -661,7 +661,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Methods (Framework)\Close Connection.vi</Path>
+        <Path>..\src\RemoteControl\Methods (Framework)\Close Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -675,7 +675,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Methods (Framework)\Get Connections.vi</Path>
+        <Path>..\src\RemoteControl\Methods (Framework)\Get Connections.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -689,7 +689,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Methods (Framework)\Listen.vi</Path>
+        <Path>..\src\RemoteControl\Methods (Framework)\Listen.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -703,7 +703,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Methods (Framework)\Open Client Connection.vi</Path>
+        <Path>..\src\RemoteControl\Methods (Framework)\Open Client Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -717,7 +717,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Methods (Framework)\Open Server Connection.vi</Path>
+        <Path>..\src\RemoteControl\Methods (Framework)\Open Server Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -731,7 +731,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Methods (Framework)\Read Message.vi</Path>
+        <Path>..\src\RemoteControl\Methods (Framework)\Read Message.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -745,7 +745,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Methods (Framework)\Send and Receive Message.vi</Path>
+        <Path>..\src\RemoteControl\Methods (Framework)\Send and Receive Message.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -759,7 +759,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Methods (Framework)\Send Message.vi</Path>
+        <Path>..\src\RemoteControl\Methods (Framework)\Send Message.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -773,7 +773,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Methods (Framework)\Start Listener.vi</Path>
+        <Path>..\src\RemoteControl\Methods (Framework)\Start Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -787,10 +787,10 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Methods (Framework)\Stop Listener.vi</Path>
+        <Path>..\src\RemoteControl\Methods (Framework)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1FF0289EC7EE2C1B969FA50153ED62C</GUID>
+      <GUID>BC61C3D8CA598E3B8073482FBC7F02BE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -822,7 +822,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Methods (Overrides)\CreatePrivateEvents.vi</Path>
+        <Path>..\src\RemoteControl\Methods (Overrides)\CreatePrivateEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -836,7 +836,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Methods (Overrides)\CreatePublicEvents.vi</Path>
+        <Path>..\src\RemoteControl\Methods (Overrides)\CreatePublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -850,7 +850,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Methods (Overrides)\DestroyPrivateEvents.vi</Path>
+        <Path>..\src\RemoteControl\Methods (Overrides)\DestroyPrivateEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -864,10 +864,10 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Methods (Overrides)\DestroyPublicEvents.vi</Path>
+        <Path>..\src\RemoteControl\Methods (Overrides)\DestroyPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ADBAFCD0B07D0FCAE60D09D4FBF96D8A</GUID>
+      <GUID>A042E5F8D0400940A1E0430369850BFC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -899,7 +899,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Private\Choose Random Command.vi</Path>
+        <Path>..\src\RemoteControl\Private\Choose Random Command.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -913,7 +913,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Private\Format Message String.vi</Path>
+        <Path>..\src\RemoteControl\Private\Format Message String.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -927,7 +927,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Private\Message to Display String.vi</Path>
+        <Path>..\src\RemoteControl\Private\Message to Display String.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -941,7 +941,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Private\RemoteControl.GetPrivateEvents.vi</Path>
+        <Path>..\src\RemoteControl\Private\RemoteControl.GetPrivateEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -955,7 +955,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Private\RemoteControl.GlobalVariable.vi</Path>
+        <Path>..\src\RemoteControl\Private\RemoteControl.GlobalVariable.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -969,7 +969,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Private\RemoteControl.SendMessageFromProcess.vi</Path>
+        <Path>..\src\RemoteControl\Private\RemoteControl.SendMessageFromProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -983,7 +983,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Private\State History.vi</Path>
+        <Path>..\src\RemoteControl\Private\State History.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -997,7 +997,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Private\Time Message Events.vi</Path>
+        <Path>..\src\RemoteControl\Private\Time Message Events.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1011,7 +1011,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Private\Variant to Display String.vi</Path>
+        <Path>..\src\RemoteControl\Private\Variant to Display String.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1025,10 +1025,10 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl\Private\VirtualTestInstrument.vi</Path>
+        <Path>..\src\RemoteControl\Private\VirtualTestInstrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CDDC4674B4B95C0A4DD9B1282D61765A</GUID>
+      <GUID>28D59252F90A6FE9E10404EB31AE898D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
