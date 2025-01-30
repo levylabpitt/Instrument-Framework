@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:36:05" Modified_Date="2025-01-30 13:58:44" Creator="Patrick Irvin" Comments="" ID="68d1636978c84905b52ae3d03d5dc240">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:36:05" Modified_Date="2025-01-30 14:27:03" Creator="Patrick Irvin" Comments="" ID="89143b0eb45aca0815b89e91f3d4dbe6">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_debug</Package_File_Name>
-    <Library_Version>2.0.0.7</Library_Version>
+    <Library_Version>2.0.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
-    <Library_Output_Folder>..\..\..\..\builds\Package</Library_Output_Folder>
+    <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
     <Company_Name>LevyLab</Company_Name>
     <Library_Summary/>
     <Library_License>BSD-3</Library_License>
@@ -165,7 +165,7 @@
       <OS_32-Bit>true</OS_32-Bit>
       <OS_64-Bit>true</OS_64-Bit>
       <LV_32-Bit>true</LV_32-Bit>
-      <LV_64-Bit>false</LV_64-Bit>
+      <LV_64-Bit>true</LV_64-Bit>
     </Install_Requirements>
     <LabVIEW>
       <close_labview_before_install>false</close_labview_before_install>
@@ -229,7 +229,7 @@
         <Path>..\src\Debug\Get Debug Mode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>44FCE1E6B392A832557DE08B49B10A6A</GUID>
+      <GUID>5269E1FDCB071F5537969A97C42EC28D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

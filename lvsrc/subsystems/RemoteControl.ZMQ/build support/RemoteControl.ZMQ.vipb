@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2025-01-28 23:05:12" Creator="Patrick Irvin" Comments="" ID="2b0177316dd23539696c418673add044">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2025-01-30 14:36:34" Creator="Patrick Irvin" Comments="" ID="b744cb5daf6c05e63d0430cdca6bcb77">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_remote_control_zmq</Package_File_Name>
-    <Library_Version>2.0.0.14</Library_Version>
+    <Library_Version>2.0.0.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -58,7 +58,7 @@
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
       <Release_Notes>[2.0.0]
-- update to SMO v2.0 lvlibp</Release_Notes>
+- update to SMO v2.0 lvlib</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -187,7 +187,7 @@
       <OS_32-Bit>true</OS_32-Bit>
       <OS_64-Bit>true</OS_64-Bit>
       <LV_32-Bit>true</LV_32-Bit>
-      <LV_64-Bit>false</LV_64-Bit>
+      <LV_64-Bit>true</LV_64-Bit>
     </Install_Requirements>
     <LabVIEW>
       <close_labview_before_install>false</close_labview_before_install>
@@ -237,7 +237,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl.ZMQ\src\RemoteControl.ZMQ</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8600E6D770840D04AA0D5E8F0F405BB2</GUID>
+      <GUID>972CCA7A7B416CEE1375C1F318F670D2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -300,7 +300,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl.ZMQ\src\RemoteControl.ZMQ\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>411B0A8839883F489C9A908580104C12</GUID>
+      <GUID>24936454987326132BCA929BEB944F28</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -405,7 +405,7 @@
         <Path>..\src\RemoteControl.ZMQ\Methods (Overrides)\Send Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A356CF926359E38F13AF16F7B66CD42</GUID>
+      <GUID>DD305A7960F26F599000D6641E4926BA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -468,7 +468,7 @@
         <Path>..\src\RemoteControl.ZMQ\private\ZMQ.Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2AA30A46542E3FBDB699F507BF4FBE3F</GUID>
+      <GUID>24022B48C95FF89598109676AAF074F5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -573,7 +573,7 @@
         <Path>..\src\RemoteControl.ZMQ\Tests\ZMQ sandbox.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5DEB05AC3DD2873505D1CFD03DEB49FE</GUID>
+      <GUID>5BC9F8280B89DC0EFAC1237BB4D0192E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -692,7 +692,7 @@
         <Path>..\src\RemoteControl.ZMQ\Tests\Unit Tests\Test Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>82CAE6A4DF5A9ED51EF9CEB562C6EDE0</GUID>
+      <GUID>4138E332D10C1C10A4B0305BFC603F22</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

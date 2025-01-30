@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 08:35:30" Modified_Date="2025-01-30 14:18:33" Creator="Patrick Irvin" Comments="" ID="f82bcbffef4f2e3f0b2d6b68fd4c424e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 08:35:30" Modified_Date="2025-01-30 14:24:27" Creator="Patrick Irvin" Comments="" ID="852eb17537c1e219cd07df8822ced744">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_remote_control</Package_File_Name>
-    <Library_Version>2.0.0.11</Library_Version>
+    <Library_Version>2.0.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -187,7 +187,7 @@
       <OS_32-Bit>true</OS_32-Bit>
       <OS_64-Bit>true</OS_64-Bit>
       <LV_32-Bit>true</LV_32-Bit>
-      <LV_64-Bit>false</LV_64-Bit>
+      <LV_64-Bit>true</LV_64-Bit>
     </Install_Requirements>
     <LabVIEW>
       <close_labview_before_install>false</close_labview_before_install>
@@ -237,7 +237,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A64C8A0551D254ED62F1EAE5CA9C4AF</GUID>
+      <GUID>576BE9CFF5B27E144A8C608641FFDD74</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -328,7 +328,7 @@
         <Path>..\src\RemoteControl\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>52764E8D5BA0450315C35C6004849DE7</GUID>
+      <GUID>6903E5F70F8B5F351DF80D3225F7D521</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -629,7 +629,7 @@
         <Path>..\src\RemoteControl\API\Write Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>71FF6A001ECE96560414C6D8AE629C73</GUID>
+      <GUID>8EF335AFB87EC0794F882673D979487A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -790,7 +790,7 @@
         <Path>..\src\RemoteControl\Methods (Framework)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BC61C3D8CA598E3B8073482FBC7F02BE</GUID>
+      <GUID>20F356E627299275A976FAF739872766</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -867,7 +867,7 @@
         <Path>..\src\RemoteControl\Methods (Overrides)\DestroyPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A042E5F8D0400940A1E0430369850BFC</GUID>
+      <GUID>B3CE5FCC5B6F1530A81B8334222DF12D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1028,7 +1028,7 @@
         <Path>..\src\RemoteControl\Private\VirtualTestInstrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>28D59252F90A6FE9E10404EB31AE898D</GUID>
+      <GUID>1F34D8618487529260FC49E8ECCEE96A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
