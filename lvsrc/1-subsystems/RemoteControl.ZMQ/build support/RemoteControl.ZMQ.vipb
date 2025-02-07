@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2025-02-07 09:18:16" Creator="Patrick Irvin" Comments="" ID="dd58a8136a37e836c29bee0277053ef7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2025-02-07 10:00:10" Creator="Patrick Irvin" Comments="" ID="25912aaf0ab6f58aa0e89d45ad38b474">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_remote_control_zmq</Package_File_Name>
-    <Library_Version>2.0.1.17</Library_Version>
+    <Library_Version>2.0.1.18</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -239,7 +239,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl.ZMQ\src\RemoteControl.ZMQ</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>06D592C4BAB0D32F167522EAF8587C59</GUID>
+      <GUID>480FD2F9708EE9398B9510AD1E186377</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -302,7 +302,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl.ZMQ\src\RemoteControl.ZMQ\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A8997243C91C3183D5A22D20BA74DBBC</GUID>
+      <GUID>1C5883DAF61691C5757BC44923A966FE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -407,7 +407,7 @@
         <Path>..\src\RemoteControl.ZMQ\Methods (Overrides)\Send Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8CB1352067DCC4B1FE3FF35867D432C</GUID>
+      <GUID>16A9095C66F79C5EBBA4ABC4795B08C6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -470,7 +470,7 @@
         <Path>..\src\RemoteControl.ZMQ\private\ZMQ.Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4BCA1F91DE2BACE3F1A09F39DAF73409</GUID>
+      <GUID>5790BB41B8D8911AA21E6A6F67CFCDD7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -575,7 +575,7 @@
         <Path>..\src\RemoteControl.ZMQ\Tests\ZMQ sandbox.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>50B18886285F4ABA51FBAF3C076D59FA</GUID>
+      <GUID>4E3C59E87C702096DEDB58B695C465EB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -694,7 +694,7 @@
         <Path>..\src\RemoteControl.ZMQ\Tests\Unit Tests\Test Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8D77CF82E9D6ABEB76AD689E7FCD785F</GUID>
+      <GUID>058BD63B3DB85994994B9BAF6E232962</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
