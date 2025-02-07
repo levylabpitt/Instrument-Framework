@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="libzmq.lvclass" Type="LVClass" URL="../libzmq/libzmq.lvclass"/>
 	<Item Name="libzmq32.lvclass" Type="LVClass" URL="../libzmq32/libzmq32.lvclass"/>
 	<Item Name="libzmq64.lvclass" Type="LVClass" URL="../libzmq64/libzmq64.lvclass"/>
 	<Item Name="RemoteControl.ZMQ.lvclass" Type="LVClass" URL="../RemoteControl.ZMQ/RemoteControl.ZMQ.lvclass"/>
