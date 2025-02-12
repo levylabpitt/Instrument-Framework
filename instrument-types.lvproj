@@ -15,17 +15,17 @@
 			<Item Name="Instrument Type.vipc" Type="Document" URL="../build support/Instrument Type.vipc"/>
 		</Item>
 		<Item Name="Instrument Types" Type="Folder">
-			<Item Name="Cryostat.Test.lvclass" Type="LVClass" URL="../lvsrc/subsystems/Instrument Types/Test/Cryostat.Test.lvclass"/>
-			<Item Name="Instrument.Amplifier.lvclass" Type="LVClass" URL="../lvsrc/subsystems/Instrument Types/Amplifier/Instrument.Amplifier.lvclass"/>
-			<Item Name="Instrument.CBridge.lvclass" Type="LVClass" URL="../lvsrc/subsystems/Instrument Types/CBridge/Instrument.CBridge.lvclass"/>
-			<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="../lvsrc/subsystems/Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
-			<Item Name="Instrument.DelayLine.lvclass" Type="LVClass" URL="../lvsrc/subsystems/Instrument Types/Delay Line/Instrument.DelayLine.lvclass"/>
-			<Item Name="Instrument.LockinAPI.lvclass" Type="LVClass" URL="../lvsrc/subsystems/Instrument Types/Lockin/Instrument.LockinAPI.lvclass"/>
-			<Item Name="Instrument.SCPI.lvclass" Type="LVClass" URL="../lvsrc/subsystems/Instrument Types/SCPI/Instrument.SCPI.lvclass"/>
-			<Item Name="Instrument.SignalGenerator.lvclass" Type="LVClass" URL="../lvsrc/subsystems/Instrument Types/SignalGenerator/Instrument.SignalGenerator.lvclass"/>
-			<Item Name="Instrument.Strain.lvclass" Type="LVClass" URL="../lvsrc/subsystems/Instrument Types/Strain/Instrument.Strain.lvclass"/>
-			<Item Name="Instrument.VNA.lvclass" Type="LVClass" URL="../lvsrc/subsystems/Instrument Types/VNA/Instrument.VNA.lvclass"/>
-			<Item Name="Instrument.VSource.lvclass" Type="LVClass" URL="../lvsrc/subsystems/Instrument Types/VSource/Instrument.VSource.lvclass"/>
+			<Item Name="Cryostat.Test.lvclass" Type="LVClass" URL="../lvsrc/3-Interfaces/Instrument Types/Test/Cryostat.Test.lvclass"/>
+			<Item Name="Instrument.Amplifier.lvclass" Type="LVClass" URL="../lvsrc/3-Interfaces/Instrument Types/Amplifier/Instrument.Amplifier.lvclass"/>
+			<Item Name="Instrument.CBridge.lvclass" Type="LVClass" URL="../lvsrc/3-Interfaces/Instrument Types/CBridge/Instrument.CBridge.lvclass"/>
+			<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="../lvsrc/3-Interfaces/Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
+			<Item Name="Instrument.DelayLine.lvclass" Type="LVClass" URL="../lvsrc/3-Interfaces/Instrument Types/Delay Line/Instrument.DelayLine.lvclass"/>
+			<Item Name="Instrument.LockinAPI.lvclass" Type="LVClass" URL="../lvsrc/3-Interfaces/Instrument Types/Lockin/Instrument.LockinAPI.lvclass"/>
+			<Item Name="Instrument.SCPI.lvclass" Type="LVClass" URL="../lvsrc/3-Interfaces/Instrument Types/SCPI/Instrument.SCPI.lvclass"/>
+			<Item Name="Instrument.SignalGenerator.lvclass" Type="LVClass" URL="../lvsrc/3-Interfaces/Instrument Types/SignalGenerator/Instrument.SignalGenerator.lvclass"/>
+			<Item Name="Instrument.Strain.lvclass" Type="LVClass" URL="../lvsrc/3-Interfaces/Instrument Types/Strain/Instrument.Strain.lvclass"/>
+			<Item Name="Instrument.VNA.lvclass" Type="LVClass" URL="../lvsrc/3-Interfaces/Instrument Types/VNA/Instrument.VNA.lvclass"/>
+			<Item Name="Instrument.VSource.lvclass" Type="LVClass" URL="../lvsrc/3-Interfaces/Instrument Types/VSource/Instrument.VSource.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
