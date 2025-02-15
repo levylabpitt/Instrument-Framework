@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:54:27" Modified_Date="2025-02-07 22:47:41" Creator="Patrick Irvin" Comments="" ID="12064cce7fe5536ec50442b79b5435e3">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:54:27" Modified_Date="2025-02-15 10:32:39" Creator="Patrick Irvin" Comments="" ID="edf85a9c1b092649c7c93db9753f3895">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_logger_pgsql</Package_File_Name>
-    <Library_Version>2.1.0.9</Library_Version>
+    <Library_Version>2.1.1.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -32,8 +32,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[2.1.0]
-- #144: new method Write Variable Multiline</Release_Notes>
+      <Release_Notes>[2.1.1]
+- #139 error handler</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -240,7 +240,7 @@
         <Path>..\src\Logger.PGSQL\Logger.PGSQL.ReadVariable.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4821B7502AA43DDE464068D9F5EE8496</GUID>
+      <GUID>BFF450A73A0E38D37638DEE551651D74</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
