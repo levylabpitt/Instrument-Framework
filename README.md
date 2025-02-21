@@ -6,6 +6,12 @@
 
 Framework developed by the [LevyLab](http://www.levylab.org) research group at the [University of Pittsburgh](http://www.pitt.edu).
 
+## Quick Start:
+- [Instrument Framework Template](https://github.com/levylabpitt/Instrument-Framework-Template)
+- [Instrument Framework v2 Migration Guide](https://github.com/levylabpitt/Instrument-Framework-v2-Migration)
+
+## Overview
+
 ![Diagram](documentation/images/Diagram.png)
 
 An Instrument developed using this framework will have access to the following capabilities:
@@ -28,7 +34,7 @@ Instrument Framework makes extensive use of [JKI State Machines](https://github.
 ## Getting Started
 
 #### 1. Requirements
-- LabVIEW 2019 (*32 bit*)
+- LabVIEW 2019
 - Install the **Instrument Framework** package using [VI Package Manager](https://vipm.jki.net/)
 
 #### 2. Initialize your Instrument Framework Project Repository
