@@ -633,6 +633,7 @@
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Send and Receive.vi" Type="VI" URL="../lvsrc/2-Framework/RemoteControl/API/Send and Receive.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
