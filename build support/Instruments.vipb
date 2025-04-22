@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2025-04-03 17:15:56" Creator="Patrick" Comments="" ID="f17e7e321fe02ce765c9fbcb85d154fe">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2025-04-21 20:04:09" Creator="Patrick" Comments="" ID="85ceebd3e3c899fe02aa011706343d95">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>2.1.4.32</Library_Version>
+    <Library_Version>2.2.0.33</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\2-Framework</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -24,7 +24,7 @@
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>jki_statemachineobjects &gt;= 2.0.0.73</External_Dependencies>
       <External_Dependencies>labview-zmq &gt;= 3.6.3.113</External_Dependencies>
-      <External_Dependencies>labview_open_source_lib_epoch_datetime &gt;= 1.2.0.6</External_Dependencies>
+      <External_Dependencies>labview_open_source_lib_epoch_datetime &gt;= 1.3.0.8</External_Dependencies>
       <External_Dependencies>levylab_lib_control_vi &gt;= 1.3.0.11</External_Dependencies>
       <External_Dependencies>levylab_lib_fileutilities &gt;= 1.2.6.13</External_Dependencies>
       <External_Dependencies>levylab_lib_graph_utilities &gt;= 2.1.11.4</External_Dependencies>
@@ -55,7 +55,7 @@
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>jki_statemachineobjects-2.0.0.73</Direct_Dependencies>
       <Direct_Dependencies>labview-zmq-3.6.3.113</Direct_Dependencies>
-      <Direct_Dependencies>labview_open_source_lib_epoch_datetime-1.2.0.6</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_lib_epoch_datetime-1.3.0.8</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_control_vi-1.3.0.11</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_fileutilities-1.2.6.13</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_graph_utilities-2.1.11.4</Direct_Dependencies>
@@ -102,8 +102,8 @@ An Instrument developed using this framework will have the access to the followi
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[2.1.4]
-- bugfix: rename HELP request object "Command" to "command"</Release_Notes>
+      <Release_Notes>[2.2.0]
+- Issues #159, #160: Improvements to help loading of legacy projects that call deprecated methods</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -324,7 +324,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument-VIM\string to enum.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01AA2FD4ADFDFA5BABA716A06B189A4E</GUID>
+      <GUID>029B8C840DC72AC3611FCDA96086B61D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -485,7 +485,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\Framework\Instrument\Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F8B27C91AF7759FF0AC57F1B3F2C692A</GUID>
+      <GUID>99B2AC5A16CC26B53D0CE3AAB9D8E053</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -576,7 +576,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7803FFD6F2D05DB977A34BD217E350F</GUID>
+      <GUID>0A19FE9B7807A08E37C9C547A2B918ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -877,7 +877,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\API\HELP Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9AE892A09FFB0A17B6C3604C8450477E</GUID>
+      <GUID>C9AC393EFF340242E4AADE89A7FAE0A6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -909,7 +909,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Deprecated\Get SMO PGSQL Log Paths.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO PGSQL Log Paths.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -923,7 +923,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Deprecated\Instrument.LogPGSQL.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\API\Instrument.LogPGSQL.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -937,7 +937,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Deprecated\Instrument.MessageFromProcess.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Private\Instrument.MessageFromProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -951,10 +951,10 @@ An Instrument developed using this framework will have the access to the followi
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Deprecated\Instrument.MessageToProcess.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\API\Instrument.MessageToProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CEF6EF6751E5D64F0C2AD7FCC584BFF2</GUID>
+      <GUID>06EA6E532F583D04B5B47F3EA7D90A72</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1045,7 +1045,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\commands</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B3D5140615EDE0A0F688AF5DBC5F9F36</GUID>
+      <GUID>42362F096FCDD99925DFF9789E0F1C47</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1136,7 +1136,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\Framework\Instrument\Help\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>07CD5CC656B42DFEFB8B5C7518E5B474</GUID>
+      <GUID>91F9A752B37454EB042F02AB59E1138F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1227,7 +1227,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C7D4B3339FF1E7BC008D2C7C360BD3D7</GUID>
+      <GUID>80DCDAED793C95FAEBC009F264C30921</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1388,7 +1388,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\Private\Set Dependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5F9C41659E3A491FE61E4A662C786A88</GUID>
+      <GUID>4BFB9BD80DF4167B90A163125A910D97</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1434,7 +1434,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Protected\Open SMO.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Open SMO.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1448,7 +1448,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Protected\Close SMO.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Close SMO.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1619,7 +1619,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\Protected\Instrument.Public API.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6309BA55AEBF2AEFD48C748FE0A2E815</GUID>
+      <GUID>BFE4E892972E32789C613BCF46D88975</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1668,7 +1668,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\Tests\Test JSON config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CCE313269E40D339F26C9EEE436967FB</GUID>
+      <GUID>788A1D600C8A08C272E09F31A2B625F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1700,7 +1700,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\commands\Handle setIDN.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Private\Handle setIDN.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1714,7 +1714,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\commands\Handle setLogData.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Private\Handle setLogData.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1728,7 +1728,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\commands\Handle setAllData.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Handle setAllData.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1742,7 +1742,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\commands\Handle setConfiguration.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Handle setConfiguration.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1756,7 +1756,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\commands\Handle Help.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Private\Handle Help.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1770,7 +1770,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\commands\Handle getAll.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Handle getAll.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1784,10 +1784,10 @@ An Instrument developed using this framework will have the access to the followi
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\commands\Handle Command.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Handle Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>530A1FDCF7303A76A2374D3EB0EF069C</GUID>
+      <GUID>59187F32060A4FBBF46178ED46EDD119</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1819,7 +1819,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\configuration\Configuration Window.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Configuration Window.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1833,7 +1833,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\configuration\Read Configuration File.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Read Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1847,10 +1847,10 @@ An Instrument developed using this framework will have the access to the followi
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\configuration\Write Configuration File.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DC7B32F87D1FFEA004B7CDF3FC5FE9F8</GUID>
+      <GUID>194779A95CD0F930C6BEAA0CE74525A3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1882,7 +1882,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\hardware\Close Hardware.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Close Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1896,7 +1896,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\hardware\Open Hardware.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Open Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1910,7 +1910,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\hardware\Read Hardware.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Read Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1924,10 +1924,10 @@ An Instrument developed using this framework will have the access to the followi
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\hardware\Write Hardware.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Write Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7EDB3897A6B0EA40F3A298845AAFE3A3</GUID>
+      <GUID>E2FCED3080C396EB2AE3C6D82EBAC680</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1959,7 +1959,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\SMO\Get SMO Database Paths.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO Database Paths.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1973,7 +1973,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\SMO\Get SMO Vendor.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO Vendor.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1987,7 +1987,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\SMO\Get SMO Name.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO Name.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2001,7 +2001,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\SMO\Get SMO Serial Number.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO Serial Number.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2015,7 +2015,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\SMO\Get SMO Port.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO Port.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2029,7 +2029,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\SMO\Get SMO Public API.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO Public API.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2043,7 +2043,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\SMO\Get SMO API Type.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO API Type.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2057,7 +2057,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\SMO\Get SMO HAL Type.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO HAL Type.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2071,7 +2071,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>7</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\SMO\Get SMO HELP getAll.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO HELP getAll.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2085,7 +2085,7 @@ An Instrument developed using this framework will have the access to the followi
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\SMO\Get SMO HELP.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO HELP.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -2099,10 +2099,10 @@ An Instrument developed using this framework will have the access to the followi
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\SMO\Get SMO RC Type.vi</Path>
+        <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO RC Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8564EFF8A2077955B8E53387C2C9E97C</GUID>
+      <GUID>E5AD70F338C582E5043FA2B4FC878246</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2179,7 +2179,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\subsystems\Help\private\Minify jsonrpc id.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B76A3FA8CA8F318F03FD89F087779531</GUID>
+      <GUID>DD926BCA310E8598A3E14D7568F0DB74</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
