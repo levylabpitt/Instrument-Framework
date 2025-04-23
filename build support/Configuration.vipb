@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:36:05" Modified_Date="2025-04-23 15:26:22" Creator="Patrick Irvin" Comments="" ID="09b15189610b238d40960037b1e32d2f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:36:05" Modified_Date="2025-04-23 15:30:10" Creator="Patrick Irvin" Comments="" ID="b3c4811e940905dfd87a46e99c6ca834">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_configuration</Package_File_Name>
-    <Library_Version>1.1.0.6</Library_Version>
+    <Library_Version>1.1.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\1-subsystems\Configuration</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -50,8 +50,9 @@ Authors:
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
       <Release_Notes>[1.1.0]
+- Add Read Path and Read Section to public API
 - Remove unused dependencies (SMO, etc)
-- Add Read Path and Read Section to public API</Release_Notes>
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -342,7 +343,7 @@ Authors:
         <Path>..\lvsrc\1-subsystems\Configuration\Show Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BD521FD9CD630F09719E22834CFF8F92</GUID>
+      <GUID>796477E4D950DF7E89F2353E911212F9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
