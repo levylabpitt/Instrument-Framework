@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:54:27" Modified_Date="2025-04-24 10:04:43" Creator="Patrick Irvin" Comments="" ID="cc44b20af5117ff1f4ef5f074761c96a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:54:27" Modified_Date="2025-04-24 10:17:00" Creator="Patrick Irvin" Comments="" ID="741fd3457d27f76b4c9c60b43f657ec1">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_logger_pgsql</Package_File_Name>
-    <Library_Version>1.2.0.11</Library_Version>
+    <Library_Version>1.2.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
