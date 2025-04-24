@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2025-02-07 10:00:10" Creator="Patrick Irvin" Comments="" ID="25912aaf0ab6f58aa0e89d45ad38b474">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2025-04-24 11:54:39" Creator="Patrick Irvin" Comments="" ID="068c36f63540621d034e4a1b3121ba91">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_remote_control_zmq</Package_File_Name>
-    <Library_Version>2.0.1.18</Library_Version>
+    <Library_Version>1.2.0.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,11 +17,11 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>jdp_science_jsontext &gt;= 1.9.0.124</External_Dependencies>
+      <External_Dependencies>jdp_science_jsontext &gt;= 1.9.1.125</External_Dependencies>
       <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.1.18</External_Dependencies>
       <External_Dependencies>jki_lib_caraya &gt;= 1.4.3.147</External_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
-      <External_Dependencies>jki_statemachineobjects &gt;= 2.0.0.73</External_Dependencies>
+      <External_Dependencies>jki_statemachineobjects &gt;= 1.4.0.69</External_Dependencies>
       <External_Dependencies>labview-zmq &gt;= 3.6.3.113</External_Dependencies>
       <External_Dependencies>national_instruments_lib_guid_generator &gt;= 1.0.2.3</External_Dependencies>
       <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
@@ -30,11 +30,11 @@
       <External_Dependencies>oglib_string &gt;= 5.0.0.25</External_Dependencies>
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
       <External_Dependencies>prirvin_lib_json_rpc &gt;= 1.2.6.15</External_Dependencies>
-      <Direct_Dependencies>jdp_science_jsontext-1.9.0.124</Direct_Dependencies>
+      <Direct_Dependencies>jdp_science_jsontext-1.9.1.125</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.1.18</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_caraya-1.4.3.147</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
-      <Direct_Dependencies>jki_statemachineobjects-2.0.0.73</Direct_Dependencies>
+      <Direct_Dependencies>jki_statemachineobjects-1.4.0.69</Direct_Dependencies>
       <Direct_Dependencies>labview-zmq-3.6.3.113</Direct_Dependencies>
       <Direct_Dependencies>national_instruments_lib_guid_generator-1.0.2.3</Direct_Dependencies>
       <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
@@ -59,7 +59,7 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[2.0.1]
+      <Release_Notes>[1.2.0]
 - Issue #143: store libzmq*.dll inside libzmq*.lvclass</Release_Notes>
     </Description>
     <Destinations>
@@ -239,7 +239,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl.ZMQ\src\RemoteControl.ZMQ</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>480FD2F9708EE9398B9510AD1E186377</GUID>
+      <GUID>7DAF193F18D55FE3C40D06C193744F93</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -302,7 +302,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl.ZMQ\src\RemoteControl.ZMQ\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1C5883DAF61691C5757BC44923A966FE</GUID>
+      <GUID>DFC99BF8D68856C313EC34DF4A16A094</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -407,7 +407,7 @@
         <Path>..\src\RemoteControl.ZMQ\Methods (Overrides)\Send Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>16A9095C66F79C5EBBA4ABC4795B08C6</GUID>
+      <GUID>A23C8E9EB8D715050D04E399D16D6167</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -470,7 +470,7 @@
         <Path>..\src\RemoteControl.ZMQ\private\ZMQ.Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5790BB41B8D8911AA21E6A6F67CFCDD7</GUID>
+      <GUID>5AD2A78E9B4D5292DD1B3291D9034DCA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -575,7 +575,7 @@
         <Path>..\src\RemoteControl.ZMQ\Tests\ZMQ sandbox.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E3C59E87C702096DEDB58B695C465EB</GUID>
+      <GUID>8E767145A507333989A68CDBE938A05A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -694,7 +694,7 @@
         <Path>..\src\RemoteControl.ZMQ\Tests\Unit Tests\Test Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>058BD63B3DB85994994B9BAF6E232962</GUID>
+      <GUID>43B838AA1FCBA2EF6C45B9B1A223D34B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
