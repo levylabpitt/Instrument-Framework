@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:36:05" Modified_Date="2025-01-30 14:27:03" Creator="Patrick Irvin" Comments="" ID="89143b0eb45aca0815b89e91f3d4dbe6">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-18 13:36:05" Modified_Date="2025-04-23 15:39:39" Creator="Patrick Irvin" Comments="" ID="ca1d9d961b30816477b8de0d14e26315">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_debug</Package_File_Name>
-    <Library_Version>2.0.0.8</Library_Version>
+    <Library_Version>1.1.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>jki_statemachineobjects &gt;= 2.0.0.73</External_Dependencies>
-      <Direct_Dependencies>jki_statemachineobjects-2.0.0.73</Direct_Dependencies>
+      <External_Dependencies>jki_statemachineobjects &gt;= 1.4.0.69</External_Dependencies>
+      <Direct_Dependencies>jki_statemachineobjects-1.4.0.69</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -35,8 +35,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[2.0.0]
-- Update to SMO v2.0 (no SMO.lvlibp)</Release_Notes>
+      <Release_Notes>[1.1.0]
+- Change to SMO v1.4</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -229,7 +229,7 @@
         <Path>..\src\Debug\Get Debug Mode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5269E1FDCB071F5537969A97C42EC28D</GUID>
+      <GUID>7DD97AD021D0B230BBE81CBAFCEF45F4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

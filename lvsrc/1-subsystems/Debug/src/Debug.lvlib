@@ -11,7 +11,5 @@
 	<Item Name="Get Debug Mode.vi" Type="VI" URL="../Debug/Get Debug Mode.vi"/>
 	<Item Name="Set Debug Mode.vi" Type="VI" URL="../Debug/Set Debug Mode.vi"/>
 	<Item Name="Attribute.Debug.lvclass" Type="LVClass" URL="../Attribute.Debug/Attribute.Debug.lvclass"/>
-	<Item Name="SMO.Mediator.lvclass" Type="LVClass" URL="../SMO.Mediator/SMO.Mediator.lvclass">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
+	<Item Name="SMO.Mediator.lvclass" Type="LVClass" URL="../SMO.Mediator/SMO.Mediator.lvclass"/>
 </Library>

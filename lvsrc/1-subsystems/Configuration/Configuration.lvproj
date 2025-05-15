@@ -11,10 +11,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
-			<Item Name="Configuration.vipb" Type="Document" URL="../../../../build support/Configuration.vipb"/>
-			<Item Name="Configuration.vipc" Type="Document" URL="../../../../build support/Configuration.vipc"/>
+			<Item Name="Configuration.vipb" Type="Document" URL="../build support/Configuration.vipb"/>
+			<Item Name="Configuration.vipc" Type="Document" URL="../build support/Configuration.vipc"/>
 		</Item>
-		<Item Name="Configuration.lvclass" Type="LVClass" URL="../Configuration.lvclass"/>
+		<Item Name="Configuration.lvclass" Type="LVClass" URL="../src/Configuration.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
