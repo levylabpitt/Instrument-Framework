@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:24:44" Modified_Date="2025-04-24 08:15:31" Creator="Patrick Irvin" Comments="" ID="55526c94bc59a56903bf162d3d85ba46">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:24:44" Modified_Date="2025-05-15 14:04:50" Creator="Patrick Irvin" Comments="" ID="f0921ebe14825a4585eaf8a54f743c82">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_logger</Package_File_Name>
-    <Library_Version>1.1.0.9</Library_Version>
+    <Library_Version>1.1.1.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -20,7 +20,6 @@
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>jki_statemachineobjects &gt;= 1.4.0.69</External_Dependencies>
       <External_Dependencies>oglib_string &gt;= 5.0.0.25</External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_build_support &gt;=1.2.5.1</Additional_External_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>jki_statemachineobjects-1.4.0.69</Direct_Dependencies>
       <Direct_Dependencies>oglib_string-5.0.0.25</Direct_Dependencies>
@@ -40,11 +39,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.1.0]
-- #119 Debug Attribute
-- #139 SMO 1.4 Error Handler
-- #140 Macro: Exit
-- #162: change SMO version to 1.4</Release_Notes>
+      <Release_Notes>[1.1.1]
+- #165 adjust package dependencies</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -279,7 +275,7 @@
         <Path>..\src\Logger\State History.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49C7DBFC05462C6962E09D875C5EB9B1</GUID>
+      <GUID>FC70AF04EA9B253C94989A29E36F9A0A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

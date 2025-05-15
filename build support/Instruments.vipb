@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2025-05-15 13:57:00" Creator="Patrick" Comments="" ID="6c478afe7aa2598456892da35f7ce6b1">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2025-05-15 14:09:27" Creator="Patrick" Comments="" ID="091a4cd25f2123b430ab8f685ddb5bf1">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
     <Library_Version>1.15.1.35</Library_Version>
@@ -20,7 +20,6 @@
       <Additional_External_Dependencies>field_rnd_services_logger &gt;=1.10.2.79</Additional_External_Dependencies>
       <Additional_External_Dependencies>levylab_lib_configuration &gt;=1.1.0.6</Additional_External_Dependencies>
       <Additional_External_Dependencies>levylab_lib_debug &gt;=1.1.0.8</Additional_External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_instrument_type &gt;=1.1.0.7</Additional_External_Dependencies>
       <Additional_External_Dependencies>levylab_lib_logger_error &gt;=1.2.0.5</Additional_External_Dependencies>
       <Additional_External_Dependencies>levylab_lib_logger_pgsql &gt;=1.2.1.12</Additional_External_Dependencies>
       <Additional_External_Dependencies>levylab_lib_remote_control &gt;=1.3.0.12</Additional_External_Dependencies>
@@ -274,7 +273,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument-VIM\string to enum.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1570B71B837D369A18F56CAC30D8F9E3</GUID>
+      <GUID>1C7B6B666CF367DD4D1D453C3E33C3A7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -435,7 +434,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\Framework\Instrument\Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4DBB15868CBC1285234878D3660B5EC0</GUID>
+      <GUID>A3F721B0BDC37E6845DD223D84B40C81</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -526,7 +525,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E041E1EF930F14C9135BDB49F8FCC517</GUID>
+      <GUID>CBCCE2F9A33CA4E4C82F24389331A3A6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -827,7 +826,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\API\HELP Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>493FBB63ADBE04FA2AD001C388301622</GUID>
+      <GUID>6B6D1AEB4EB6CC28298E72924C131581</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -904,7 +903,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\API\Instrument.MessageToProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>235C7888891C56FB49A443C00EBD6CF7</GUID>
+      <GUID>D67075B9BF581A199B0DF785B6ECF8D6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -995,7 +994,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\commands</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C47111000FEE3F9D31890EE4AA9097B5</GUID>
+      <GUID>3231201685B61BC85C7B2B567F5642CF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1086,7 +1085,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\Framework\Instrument\Help\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B850F3665F73C27517F2AA114CFD004</GUID>
+      <GUID>C8EA69B150D0D933D1666794CF660937</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1177,7 +1176,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C5A09C1DF3E35472432283C5738C60D3</GUID>
+      <GUID>836CFDAF8A71DCD7DFF08789145A515F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1338,7 +1337,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\Private\Set Dependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>869248A852306DBDA18E3E95069BB92B</GUID>
+      <GUID>B07E3EC4378D918739F4D2083A5ACF20</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1569,7 +1568,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\Protected\Instrument.Public API.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F61BFDC2B79BFF0E73B5092270B09A56</GUID>
+      <GUID>DDF27F19D7D47320B3D5D92CD55FFFA8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1618,7 +1617,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\Tests\Test JSON config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1D3BF9362A0B197FAF4D8A43ADBC1CF8</GUID>
+      <GUID>5FEFE63144133DE843D43D78CF526A9F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1737,7 +1736,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Handle Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B049182D78B334D96DEE6373DB3DD142</GUID>
+      <GUID>8BD95C7354D7921DE2D81C0147638DCE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1800,7 +1799,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D2F4C47BE37DFE3ED81927DE6BC5E0A2</GUID>
+      <GUID>8BE6821A5EC0B5254D47B26747CA6352</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1877,7 +1876,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Write Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C93EBCF0073A4F59F3DD1CA7097BE00D</GUID>
+      <GUID>AEC12923D0BCE763B637A265D5853454</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -2052,7 +2051,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO RC Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B5AAA463B44C93210D6A03485534B372</GUID>
+      <GUID>F39D89788D25DA229A187E5174FCA324</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2129,7 +2128,7 @@ An Instrument developed using this framework will have the access to the followi
         <Path>..\lvsrc\2-Framework\subsystems\Help\private\Minify jsonrpc id.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4B4D0B061E59D41B7102BCE15C1B146D</GUID>
+      <GUID>400E515E08ABCFF340EE89A27FE1BD36</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

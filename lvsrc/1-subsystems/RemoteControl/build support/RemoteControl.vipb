@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 08:35:30" Modified_Date="2025-04-24 11:02:48" Creator="Patrick Irvin" Comments="" ID="3d96096331eb35a328fa49a1976116e9">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 08:35:30" Modified_Date="2025-05-15 14:05:54" Creator="Patrick Irvin" Comments="" ID="2b20a2651591ef61f4218b5d45e09aac">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_remote_control</Package_File_Name>
-    <Library_Version>1.3.0.13</Library_Version>
+    <Library_Version>1.3.1.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -27,7 +27,6 @@
       <External_Dependencies>oglib_lvdata &gt;= 5.0.0.27</External_Dependencies>
       <External_Dependencies>oglib_string &gt;= 5.0.0.25</External_Dependencies>
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_build_support &gt;=1.2.5.1</Additional_External_Dependencies>
       <Direct_Dependencies>jdp_science_jsontext-1.9.1.125</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.1.18</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
@@ -54,11 +53,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.3.0]
-- #119: Update Macro: Debug
-- #139: verify Error Handler
-- #140: verify Macro: Exit
-- #162: change to SMO v1.4</Release_Notes>
+      <Release_Notes>[1.3.1]
+- #165 adjust package dependencies</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -237,7 +233,7 @@
         <Path>..\lvsrc\subsystems\RemoteControl\src\RemoteControl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0CCF4C5488926F4715C90DF0A545A2C7</GUID>
+      <GUID>A0618ED28373F6CA3C40B4A6103734E8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -328,7 +324,7 @@
         <Path>..\src\RemoteControl\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D0EA907FD40CC33F919EFDEAC69222A0</GUID>
+      <GUID>A4D404F580A47E8053A19E5DC2AD68CD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -629,7 +625,7 @@
         <Path>..\src\RemoteControl\API\Write Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D0C4CC6D31E6D375F1B16EDB5D58FE8</GUID>
+      <GUID>31856F6FB21C6FC3E82759B926549FDA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -790,7 +786,7 @@
         <Path>..\src\RemoteControl\Methods (Framework)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>15EF986519E2A513896CE52EA200CA55</GUID>
+      <GUID>F8E7D1595508F44CF259EFD0DFBCEA99</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -867,7 +863,7 @@
         <Path>..\src\RemoteControl\Methods (Overrides)\DestroyPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>144E550B633CE94793549D7ED43B55D0</GUID>
+      <GUID>30CAD521A5C58A2A7AA96FB5CC3BEFC8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1028,7 +1024,7 @@
         <Path>..\src\RemoteControl\Private\VirtualTestInstrument.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>608972E8A211451961DB311112ABBA53</GUID>
+      <GUID>D7BD6FCBD5E185CCC46D5E8B96C0F95F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
