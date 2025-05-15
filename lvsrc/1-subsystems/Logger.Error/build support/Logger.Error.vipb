@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 09:27:04" Modified_Date="2025-05-15 14:04:31" Creator="Patrick Irvin" Comments="" ID="b665476608c292e5ed0e007d01d3fa3e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 09:27:04" Modified_Date="2025-05-15 14:14:12" Creator="Patrick Irvin" Comments="" ID="32a8e465e5ce094b19807086d30e68c7">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_logger_error</Package_File_Name>
-    <Library_Version>1.2.1.6</Library_Version>
+    <Library_Version>1.2.1.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -352,7 +352,7 @@
         <Path>..\src\Logger.Error\Logger.Error.TestLauncher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>79DC8FD7AE9AEE396A18B5313F3F681D</GUID>
+      <GUID>6A2E4432D3BFAFF446E5B45B980E7367</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
