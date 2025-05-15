@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:24:44" Modified_Date="2025-05-15 14:04:50" Creator="Patrick Irvin" Comments="" ID="f0921ebe14825a4585eaf8a54f743c82">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:24:44" Modified_Date="2025-05-15 14:13:00" Creator="Patrick Irvin" Comments="" ID="8437e0b001cb5800786fe60efc1a2008">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_logger</Package_File_Name>
-    <Library_Version>1.1.1.9</Library_Version>
+    <Library_Version>1.1.1.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -275,7 +275,7 @@
         <Path>..\src\Logger\State History.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FC70AF04EA9B253C94989A29E36F9A0A</GUID>
+      <GUID>6EA25FFE142CB0504A5C3AE7DDC068D3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
