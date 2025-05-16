@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 09:27:04" Modified_Date="2025-05-15 14:14:12" Creator="Patrick Irvin" Comments="" ID="32a8e465e5ce094b19807086d30e68c7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 09:27:04" Modified_Date="2025-05-15 15:56:01" Creator="Patrick Irvin" Comments="" ID="78c4682c643169581ff985919547f437">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_logger_error</Package_File_Name>
-    <Library_Version>1.2.1.7</Library_Version>
+    <Library_Version>1.2.1.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -23,7 +23,7 @@
       <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
       <External_Dependencies>oglib_lvdata &gt;= 5.0.0.27</External_Dependencies>
       <External_Dependencies>oglib_string &gt;= 5.0.0.25</External_Dependencies>
-      <Additional_External_Dependencies>field_rnd_services_logger &gt;=1.10.2.79</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_logger &gt;=1.1.2.11</Additional_External_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>jki_statemachineobjects-1.4.0.69</Direct_Dependencies>
       <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
@@ -352,7 +352,7 @@
         <Path>..\src\Logger.Error\Logger.Error.TestLauncher.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A2E4432D3BFAFF446E5B45B980E7367</GUID>
+      <GUID>DA8ACF70BFD701A8FF40070DCAB3AAAB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
