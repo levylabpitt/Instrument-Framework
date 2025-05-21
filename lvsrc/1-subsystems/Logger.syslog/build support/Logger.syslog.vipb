@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 11:24:59" Modified_Date="2025-05-21 14:44:17" Creator="Patrick Irvin" Comments="" ID="38e19deb515f4ed3beee2a82252d192a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 11:24:59" Modified_Date="2025-05-21 14:49:41" Creator="Patrick Irvin" Comments="" ID="f21015a27edf01166e702594d711723f">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_logger_syslog</Package_File_Name>
-    <Library_Version>1.0.1.3</Library_Version>
+    <Library_Version>1.0.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -354,7 +354,7 @@
         <Path>..\src\Logger.syslog\Report Event or Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>648FB1887282EE434A6B2F850684732D</GUID>
+      <GUID>44D24F1717D706D5EB967771892B1E96</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
