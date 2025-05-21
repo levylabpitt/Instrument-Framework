@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 11:34:23" Modified_Date="2025-05-21 14:42:37" Creator="Patrick Irvin" Comments="" ID="b13e8efb18050fde53094a80aa4a00e2">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 11:34:23" Modified_Date="2025-05-21 14:54:56" Creator="Patrick Irvin" Comments="" ID="ec4f76b49c23c07a87243b24c61a2d74">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_remote_control_stm</Package_File_Name>
-    <Library_Version>1.1.2.5</Library_Version>
+    <Library_Version>1.1.2.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.1.1]
+      <Release_Notes>[1.1.2]
 - Update to RemoteControl 1.3.1</Release_Notes>
     </Description>
     <Destinations>
@@ -242,7 +242,7 @@
         <Path>..\lvsrc\Tests</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8D04CC6C0F9CDEA1802BC4C956CED00E</GUID>
+      <GUID>0B57D9F3F59A9A9B261B803797DED764</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -389,7 +389,7 @@
         <Path>..\lvsrc\Methods (Overrides)\Stop Listener.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D2DC30AC4D343440C12DDC47AB637ED</GUID>
+      <GUID>7716D75739FB625FCA10F6FC5F021024</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -438,7 +438,7 @@
         <Path>..\lvsrc\Private\Find STM connection by ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7786E1FB77A06870A0D406B801C8FE8C</GUID>
+      <GUID>92613B4DC869F030CF7DB604B95CE651</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -501,7 +501,7 @@
         <Path>..\lvsrc\Tests\Test Variant Flatten Unflatten.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0E70624D72F7B3D8BDAC4DFABC5B2B15</GUID>
+      <GUID>8172104F00D268F1408F31D68A9210BC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -564,7 +564,7 @@
         <Path>..\lvsrc\Tests\simple\STM_Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>89F125F61630D7DE8D9123826CC4F4A0</GUID>
+      <GUID>944C3569F165643EBF2A3CBD11197906</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -599,7 +599,7 @@
         <Path>..\lvsrc\Tests\simple\subVI\PRI Counts Since Last Reset.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A2686A0AD6D9E8ED299566AF4CD4BBBA</GUID>
+      <GUID>50F88BD2F61DD6BE2F6136216F54E660</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
