@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2025-06-24 15:15:00" Creator="Patrick Irvin" Comments="" ID="ebd125eb8daffd5d4aba486e2e4fc13a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2025-06-24 15:41:47" Creator="Patrick Irvin" Comments="" ID="3e3d28494492b75dd0b8c13731f03f10">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_remote_control_zmq</Package_File_Name>
-    <Library_Version>1.3.0.21</Library_Version>
+    <Library_Version>1.3.0.22</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -254,7 +254,7 @@
         <Path>..\src\ZMQ.ContextManager</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B2A39709DD6DFBECC8BD9C8CDF05F748</GUID>
+      <GUID>1C75C7E0AAB16EC62767C49D4324E589</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -317,7 +317,7 @@
         <Path>..\src\RemoteControl.ZMQ\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D256AAB274CB914FF7716BFFEA4A8886</GUID>
+      <GUID>E18D2ED2DE4A2694CD784D8435D8FE0E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -422,7 +422,7 @@
         <Path>..\src\RemoteControl.ZMQ\Methods (Overrides)\Get Connections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D50A4749304B11CB5D3747EA65D256B2</GUID>
+      <GUID>E175147E2DEF9C1732C1B9C2413B8EE0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -499,7 +499,7 @@
         <Path>..\src\RemoteControl.ZMQ\Tests\ZMQ Req Test.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>73F8F069C6C3B4A957EF2F8F864307FA</GUID>
+      <GUID>1B2DFDBEF5A765120567E984BD09F033</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -576,7 +576,7 @@
         <Path>..\src\ZMQ.ContextManager\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C62D183E5343E31909B1104E9C2BF833</GUID>
+      <GUID>86C4449EFA94D74F03A7F8056984A512</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -614,7 +614,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>DVRtoRef.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>InitDVR.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -622,21 +622,21 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\ZMQ.ContextManager\private\DVRtoRef.vi</Path>
+        <Path>..\src\ZMQ.ContextManager\private\InitDVR.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>InitDVR.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>DVRtoRef.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>3</Column>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\ZMQ.ContextManager\private\InitDVR.vi</Path>
+        <Path>..\src\ZMQ.ContextManager\private\DVRtoRef.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -647,13 +647,13 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>4</Column>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\src\ZMQ.ContextManager\private\ReftoDVR.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E76D394B66F1EEA2CF2A5EC850E9DC8</GUID>
+      <GUID>16EAE71FC7DE10EA4916681E3E9B580E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -744,7 +744,7 @@
         <Path>..\src\RemoteControl.ZMQ\private\Build Endpoint.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B77DF6A45877F811BAFFD2C0E25783A</GUID>
+      <GUID>F3530D46730C441A10E55B6B5D4EBE97</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
