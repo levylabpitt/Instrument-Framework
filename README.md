@@ -8,7 +8,7 @@ Framework developed by the [LevyLab](http://www.levylab.org) research group at t
 
 ## Quick Start:
 - [Instrument Framework Template](https://github.com/levylabpitt/Instrument-Framework-Template)
-- [Instrument Framework v2 Migration Guide](https://github.com/levylabpitt/Instrument-Framework-v2-Migration)
+- [Instrument Framework 1.15 Migration Guide](https://github.com/levylabpitt/Instrument-Framework-1.15-Migration)
 
 ## Overview
 
