@@ -1,9 +1,9 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 11:24:59" Modified_Date="2023-11-22 11:31:36" Creator="Patrick Irvin" Comments="" ID="6af5006027c478f33e1b5b7f6161c7b0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 11:24:59" Modified_Date="2025-05-21 14:49:41" Creator="Patrick Irvin" Comments="" ID="f21015a27edf01166e702594d711723f">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_logger_syslog</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
-    <Library_Source_Folder>..\src\</Library_Source_Folder>
+    <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
     <Company_Name>LevyLab</Company_Name>
     <Library_Summary/>
@@ -17,51 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
-      <External_Dependencies>jki_statemachineobjects &gt;= 1.4.0.69</External_Dependencies>
-      <External_Dependencies>lava_lib_ui_tools &gt;= 1.4.1.74</External_Dependencies>
-      <External_Dependencies>mgi_lib_1d_array &gt;= 1.0.2.3</External_Dependencies>
-      <External_Dependencies>mgi_lib_application_control &gt;= 1.1.1.10</External_Dependencies>
-      <External_Dependencies>mgi_lib_cluster &gt;= 1.1.0.1</External_Dependencies>
-      <External_Dependencies>mgi_lib_error_handling &gt;= 1.1.1.3</External_Dependencies>
-      <External_Dependencies>mgi_lib_error_reporter &gt;= 1.0.2.5</External_Dependencies>
-      <External_Dependencies>mgi_lib_file &gt;= 1.1.0.4</External_Dependencies>
-      <External_Dependencies>mgi_lib_numeric &gt;= 1.1.0.2</External_Dependencies>
-      <External_Dependencies>mgi_lib_picture_&amp;_image &gt;= 1.0.2.1</External_Dependencies>
-      <External_Dependencies>mgi_lib_read_write_anything &gt;= 2.1.4.4</External_Dependencies>
-      <External_Dependencies>mgi_lib_string &gt;= 1.1.1.5</External_Dependencies>
-      <External_Dependencies>ni_lib_seh &gt;= 2.1.10.1</External_Dependencies>
-      <External_Dependencies>nise_syslog &gt;= 1.3.3.27</External_Dependencies>
-      <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
-      <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
-      <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
-      <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
-      <External_Dependencies>oglib_lvdata &gt;= 5.0.0.27</External_Dependencies>
-      <External_Dependencies>oglib_numeric &gt;= 4.1.0.8</External_Dependencies>
-      <External_Dependencies>oglib_string &gt;= 5.0.0.25</External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_build_support &gt;=1.2.5.1</Additional_External_Dependencies>
-      <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
-      <Direct_Dependencies>jki_statemachineobjects-1.4.0.69</Direct_Dependencies>
-      <Direct_Dependencies>lava_lib_ui_tools-1.4.1.74</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_1d_array-1.0.2.3</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_application_control-1.1.1.10</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_cluster-1.1.0.1</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_error_handling-1.1.1.3</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_error_reporter-1.0.2.5</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_file-1.1.0.4</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_numeric-1.1.0.2</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_picture_&amp;_image-1.0.2.1</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_read_write_anything-2.1.4.4</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_string-1.1.1.5</Direct_Dependencies>
-      <Direct_Dependencies>ni_lib_seh-2.1.10.1</Direct_Dependencies>
-      <Direct_Dependencies>nise_syslog-1.3.3.27</Direct_Dependencies>
-      <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
-      <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
-      <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
-      <Direct_Dependencies>oglib_file-4.0.1.22</Direct_Dependencies>
-      <Direct_Dependencies>oglib_lvdata-5.0.0.27</Direct_Dependencies>
-      <Direct_Dependencies>oglib_numeric-4.1.0.8</Direct_Dependencies>
-      <Direct_Dependencies>oglib_string-5.0.0.25</Direct_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_logger &gt;=1.1.2.11</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -78,8 +34,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.0.0]
-- first build as stand-alone package</Release_Notes>
+      <Release_Notes>[1.0.1]
+- build with LLV Logger 1.1.2 dependency</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -255,7 +211,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\Logger.syslog\Example - Error Handler.vi</Path>
+        <Path>..\src\Logger.syslog\Example - Error Handler.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -269,7 +225,7 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\Logger.syslog\Example - JKI SM MGI Error Log.vi</Path>
+        <Path>..\src\Logger.syslog\Example - JKI SM MGI Error Log.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -283,7 +239,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\Logger.syslog\Example - Syslog Collector.vi</Path>
+        <Path>..\src\Logger.syslog\Example - Syslog Collector.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -297,7 +253,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\Logger.syslog\Example - Syslog Device.vi</Path>
+        <Path>..\src\Logger.syslog\Example - Syslog Device.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -311,7 +267,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\Logger.syslog\Logger.syslog.GetPrivateEvents.vi</Path>
+        <Path>..\src\Logger.syslog\Logger.syslog.GetPrivateEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -325,7 +281,7 @@
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\Logger.syslog\Logger.syslog.TestLauncher.vi</Path>
+        <Path>..\src\Logger.syslog\Logger.syslog.TestLauncher.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -339,7 +295,7 @@
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\Logger.syslog\Process.vi</Path>
+        <Path>..\src\Logger.syslog\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -353,7 +309,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\Logger.syslog\DestroyPrivateEvents.vi</Path>
+        <Path>..\src\Logger.syslog\DestroyPrivateEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -367,7 +323,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\Logger.syslog\CreatePrivateEvents.vi</Path>
+        <Path>..\src\Logger.syslog\CreatePrivateEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -381,7 +337,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\Logger.syslog\Logger.syslog.syslogmessage.vi</Path>
+        <Path>..\src\Logger.syslog\Logger.syslog.syslogmessage.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -395,10 +351,10 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\lvsrc\SMOs\Logger.syslog\Report Event or Error.vi</Path>
+        <Path>..\src\Logger.syslog\Report Event or Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BC32297EA246A2E4B867117D4DBB6CB3</GUID>
+      <GUID>44D24F1717D706D5EB967771892B1E96</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
