@@ -10,4 +10,5 @@
 	<Item Name="libzmq.lvclass" Type="LVClass" URL="../libzmq/libzmq.lvclass"/>
 	<Item Name="RemoteControl.ZMQ.lvclass" Type="LVClass" URL="../RemoteControl.ZMQ/RemoteControl.ZMQ.lvclass"/>
 	<Item Name="ZMQ.ContextManager.lvlib" Type="Library" URL="../ZMQ.ContextManager/ZMQ.ContextManager.lvlib"/>
+	<Item Name="ZMQ.SocketMonitor.lvlib" Type="Library" URL="../ZMQ.SocketMonitor/ZMQ.SocketMonitor.lvlib"/>
 </Library>
