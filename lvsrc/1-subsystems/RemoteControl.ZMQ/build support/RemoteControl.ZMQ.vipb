@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2025-08-19 10:13:11" Creator="Patrick Irvin" Comments="" ID="89dc0e1082d2798cebf494edcbe28baa">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2025-08-19 10:17:57" Creator="Patrick Irvin" Comments="" ID="e362a1bdf2edb8c30cd2dd74426917c5">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_remote_control_zmq</Package_File_Name>
-    <Library_Version>1.3.1.22</Library_Version>
+    <Library_Version>1.3.1.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
