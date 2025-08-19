@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2025-08-18 22:41:36" Creator="Patrick" Comments="" ID="5bf7a120d75d8569e7dc5a82b3377d55">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2025-08-19 12:47:57" Creator="Patrick" Comments="" ID="142cf576db4368e85b7cdb19a2ca0eeb">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.15.6.42</Library_Version>
+    <Library_Version>1.15.7.43</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\2-Framework</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -50,8 +50,8 @@ An Instrument developed using this framework will have the access to the followi
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.15.6]
-Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
+      <Release_Notes>[1.15.7]
+#184 Add timeout control to API methods that call Client.vi (ACK, IDN, HELP, getAll)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -272,7 +272,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument-VIM\string to enum.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>367DB41BDC847277EEAD615C970F8284</GUID>
+      <GUID>BE9F91890829230C3EA6C144E18BAE96</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -433,7 +433,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\Framework\Instrument\Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EE6E16036392634E90F94BE3B73F326E</GUID>
+      <GUID>BA44CBD80C089E786464EEF179152DC3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -524,7 +524,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1ED46B39D60CFEE708F933DC2FBEABDF</GUID>
+      <GUID>2A126D010D21EB2458DCBC941050987D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -825,7 +825,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\API\HELP Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3023ECB4C002F52EB6698C3D24AAC3E2</GUID>
+      <GUID>E6430F1DF283F2652469A30977554509</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -902,7 +902,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\API\Instrument.MessageToProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F3635B06E9EF7DE315C432991F4B2308</GUID>
+      <GUID>0E46AB802EF419B811EA690BE916C1D9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -993,7 +993,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\commands</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E7EBF3579225CD5E2344054B7AC06CEA</GUID>
+      <GUID>90E52A0E3909632E2A79C4922ED15F50</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1084,7 +1084,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\Framework\Instrument\Help\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4C97B9359C2926932C533285E1CECE37</GUID>
+      <GUID>2EC750EB49F67C7F5BE7A3BD1A9D6302</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1175,7 +1175,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>36F09C7F03D1D7258A2804D121B47740</GUID>
+      <GUID>FBAAF4BD75E3A47142D083007260A2C9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1336,7 +1336,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Private\Set Dependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF7DB39D3FC6307C86D31F4F84D80DEB</GUID>
+      <GUID>C90BCFFA560033FDF33F53E1FC810FA4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1567,7 +1567,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Protected\Instrument.Public API.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8FF3B7C5300876CF01C23CA685682708</GUID>
+      <GUID>D3E361AD5F7A360FCC21DD48610FF8F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1616,7 +1616,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Tests\Test JSON config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BEDB957BDE075ADEE7D92F40FFC1CE06</GUID>
+      <GUID>94F74904741F51FB564EF360D2B6C50C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1735,7 +1735,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Handle Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F5A6B5FBEEC62AE9BE0F328AA5475FE</GUID>
+      <GUID>A3750B09F71826F5272528D501BA299E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1798,7 +1798,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>830CDDE67B39055FF6493432F0EC2FE1</GUID>
+      <GUID>5E71AA3844142F68692D576D55728C9C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1875,7 +1875,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Write Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C04D2B2942D080DB936151412F7DCA62</GUID>
+      <GUID>B2A6BF12685576CFF7C71EE6BA84256A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -2064,7 +2064,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO Version.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>46D74ECC5FA278DC6722C29511C796DA</GUID>
+      <GUID>047162E440BC7E77154E6C5A348245B2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2141,7 +2141,7 @@ Issue #182: Fix corrupt HAL.lvclass:Process.vi</Release_Notes>
         <Path>..\lvsrc\2-Framework\subsystems\Help\private\Minify jsonrpc id.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1B10D1A98B176F7193922C58F6444E92</GUID>
+      <GUID>F6A21155DBE62400DECDB2C60FF8431D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
