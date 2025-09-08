@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2025-08-19 16:49:32" Creator="Patrick" Comments="" ID="621fbd3fa204cc7b6aa254346914e53f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2025-09-08 13:48:44" Creator="Patrick" Comments="" ID="54e76a408e2a23d342dfb9084c2174db">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.15.8.45</Library_Version>
+    <Library_Version>1.15.9.46</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\2-Framework</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -24,6 +24,7 @@
       <Additional_External_Dependencies>levylab_lib_logger_pgsql &gt;=1.2.2.14</Additional_External_Dependencies>
       <Additional_External_Dependencies>levylab_lib_remote_control &gt;=1.3.2.14</Additional_External_Dependencies>
       <Additional_External_Dependencies>levylab_lib_remote_control_zmq &gt;=1.3.1.22</Additional_External_Dependencies>
+      <Additional_External_Dependencies>prirvin_lib_json_schema &gt;=0.2.0.9</Additional_External_Dependencies>
       <Package_Conflicts>levylab_lib_levylab_instruments &gt;=2.0.0.1</Package_Conflicts>
       <Package_Conflicts>levylab_lib_postgresql &gt;=1.4.0.22</Package_Conflicts>
     </Package_Dependencies>
@@ -50,9 +51,8 @@ An Instrument developed using this framework will have the access to the followi
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.15.8]
-#182 rename HAL.lvclass:process.vi to HAL.lvclass:Process.vi; reported SMO Issue #90
-Update dependencies</Release_Notes>
+      <Release_Notes>[1.15.9]
+#185 update dependencies</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -273,7 +273,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument-VIM\string to enum.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>67AA49213E5B7ADF957AFEA3323257E6</GUID>
+      <GUID>E5EB2DFD42022805A4AB98D95B307EC8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -434,7 +434,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\Framework\Instrument\Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2337DA73DD2CBA902A42FF289186A4F1</GUID>
+      <GUID>5645B23C12A65A02BE0525E995416BD4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -525,7 +525,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C3200FBFF6010A6F324B43B5561D42F1</GUID>
+      <GUID>BD88C649377CA63A15F20C79E5A154D4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -826,7 +826,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\API\HELP Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E9BBF2674212583A15CDD1648525318</GUID>
+      <GUID>77EC6D8DD7DD29E86B27B8792E0A1446</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -903,7 +903,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\API\Instrument.MessageToProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DFCEBA3B6C0FA4A165D9542A8CF07389</GUID>
+      <GUID>7D05D2311545E777175CF864FCD9505F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -994,7 +994,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\commands</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A5A995F527C62095F03831620560D07F</GUID>
+      <GUID>6A74912424D19030937CC18A6D73271A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1085,7 +1085,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\Framework\Instrument\Help\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A3CA0F24727EFBCE08465CA080281B5F</GUID>
+      <GUID>E8F69D79C53CD3EFC8D9271D2EB5BE3B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1176,7 +1176,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2F88B9A6C0D5B5FC414DFED7260B2DCA</GUID>
+      <GUID>7ABE8EB12755FDBF71DC9F9A5EEB640A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1337,7 +1337,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Private\Set Dependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BBE6A03E549FB3E123EB6DEE49C097F9</GUID>
+      <GUID>5196544508CE2E9DD2F5408A149B6368</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1568,7 +1568,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Protected\Instrument.Public API.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C94981F4316B8A1B82EA78F11AF4649</GUID>
+      <GUID>543B968F2FF22701A95D4D54198FCBFE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1617,7 +1617,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Tests\Test JSON config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>67BD73C03CDF29DAE9EEE4A823E540C8</GUID>
+      <GUID>E28F4E938108C10315D8C440C55C6C95</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1736,7 +1736,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Handle Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5995DB52ED4CF0AAE78B04E6669A899B</GUID>
+      <GUID>3536993DFC460639F27596CCA368C344</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1799,7 +1799,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>447A3EBB2D3BAB7B6692D29385164A17</GUID>
+      <GUID>349B694CA8845E4CBBAD1D5D33399FFE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1876,7 +1876,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Write Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>59432C6F86EAD2F828D554B945341F0C</GUID>
+      <GUID>8F3375519CF6B485CAAE536FD5C8D660</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -2065,7 +2065,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO Version.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3523596808CF34A040057A034FCE63C0</GUID>
+      <GUID>D774E27A7B9BBB949B0282BEDA0EABB9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2142,7 +2142,7 @@ Update dependencies</Release_Notes>
         <Path>..\lvsrc\2-Framework\subsystems\Help\private\Minify jsonrpc id.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F845898A8C47208004AB8BC40B3117EF</GUID>
+      <GUID>DF29760C2085D2B1F7D5385462D65AA8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
