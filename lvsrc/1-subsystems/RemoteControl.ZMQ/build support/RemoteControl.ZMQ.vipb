@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2025-08-19 10:17:57" Creator="Patrick Irvin" Comments="" ID="e362a1bdf2edb8c30cd2dd74426917c5">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2025-09-09 12:10:47" Creator="Patrick Irvin" Comments="" ID="970435ce422d3e2239a6814b51b1389c">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_remote_control_zmq</Package_File_Name>
-    <Library_Version>1.3.1.23</Library_Version>
+    <Library_Version>1.3.2.24</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -58,8 +58,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.3.1]
-#183: adjust timeout and retries for ZMQ_REQ socket to allow quicker confirmation that a connection is established</Release_Notes>
+      <Release_Notes>[1.3.2]
+#187: fix libzmq64.lvclass inheritance</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -252,7 +252,7 @@
         <Path>..\src\ZMQ.ContextManager</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6DB6C81BB2E1E49C1F96079D59E4AB52</GUID>
+      <GUID>61F9320C82D949201703444BA2E830CF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -315,7 +315,7 @@
         <Path>..\src\RemoteControl.ZMQ\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C3A7140344BC8EE8E92B5DE046D13110</GUID>
+      <GUID>721FD47BADF29C1B93F0D614B1C92BAD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -420,7 +420,7 @@
         <Path>..\src\RemoteControl.ZMQ\Methods (Overrides)\Get Connections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4298C260BD91B2BD3050ECD62CA44CF0</GUID>
+      <GUID>F11F6BC5DC464DB5B4F83AD69D5B71B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -497,7 +497,7 @@
         <Path>..\src\RemoteControl.ZMQ\Tests\ZMQ Req Test.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CE24DA891CFFAF4162DE64ED62F401C0</GUID>
+      <GUID>BAFC54AC1955A242A2B605C153315B10</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -574,7 +574,7 @@
         <Path>..\src\ZMQ.ContextManager\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>17A597C89BB434D87F65048F3410E66A</GUID>
+      <GUID>74C74AF19C62FD42A0EBF4C814F25254</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -651,7 +651,7 @@
         <Path>..\src\ZMQ.ContextManager\private\ReftoDVR.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C04AEA103704E42FC4E4BF9B4AD66D9E</GUID>
+      <GUID>E9BA9F76F9177BC3ED7940800EFB9946</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -742,7 +742,7 @@
         <Path>..\src\RemoteControl.ZMQ\private\Build Endpoint.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5602CD2DCAFF3D9495357ED75CF113FF</GUID>
+      <GUID>10A8BCD2A326129D618D8F9988737242</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
