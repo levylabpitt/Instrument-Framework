@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-01-20 11:51:55" Modified_Date="2025-12-15 08:48:57" Creator="Patrick Irvin" Comments="" ID="dfc4d543a6b825ff4917a8665b8227c1">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-01-20 11:51:55" Modified_Date="2025-12-15 17:31:29" Creator="Patrick Irvin" Comments="" ID="da528a2b41cd2920d10e901e1559f857">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Instrument_Type</Package_File_Name>
-    <Library_Version>1.2.1.13</Library_Version>
+    <Library_Version>1.2.1.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\3-interfaces\Instrument Types</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -348,7 +348,7 @@ Add HELP for:
         <Path>..\lvsrc\subsystems\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51C6D83FCD4879EF5E6B24030A3879CF</GUID>
+      <GUID>FFA2D4475DCEE17E6FDFE7936D8DED2F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -425,7 +425,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\Amplifier\setChannel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FAB1C6FE7FF6C51869BA1062FD993484</GUID>
+      <GUID>61ACCCACDB4F7A94FDE78F80E06BA3CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -460,7 +460,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\CBridge\getCapacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6F51F967F15A5166B919FAEDF4B212C8</GUID>
+      <GUID>2417F2A6BC69B1673261F0C0EF5D90EF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -775,7 +775,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\Cryostat\Cryostat JSON.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CFD02D7CE3F19DA9B4C2CCEDE86D9EF5</GUID>
+      <GUID>A36BE50A22133664DB2A33DA6837F420</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -824,7 +824,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\Delay Line\setDelay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>487F50D0A24E2B8195A6F3C25A4E8376</GUID>
+      <GUID>20D4BDE00CF2E9FDF243C5049CCE4252</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -873,7 +873,7 @@ Add HELP for:
         <Path>..\lvsrc\subsystems\Instrument Types\Lockin\Private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>08E0DFAF2B8A86340AB7BB23228C9DAF</GUID>
+      <GUID>AA3F6E08C711AB87709A5109D23484B3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -922,7 +922,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\SCPI\SCPI.Send.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0D59BFD5F189EF441DAA417EA243A27A</GUID>
+      <GUID>66D38DFF7262436DD228DB68DC7E9A0E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1027,7 +1027,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\SignalGenerator\setPower.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1EAF4B06A77A85AB75289EDCC5A34918</GUID>
+      <GUID>82BFBE64894D128A2EF8EEC8698B1C66</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1076,7 +1076,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\Strain\getStrain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>363D508BE5815DEA978CD0712F22A65D</GUID>
+      <GUID>F54A11ABE98BC6ED9CA4959208829B5A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1181,7 +1181,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\VNA\getData.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7B92525B7DAD7808667D9C0801CAC6AF</GUID>
+      <GUID>E2B26C00F056DE933E4A2EFF0E83157F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1230,7 +1230,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\VSource\API\getBiasVoltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5AB16ED2933E72294E9396D63C4D5659</GUID>
+      <GUID>6F0F42FBFD1393350FC17205713627D6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1545,7 +1545,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\Lockin\API\getResults.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>857296393BA08FE5E398D422BD6ACDCA</GUID>
+      <GUID>12F89C916417707A3A728D1356E94CEC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1580,7 +1580,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\Lockin\Private\Retry Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>28C408B531BE586D701BAB16393F9F68</GUID>
+      <GUID>E8D3C994BB47FFE8749F20E63FAC8AA3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -1671,7 +1671,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\Lockin\API\AO\setAO_phi.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AA8AE4B4BC422D2E92A8F49125F51734</GUID>
+      <GUID>E8DD87DF4090C2E4D19AECF615C5F35D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -1818,7 +1818,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\Lockin\API\Macros\waitStatusSweepingStopped.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F4BBA3B4FF055C52C340DCE3816397F</GUID>
+      <GUID>A77C91C9760CDC07398DFD8C5FCE24E4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -1895,7 +1895,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\Lockin\API\REF\setREF_TC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5BA0115BF85900D33603905901D402AC</GUID>
+      <GUID>C69070C1EF7A94E0DA77C519F156C791</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2014,7 +2014,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\Lockin\API\State\startSweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20DBA3BE84E13389E2859073FDE59D73</GUID>
+      <GUID>FB51EF14ECC24EDD77E85EBB52A601D1</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -2161,7 +2161,7 @@ Add HELP for:
         <Path>..\lvsrc\subsystems\Instrument Types\VNA</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C5A597A567BA98170014212CB0CDC88F</GUID>
+      <GUID>08A41E2D9C65E0B0A394530AE806E629</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2196,7 +2196,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\Amplifier\Amplifier.Commands--Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5A661691F94D4F60DE98ACB72552B7C6</GUID>
+      <GUID>40EBBFF6F8CF3DAD335C5C2158EEACAD</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2231,7 +2231,7 @@ Add HELP for:
         <Path>..\lvsrc\subsystems\Instrument Types\CBridge\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>106EAD3F6A0047BA58BD9F0C56A7FC92</GUID>
+      <GUID>A181BF804218F404006D67D1446C6A43</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2266,7 +2266,7 @@ Add HELP for:
         <Path>..\lvsrc\subsystems\Instrument Types\Cryostat\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F9F54107CE306AAD4755963ABF2D07E8</GUID>
+      <GUID>C0FB6A52ED0A02E7D245845CE48AA74E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2301,7 +2301,7 @@ Add HELP for:
         <Path>..\lvsrc\subsystems\Instrument Types\Delay Line\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CEC61B266FFBD0A7BDDE971E92F73415</GUID>
+      <GUID>E5227AD741A2D923700318D13943D6FA</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2336,7 +2336,7 @@ Add HELP for:
         <Path>..\lvsrc\subsystems\Instrument Types\Lockin\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ECEAF83C083EF80F5303B21F0241D896</GUID>
+      <GUID>5C9DE28B702E182871C04DE143B38609</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2371,7 +2371,7 @@ Add HELP for:
         <Path>..\lvsrc\subsystems\Instrument Types\SCPI\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FCFFE0ACDF20DE33FBB11A9247C56433</GUID>
+      <GUID>664CC7A12F6A934825EC01F6F320AC3B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2406,7 +2406,7 @@ Add HELP for:
         <Path>..\lvsrc\subsystems\Instrument Types\SignalGenerator\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>80C67BC764F04F23FBAD01354C68252A</GUID>
+      <GUID>D2450CC17B0EC6AF6A0D31809302480A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2441,7 +2441,7 @@ Add HELP for:
         <Path>..\lvsrc\subsystems\Instrument Types\Strain\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7DC5E17E88E8737B4C05DAAC968C4AB9</GUID>
+      <GUID>8343308FD5A58D2898562A93E775E22F</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2476,7 +2476,7 @@ Add HELP for:
         <Path>..\lvsrc\subsystems\Instrument Types\VNA\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6A4611E69A5D21ADED6DDF4F2464D5A</GUID>
+      <GUID>4413DF7789DE2A841EB1DFDA90D4D0FC</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2511,7 +2511,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\CBridge\Typedefs\CBridge.Commands--Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>743CE0FD3CFC884D4F87E949A28A724B</GUID>
+      <GUID>7968EE7EEBFA779F4AFA131230521314</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -2756,7 +2756,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\Cryostat\Typedefs\setTemperature--cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C3BBA8634F2895CF9C7EB55C3661CCF9</GUID>
+      <GUID>D3544B5DE63F8EA70690B3DFDC5CB378</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2819,7 +2819,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\Delay Line\Typedefs\DelayLine.setDelay--cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E29FD433E0FA0C8E0B2B1FF482847E7C</GUID>
+      <GUID>862607E8842EA82A861C229CDC2A3BCC</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3106,7 +3106,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\Lockin\Typedefs\LockinAPI.SweepTable--cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D8EE2C79779047FE2E21C2492EF78C54</GUID>
+      <GUID>9FBE538BA657713988E5F43648415A34</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -3141,7 +3141,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\SCPI\Typedefs\SCPI.Commands--Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0DDA0174D4C17BEF74C22C1BBD856E7B</GUID>
+      <GUID>542A718F8040CD646A006506C6AA007D</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -3204,7 +3204,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\SignalGenerator\Typedefs\SignalGenerator.Commands--Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E1236C604C138235E4D31B77EAC9E8CE</GUID>
+      <GUID>7593DCE63FDA6A466C2FC05520CD4E70</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -3253,7 +3253,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\Strain\Typedefs\Strain.Commands--Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7F47450D30B74353AE97CAC8419D2059</GUID>
+      <GUID>5BA5574D2EFB791621AEDAD8F2C4076B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -3400,7 +3400,7 @@ Add HELP for:
         <Path>..\lvsrc\3-interfaces\Instrument Types\VNA\Typedefs\VNA.Commands--Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A96EC4926B30F2DE4DD6C6ACD8A95B6C</GUID>
+      <GUID>306D1994F236E098DCBDC6B70ED9212B</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
