@@ -28,7 +28,7 @@
 		<Item Name="DVRtoRef.vi" Type="VI" URL="../private/DVRtoRef.vi"/>
 		<Item Name="ReftoDVR.vi" Type="VI" URL="../private/ReftoDVR.vi"/>
 		<Item Name="ContextManager.FGV.vi" Type="VI" URL="../private/ContextManager.FGV.vi"/>
-		<Item Name="write status log.vi" Type="VI" URL="../private/write status log.vi"/>
+		<Item Name="Log Status.vi" Type="VI" URL="../private/Log Status.vi"/>
 	</Item>
 	<Item Name="Tests" Type="Folder"/>
 </Library>
