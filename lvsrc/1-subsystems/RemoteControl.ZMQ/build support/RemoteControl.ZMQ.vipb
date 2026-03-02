@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2026-02-25 16:29:27" Creator="Patrick Irvin" Comments="" ID="dd0f3e75443d0ddf6436a9882c64616c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-21 19:39:20" Modified_Date="2026-03-02 16:18:37" Creator="Patrick Irvin" Comments="" ID="d0be464f0091d150a14a54285608f3e3">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_remote_control_zmq</Package_File_Name>
-    <Library_Version>1.3.6.28</Library_Version>
+    <Library_Version>1.3.7.29</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -59,10 +59,7 @@
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
       <Release_Notes>[1.3.6]
-Updates to logging:
-- change `write status log.vi` to `Log Status.vi`
-- logging is enable (logging = TRUE) or disabled (logging = FALSE) via `config.ini` inside same directory as log file
-- logging is disabled by default</Release_Notes>
+#190 add recursive create folder</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -255,7 +252,7 @@ Updates to logging:
         <Path>..\src\ZMQ.ContextManager</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8F9AA1AE6E46EB82EC7C4055641B78CC</GUID>
+      <GUID>F8B8A303A5C78E79E345CC9F7E35E2A8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -318,7 +315,7 @@ Updates to logging:
         <Path>..\src\RemoteControl.ZMQ\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F37D983A0379DCA728C974B106BDA7AD</GUID>
+      <GUID>861C6D8314E00BF9EB4C312958EF74B8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -423,7 +420,7 @@ Updates to logging:
         <Path>..\src\RemoteControl.ZMQ\Methods (Overrides)\Get Connections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>12B315AC918A871A162F02787EDDD350</GUID>
+      <GUID>EC93F1E37B29B52800E49A411262BD9D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -500,7 +497,7 @@ Updates to logging:
         <Path>..\src\RemoteControl.ZMQ\Tests\ZMQ Req Test.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>007FF41F422F8F2B2679256BF1EB5386</GUID>
+      <GUID>0D9FC9B1D6318AC95DC6C47AC5523967</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -605,7 +602,7 @@ Updates to logging:
         <Path>..\src\ZMQ.ContextManager\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6CA421CF809B1D3A154F609303B87008</GUID>
+      <GUID>BB0CDEADAA66D057A55368032C954AE2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -682,7 +679,7 @@ Updates to logging:
         <Path>..\src\ZMQ.ContextManager\private\ReftoDVR.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D9D819FC7FD753C94E607180410BED8</GUID>
+      <GUID>1B897045CA889C887C16F0C133BBD44E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -773,7 +770,7 @@ Updates to logging:
         <Path>..\src\RemoteControl.ZMQ\private\Build Endpoint.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9EBBE330B1064750125AC1D957F98FCF</GUID>
+      <GUID>61F14F51534523F3937CE6C22E76A578</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
