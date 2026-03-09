@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:54:27" Modified_Date="2025-05-15 15:59:45" Creator="Patrick Irvin" Comments="" ID="d22c6e91fa31dc4143b65728ed5ea190">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 08:54:27" Modified_Date="2026-03-09 14:46:47" Creator="Patrick Irvin" Comments="" ID="87dd9fc9265592eb7d9fdc57c2bb9d6e">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_logger_pgsql</Package_File_Name>
-    <Library_Version>1.2.2.15</Library_Version>
+    <Library_Version>1.3.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -23,9 +23,9 @@
       <External_Dependencies>jki_statemachineobjects &gt;= 1.4.0.69</External_Dependencies>
       <External_Dependencies>labview_open_source_lib_epoch_datetime &gt;= 1.3.0.8</External_Dependencies>
       <External_Dependencies>levylab_lib_fileutilities &gt;= 1.2.6.13</External_Dependencies>
-      <External_Dependencies>levylab_lib_lvtdatpgsql &gt;= 3.10.0.8</External_Dependencies>
+      <External_Dependencies>levylab_lib_lvtdatpgsql &gt;= 3.12.1.15</External_Dependencies>
       <External_Dependencies>levylab_lib_lvtoitx &gt;= 3.10.0.9</External_Dependencies>
-      <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.6.0.6</External_Dependencies>
+      <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.9.0.13</External_Dependencies>
       <External_Dependencies>mgi_lib_1d_array &gt;= 1.0.2.3</External_Dependencies>
       <External_Dependencies>mgi_lib_numeric &gt;= 1.1.0.2</External_Dependencies>
       <External_Dependencies>national_instruments_lib_guid_generator &gt;= 1.0.2.3</External_Dependencies>
@@ -45,9 +45,9 @@
       <Direct_Dependencies>jki_statemachineobjects-1.4.0.69</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_epoch_datetime-1.3.0.8</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_fileutilities-1.2.6.13</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_lvtdatpgsql-3.10.0.8</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_lvtdatpgsql-3.12.1.15</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_lvtoitx-3.10.0.9</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_xy_utilities-1.6.0.6</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_xy_utilities-1.9.0.13</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_1d_array-1.0.2.3</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_numeric-1.1.0.2</Direct_Dependencies>
       <Direct_Dependencies>national_instruments_lib_guid_generator-1.0.2.3</Direct_Dependencies>
@@ -76,8 +76,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
-      <Release_Notes>[1.2.2]
-- #165 adjust package dependencies</Release_Notes>
+      <Release_Notes>[1.3.0]
+- #196 improve logger state resilience to disconnected and unconfigured connections</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -284,7 +284,7 @@
         <Path>..\src\Logger.PGSQL\Logger.PGSQL.ReadVariable.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E0C3960A4005BE24F8FE6BD291171C8</GUID>
+      <GUID>281AE182F7F29FE1AA23D8C0C74370B4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
