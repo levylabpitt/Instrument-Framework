@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 09:27:04" Modified_Date="2026-05-27 16:59:04" Creator="Patrick Irvin" Comments="" ID="af7470fd3e6f9112b4a2fea2631c7418">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-11-22 09:27:04" Modified_Date="2026-05-27 17:02:05" Creator="Patrick Irvin" Comments="" ID="62cffe89a44d3994f5b11dfd16daf7bb">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_logger_error</Package_File_Name>
-    <Library_Version>1.2.2.9</Library_Version>
+    <Library_Version>1.2.2.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -366,7 +366,7 @@
         <Path>..\src\Logger.Error\List Dependencies Recursive.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BE6969310C28DCC0FD490386051688D6</GUID>
+      <GUID>E0E16FE6F3AA1499147AEB84DBA01379</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
