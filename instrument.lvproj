@@ -23,6 +23,8 @@
 		</Item>
 		<Item Name="Instrument-VIM.lvlib" Type="Library" URL="../lvsrc/2-Framework/Instrument-VIM/Instrument-VIM.lvlib"/>
 		<Item Name="Instrument.lvlib" Type="Library" URL="../lvsrc/2-Framework/Instrument.lvlib"/>
+		<Item Name="Test State History.vi" Type="VI" URL="../lvsrc/1-subsystems/Debug/tests/Test State History.vi"/>
+		<Item Name="State History.vi" Type="VI" URL="../lvsrc/1-subsystems/Debug/src/State History.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
