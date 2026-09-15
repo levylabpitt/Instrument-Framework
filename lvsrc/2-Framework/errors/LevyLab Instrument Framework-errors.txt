@@ -3,7 +3,7 @@
 <nicomment>
 LevyLab Instrument Framework error codes.
 
-Install to <user.lib>\errors\ (LabVIEW reads it at startup; restart LabVIEW after installing).
+Install to the LabVIEW user.lib\errors folder (LabVIEW reads it at startup; restart LabVIEW after installing).
 
 Reserved block: 5400-5499 (inside NI's user-defined range 5000-9999).
 Numbers are append-only: never reuse or renumber a code, because JSON-RPC clients receive them.
