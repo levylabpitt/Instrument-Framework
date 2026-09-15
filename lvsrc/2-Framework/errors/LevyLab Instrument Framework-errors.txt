@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+LevyLab Instrument Framework error codes.
+
+Install to the LabVIEW user.lib\errors folder (LabVIEW reads it at startup; restart LabVIEW after installing).
+
+Reserved block: 5400-5499 (inside NI's user-defined range 5000-9999).
+Numbers are append-only: never reuse or renumber a code, because JSON-RPC clients receive them.
+
+  5400        reserved
+  5401        reserved for "command not supported" (planned replacement for legacy 4001)
+  5402        parameter not supported (Handle GET / Handle SET base implementation)
+  5403-5499   unassigned
+
+Legacy codes still raised by the framework and intentionally NOT registered here
+(outside NI's user-defined ranges; kept for client compatibility until migrated):
+  4000  unsupported method
+  4001  unsupported command
+  42    unhandled state (JKI State Machine's own code)
+</nicomment>
+<nierror code="5402">
+Instrument Framework: parameter not supported. The instrument's Handle GET or Handle SET override did not handle this parameter; check the parameter name against the instrument's HELP.
+</nierror>
+</nidocument>
