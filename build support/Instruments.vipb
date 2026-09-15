@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2026-09-15 10:05:19" Creator="Patrick" Comments="" ID="e5090ed352555f088614241006f58d86">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2026-09-15 11:30:45" Creator="Patrick" Comments="" ID="1a6d148bbdd06da2ee919fd744211cb2">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
     <Library_Version>1.15.13.54</Library_Version>
@@ -18,12 +18,12 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>levylab_lib_configuration &gt;=1.1.0.6</Additional_External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_debug &gt;=1.1.0.8</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_debug &gt;=1.2.1.10</Additional_External_Dependencies>
       <Additional_External_Dependencies>levylab_lib_logger &gt;=1.1.2.11</Additional_External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_logger_error &gt;=1.2.2.9</Additional_External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_logger_pgsql &gt;=1.3.0.15</Additional_External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_remote_control &gt;=1.3.2.14</Additional_External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_remote_control_zmq &gt;=1.3.7.28</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_logger_error &gt;=1.2.3.10</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_logger_pgsql &gt;=1.3.1.16</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_remote_control &gt;=1.4.2.21</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_remote_control_zmq &gt;=1.3.7.30</Additional_External_Dependencies>
       <Additional_External_Dependencies>prirvin_lib_json_schema &gt;=0.2.0.9</Additional_External_Dependencies>
       <Package_Conflicts>levylab_lib_levylab_instruments &gt;=2.0.0.1</Package_Conflicts>
       <Package_Conflicts>levylab_lib_postgresql &gt;=1.4.0.22</Package_Conflicts>
@@ -276,7 +276,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\2-Framework\Instrument-VIM\string to enum.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F59BA1274A9B5185228D7BFD52E4EE8D</GUID>
+      <GUID>A479D0FF0538B67EADA4949B867FCD6C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -437,7 +437,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\Framework\Instrument\Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5CD86007582717D9969D7E6461D7476D</GUID>
+      <GUID>2FA2AB683184C86CF0090FE64C2686EC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -528,7 +528,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\2-Framework\Instrument\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>35AF9CF3B9E36F4C26318004ABC0DDD1</GUID>
+      <GUID>051F2ADFD21A2212995DB238298A8911</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -843,7 +843,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\2-Framework\Instrument\API\Instrument.sendMessageToProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>733DB0B828EE4215925106F0C0169CC5</GUID>
+      <GUID>897635F2CF19C197DBC35871C2267183</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -920,7 +920,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\2-Framework\Instrument\API\Instrument.MessageToProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F91F399B103F006745A8531A52DE2D01</GUID>
+      <GUID>153F0E0D4471D488C6F78BC4FD04907E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1011,7 +1011,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\commands</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>82344947C628A71D1AB76A0EAD13E890</GUID>
+      <GUID>B7A45A500B7749145A28EB3DA557D60F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1102,7 +1102,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\Framework\Instrument\Help\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DDA9490299EF13A965C14B9E5E329E38</GUID>
+      <GUID>D7B49A9A841F435FDF2EBCE9A254BD21</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1193,7 +1193,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\2-Framework\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A13692E87E3CF3DB14B1CEAEEE09FD9E</GUID>
+      <GUID>36333F648661C9861103ADAB3FC85527</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1368,7 +1368,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\2-Framework\Instrument\Private\Configure Debug Mode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1BA601E19EB376AA1CCBD0F85A4EA7FD</GUID>
+      <GUID>C9A25B243FCAE8E6C91A09C78AD512B7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1585,7 +1585,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\2-Framework\Instrument\Protected\Instrument.Public API.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B0F2FFAA295FF39EC32DEFD9B7292847</GUID>
+      <GUID>475884DFFCCCFD08D7CE47D85B8E2E44</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1634,7 +1634,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\2-Framework\Instrument\Tests\Test JSON config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>167B568E36FBBEBBCA04AF06B123F5FC</GUID>
+      <GUID>3A552871FEE9943A46F1491E2F7B4A77</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1725,7 +1725,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Handle Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A50C17CFDC2672099BF1237A37E5F4A8</GUID>
+      <GUID>0632D1DE5D35F334C20483FD59D313AD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1788,7 +1788,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BBB829414AE3E2405003849E3B26D0AE</GUID>
+      <GUID>BEB94D9F5A13C293EB645B8AFD4DC0E8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1865,7 +1865,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Write Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>433071EE48369D5E053B1B2002CA269D</GUID>
+      <GUID>4019524F77445A2F3A5DB6BD5042F6DA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -2054,7 +2054,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO Database Paths.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1193C45E314B27D34148AEE49AB66069</GUID>
+      <GUID>54CA57C29F873545CE7D056D74D1DAD6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2131,7 +2131,7 @@ Performance Improvements: move State History.vi to Debug library
         <Path>..\lvsrc\2-Framework\subsystems\Help\private\Minify jsonrpc id.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3B6AC13025781E9F914AABF35FE529F0</GUID>
+      <GUID>202C0A4DF7D8E67349403D96726BE7D2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
