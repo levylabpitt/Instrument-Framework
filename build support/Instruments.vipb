@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2026-09-15 13:47:32" Creator="Patrick" Comments="" ID="d1cf4c7ab36b3006eaa7e8bb0ec0441f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2026-09-15 13:59:18" Creator="Patrick" Comments="" ID="da1b8085e945748a1ee790a59f9e8681">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
     <Library_Version>1.15.13.55</Library_Version>
@@ -52,12 +52,14 @@ An Instrument developed using this framework will have the access to the followi
       <Packager/>
       <URL>https://github.com/levylabpitt/Instrument-Framework</URL>
       <Release_Notes>[1.15.13]
-Performance Improvements: move State History.vi to Debug library
-- use debug attribute to set history length (normal: 100, debug: 1000)
-- inline preallocated clone reentrant
-- replace OpenG 1D Array to String__ogtk.vi with LabVIEW primitive
-Add *-error.stxt file
-</Release_Notes>
+Performance
+- A1: State History.vi moved to Debug library; history depth from Debug attribute (100 normal / 1000 debug); inlined, preallocated reentrant
+- A1/A10: OpenG 1D Array to String replaced with LabVIEW primitive (State History, Get SMO Database Paths)
+Reliability
+- B2: base Handle GET / Handle SET return error 5402 "parameter not supported" for unhandled parameters (previously empty data, no error). Driver overrides should call the parent only in their Default case.
+- B14: added user.lib\errors\LevyLab Instrument Framework-errors.txt (reserves codes 5400-5499)
+Packaging
+- Requires Debug &gt;= 1.2.1.10; removed Instrument UI\State History.vi</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -290,7 +292,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\2-Framework\Instrument-VIM\string to enum.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D91A0825D612E1D741769DA7081A85B1</GUID>
+      <GUID>07809B50E1F61861AA2389A12AADF23C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -451,7 +453,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\Framework\Instrument\Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>50E9ADAA69747BA85BE889A458681A5F</GUID>
+      <GUID>095F6085CD33CD3CF73635EE270B8F44</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -528,7 +530,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\2-Framework\Instrument UI\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3E9042DC9A1CB0D0E96FC32036C4DBDC</GUID>
+      <GUID>580C5F09064CF367E70DA4C166B62C1D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -843,7 +845,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\2-Framework\Instrument\API\Instrument.sendMessageToProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D41A8B293EDEF0A75E96684BB37E551</GUID>
+      <GUID>57B9E9CFEC03991CAC2572A6595193B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -920,7 +922,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\2-Framework\Instrument\API\Instrument.MessageToProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D38A4EF263337590D81E0F8A1365775</GUID>
+      <GUID>D5E3618070289DBDC8B9E276E12A7429</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1011,7 +1013,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\commands</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ABF61E0AB2BF1B7323AC9ED2C8DE79BC</GUID>
+      <GUID>921EB01810A8CE672C3C77E96421D405</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1102,7 +1104,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\Framework\Instrument\Help\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FDB78A786907557711A57C532579D2FD</GUID>
+      <GUID>06C4F4B2CE7FFA099570BADAA32CE988</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1193,7 +1195,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\2-Framework\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>880641423CA7F79F89938E225907BD83</GUID>
+      <GUID>1030D1A392D05FA699B51C93BFDF6E86</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1368,7 +1370,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\2-Framework\Instrument\Private\Configure Debug Mode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>91A53395686D8525216484BAFDD1E9A6</GUID>
+      <GUID>EC2C1EC717FA634DECD29ED6A254BAE9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1585,7 +1587,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\2-Framework\Instrument\Protected\Instrument.Public API.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>082B3D3081DC02BE534279A036C40D5B</GUID>
+      <GUID>B5B0FBCA595D67F729DE89B00DFD7205</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1634,7 +1636,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\2-Framework\Instrument\Tests\Test JSON config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>83A5E04D9DDA8A77937FFD914ECC0B9E</GUID>
+      <GUID>C7FE30836B992692E5D383E86E608993</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1725,7 +1727,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Handle Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>722B3167B47242C04E0DB77E1374C68A</GUID>
+      <GUID>F11923F48FEF26BE6F6369E9C0A232D1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1788,7 +1790,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>18D06F3760E2DD7ECE8F7D78048F0F24</GUID>
+      <GUID>5828BFA6C32825DA08FC5EF94ED5A451</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1865,7 +1867,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Write Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>54458CE9269456FB92882ADFF243E56A</GUID>
+      <GUID>40D9747491D1829A42D1E561DFBCEFEC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -2054,7 +2056,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO Database Paths.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2BD8A05395991CF69122BCBBC52E03D5</GUID>
+      <GUID>310B5B01DB9E8BD19E18D1197E89E516</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2131,7 +2133,7 @@ Add *-error.stxt file
         <Path>..\lvsrc\2-Framework\subsystems\Help\private\Minify jsonrpc id.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A79922BA72C92ECAEA8A1A83972CDBEA</GUID>
+      <GUID>3A079319254BF09F633B5311331F94B7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
