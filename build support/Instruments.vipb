@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2026-09-15 12:29:33" Creator="Patrick" Comments="" ID="45402cc4d0464640a578d9a720f36b2d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-05-30 09:35:00" Modified_Date="2026-09-15 13:47:32" Creator="Patrick" Comments="" ID="d1cf4c7ab36b3006eaa7e8bb0ec0441f">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Levylab_Instruments</Package_File_Name>
-    <Library_Version>1.15.13.54</Library_Version>
+    <Library_Version>1.15.13.55</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\2-Framework</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -55,8 +55,9 @@ An Instrument developed using this framework will have the access to the followi
 Performance Improvements: move State History.vi to Debug library
 - use debug attribute to set history length (normal: 100, debug: 1000)
 - inline preallocated clone reentrant
-- replace OpenG 1D Array to String__ogtk.vi with the LabVIEW primitive
-Add error.txt file</Release_Notes>
+- replace OpenG 1D Array to String__ogtk.vi with LabVIEW primitive
+Add *-error.stxt file
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -289,7 +290,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument-VIM\string to enum.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24DB240D31B53F675AEBA55B13835D09</GUID>
+      <GUID>D91A0825D612E1D741769DA7081A85B1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -450,7 +451,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\Framework\Instrument\Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>65AC06D8A6D164A012EB5FBE94BCB0EE</GUID>
+      <GUID>50E9ADAA69747BA85BE889A458681A5F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -527,7 +528,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument UI\Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>69706CB711B328CCFB69E47F4CB2FC6C</GUID>
+      <GUID>3E9042DC9A1CB0D0E96FC32036C4DBDC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -842,7 +843,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\API\Instrument.sendMessageToProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>892C79F691BDA5D22BCBE911BE427F6B</GUID>
+      <GUID>9D41A8B293EDEF0A75E96684BB37E551</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -919,7 +920,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\API\Instrument.MessageToProcess.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C2943B78E456B56E37FBB90DC002BB3E</GUID>
+      <GUID>6D38A4EF263337590D81E0F8A1365775</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1010,7 +1011,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\Framework\Instrument\Framework (for override)\commands</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>124041E744946E140D7F59A6EB438287</GUID>
+      <GUID>ABF61E0AB2BF1B7323AC9ED2C8DE79BC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1101,7 +1102,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\Framework\Instrument\Help\private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FEBC22CE98CDCDC3325CF76F19481198</GUID>
+      <GUID>FDB78A786907557711A57C532579D2FD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1192,7 +1193,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Overrides\enumerateStaticDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B7A94B2F5A3FAF7D175D7F8EA8032912</GUID>
+      <GUID>880641423CA7F79F89938E225907BD83</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1367,7 +1368,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Private\Configure Debug Mode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>613F938804329D0F089E8293410BE701</GUID>
+      <GUID>91A53395686D8525216484BAFDD1E9A6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1584,7 +1585,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Protected\Instrument.Public API.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A3174365E0D19BDB2C8F5A1E8E00BD80</GUID>
+      <GUID>082B3D3081DC02BE534279A036C40D5B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1633,7 +1634,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Tests\Test JSON config.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A36130CB2EC0E3CEAFF602B577437D9C</GUID>
+      <GUID>83A5E04D9DDA8A77937FFD914ECC0B9E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1724,7 +1725,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Handle Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5722FA1DCA7C1AB3FC2E6A3123F2BCD9</GUID>
+      <GUID>722B3167B47242C04E0DB77E1374C68A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1787,7 +1788,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Write Configuration File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7AE282D3519EB69CEEAF5D8D9CC2B0DE</GUID>
+      <GUID>18D06F3760E2DD7ECE8F7D78048F0F24</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1864,7 +1865,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Write Hardware.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A89776A4B2589F457845F7BAB4E93FF0</GUID>
+      <GUID>54458CE9269456FB92882ADFF243E56A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -2053,7 +2054,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\2-Framework\Instrument\Framework (for override)\Get SMO Database Paths.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CD5373C4E5C35BF50581FBD7C0F06D52</GUID>
+      <GUID>2BD8A05395991CF69122BCBBC52E03D5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2130,7 +2131,7 @@ Add error.txt file</Release_Notes>
         <Path>..\lvsrc\2-Framework\subsystems\Help\private\Minify jsonrpc id.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>068F3379152197620F2CA173592FD280</GUID>
+      <GUID>A79922BA72C92ECAEA8A1A83972CDBEA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
