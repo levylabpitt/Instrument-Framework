@@ -13,8 +13,9 @@
   - **123**: "LabVIEW: A timeout occurred." This is what the ZMQ client returns when a request gets no reply, from RemoteControl.ZMQ 1.4.0.32 on (levylabpitt/RemoteControl.ZMQ#1);
   - **56**: network timeout, for other transports;
   - **91**: a bad reply type, which is what RemoteControl.ZMQ 1.3.7.30 and earlier produced instead of a timeout;
-  - **1556**: the ZMQ socket was closed and reconnected;
   - **the new "empty reply" code** from edit 2.
+
+  Not **1556** ("The reference is invalid"). It is generic, and RemoteControl.ZMQ already handles its own 1556 inside `ZMQ.Handle Error.vi` by reconnecting. A 1556 that reaches the Lockin API means some other reference died, and retrying would hide it.
 - Keep the list in one array constant so it is easy to extend. Mark the VI public, or community scoped, because Transport will call it (levylabpitt/Transport#180).
 
 ### 2. `API/State/getStatus.vi`
