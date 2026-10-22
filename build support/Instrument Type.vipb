@@ -1,14 +1,14 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-01-20 11:51:55" Modified_Date="2026-03-09 11:24:32" Creator="Patrick Irvin" Comments="" ID="f40c54be6ddc7a7a0249a7e94996e709">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-01-20 11:51:55" Modified_Date="2026-10-22 11:07:12" Creator="Patrick Irvin" Comments="" ID="68591563fed76c02c62039085cf79d3b">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Instrument_Type</Package_File_Name>
-    <Library_Version>1.2.2.15</Library_Version>
+    <Library_Version>1.2.3.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc\3-interfaces\Instrument Types</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
     <Company_Name>LevyLab</Company_Name>
     <Library_Summary/>
     <Library_License/>
-    <Package_LabVIEW_Version>19.0</Package_LabVIEW_Version>
+    <Package_LabVIEW_Version>19.0 (64-bit)</Package_LabVIEW_Version>
     <Community_Edition>false</Community_Edition>
     <Package_Icon>00000D7E002800000C9A00000400000200020022002200080000000000FFFFFF00FF80000000FFFFFFFFFFFF0000FFFFFFFFCCCC0000FFFFFFFF99990000FFFFFFFF66660000FFFFFFFF33330000FFFFFFFF00000000FFFFCCCCFFFF0000FFFFCCCCCCCC0000FFFFCCCC99990000FFFFCCCC66660000FFFFCCCC33330000FFFFCCCC00000000FFFF9999FFFF0000FFFF9999CCCC0000FFFF999999990000FFFF999966660000FFFF999933330000FFFF999900000000FFFF6666FFFF0000FFFF6666CCCC0000FFFF666699990000FFFF666666660000FFFF666633330000FFFF666600000000FFFF3333FFFF0000FFFF3333CCCC0000FFFF333399990000FFFF333366660000FFFF333333330000FFFF333300000000FFFF0000FFFF0000FFFF0000CCCC0000FFFF000099990000FFFF000066660000FFFF000033330000FFFF000000000000CCCCFFFFFFFF0000CCCCFFFFCCCC0000CCCCFFFF99990000CCCCFFFF66660000CCCCFFFF33330000CCCCFFFF00000000CCCCCCCCFFFF0000CCCCCCCCCCCC0000CCCCCCCC99990000CCCCCCCC66660000CCCCCCCC33330000CCCCCCCC00000000CCCC9999FFFF0000CCCC9999CCCC0000CCCC999999990000CCCC999966660000CCCC999933330000CCCC999900000000CCCC6666FFFF0000CCCC6666CCCC0000CCCC666699990000CCCC666666660000CCCC666633330000CCCC666600000000CCCC3333FFFF0000CCCC3333CCCC0000CCCC333399990000CCCC333366660000CCCC333333330000CCCC333300000000CCCC0000FFFF0000CCCC0000CCCC0000CCCC000099990000CCCC000066660000CCCC000033330000CCCC0000000000009999FFFFFFFF00009999FFFFCCCC00009999FFFF999900009999FFFF666600009999FFFF333300009999FFFF000000009999CCCCFFFF00009999CCCCCCCC00009999CCCC999900009999CCCC666600009999CCCC333300009999CCCC0000000099999999FFFF000099999999CCCC0000999999999999000099999999666600009999999933330000999999990000000099996666FFFF000099996666CCCC0000999966669999000099996666666600009999666633330000999966660000000099993333FFFF000099993333CCCC0000999933339999000099993333666600009999333333330000999933330000000099990000FFFF000099990000CCCC000099990000999900009999000066660000999900003333000099990000000000006666FFFFFFFF00006666FFFFCCCC00006666FFFF999900006666FFFF666600006666FFFF333300006666FFFF000000006666CCCCFFFF00006666CCCCCCCC00006666CCCC999900006666CCCC666600006666CCCC333300006666CCCC0000000066669999FFFF000066669999CCCC0000666699999999000066669999666600006666999933330000666699990000000066666666FFFF000066666666CCCC0000666666669999000066666666666600006666666633330000666666660000000066663333FFFF000066663333CCCC0000666633339999000066663333666600006666333333330000666633330000000066660000FFFF000066660000CCCC000066660000999900006666000066660000666600003333000066660000000000003333FFFFFFFF00003333FFFFCCCC00003333FFFF999900003333FFFF666600003333FFFF333300003333FFFF000000003333CCCCFFFF00003333CCCCCCCC00003333CCCC999900003333CCCC666600003333CCCC333300003333CCCC0000000033339999FFFF000033339999CCCC0000333399999999000033339999666600003333999933330000333399990000000033336666FFFF000033336666CCCC0000333366669999000033336666666600003333666633330000333366660000000033333333FFFF000033333333CCCC0000333333339999000033333333666600003333333333330000333333330000000033330000FFFF000033330000CCCC000033330000999900003333000066660000333300003333000033330000000000000000FFFFFFFF00000000FFFFCCCC00000000FFFF999900000000FFFF666600000000FFFF333300000000FFFF000000000000CCCCFFFF00000000CCCCCCCC00000000CCCC999900000000CCCC666600000000CCCC333300000000CCCC0000000000009999FFFF000000009999CCCC0000000099999999000000009999666600000000999933330000000099990000000000006666FFFF000000006666CCCC0000000066669999000000006666666600000000666633330000000066660000000000003333FFFF000000003333CCCC0000000033339999000000003333666600000000333333330000000033330000000000000000FFFF000000000000CCCC0000000000009999000000000000666600000000000033330000EEEE000000000000DDDD000000000000BBBB000000000000AAAA0000000000008888000000000000777700000000000055550000000000004444000000000000222200000000000011110000000000000000EEEE000000000000DDDD000000000000BBBB000000000000AAAA0000000000008888000000000000777700000000000055550000000000004444000000000000222200000000000011110000000000000000EEEE000000000000DDDD000000000000BBBB000000000000AAAA0000000000008888000000000000777700000000000055550000000000004444000000000000222200000000000011110000EEEEEEEEEEEE0000DDDDDDDDDDDD0000BBBBBBBBBBBB0000AAAAAAAAAAAA00008888888888880000777777777777000055555555555500004444444444440000222222222222000011111111111100000000000000002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2AFFFFFF2AFF2AFF2AFFFFFF2A2AFFFFFF2A2AFFFFFF2A2A2A2A2A2A2A2A2A2A2A2AFF2A2AFF2AFF2AFF2A2AFF2AFF2A2A2AFF2A2A2A2A2A2A2A2A2A2A2A2A2A2A2AFF2A2A2AFF2A2AFFFFFF2A2AFFFF2A2A2AFFFF2A2A2A2A2A2A2A2A2A2A2A2A2AFF2A2A2AFF2A2AFF2A2A2A2AFF2A2A2A2A2A2AFF2A2A2A2A2A2A2A2A2A2A2A2AFF2A2A2AFF2A2AFF2A2A2A2AFFFFFF2AFFFFFF2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0000000000000000000000000000000000000000000000000000000000002A2A0000000000000000000000000000000000000000000000000000000000002A2A0000000000000000000000000000000000000000000000000000000000002A2A00000000002B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B00000000002A2A0000002BFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFA2B0000002A2A00002BFA2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2BFA2B00002A2A0000FAF8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F856F8FA00002A2A0000FA56568181818181FAFA81818156F82CF8F8F8F8F8F8F8F8F8FA00002A2A0000FA56FAFFFFFFFFFFFFFFFFFFFFFAF8F8F8F8F8F8F8F8F8F8F8FA00002A2A0000FA56FC05FC05FC05FC05FC05FC81F8F856F856F85656565656FA00002A2A0000FA56FCFC05FC05FC05FC05FC0581F8F856F856F8F8F8F8F8F8FA00002A2A0000FA56FCFFFFFFFFFFFFFFFFFFFF81F8F857F856F856F856F8F8FA00002A2A0000FAF8FC4242FF4242FF4242FE4281F8F8565656F8565656F8F8FA00002A2A0000FAF8FCFFFE42FFFF42FEFF42FF812BF8F8F8F8F856F8F8F82BFA00002A2A0000FAF8F8FA56F8815681FA56FAFA562B2BF82BF82BF82B322B2BFA00002A2A0000FAF856ACACACACACACACACACACFA2B2BF8F8F8F8F8F8F8F8F8FA00002A2A0000FA2B2B2B2B2B2B2B2B2B2B2B2B2B2B2BAD56AD2BAD56AD2BF8FA00002A2A00002BFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFAFA2B00002A2A00000000FCFCFC00000000000000000000000000000000FCFCFC000000002A2A0000000000000000000000000000000000000000000000000000000000002A2A0000000000000000000000000000000000000000000000000000000000002A2A0000000000000000000000000000000000000000000000000000000000002A2A0000000000000000000000000000000000000000000000000000000000002A2A0000000000000000000000000000000000000000000000000000000000002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF002900000012000000020000000D01000000000100000000000A000000080000000000240024002900000012000000020000000D00FAFAFA00010000000000100000001000000002002300000000000000000023002900000012000000020000000D00FFFFFF00010000000000100000001000000002002200010001000100010022002900000012000000020000000D00FAFAFA00010000000000100000001000000002000000240024002400240000002900000012000000020000000D00F8F8F800010000000000100000001000000002000100230023002300230001</Package_Icon>
     <Product_Name>Instrument Type</Product_Name>
@@ -22,13 +22,13 @@
       <External_Dependencies>jdp_science_postgresql &gt;= 0.6.2.48</External_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>jki_statemachineobjects &gt;= 1.4.0.69</External_Dependencies>
-      <External_Dependencies>labview-zmq &gt;= 3.6.3.113</External_Dependencies>
+      <External_Dependencies>labview-zmq &gt;= 3.7.1.116</External_Dependencies>
       <External_Dependencies>labview_open_source_lib_epoch_datetime &gt;= 1.3.0.8</External_Dependencies>
       <External_Dependencies>levylab_lib_fileutilities &gt;= 1.2.6.13</External_Dependencies>
-      <External_Dependencies>levylab_lib_lvtdatpgsql &gt;= 3.12.1.15</External_Dependencies>
+      <External_Dependencies>levylab_lib_lvtdatpgsql &gt;= 3.12.3.17</External_Dependencies>
       <External_Dependencies>levylab_lib_lvtoitx &gt;= 3.10.0.9</External_Dependencies>
-      <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.9.0.13</External_Dependencies>
-      <External_Dependencies>mgi_lib_1d_array &gt;= 1.0.2.3</External_Dependencies>
+      <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.9.1.14</External_Dependencies>
+      <External_Dependencies>mgi_lib_1d_array &gt;= 1.0.4.8</External_Dependencies>
       <External_Dependencies>mgi_lib_application_control &gt;= 1.1.1.10</External_Dependencies>
       <External_Dependencies>mgi_lib_numeric &gt;= 1.1.0.2</External_Dependencies>
       <External_Dependencies>national_instruments_lib_guid_generator &gt;= 1.0.2.3</External_Dependencies>
@@ -43,22 +43,22 @@
       <External_Dependencies>oglib_string &gt;= 5.0.0.25</External_Dependencies>
       <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
       <External_Dependencies>oglib_variantconfig &gt;= 4.0.0.5</External_Dependencies>
-      <External_Dependencies>prirvin_lib_json_rpc &gt;= 1.2.6.15</External_Dependencies>
+      <External_Dependencies>prirvin_lib_json_rpc &gt;= 1.2.7.16</External_Dependencies>
       <External_Dependencies>prirvin_lib_json_schema &gt;= 0.2.0.9</External_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.15.10.47</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.15.13.55</Additional_External_Dependencies>
       <Package_Conflicts>levylab_lib_levylab_instruments &gt;=2.0.0.25</Package_Conflicts>
       <Direct_Dependencies>jdp_science_jsontext-1.9.1.125</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.2.19</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_postgresql-0.6.2.48</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>jki_statemachineobjects-1.4.0.69</Direct_Dependencies>
-      <Direct_Dependencies>labview-zmq-3.6.3.113</Direct_Dependencies>
+      <Direct_Dependencies>labview-zmq-3.7.1.116</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_epoch_datetime-1.3.0.8</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_fileutilities-1.2.6.13</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_lvtdatpgsql-3.12.1.15</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_lvtdatpgsql-3.12.3.17</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_lvtoitx-3.10.0.9</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_xy_utilities-1.9.0.13</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_1d_array-1.0.2.3</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_xy_utilities-1.9.1.14</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_1d_array-1.0.4.8</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_application_control-1.1.1.10</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_numeric-1.1.0.2</Direct_Dependencies>
       <Direct_Dependencies>national_instruments_lib_guid_generator-1.0.2.3</Direct_Dependencies>
@@ -73,7 +73,7 @@
       <Direct_Dependencies>oglib_string-5.0.0.25</Direct_Dependencies>
       <Direct_Dependencies>oglib_time-4.0.1.3</Direct_Dependencies>
       <Direct_Dependencies>oglib_variantconfig-4.0.0.5</Direct_Dependencies>
-      <Direct_Dependencies>prirvin_lib_json_rpc-1.2.6.15</Direct_Dependencies>
+      <Direct_Dependencies>prirvin_lib_json_rpc-1.2.7.16</Direct_Dependencies>
       <Direct_Dependencies>prirvin_lib_json_schema-0.2.0.9</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -91,9 +91,10 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.2.2]
-- Instrument/1.15.10
-- #194 add other dependencies</Release_Notes>
+      <Release_Notes>[1.2.3]
+- Instrument/1.15.13
+- JSON-RPC 1.2.7 reduces calls to nested VIM
+- #202 make default Temperature channel '-1' and shift responsibility to override to decide which channel is 'default'</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -401,7 +402,7 @@
         <Path>..\lvsrc\subsystems\Instrument Types\VSource</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>74C765624BFF2FC7F343B6C00D910DEB</GUID>
+      <GUID>D8D4DFD179EDB2662DB2676067F0BFBA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -478,7 +479,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\Amplifier\setChannel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2E140BDC17525988686BF3BA985D510D</GUID>
+      <GUID>3B59310670BD7C9E3BA9F98DDD9C860E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -513,7 +514,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\CBridge\getCapacitance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FFC585A661CEB9DF8ACE19D1B09BD4A9</GUID>
+      <GUID>8603E7EC92932C4DE98D3A7B1D7AE1E3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -828,7 +829,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\Cryostat\Cryostat JSON.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C42194ED6B5F3065624A592969A1FAB</GUID>
+      <GUID>DD15855C0C9536A29B5755BE12800E4F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -877,7 +878,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\Delay Line\setDelay.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8FA473BD89D50B579858E838FBB1FE6</GUID>
+      <GUID>0F0254ECC549E4671F13E3DABE0E58EC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -926,7 +927,7 @@
         <Path>..\lvsrc\subsystems\Instrument Types\Lockin\Private</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9CF46BA99924F0EB0572BCA46B8FBB77</GUID>
+      <GUID>E9DC0199A0BC6ED3916B75A45F14E213</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -975,7 +976,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\SCPI\SCPI.Send.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>79FE6E844A5B231C8142EAFC8B22C577</GUID>
+      <GUID>A92B1128FEC675937B8296559D1CFD7A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1080,7 +1081,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\SignalGenerator\setPower.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1383E1E59CF2A4E8C16B6CBECDF28FD6</GUID>
+      <GUID>3B0531BCBD8B45D6C62CD62C23FE2F4E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1129,7 +1130,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\Strain\getStrain.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>17FCD0F8B86A8D2A450D95DAA3A02480</GUID>
+      <GUID>F397CF310E608B18F95CF244B72B2019</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1234,7 +1235,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\VNA\getData.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>55649D93818F9F8C7D9DB97CFA7F6400</GUID>
+      <GUID>0D17134F312D3DF8A7D2A872C10D87AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1283,7 +1284,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\VSource\API\getBiasVoltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C72C35CDB70B413D35EDC7AD91A59D68</GUID>
+      <GUID>BFE3453324ED93638284E3171C74C64B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1598,7 +1599,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\Lockin\API\getResults.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F55FB0390DEE0380DE22468743520C37</GUID>
+      <GUID>C007A8CA71A8BD62F723C75F1121F70D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1633,7 +1634,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\Lockin\Private\Retry Timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F5E15108BC8C02F7D46182F1F16E192</GUID>
+      <GUID>A778E407F7F1882A828FCB14A1E19D20</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -1724,7 +1725,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\Lockin\API\AO\setAO_phi.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AB359B579F5247E4CAEC82B17E896518</GUID>
+      <GUID>C278E5F558A113F33A9D34E4FF81EBD3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -1871,7 +1872,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\Lockin\API\Macros\waitStatusSweepingStopped.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7C38D0128B4584D18FC82755ED94D29</GUID>
+      <GUID>C9F0C532EFC463150C0B19F85050554B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -1948,7 +1949,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\Lockin\API\REF\setREF_TC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7B8CEBEF545A4E9D377601B83971087D</GUID>
+      <GUID>7F7795DB3C470BA777CE83E97385BC90</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2067,7 +2068,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\Lockin\API\State\startSweep.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7387D6B7C7C2498F36C0F7C0063EC420</GUID>
+      <GUID>E48756E932ACFAC2DE1268E51EE1E708</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -2214,7 +2215,7 @@
         <Path>..\lvsrc\subsystems\Instrument Types\VNA</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>980AC27D450D8CE531E0BAB471917774</GUID>
+      <GUID>31DEFBBB6A28BDC5C6803EC66451B9F1</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2249,7 +2250,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\Amplifier\Amplifier.Commands--Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A196507CC9393522FF00D32B36726367</GUID>
+      <GUID>9F10CB2DB9D99D3299F1E73DA6C0CB41</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2284,7 +2285,7 @@
         <Path>..\lvsrc\subsystems\Instrument Types\CBridge\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3BA07FD03174BC9FA007893C0139E240</GUID>
+      <GUID>7AF30FD0C18158DE45F541318E37902C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2319,7 +2320,7 @@
         <Path>..\lvsrc\subsystems\Instrument Types\Cryostat\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1FF47D0C182DC269A6453D7453E95C8B</GUID>
+      <GUID>BA63A2F1993CF0BF795085851792C236</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2354,7 +2355,7 @@
         <Path>..\lvsrc\subsystems\Instrument Types\Delay Line\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B617BC8E44A814DC0D98590AD32EB1E</GUID>
+      <GUID>603FB66B72803FFBC0CA0FF18F7D3E51</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2389,7 +2390,7 @@
         <Path>..\lvsrc\subsystems\Instrument Types\Lockin\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A5CA8D657D1987826D1BDD910EF14B54</GUID>
+      <GUID>B43E39E255892C1F24D913F4EF7C1FEE</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2424,7 +2425,7 @@
         <Path>..\lvsrc\subsystems\Instrument Types\SCPI\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>197E40113F3CB1D69BEDCF8B04880D71</GUID>
+      <GUID>50040C74BA31408CFC2187D03FD8722A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2459,7 +2460,7 @@
         <Path>..\lvsrc\subsystems\Instrument Types\SignalGenerator\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8883575AB74F5A31DF770B10329E8189</GUID>
+      <GUID>CF1D273DD9374269307A2143B5FB4F5D</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2494,7 +2495,7 @@
         <Path>..\lvsrc\subsystems\Instrument Types\Strain\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FF1D0EE024272CE44B172A0D688288E5</GUID>
+      <GUID>81B9429C0FA5266AB7268A6C0802E564</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2529,7 +2530,7 @@
         <Path>..\lvsrc\subsystems\Instrument Types\VNA\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A5E92025E07EDC34877DD2AC1F8E2B19</GUID>
+      <GUID>6C4A3C65D83640D23A9F1A9CC27CA9C9</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2564,7 +2565,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\CBridge\Typedefs\CBridge.Commands--Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FED2B15E95B7CD0AB59037BA9CD9501A</GUID>
+      <GUID>A7C481980B09213E52169BE1A0C54C02</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -2809,7 +2810,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\Cryostat\Typedefs\setTemperature--cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B3A07A7E99B7EC6F4133EE714BCCA934</GUID>
+      <GUID>3861C0219926D27A55CF971613528320</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -2872,7 +2873,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\Delay Line\Typedefs\DelayLine.setDelay--cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9BFAE15C39323E267A03B121ECC7180D</GUID>
+      <GUID>B3C500BC08402101DC0307C5A3A3E03C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -3159,7 +3160,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\Lockin\Typedefs\LockinAPI.SweepTable--cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A1A2FB5C93F3CCF745CA95A77F8CA446</GUID>
+      <GUID>A4DEEC344DB161997DC6B58ACF3AAA40</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -3194,7 +3195,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\SCPI\Typedefs\SCPI.Commands--Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>412C4424F8C6DA07316FB3124BA924E1</GUID>
+      <GUID>51B3D08F2E418824EDBF5A2D5BE6D517</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -3257,7 +3258,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\SignalGenerator\Typedefs\SignalGenerator.Commands--Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>888C3F20F5F811AA28FDC2E8E50571B0</GUID>
+      <GUID>F221371CD05D15524972170D52E6905A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -3306,7 +3307,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\Strain\Typedefs\Strain.Commands--Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5554585123876EB3B503F45B1B9FEF00</GUID>
+      <GUID>BC722D217A9FA229D7C4B991109D9524</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -3453,7 +3454,7 @@
         <Path>..\lvsrc\3-interfaces\Instrument Types\VNA\Typedefs\VNA.Commands--Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4B9B7C37898E13272D911DF1BDD174DA</GUID>
+      <GUID>E8C566FA1FA0FAB0ED9CC7742D9DBEBA</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
